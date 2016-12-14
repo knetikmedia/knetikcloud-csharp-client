@@ -1,0 +1,47 @@
+# IO.Swagger.Model.User
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**AdditionalProperties** | [**Dictionary&lt;string, Property&gt;**](Property.md) |  | [optional] 
+**Address** | **string** |  | [optional] 
+**Address2** | **string** |  | [optional] 
+**Affiliate** | [**Affiliate**](Affiliate.md) |  | [optional] 
+**AvatarUrl** | **string** |  | [optional] 
+**City** | **string** |  | [optional] 
+**Country** | [**Country**](Country.md) |  | [optional] 
+**Currency** | [**Currency**](Currency.md) |  | [optional] 
+**DateCreated** | **long?** |  | [optional] 
+**DateOfBirth** | **long?** |  | [optional] 
+**DateUpdated** | **long?** |  | [optional] 
+**Description** | **string** |  | [optional] 
+**DisplayName** | **string** |  | [optional] 
+**Email** | **string** |  | [optional] 
+**FirstName** | **string** |  | [optional] 
+**Fullname** | **string** |  | [optional] 
+**Gender** | **string** |  | [optional] 
+**Guest** | **bool?** |  | [optional] 
+**Id** | **int?** |  | [optional] 
+**InviteToken** | **string** |  | [optional] 
+**Lang** | [**Language**](Language.md) |  | [optional] 
+**LastActivity** | **long?** |  | [optional] 
+**LastLogin** | **long?** |  | [optional] 
+**LastName** | **string** |  | [optional] 
+**LockoutAttempts** | **int?** |  | [optional] 
+**LockoutDate** | **long?** |  | [optional] 
+**MobileNumber** | **string** |  | [optional] 
+**OldId** | **int?** |  | [optional] 
+**Password** | **string** |  | [optional] 
+**PostalCode** | **string** |  | [optional] 
+**PropertiesString** | **string** |  | [optional] 
+**Roles** | [**List&lt;Role&gt;**](Role.md) |  | [optional] 
+**State** | **string** |  | [optional] 
+**Status** | **string** |  | [optional] 
+**Template** | **string** |  | [optional] 
+**Timezone** | [**Timezone**](Timezone.md) |  | [optional] 
+**Token** | **string** |  | [optional] 
+**TypeHint** | **string** |  | [optional] 
+**Username** | **string** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
