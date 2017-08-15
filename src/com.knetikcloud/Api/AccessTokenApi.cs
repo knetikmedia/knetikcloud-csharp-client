@@ -34,10 +34,12 @@ namespace com.knetikcloud.Api
         /// <param name="grantType">Grant type</param>
         /// <param name="clientId">The id of the client</param>
         /// <param name="clientSecret">The secret key of the client.  Used only with a grant_type of client_credentials (optional)</param>
-        /// <param name="username">The username of the client.  Used only with a grant_type of password (optional)</param>
-        /// <param name="password">The password of the client.  Used only with a grant_type of password (optional)</param>
+        /// <param name="username">The username of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="password">The password of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="token">The 3rd party authentication token. Used only with a grant_type of facebook, google, etc (social plugins) (optional)</param>
+        /// <param name="refreshToken">The refresh token obtained during prior authentication. Used only with a grant_type of refresh_token (optional)</param>
         /// <returns>OAuth2Resource</returns>
-        OAuth2Resource GetOAuthToken (string grantType, string clientId, string clientSecret = null, string username = null, string password = null);
+        OAuth2Resource GetOAuthToken (string grantType, string clientId, string clientSecret = null, string username = null, string password = null, string token = null, string refreshToken = null);
 
         /// <summary>
         /// Get access token
@@ -49,10 +51,12 @@ namespace com.knetikcloud.Api
         /// <param name="grantType">Grant type</param>
         /// <param name="clientId">The id of the client</param>
         /// <param name="clientSecret">The secret key of the client.  Used only with a grant_type of client_credentials (optional)</param>
-        /// <param name="username">The username of the client.  Used only with a grant_type of password (optional)</param>
-        /// <param name="password">The password of the client.  Used only with a grant_type of password (optional)</param>
+        /// <param name="username">The username of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="password">The password of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="token">The 3rd party authentication token. Used only with a grant_type of facebook, google, etc (social plugins) (optional)</param>
+        /// <param name="refreshToken">The refresh token obtained during prior authentication. Used only with a grant_type of refresh_token (optional)</param>
         /// <returns>ApiResponse of OAuth2Resource</returns>
-        ApiResponse<OAuth2Resource> GetOAuthTokenWithHttpInfo (string grantType, string clientId, string clientSecret = null, string username = null, string password = null);
+        ApiResponse<OAuth2Resource> GetOAuthTokenWithHttpInfo (string grantType, string clientId, string clientSecret = null, string username = null, string password = null, string token = null, string refreshToken = null);
         #endregion Synchronous Operations
         #region Asynchronous Operations
         /// <summary>
@@ -65,10 +69,12 @@ namespace com.knetikcloud.Api
         /// <param name="grantType">Grant type</param>
         /// <param name="clientId">The id of the client</param>
         /// <param name="clientSecret">The secret key of the client.  Used only with a grant_type of client_credentials (optional)</param>
-        /// <param name="username">The username of the client.  Used only with a grant_type of password (optional)</param>
-        /// <param name="password">The password of the client.  Used only with a grant_type of password (optional)</param>
+        /// <param name="username">The username of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="password">The password of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="token">The 3rd party authentication token. Used only with a grant_type of facebook, google, etc (social plugins) (optional)</param>
+        /// <param name="refreshToken">The refresh token obtained during prior authentication. Used only with a grant_type of refresh_token (optional)</param>
         /// <returns>Task of OAuth2Resource</returns>
-        System.Threading.Tasks.Task<OAuth2Resource> GetOAuthTokenAsync (string grantType, string clientId, string clientSecret = null, string username = null, string password = null);
+        System.Threading.Tasks.Task<OAuth2Resource> GetOAuthTokenAsync (string grantType, string clientId, string clientSecret = null, string username = null, string password = null, string token = null, string refreshToken = null);
 
         /// <summary>
         /// Get access token
@@ -80,10 +86,12 @@ namespace com.knetikcloud.Api
         /// <param name="grantType">Grant type</param>
         /// <param name="clientId">The id of the client</param>
         /// <param name="clientSecret">The secret key of the client.  Used only with a grant_type of client_credentials (optional)</param>
-        /// <param name="username">The username of the client.  Used only with a grant_type of password (optional)</param>
-        /// <param name="password">The password of the client.  Used only with a grant_type of password (optional)</param>
+        /// <param name="username">The username of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="password">The password of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="token">The 3rd party authentication token. Used only with a grant_type of facebook, google, etc (social plugins) (optional)</param>
+        /// <param name="refreshToken">The refresh token obtained during prior authentication. Used only with a grant_type of refresh_token (optional)</param>
         /// <returns>Task of ApiResponse (OAuth2Resource)</returns>
-        System.Threading.Tasks.Task<ApiResponse<OAuth2Resource>> GetOAuthTokenAsyncWithHttpInfo (string grantType, string clientId, string clientSecret = null, string username = null, string password = null);
+        System.Threading.Tasks.Task<ApiResponse<OAuth2Resource>> GetOAuthTokenAsyncWithHttpInfo (string grantType, string clientId, string clientSecret = null, string username = null, string password = null, string token = null, string refreshToken = null);
         #endregion Asynchronous Operations
     }
 
@@ -191,12 +199,14 @@ namespace com.knetikcloud.Api
         /// <param name="grantType">Grant type</param>
         /// <param name="clientId">The id of the client</param>
         /// <param name="clientSecret">The secret key of the client.  Used only with a grant_type of client_credentials (optional)</param>
-        /// <param name="username">The username of the client.  Used only with a grant_type of password (optional)</param>
-        /// <param name="password">The password of the client.  Used only with a grant_type of password (optional)</param>
+        /// <param name="username">The username of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="password">The password of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="token">The 3rd party authentication token. Used only with a grant_type of facebook, google, etc (social plugins) (optional)</param>
+        /// <param name="refreshToken">The refresh token obtained during prior authentication. Used only with a grant_type of refresh_token (optional)</param>
         /// <returns>OAuth2Resource</returns>
-        public OAuth2Resource GetOAuthToken (string grantType, string clientId, string clientSecret = null, string username = null, string password = null)
+        public OAuth2Resource GetOAuthToken (string grantType, string clientId, string clientSecret = null, string username = null, string password = null, string token = null, string refreshToken = null)
         {
-             ApiResponse<OAuth2Resource> localVarResponse = GetOAuthTokenWithHttpInfo(grantType, clientId, clientSecret, username, password);
+             ApiResponse<OAuth2Resource> localVarResponse = GetOAuthTokenWithHttpInfo(grantType, clientId, clientSecret, username, password, token, refreshToken);
              return localVarResponse.Data;
         }
 
@@ -207,10 +217,12 @@ namespace com.knetikcloud.Api
         /// <param name="grantType">Grant type</param>
         /// <param name="clientId">The id of the client</param>
         /// <param name="clientSecret">The secret key of the client.  Used only with a grant_type of client_credentials (optional)</param>
-        /// <param name="username">The username of the client.  Used only with a grant_type of password (optional)</param>
-        /// <param name="password">The password of the client.  Used only with a grant_type of password (optional)</param>
+        /// <param name="username">The username of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="password">The password of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="token">The 3rd party authentication token. Used only with a grant_type of facebook, google, etc (social plugins) (optional)</param>
+        /// <param name="refreshToken">The refresh token obtained during prior authentication. Used only with a grant_type of refresh_token (optional)</param>
         /// <returns>ApiResponse of OAuth2Resource</returns>
-        public ApiResponse< OAuth2Resource > GetOAuthTokenWithHttpInfo (string grantType, string clientId, string clientSecret = null, string username = null, string password = null)
+        public ApiResponse< OAuth2Resource > GetOAuthTokenWithHttpInfo (string grantType, string clientId, string clientSecret = null, string username = null, string password = null, string token = null, string refreshToken = null)
         {
             // verify the required parameter 'grantType' is set
             if (grantType == null)
@@ -246,6 +258,8 @@ namespace com.knetikcloud.Api
             if (clientSecret != null) localVarFormParams.Add("client_secret", Configuration.ApiClient.ParameterToString(clientSecret)); // form parameter
             if (username != null) localVarFormParams.Add("username", Configuration.ApiClient.ParameterToString(username)); // form parameter
             if (password != null) localVarFormParams.Add("password", Configuration.ApiClient.ParameterToString(password)); // form parameter
+            if (token != null) localVarFormParams.Add("token", Configuration.ApiClient.ParameterToString(token)); // form parameter
+            if (refreshToken != null) localVarFormParams.Add("refresh_token", Configuration.ApiClient.ParameterToString(refreshToken)); // form parameter
 
 
             // make the HTTP request
@@ -273,12 +287,14 @@ namespace com.knetikcloud.Api
         /// <param name="grantType">Grant type</param>
         /// <param name="clientId">The id of the client</param>
         /// <param name="clientSecret">The secret key of the client.  Used only with a grant_type of client_credentials (optional)</param>
-        /// <param name="username">The username of the client.  Used only with a grant_type of password (optional)</param>
-        /// <param name="password">The password of the client.  Used only with a grant_type of password (optional)</param>
+        /// <param name="username">The username of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="password">The password of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="token">The 3rd party authentication token. Used only with a grant_type of facebook, google, etc (social plugins) (optional)</param>
+        /// <param name="refreshToken">The refresh token obtained during prior authentication. Used only with a grant_type of refresh_token (optional)</param>
         /// <returns>Task of OAuth2Resource</returns>
-        public async System.Threading.Tasks.Task<OAuth2Resource> GetOAuthTokenAsync (string grantType, string clientId, string clientSecret = null, string username = null, string password = null)
+        public async System.Threading.Tasks.Task<OAuth2Resource> GetOAuthTokenAsync (string grantType, string clientId, string clientSecret = null, string username = null, string password = null, string token = null, string refreshToken = null)
         {
-             ApiResponse<OAuth2Resource> localVarResponse = await GetOAuthTokenAsyncWithHttpInfo(grantType, clientId, clientSecret, username, password);
+             ApiResponse<OAuth2Resource> localVarResponse = await GetOAuthTokenAsyncWithHttpInfo(grantType, clientId, clientSecret, username, password, token, refreshToken);
              return localVarResponse.Data;
 
         }
@@ -290,10 +306,12 @@ namespace com.knetikcloud.Api
         /// <param name="grantType">Grant type</param>
         /// <param name="clientId">The id of the client</param>
         /// <param name="clientSecret">The secret key of the client.  Used only with a grant_type of client_credentials (optional)</param>
-        /// <param name="username">The username of the client.  Used only with a grant_type of password (optional)</param>
-        /// <param name="password">The password of the client.  Used only with a grant_type of password (optional)</param>
+        /// <param name="username">The username of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="password">The password of the client. Used only with a grant_type of password (optional)</param>
+        /// <param name="token">The 3rd party authentication token. Used only with a grant_type of facebook, google, etc (social plugins) (optional)</param>
+        /// <param name="refreshToken">The refresh token obtained during prior authentication. Used only with a grant_type of refresh_token (optional)</param>
         /// <returns>Task of ApiResponse (OAuth2Resource)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<OAuth2Resource>> GetOAuthTokenAsyncWithHttpInfo (string grantType, string clientId, string clientSecret = null, string username = null, string password = null)
+        public async System.Threading.Tasks.Task<ApiResponse<OAuth2Resource>> GetOAuthTokenAsyncWithHttpInfo (string grantType, string clientId, string clientSecret = null, string username = null, string password = null, string token = null, string refreshToken = null)
         {
             // verify the required parameter 'grantType' is set
             if (grantType == null)
@@ -329,6 +347,8 @@ namespace com.knetikcloud.Api
             if (clientSecret != null) localVarFormParams.Add("client_secret", Configuration.ApiClient.ParameterToString(clientSecret)); // form parameter
             if (username != null) localVarFormParams.Add("username", Configuration.ApiClient.ParameterToString(username)); // form parameter
             if (password != null) localVarFormParams.Add("password", Configuration.ApiClient.ParameterToString(password)); // form parameter
+            if (token != null) localVarFormParams.Add("token", Configuration.ApiClient.ParameterToString(token)); // form parameter
+            if (refreshToken != null) localVarFormParams.Add("refresh_token", Configuration.ApiClient.ParameterToString(refreshToken)); // form parameter
 
 
             // make the HTTP request
