@@ -184,6 +184,7 @@ namespace com.knetikcloud.Api
         /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
         /// <param name="filterCategory">Filter for articles from a specific category by id (optional)</param>
         /// <param name="filterTagset">Filter for articles with at least one of a specified set of tags (separated by comma) (optional)</param>
         /// <param name="filterTagIntersection">Filter for articles with all of a specified set of tags (separated by comma) (optional)</param>
@@ -193,7 +194,7 @@ namespace com.knetikcloud.Api
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:ASC)</param>
         /// <returns>PageResourceArticleResource</returns>
-        PageResourceArticleResource GetArticles (string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null);
+        PageResourceArticleResource GetArticles (bool? filterActiveOnly = null, string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null);
 
         /// <summary>
         /// List and search articles
@@ -202,6 +203,7 @@ namespace com.knetikcloud.Api
         /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
         /// <param name="filterCategory">Filter for articles from a specific category by id (optional)</param>
         /// <param name="filterTagset">Filter for articles with at least one of a specified set of tags (separated by comma) (optional)</param>
         /// <param name="filterTagIntersection">Filter for articles with all of a specified set of tags (separated by comma) (optional)</param>
@@ -211,7 +213,7 @@ namespace com.knetikcloud.Api
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:ASC)</param>
         /// <returns>ApiResponse of PageResourceArticleResource</returns>
-        ApiResponse<PageResourceArticleResource> GetArticlesWithHttpInfo (string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null);
+        ApiResponse<PageResourceArticleResource> GetArticlesWithHttpInfo (bool? filterActiveOnly = null, string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null);
         /// <summary>
         /// Update an existing article
         /// </summary>
@@ -420,6 +422,7 @@ namespace com.knetikcloud.Api
         /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
         /// <param name="filterCategory">Filter for articles from a specific category by id (optional)</param>
         /// <param name="filterTagset">Filter for articles with at least one of a specified set of tags (separated by comma) (optional)</param>
         /// <param name="filterTagIntersection">Filter for articles with all of a specified set of tags (separated by comma) (optional)</param>
@@ -429,7 +432,7 @@ namespace com.knetikcloud.Api
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:ASC)</param>
         /// <returns>Task of PageResourceArticleResource</returns>
-        System.Threading.Tasks.Task<PageResourceArticleResource> GetArticlesAsync (string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null);
+        System.Threading.Tasks.Task<PageResourceArticleResource> GetArticlesAsync (bool? filterActiveOnly = null, string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null);
 
         /// <summary>
         /// List and search articles
@@ -438,6 +441,7 @@ namespace com.knetikcloud.Api
         /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
         /// <param name="filterCategory">Filter for articles from a specific category by id (optional)</param>
         /// <param name="filterTagset">Filter for articles with at least one of a specified set of tags (separated by comma) (optional)</param>
         /// <param name="filterTagIntersection">Filter for articles with all of a specified set of tags (separated by comma) (optional)</param>
@@ -447,7 +451,7 @@ namespace com.knetikcloud.Api
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:ASC)</param>
         /// <returns>Task of ApiResponse (PageResourceArticleResource)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PageResourceArticleResource>> GetArticlesAsyncWithHttpInfo (string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null);
+        System.Threading.Tasks.Task<ApiResponse<PageResourceArticleResource>> GetArticlesAsyncWithHttpInfo (bool? filterActiveOnly = null, string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null);
         /// <summary>
         /// Update an existing article
         /// </summary>
@@ -646,12 +650,6 @@ namespace com.knetikcloud.Api
                 localVarPostBody = articleResource; // byte array
             }
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
@@ -724,12 +722,6 @@ namespace com.knetikcloud.Api
                 localVarPostBody = articleResource; // byte array
             }
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
@@ -801,12 +793,6 @@ namespace com.knetikcloud.Api
                 localVarPostBody = articleTemplateResource; // byte array
             }
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
@@ -879,12 +865,6 @@ namespace com.knetikcloud.Api
                 localVarPostBody = articleTemplateResource; // byte array
             }
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
@@ -951,12 +931,6 @@ namespace com.knetikcloud.Api
 
             if (id != null) localVarPathParams.Add("id", Configuration.ApiClient.ParameterToString(id)); // path parameter
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
@@ -1024,12 +998,6 @@ namespace com.knetikcloud.Api
 
             if (id != null) localVarPathParams.Add("id", Configuration.ApiClient.ParameterToString(id)); // path parameter
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
@@ -1099,12 +1067,6 @@ namespace com.knetikcloud.Api
             if (id != null) localVarPathParams.Add("id", Configuration.ApiClient.ParameterToString(id)); // path parameter
             if (cascade != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "cascade", cascade)); // query parameter
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
@@ -1175,12 +1137,6 @@ namespace com.knetikcloud.Api
             if (id != null) localVarPathParams.Add("id", Configuration.ApiClient.ParameterToString(id)); // path parameter
             if (cascade != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "cascade", cascade)); // query parameter
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
@@ -1383,12 +1339,6 @@ namespace com.knetikcloud.Api
 
             if (id != null) localVarPathParams.Add("id", Configuration.ApiClient.ParameterToString(id)); // path parameter
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
@@ -1457,12 +1407,6 @@ namespace com.knetikcloud.Api
 
             if (id != null) localVarPathParams.Add("id", Configuration.ApiClient.ParameterToString(id)); // path parameter
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
@@ -1533,12 +1477,6 @@ namespace com.knetikcloud.Api
             if (page != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "page", page)); // query parameter
             if (order != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "order", order)); // query parameter
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
@@ -1610,12 +1548,6 @@ namespace com.knetikcloud.Api
             if (page != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "page", page)); // query parameter
             if (order != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "order", order)); // query parameter
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
@@ -1639,6 +1571,7 @@ namespace com.knetikcloud.Api
         /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
         /// <param name="filterCategory">Filter for articles from a specific category by id (optional)</param>
         /// <param name="filterTagset">Filter for articles with at least one of a specified set of tags (separated by comma) (optional)</param>
         /// <param name="filterTagIntersection">Filter for articles with all of a specified set of tags (separated by comma) (optional)</param>
@@ -1648,9 +1581,9 @@ namespace com.knetikcloud.Api
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:ASC)</param>
         /// <returns>PageResourceArticleResource</returns>
-        public PageResourceArticleResource GetArticles (string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null)
+        public PageResourceArticleResource GetArticles (bool? filterActiveOnly = null, string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null)
         {
-             ApiResponse<PageResourceArticleResource> localVarResponse = GetArticlesWithHttpInfo(filterCategory, filterTagset, filterTagIntersection, filterTagExclusion, filterTitle, size, page, order);
+             ApiResponse<PageResourceArticleResource> localVarResponse = GetArticlesWithHttpInfo(filterActiveOnly, filterCategory, filterTagset, filterTagIntersection, filterTagExclusion, filterTitle, size, page, order);
              return localVarResponse.Data;
         }
 
@@ -1658,6 +1591,7 @@ namespace com.knetikcloud.Api
         /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
         /// <param name="filterCategory">Filter for articles from a specific category by id (optional)</param>
         /// <param name="filterTagset">Filter for articles with at least one of a specified set of tags (separated by comma) (optional)</param>
         /// <param name="filterTagIntersection">Filter for articles with all of a specified set of tags (separated by comma) (optional)</param>
@@ -1667,7 +1601,7 @@ namespace com.knetikcloud.Api
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:ASC)</param>
         /// <returns>ApiResponse of PageResourceArticleResource</returns>
-        public ApiResponse< PageResourceArticleResource > GetArticlesWithHttpInfo (string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null)
+        public ApiResponse< PageResourceArticleResource > GetArticlesWithHttpInfo (bool? filterActiveOnly = null, string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null)
         {
 
             var localVarPath = "/content/articles";
@@ -1692,6 +1626,7 @@ namespace com.knetikcloud.Api
             if (localVarHttpHeaderAccept != null)
                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
 
+            if (filterActiveOnly != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_active_only", filterActiveOnly)); // query parameter
             if (filterCategory != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_category", filterCategory)); // query parameter
             if (filterTagset != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_tagset", filterTagset)); // query parameter
             if (filterTagIntersection != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_tag_intersection", filterTagIntersection)); // query parameter
@@ -1724,6 +1659,7 @@ namespace com.knetikcloud.Api
         /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
         /// <param name="filterCategory">Filter for articles from a specific category by id (optional)</param>
         /// <param name="filterTagset">Filter for articles with at least one of a specified set of tags (separated by comma) (optional)</param>
         /// <param name="filterTagIntersection">Filter for articles with all of a specified set of tags (separated by comma) (optional)</param>
@@ -1733,9 +1669,9 @@ namespace com.knetikcloud.Api
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:ASC)</param>
         /// <returns>Task of PageResourceArticleResource</returns>
-        public async System.Threading.Tasks.Task<PageResourceArticleResource> GetArticlesAsync (string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null)
+        public async System.Threading.Tasks.Task<PageResourceArticleResource> GetArticlesAsync (bool? filterActiveOnly = null, string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null)
         {
-             ApiResponse<PageResourceArticleResource> localVarResponse = await GetArticlesAsyncWithHttpInfo(filterCategory, filterTagset, filterTagIntersection, filterTagExclusion, filterTitle, size, page, order);
+             ApiResponse<PageResourceArticleResource> localVarResponse = await GetArticlesAsyncWithHttpInfo(filterActiveOnly, filterCategory, filterTagset, filterTagIntersection, filterTagExclusion, filterTitle, size, page, order);
              return localVarResponse.Data;
 
         }
@@ -1744,6 +1680,7 @@ namespace com.knetikcloud.Api
         /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
         /// <param name="filterCategory">Filter for articles from a specific category by id (optional)</param>
         /// <param name="filterTagset">Filter for articles with at least one of a specified set of tags (separated by comma) (optional)</param>
         /// <param name="filterTagIntersection">Filter for articles with all of a specified set of tags (separated by comma) (optional)</param>
@@ -1753,7 +1690,7 @@ namespace com.knetikcloud.Api
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:ASC)</param>
         /// <returns>Task of ApiResponse (PageResourceArticleResource)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<PageResourceArticleResource>> GetArticlesAsyncWithHttpInfo (string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null)
+        public async System.Threading.Tasks.Task<ApiResponse<PageResourceArticleResource>> GetArticlesAsyncWithHttpInfo (bool? filterActiveOnly = null, string filterCategory = null, string filterTagset = null, string filterTagIntersection = null, string filterTagExclusion = null, string filterTitle = null, int? size = null, int? page = null, string order = null)
         {
 
             var localVarPath = "/content/articles";
@@ -1778,6 +1715,7 @@ namespace com.knetikcloud.Api
             if (localVarHttpHeaderAccept != null)
                 localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
 
+            if (filterActiveOnly != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_active_only", filterActiveOnly)); // query parameter
             if (filterCategory != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_category", filterCategory)); // query parameter
             if (filterTagset != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_tagset", filterTagset)); // query parameter
             if (filterTagIntersection != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_tag_intersection", filterTagIntersection)); // query parameter
@@ -1864,12 +1802,6 @@ namespace com.knetikcloud.Api
                 localVarPostBody = articleResource; // byte array
             }
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
@@ -1948,12 +1880,6 @@ namespace com.knetikcloud.Api
                 localVarPostBody = articleResource; // byte array
             }
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
@@ -2031,12 +1957,6 @@ namespace com.knetikcloud.Api
                 localVarPostBody = articleTemplateResource; // byte array
             }
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
@@ -2115,12 +2035,6 @@ namespace com.knetikcloud.Api
                 localVarPostBody = articleTemplateResource; // byte array
             }
 
-            // authentication (OAuth2) required
-            // oauth required
-            if (!String.IsNullOrEmpty(Configuration.AccessToken))
-            {
-                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
-            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
