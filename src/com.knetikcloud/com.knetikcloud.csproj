@@ -12,7 +12,7 @@ Contact: support@knetik.com
     
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{69EEE6F3-AC31-4085-AEC2-A32FE25110C6}</ProjectGuid>
+    <ProjectGuid>{BD32AFDC-773B-4CA9-8379-3B52346F9759}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>com.knetikcloud</RootNamespace>
