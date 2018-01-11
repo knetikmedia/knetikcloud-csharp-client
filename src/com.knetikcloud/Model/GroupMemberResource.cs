@@ -70,7 +70,7 @@ namespace com.knetikcloud.Model
         /// <param name="Order">The position of the member in the group if applicable. Read notes for details.</param>
         /// <param name="Status">The member&#39;s access level. Default: member.</param>
         /// <param name="Template">A template this member additional properties are validated against (private). May be null and no validation of properties will be done.</param>
-        public GroupMemberResource(Dictionary<string, Property> AdditionalProperties = default(Dictionary<string, Property>), int? Id = default(int?), string Order = default(string), StatusEnum? Status = default(StatusEnum?), string Template = default(string))
+        public GroupMemberResource(Dictionary<string, JObject> AdditionalProperties = default(Dictionary<string, JObject>), int? Id = default(int?), string Order = default(string), StatusEnum? Status = default(StatusEnum?), string Template = default(string))
         {
             // to ensure "Id" is required (not null)
             if (Id == null)
@@ -92,7 +92,7 @@ namespace com.knetikcloud.Model
         /// </summary>
         /// <value>A map of additional properties, keyed on the property name (private). Must match the names and types defined in the template for this type, or be an extra not from the template</value>
         [DataMember(Name="additional_properties", EmitDefaultValue=false)]
-        public Dictionary<string, Property> AdditionalProperties { get; set; }
+        public Dictionary<string, JObject> AdditionalProperties { get; set; }
 
         /// <summary>
         /// The url of the user&#39;s avatar image
