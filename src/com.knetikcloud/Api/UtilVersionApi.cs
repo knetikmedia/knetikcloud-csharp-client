@@ -23,16 +23,16 @@ namespace com.knetikcloud.Api
     /// </summary>
     public interface IUtilVersionApi : IApiAccessor
     {
-        #region Synchronous Operations
-        /// <summary>
-        /// Get current version info
-        /// </summary>
-        /// <remarks>
-        /// 
-        /// </remarks>
-        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <returns>Version</returns>
-        Version GetVersion ();
+		#region Synchronous Operations
+		/// <summary>
+		/// Get current version info
+		/// </summary>
+		/// <remarks>
+		/// 
+		/// </remarks>
+		/// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+		/// <returns>Version</returns>
+		Model.Version GetVersion ();
 
         /// <summary>
         /// Get current version info
@@ -42,7 +42,7 @@ namespace com.knetikcloud.Api
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of Version</returns>
-        ApiResponse<Version> GetVersionWithHttpInfo ();
+        ApiResponse<Model.Version> GetVersionWithHttpInfo ();
         #endregion Synchronous Operations
         #region Asynchronous Operations
         /// <summary>
@@ -53,7 +53,7 @@ namespace com.knetikcloud.Api
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of Version</returns>
-        System.Threading.Tasks.Task<Version> GetVersionAsync ();
+        System.Threading.Tasks.Task<Model.Version> GetVersionAsync ();
 
         /// <summary>
         /// Get current version info
@@ -63,7 +63,7 @@ namespace com.knetikcloud.Api
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (Version)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Version>> GetVersionAsyncWithHttpInfo ();
+        System.Threading.Tasks.Task<ApiResponse<Model.Version>> GetVersionAsyncWithHttpInfo ();
         #endregion Asynchronous Operations
     }
 
@@ -169,9 +169,9 @@ namespace com.knetikcloud.Api
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Version</returns>
-        public Version GetVersion ()
+        public Model.Version GetVersion ()
         {
-             ApiResponse<Version> localVarResponse = GetVersionWithHttpInfo();
+             ApiResponse<Model.Version> localVarResponse = GetVersionWithHttpInfo();
              return localVarResponse.Data;
         }
 
@@ -180,7 +180,7 @@ namespace com.knetikcloud.Api
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of Version</returns>
-        public ApiResponse< Version > GetVersionWithHttpInfo ()
+        public ApiResponse<Model.Version> GetVersionWithHttpInfo ()
         {
 
             var localVarPath = "/version";
@@ -232,9 +232,9 @@ namespace com.knetikcloud.Api
                 if (exception != null) throw exception;
             }
 
-            return new ApiResponse<Version>(localVarStatusCode,
+            return new ApiResponse<Model.Version>(localVarStatusCode,
                 localVarResponse.Headers.ToDictionary(x => x.Name, x => x.Value.ToString()),
-                (Version) Configuration.ApiClient.Deserialize(localVarResponse, typeof(Version)));
+                (Model.Version) Configuration.ApiClient.Deserialize(localVarResponse, typeof(Model.Version)));
         }
 
         /// <summary>
@@ -242,9 +242,9 @@ namespace com.knetikcloud.Api
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of Version</returns>
-        public async System.Threading.Tasks.Task<Version> GetVersionAsync ()
+        public async System.Threading.Tasks.Task<Model.Version> GetVersionAsync ()
         {
-             ApiResponse<Version> localVarResponse = await GetVersionAsyncWithHttpInfo();
+             ApiResponse<Model.Version> localVarResponse = await GetVersionAsyncWithHttpInfo();
              return localVarResponse.Data;
 
         }
@@ -254,7 +254,7 @@ namespace com.knetikcloud.Api
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (Version)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<Version>> GetVersionAsyncWithHttpInfo ()
+        public async System.Threading.Tasks.Task<ApiResponse<Model.Version>> GetVersionAsyncWithHttpInfo ()
         {
 
             var localVarPath = "/version";
@@ -306,9 +306,9 @@ namespace com.knetikcloud.Api
                 if (exception != null) throw exception;
             }
 
-            return new ApiResponse<Version>(localVarStatusCode,
+            return new ApiResponse<Model.Version>(localVarStatusCode,
                 localVarResponse.Headers.ToDictionary(x => x.Name, x => x.Value.ToString()),
-                (Version) Configuration.ApiClient.Deserialize(localVarResponse, typeof(Version)));
+                (Model.Version) Configuration.ApiClient.Deserialize(localVarResponse, typeof(Model.Version)));
         }
 
     }

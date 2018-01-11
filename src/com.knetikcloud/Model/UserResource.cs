@@ -21,6 +21,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System.ComponentModel.DataAnnotations;
 using SwaggerDateConverter = com.knetikcloud.Client.SwaggerDateConverter;
+using Newtonsoft.Json.Linq;
 
 namespace com.knetikcloud.Model
 {
@@ -64,7 +65,7 @@ namespace com.knetikcloud.Model
         /// <param name="Template">A user template this user is validated against (private). May be null and no validation of properties will be done.</param>
         /// <param name="TimezoneCode">The code for the user&#39;s timezone (private).</param>
         /// <param name="Username">The login username for the user (private). May be set to match email if system does not require usernames separately. (required).</param>
-        public UserResource(Dictionary<string, Property> AdditionalProperties = default(Dictionary<string, Property>), string Address = default(string), string Address2 = default(string), string AvatarUrl = default(string), List<UserRelationshipReferenceResource> Children = default(List<UserRelationshipReferenceResource>), string City = default(string), string CountryCode = default(string), string CurrencyCode = default(string), long? DateOfBirth = default(long?), string Description = default(string), string DisplayName = default(string), string Email = default(string), string FirstName = default(string), string Fullname = default(string), string Gender = default(string), string LanguageCode = default(string), string LastName = default(string), string MobileNumber = default(string), List<UserRelationshipReferenceResource> Parents = default(List<UserRelationshipReferenceResource>), string Password = default(string), string PostalCode = default(string), string State = default(string), List<string> Tags = default(List<string>), string Template = default(string), string TimezoneCode = default(string), string Username = default(string))
+        public UserResource(Dictionary<string, JObject> AdditionalProperties = default(Dictionary<string, JObject>), string Address = default(string), string Address2 = default(string), string AvatarUrl = default(string), List<UserRelationshipReferenceResource> Children = default(List<UserRelationshipReferenceResource>), string City = default(string), string CountryCode = default(string), string CurrencyCode = default(string), long? DateOfBirth = default(long?), string Description = default(string), string DisplayName = default(string), string Email = default(string), string FirstName = default(string), string Fullname = default(string), string Gender = default(string), string LanguageCode = default(string), string LastName = default(string), string MobileNumber = default(string), List<UserRelationshipReferenceResource> Parents = default(List<UserRelationshipReferenceResource>), string Password = default(string), string PostalCode = default(string), string State = default(string), List<string> Tags = default(List<string>), string Template = default(string), string TimezoneCode = default(string), string Username = default(string))
         {
             // to ensure "Email" is required (not null)
             if (Email == null)
@@ -115,7 +116,7 @@ namespace com.knetikcloud.Model
         /// </summary>
         /// <value>A map of additional properties, keyed on the property name (private). Must match the names and types defined in the template for this user type, or be an extra not from the template</value>
         [DataMember(Name="additional_properties", EmitDefaultValue=false)]
-        public Dictionary<string, Property> AdditionalProperties { get; set; }
+        public Dictionary<string, JObject> AdditionalProperties { get; set; }
 
         /// <summary>
         /// The first line of the user&#39;s address (private)
