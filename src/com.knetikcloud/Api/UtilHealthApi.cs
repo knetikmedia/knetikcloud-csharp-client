@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Get health info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Object</returns>
@@ -38,7 +38,7 @@ namespace com.knetikcloud.Api
         /// Get health info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of Object</returns>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Get health info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of Object</returns>
@@ -59,7 +59,7 @@ namespace com.knetikcloud.Api
         /// Get health info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (Object)</returns>
@@ -165,7 +165,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get health info 
+        /// Get health info &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Object</returns>
@@ -176,7 +176,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get health info 
+        /// Get health info &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of Object</returns>
@@ -193,7 +193,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -238,7 +237,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get health info 
+        /// Get health info &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of Object</returns>
@@ -250,7 +249,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get health info 
+        /// Get health info &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (Object)</returns>
@@ -267,7 +266,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 

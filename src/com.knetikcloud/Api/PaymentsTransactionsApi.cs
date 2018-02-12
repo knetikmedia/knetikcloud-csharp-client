@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Get the details for a single transaction
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Get the details for a single transaction
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// List and search transactions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -63,7 +63,7 @@ namespace com.knetikcloud.Api
         /// List and search transactions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -76,7 +76,7 @@ namespace com.knetikcloud.Api
         /// Refund a payment transaction, in full or in part
         /// </summary>
         /// <remarks>
-        /// Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds.
+        /// Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the transaction to refund</param>
@@ -88,7 +88,7 @@ namespace com.knetikcloud.Api
         /// Refund a payment transaction, in full or in part
         /// </summary>
         /// <remarks>
-        /// Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds.
+        /// Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the transaction to refund</param>
@@ -101,7 +101,7 @@ namespace com.knetikcloud.Api
         /// Get the details for a single transaction
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -112,7 +112,7 @@ namespace com.knetikcloud.Api
         /// Get the details for a single transaction
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -122,7 +122,7 @@ namespace com.knetikcloud.Api
         /// List and search transactions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -136,7 +136,7 @@ namespace com.knetikcloud.Api
         /// List and search transactions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -149,7 +149,7 @@ namespace com.knetikcloud.Api
         /// Refund a payment transaction, in full or in part
         /// </summary>
         /// <remarks>
-        /// Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds.
+        /// Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the transaction to refund</param>
@@ -161,7 +161,7 @@ namespace com.knetikcloud.Api
         /// Refund a payment transaction, in full or in part
         /// </summary>
         /// <remarks>
-        /// Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds.
+        /// Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the transaction to refund</param>
@@ -269,7 +269,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get the details for a single transaction 
+        /// Get the details for a single transaction &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -281,7 +281,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get the details for a single transaction 
+        /// Get the details for a single transaction &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -302,7 +302,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -348,7 +347,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get the details for a single transaction 
+        /// Get the details for a single transaction &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -361,7 +360,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get the details for a single transaction 
+        /// Get the details for a single transaction &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -382,7 +381,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -428,7 +426,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search transactions 
+        /// List and search transactions &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -443,7 +441,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search transactions 
+        /// List and search transactions &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -464,7 +462,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -513,7 +510,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search transactions 
+        /// List and search transactions &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -529,7 +526,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search transactions 
+        /// List and search transactions &lt;b&gt;Permissions Needed:&lt;/b&gt; TRANSACTIONS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -550,7 +547,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -599,7 +595,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Refund a payment transaction, in full or in part Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds.
+        /// Refund a payment transaction, in full or in part Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the transaction to refund</param>
@@ -612,7 +608,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Refund a payment transaction, in full or in part Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds.
+        /// Refund a payment transaction, in full or in part Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the transaction to refund</param>
@@ -688,7 +684,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Refund a payment transaction, in full or in part Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds.
+        /// Refund a payment transaction, in full or in part Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the transaction to refund</param>
@@ -702,7 +698,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Refund a payment transaction, in full or in part Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds.
+        /// Refund a payment transaction, in full or in part Will not allow for refunding more than the full amount even with multiple partial refunds. Money is refunded to the payment method used to make the original payment. Payment method must support refunds. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the transaction to refund</param>

@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Get a temporary signed S3 URL for download
         /// </summary>
         /// <remarks>
-        /// To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details.
+        /// To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bucket">S3 bucket name (optional)</param>
@@ -41,7 +41,7 @@ namespace com.knetikcloud.Api
         /// Get a temporary signed S3 URL for download
         /// </summary>
         /// <remarks>
-        /// To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details.
+        /// To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bucket">S3 bucket name (optional)</param>
@@ -53,7 +53,7 @@ namespace com.knetikcloud.Api
         /// Get a signed S3 URL for upload
         /// </summary>
         /// <remarks>
-        /// Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after.
+        /// Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_USER or S3_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filename">The file name (optional)</param>
@@ -65,7 +65,7 @@ namespace com.knetikcloud.Api
         /// Get a signed S3 URL for upload
         /// </summary>
         /// <remarks>
-        /// Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after.
+        /// Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_USER or S3_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filename">The file name (optional)</param>
@@ -78,7 +78,7 @@ namespace com.knetikcloud.Api
         /// Get a temporary signed S3 URL for download
         /// </summary>
         /// <remarks>
-        /// To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details.
+        /// To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bucket">S3 bucket name (optional)</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// Get a temporary signed S3 URL for download
         /// </summary>
         /// <remarks>
-        /// To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details.
+        /// To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bucket">S3 bucket name (optional)</param>
@@ -103,7 +103,7 @@ namespace com.knetikcloud.Api
         /// Get a signed S3 URL for upload
         /// </summary>
         /// <remarks>
-        /// Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after.
+        /// Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_USER or S3_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filename">The file name (optional)</param>
@@ -115,7 +115,7 @@ namespace com.knetikcloud.Api
         /// Get a signed S3 URL for upload
         /// </summary>
         /// <remarks>
-        /// Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after.
+        /// Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_USER or S3_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filename">The file name (optional)</param>
@@ -223,7 +223,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a temporary signed S3 URL for download To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details.
+        /// Get a temporary signed S3 URL for download To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bucket">S3 bucket name (optional)</param>
@@ -237,7 +237,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a temporary signed S3 URL for download To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details.
+        /// Get a temporary signed S3 URL for download To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bucket">S3 bucket name (optional)</param>
@@ -257,7 +257,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -305,7 +304,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a temporary signed S3 URL for download To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details.
+        /// Get a temporary signed S3 URL for download To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bucket">S3 bucket name (optional)</param>
@@ -320,7 +319,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a temporary signed S3 URL for download To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details.
+        /// Get a temporary signed S3 URL for download To give access to files in your own S3 account, you will need to grant KnetikcCloud access to the file by adjusting your bucket policy accordingly. See S3 documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bucket">S3 bucket name (optional)</param>
@@ -340,7 +339,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -388,7 +386,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a signed S3 URL for upload Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after.
+        /// Get a signed S3 URL for upload Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_USER or S3_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filename">The file name (optional)</param>
@@ -401,7 +399,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a signed S3 URL for upload Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after.
+        /// Get a signed S3 URL for upload Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_USER or S3_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filename">The file name (optional)</param>
@@ -420,7 +418,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -467,7 +464,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a signed S3 URL for upload Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after.
+        /// Get a signed S3 URL for upload Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_USER or S3_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filename">The file name (optional)</param>
@@ -481,7 +478,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a signed S3 URL for upload Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after.
+        /// Get a signed S3 URL for upload Requires the file name and file content type (i.e., &#39;video/mpeg&#39;). Make a PUT to the resulting url to upload the file and use the cdn_url to retrieve it after. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; S3_USER or S3_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filename">The file name (optional)</param>
@@ -500,7 +497,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 

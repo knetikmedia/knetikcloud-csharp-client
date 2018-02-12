@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a new config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TOPICS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="config">The config object (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Create a new config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TOPICS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="config">The config object (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -60,7 +60,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Get a single config
         /// </summary>
         /// <remarks>
-        /// Only configs that are public readable will be shown without admin access
+        /// Only configs that are public readable will be shown without admin access. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -81,7 +81,7 @@ namespace com.knetikcloud.Api
         /// Get a single config
         /// </summary>
         /// <remarks>
-        /// Only configs that are public readable will be shown without admin access
+        /// Only configs that are public readable will be shown without admin access. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -91,13 +91,13 @@ namespace com.knetikcloud.Api
         /// List and search configs
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for configs whose name contains the given string (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>PageResourceConfig</returns>
         PageResourceConfig GetConfigs (string filterSearch = null, int? size = null, int? page = null, string order = null);
 
@@ -105,20 +105,20 @@ namespace com.knetikcloud.Api
         /// List and search configs
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for configs whose name contains the given string (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>ApiResponse of PageResourceConfig</returns>
         ApiResponse<PageResourceConfig> GetConfigsWithHttpInfo (string filterSearch = null, int? size = null, int? page = null, string order = null);
         /// <summary>
         /// Update an existing config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -130,7 +130,7 @@ namespace com.knetikcloud.Api
         /// Update an existing config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -143,7 +143,7 @@ namespace com.knetikcloud.Api
         /// Create a new config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TOPICS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="config">The config object (optional)</param>
@@ -154,7 +154,7 @@ namespace com.knetikcloud.Api
         /// Create a new config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TOPICS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="config">The config object (optional)</param>
@@ -164,7 +164,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -175,7 +175,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -185,7 +185,7 @@ namespace com.knetikcloud.Api
         /// Get a single config
         /// </summary>
         /// <remarks>
-        /// Only configs that are public readable will be shown without admin access
+        /// Only configs that are public readable will be shown without admin access. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -196,7 +196,7 @@ namespace com.knetikcloud.Api
         /// Get a single config
         /// </summary>
         /// <remarks>
-        /// Only configs that are public readable will be shown without admin access
+        /// Only configs that are public readable will be shown without admin access. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -206,13 +206,13 @@ namespace com.knetikcloud.Api
         /// List and search configs
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for configs whose name contains the given string (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>Task of PageResourceConfig</returns>
         System.Threading.Tasks.Task<PageResourceConfig> GetConfigsAsync (string filterSearch = null, int? size = null, int? page = null, string order = null);
 
@@ -220,20 +220,20 @@ namespace com.knetikcloud.Api
         /// List and search configs
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for configs whose name contains the given string (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>Task of ApiResponse (PageResourceConfig)</returns>
         System.Threading.Tasks.Task<ApiResponse<PageResourceConfig>> GetConfigsAsyncWithHttpInfo (string filterSearch = null, int? size = null, int? page = null, string order = null);
         /// <summary>
         /// Update an existing config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -245,7 +245,7 @@ namespace com.knetikcloud.Api
         /// Update an existing config
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -353,7 +353,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new config 
+        /// Create a new config &lt;b&gt;Permissions Needed:&lt;/b&gt; TOPICS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="config">The config object (optional)</param>
@@ -365,7 +365,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new config 
+        /// Create a new config &lt;b&gt;Permissions Needed:&lt;/b&gt; TOPICS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="config">The config object (optional)</param>
@@ -436,7 +436,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new config 
+        /// Create a new config &lt;b&gt;Permissions Needed:&lt;/b&gt; TOPICS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="config">The config object (optional)</param>
@@ -449,7 +449,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new config 
+        /// Create a new config &lt;b&gt;Permissions Needed:&lt;/b&gt; TOPICS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="config">The config object (optional)</param>
@@ -520,7 +520,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing config 
+        /// Delete an existing config &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -531,7 +531,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing config 
+        /// Delete an existing config &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -552,7 +552,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -598,7 +597,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing config 
+        /// Delete an existing config &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -610,7 +609,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing config 
+        /// Delete an existing config &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -631,7 +630,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -677,7 +675,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single config Only configs that are public readable will be shown without admin access
+        /// Get a single config Only configs that are public readable will be shown without admin access. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -689,7 +687,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single config Only configs that are public readable will be shown without admin access
+        /// Get a single config Only configs that are public readable will be shown without admin access. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -710,7 +708,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -756,7 +753,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single config Only configs that are public readable will be shown without admin access
+        /// Get a single config Only configs that are public readable will be shown without admin access. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -769,7 +766,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single config Only configs that are public readable will be shown without admin access
+        /// Get a single config Only configs that are public readable will be shown without admin access. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -790,7 +787,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -836,13 +832,13 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search configs 
+        /// List and search configs &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for configs whose name contains the given string (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>PageResourceConfig</returns>
         public PageResourceConfig GetConfigs (string filterSearch = null, int? size = null, int? page = null, string order = null)
         {
@@ -851,13 +847,13 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search configs 
+        /// List and search configs &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for configs whose name contains the given string (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>ApiResponse of PageResourceConfig</returns>
         public ApiResponse< PageResourceConfig > GetConfigsWithHttpInfo (string filterSearch = null, int? size = null, int? page = null, string order = null)
         {
@@ -872,7 +868,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -921,13 +916,13 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search configs 
+        /// List and search configs &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for configs whose name contains the given string (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>Task of PageResourceConfig</returns>
         public async System.Threading.Tasks.Task<PageResourceConfig> GetConfigsAsync (string filterSearch = null, int? size = null, int? page = null, string order = null)
         {
@@ -937,13 +932,13 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search configs 
+        /// List and search configs &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for configs whose name contains the given string (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>Task of ApiResponse (PageResourceConfig)</returns>
         public async System.Threading.Tasks.Task<ApiResponse<PageResourceConfig>> GetConfigsAsyncWithHttpInfo (string filterSearch = null, int? size = null, int? page = null, string order = null)
         {
@@ -958,7 +953,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1007,7 +1001,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing config 
+        /// Update an existing config &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -1019,7 +1013,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing config 
+        /// Update an existing config &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -1095,7 +1089,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing config 
+        /// Update an existing config &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>
@@ -1108,7 +1102,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing config 
+        /// Update an existing config &lt;b&gt;Permissions Needed:&lt;/b&gt; CONFIGS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The config name</param>

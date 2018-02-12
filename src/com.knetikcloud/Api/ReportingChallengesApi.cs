@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a challenge event leaderboard details
         /// </summary>
         /// <remarks>
-        /// Lists all leaderboard entries with additional user details
+        /// Lists all leaderboard entries with additional user details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -42,7 +42,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a challenge event leaderboard details
         /// </summary>
         /// <remarks>
-        /// Lists all leaderboard entries with additional user details
+        /// Lists all leaderboard entries with additional user details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -55,7 +55,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a challenge event participant details
         /// </summary>
         /// <remarks>
-        /// Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation
+        /// Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -69,7 +69,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a challenge event participant details
         /// </summary>
         /// <remarks>
-        /// Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation
+        /// Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -84,7 +84,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a challenge event leaderboard details
         /// </summary>
         /// <remarks>
-        /// Lists all leaderboard entries with additional user details
+        /// Lists all leaderboard entries with additional user details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -98,7 +98,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a challenge event leaderboard details
         /// </summary>
         /// <remarks>
-        /// Lists all leaderboard entries with additional user details
+        /// Lists all leaderboard entries with additional user details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -111,7 +111,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a challenge event participant details
         /// </summary>
         /// <remarks>
-        /// Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation
+        /// Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -125,7 +125,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a challenge event participant details
         /// </summary>
         /// <remarks>
-        /// Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation
+        /// Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -235,7 +235,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a challenge event leaderboard details Lists all leaderboard entries with additional user details
+        /// Retrieve a challenge event leaderboard details Lists all leaderboard entries with additional user details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -250,7 +250,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a challenge event leaderboard details Lists all leaderboard entries with additional user details
+        /// Retrieve a challenge event leaderboard details Lists all leaderboard entries with additional user details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -271,7 +271,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -320,7 +319,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a challenge event leaderboard details Lists all leaderboard entries with additional user details
+        /// Retrieve a challenge event leaderboard details Lists all leaderboard entries with additional user details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -336,7 +335,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a challenge event leaderboard details Lists all leaderboard entries with additional user details
+        /// Retrieve a challenge event leaderboard details Lists all leaderboard entries with additional user details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -357,7 +356,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -406,7 +404,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a challenge event participant details Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation
+        /// Retrieve a challenge event participant details Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -421,7 +419,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a challenge event participant details Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation
+        /// Retrieve a challenge event participant details Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -442,7 +440,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -491,7 +488,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a challenge event participant details Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation
+        /// Retrieve a challenge event participant details Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -507,7 +504,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a challenge event participant details Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation
+        /// Retrieve a challenge event participant details Lists all user submitted scores sorted by value, including those that do not apear in the leaderboard due to value or aggregation. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_CHALLENGES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterEvent">A sepecific challenge event id (optional)</param>
@@ -528,7 +525,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 

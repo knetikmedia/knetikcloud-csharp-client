@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Add a friend
         /// </summary>
         /// <remarks>
-        /// As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship.
+        /// As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -40,7 +40,7 @@ namespace com.knetikcloud.Api
         /// Add a friend
         /// </summary>
         /// <remarks>
-        /// As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship.
+        /// As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -51,7 +51,7 @@ namespace com.knetikcloud.Api
         /// Get friends list
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -66,7 +66,7 @@ namespace com.knetikcloud.Api
         /// Get friends list
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -80,7 +80,7 @@ namespace com.knetikcloud.Api
         /// Returns the invite token
         /// </summary>
         /// <remarks>
-        /// This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request flow instead if confirmation is required
+        /// This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)flow instead if confirmation is required
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// Returns the invite token
         /// </summary>
         /// <remarks>
-        /// This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request flow instead if confirmation is required
+        /// This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)flow instead if confirmation is required
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -101,7 +101,7 @@ namespace com.knetikcloud.Api
         /// Get pending invites
         /// </summary>
         /// <remarks>
-        /// Invites that the specified user received
+        /// Invites that the specified user received. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -114,7 +114,7 @@ namespace com.knetikcloud.Api
         /// Get pending invites
         /// </summary>
         /// <remarks>
-        /// Invites that the specified user received
+        /// Invites that the specified user received. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -126,7 +126,7 @@ namespace com.knetikcloud.Api
         /// Redeem friendship token
         /// </summary>
         /// <remarks>
-        /// Immediately connects the requested user with the user mapped by the provided invite token
+        /// Immediately connects the requested user with the user mapped by the provided invite token. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -138,7 +138,7 @@ namespace com.knetikcloud.Api
         /// Redeem friendship token
         /// </summary>
         /// <remarks>
-        /// Immediately connects the requested user with the user mapped by the provided invite token
+        /// Immediately connects the requested user with the user mapped by the provided invite token. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -149,7 +149,7 @@ namespace com.knetikcloud.Api
         /// Remove or decline a friend
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -161,7 +161,7 @@ namespace com.knetikcloud.Api
         /// Remove or decline a friend
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -174,7 +174,7 @@ namespace com.knetikcloud.Api
         /// Add a friend
         /// </summary>
         /// <remarks>
-        /// As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship.
+        /// As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -186,7 +186,7 @@ namespace com.knetikcloud.Api
         /// Add a friend
         /// </summary>
         /// <remarks>
-        /// As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship.
+        /// As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -197,7 +197,7 @@ namespace com.knetikcloud.Api
         /// Get friends list
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -212,7 +212,7 @@ namespace com.knetikcloud.Api
         /// Get friends list
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -226,7 +226,7 @@ namespace com.knetikcloud.Api
         /// Returns the invite token
         /// </summary>
         /// <remarks>
-        /// This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request flow instead if confirmation is required
+        /// This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)flow instead if confirmation is required
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -237,7 +237,7 @@ namespace com.knetikcloud.Api
         /// Returns the invite token
         /// </summary>
         /// <remarks>
-        /// This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request flow instead if confirmation is required
+        /// This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)flow instead if confirmation is required
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -247,7 +247,7 @@ namespace com.knetikcloud.Api
         /// Get pending invites
         /// </summary>
         /// <remarks>
-        /// Invites that the specified user received
+        /// Invites that the specified user received. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -260,7 +260,7 @@ namespace com.knetikcloud.Api
         /// Get pending invites
         /// </summary>
         /// <remarks>
-        /// Invites that the specified user received
+        /// Invites that the specified user received. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -272,7 +272,7 @@ namespace com.knetikcloud.Api
         /// Redeem friendship token
         /// </summary>
         /// <remarks>
-        /// Immediately connects the requested user with the user mapped by the provided invite token
+        /// Immediately connects the requested user with the user mapped by the provided invite token. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -284,7 +284,7 @@ namespace com.knetikcloud.Api
         /// Redeem friendship token
         /// </summary>
         /// <remarks>
-        /// Immediately connects the requested user with the user mapped by the provided invite token
+        /// Immediately connects the requested user with the user mapped by the provided invite token. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -295,7 +295,7 @@ namespace com.knetikcloud.Api
         /// Remove or decline a friend
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -307,7 +307,7 @@ namespace com.knetikcloud.Api
         /// Remove or decline a friend
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -415,7 +415,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a friend As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship.
+        /// Add a friend As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -427,7 +427,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a friend As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship.
+        /// Add a friend As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -499,7 +499,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a friend As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship.
+        /// Add a friend As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -512,7 +512,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a friend As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship.
+        /// Add a friend As a user, either creates or confirm a pending request. As an admin, call this endpoint twice while inverting the IDs to create a confirmed friendship. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -584,7 +584,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get friends list 
+        /// Get friends list &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -600,7 +600,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get friends list 
+        /// Get friends list &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -625,7 +625,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -675,7 +674,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get friends list 
+        /// Get friends list &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -692,7 +691,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get friends list 
+        /// Get friends list &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -717,7 +716,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -767,7 +765,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the invite token This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request flow instead if confirmation is required
+        /// Returns the invite token This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)flow instead if confirmation is required
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -779,7 +777,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the invite token This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request flow instead if confirmation is required
+        /// Returns the invite token This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)flow instead if confirmation is required
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -800,7 +798,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -846,7 +843,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the invite token This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request flow instead if confirmation is required
+        /// Returns the invite token This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)flow instead if confirmation is required
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -859,7 +856,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the invite token This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request flow instead if confirmation is required
+        /// Returns the invite token This is a unique invite token that allows direct connection to the request user.  Exposing that token presents privacy issues if the token is leaked. Use friend request. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)flow instead if confirmation is required
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -880,7 +877,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -926,7 +922,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get pending invites Invites that the specified user received
+        /// Get pending invites Invites that the specified user received. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -940,7 +936,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get pending invites Invites that the specified user received
+        /// Get pending invites Invites that the specified user received. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -963,7 +959,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1011,7 +1006,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get pending invites Invites that the specified user received
+        /// Get pending invites Invites that the specified user received. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -1026,7 +1021,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get pending invites Invites that the specified user received
+        /// Get pending invites Invites that the specified user received. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
@@ -1049,7 +1044,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1097,7 +1091,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Redeem friendship token Immediately connects the requested user with the user mapped by the provided invite token
+        /// Redeem friendship token Immediately connects the requested user with the user mapped by the provided invite token. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -1109,7 +1103,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Redeem friendship token Immediately connects the requested user with the user mapped by the provided invite token
+        /// Redeem friendship token Immediately connects the requested user with the user mapped by the provided invite token. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -1185,7 +1179,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Redeem friendship token Immediately connects the requested user with the user mapped by the provided invite token
+        /// Redeem friendship token Immediately connects the requested user with the user mapped by the provided invite token. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -1198,7 +1192,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Redeem friendship token Immediately connects the requested user with the user mapped by the provided invite token
+        /// Redeem friendship token Immediately connects the requested user with the user mapped by the provided invite token. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -1274,7 +1268,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove or decline a friend 
+        /// Remove or decline a friend &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -1286,7 +1280,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove or decline a friend 
+        /// Remove or decline a friend &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -1311,7 +1305,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1358,7 +1351,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove or decline a friend 
+        /// Remove or decline a friend &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -1371,7 +1364,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove or decline a friend 
+        /// Remove or decline a friend &lt;b&gt;Permissions Needed:&lt;/b&gt; FRIENDSHIPS_ADMIN or (FRIENDSHIPS_USER and owner)
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39; if logged in</param>
@@ -1396,7 +1389,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 

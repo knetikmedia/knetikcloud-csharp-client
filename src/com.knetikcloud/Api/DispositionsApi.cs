@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Add a new disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and user, or DISPOSITIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="disposition">The new disposition record (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Add a new disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and user, or DISPOSITIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="disposition">The new disposition record (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Delete a disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and owner, or DISPOSITIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -60,7 +60,7 @@ namespace com.knetikcloud.Api
         /// Delete a disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and owner, or DISPOSITIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Returns a disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -81,7 +81,7 @@ namespace com.knetikcloud.Api
         /// Returns a disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// Returns a list of disposition counts
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -103,7 +103,7 @@ namespace com.knetikcloud.Api
         /// Returns a list of disposition counts
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -114,7 +114,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of dispositions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -129,7 +129,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of dispositions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -145,7 +145,7 @@ namespace com.knetikcloud.Api
         /// Add a new disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and user, or DISPOSITIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="disposition">The new disposition record (optional)</param>
@@ -156,7 +156,7 @@ namespace com.knetikcloud.Api
         /// Add a new disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and user, or DISPOSITIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="disposition">The new disposition record (optional)</param>
@@ -166,7 +166,7 @@ namespace com.knetikcloud.Api
         /// Delete a disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and owner, or DISPOSITIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -177,7 +177,7 @@ namespace com.knetikcloud.Api
         /// Delete a disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and owner, or DISPOSITIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -187,7 +187,7 @@ namespace com.knetikcloud.Api
         /// Returns a disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -198,7 +198,7 @@ namespace com.knetikcloud.Api
         /// Returns a disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -208,7 +208,7 @@ namespace com.knetikcloud.Api
         /// Returns a list of disposition counts
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -220,7 +220,7 @@ namespace com.knetikcloud.Api
         /// Returns a list of disposition counts
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -231,7 +231,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of dispositions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -246,7 +246,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of dispositions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -357,7 +357,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new disposition 
+        /// Add a new disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and user, or DISPOSITIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="disposition">The new disposition record (optional)</param>
@@ -369,7 +369,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new disposition 
+        /// Add a new disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and user, or DISPOSITIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="disposition">The new disposition record (optional)</param>
@@ -440,7 +440,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new disposition 
+        /// Add a new disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and user, or DISPOSITIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="disposition">The new disposition record (optional)</param>
@@ -453,7 +453,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new disposition 
+        /// Add a new disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and user, or DISPOSITIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="disposition">The new disposition record (optional)</param>
@@ -524,7 +524,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a disposition 
+        /// Delete a disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and owner, or DISPOSITIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -535,7 +535,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a disposition 
+        /// Delete a disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and owner, or DISPOSITIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -556,7 +556,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -602,7 +601,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a disposition 
+        /// Delete a disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and owner, or DISPOSITIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -614,7 +613,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a disposition 
+        /// Delete a disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; DISPOSITIONS_USER and owner, or DISPOSITIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -635,7 +634,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -681,7 +679,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a disposition 
+        /// Returns a disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -693,7 +691,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a disposition 
+        /// Returns a disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -714,7 +712,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -760,7 +757,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a disposition 
+        /// Returns a disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -773,7 +770,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a disposition 
+        /// Returns a disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the disposition record</param>
@@ -794,7 +791,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -840,7 +836,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a list of disposition counts 
+        /// Returns a list of disposition counts &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -853,7 +849,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a list of disposition counts 
+        /// Returns a list of disposition counts &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -872,7 +868,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -919,7 +914,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a list of disposition counts 
+        /// Returns a list of disposition counts &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -933,7 +928,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a list of disposition counts 
+        /// Returns a list of disposition counts &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -952,7 +947,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -999,7 +993,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of dispositions 
+        /// Returns a page of dispositions &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -1015,7 +1009,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of dispositions 
+        /// Returns a page of dispositions &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -1037,7 +1031,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1087,7 +1080,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of dispositions 
+        /// Returns a page of dispositions &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -1104,7 +1097,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of dispositions 
+        /// Returns a page of dispositions &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter for dispositions within a context type (games, articles, polls, etc). Optionally with a specific id like filter_context&#x3D;video:47 (optional)</param>
@@ -1126,7 +1119,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 

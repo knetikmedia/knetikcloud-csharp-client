@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Get details for a template property type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">type</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Get details for a template property type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">type</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// List template property types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>List&lt;PropertyFieldListResource&gt;</returns>
@@ -59,7 +59,7 @@ namespace com.knetikcloud.Api
         /// List template property types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of List&lt;PropertyFieldListResource&gt;</returns>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Get details for a template property type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">type</param>
@@ -81,7 +81,7 @@ namespace com.knetikcloud.Api
         /// Get details for a template property type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">type</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// List template property types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of List&lt;PropertyFieldListResource&gt;</returns>
@@ -101,7 +101,7 @@ namespace com.knetikcloud.Api
         /// List template property types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (List&lt;PropertyFieldListResource&gt;)</returns>
@@ -207,7 +207,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get details for a template property type 
+        /// Get details for a template property type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">type</param>
@@ -219,7 +219,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get details for a template property type 
+        /// Get details for a template property type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">type</param>
@@ -240,7 +240,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -286,7 +285,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get details for a template property type 
+        /// Get details for a template property type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">type</param>
@@ -299,7 +298,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get details for a template property type 
+        /// Get details for a template property type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">type</param>
@@ -320,7 +319,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -366,7 +364,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List template property types 
+        /// List template property types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>List&lt;PropertyFieldListResource&gt;</returns>
@@ -377,7 +375,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List template property types 
+        /// List template property types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of List&lt;PropertyFieldListResource&gt;</returns>
@@ -394,7 +392,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -439,7 +436,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List template property types 
+        /// List template property types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of List&lt;PropertyFieldListResource&gt;</returns>
@@ -451,7 +448,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List template property types 
+        /// List template property types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (List&lt;PropertyFieldListResource&gt;)</returns>
@@ -468,7 +465,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 

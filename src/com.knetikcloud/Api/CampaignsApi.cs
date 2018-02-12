@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Add a challenge to a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the campaign</param>
@@ -40,7 +40,7 @@ namespace com.knetikcloud.Api
         /// Add a challenge to a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the campaign</param>
@@ -51,7 +51,7 @@ namespace com.knetikcloud.Api
         /// Create a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignResource">The campaign resource object (optional)</param>
@@ -62,7 +62,7 @@ namespace com.knetikcloud.Api
         /// Create a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignResource">The campaign resource object (optional)</param>
@@ -72,7 +72,7 @@ namespace com.knetikcloud.Api
         /// Create a campaign template
         /// </summary>
         /// <remarks>
-        /// Campaign Templates define a type of campaign and the properties they have
+        /// Campaign Templates define a type of campaign and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignTemplateResource">The campaign template resource object (optional)</param>
@@ -83,7 +83,7 @@ namespace com.knetikcloud.Api
         /// Create a campaign template
         /// </summary>
         /// <remarks>
-        /// Campaign Templates define a type of campaign and the properties they have
+        /// Campaign Templates define a type of campaign and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignTemplateResource">The campaign template resource object (optional)</param>
@@ -93,7 +93,7 @@ namespace com.knetikcloud.Api
         /// Delete a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -104,7 +104,7 @@ namespace com.knetikcloud.Api
         /// Delete a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -114,7 +114,7 @@ namespace com.knetikcloud.Api
         /// Delete a campaign template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -126,7 +126,7 @@ namespace com.knetikcloud.Api
         /// Delete a campaign template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -137,7 +137,7 @@ namespace com.knetikcloud.Api
         /// Returns a single campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -148,7 +148,7 @@ namespace com.knetikcloud.Api
         /// Returns a single campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -158,7 +158,7 @@ namespace com.knetikcloud.Api
         /// List the challenges associated with a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -174,7 +174,7 @@ namespace com.knetikcloud.Api
         /// List the challenges associated with a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -189,7 +189,7 @@ namespace com.knetikcloud.Api
         /// Get a single campaign template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -200,7 +200,7 @@ namespace com.knetikcloud.Api
         /// Get a single campaign template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -210,7 +210,7 @@ namespace com.knetikcloud.Api
         /// List and search campaign templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -223,7 +223,7 @@ namespace com.knetikcloud.Api
         /// List and search campaign templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -235,7 +235,7 @@ namespace com.knetikcloud.Api
         /// List and search campaigns
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActive">Filter for campaigns that are active (optional)</param>
@@ -249,7 +249,7 @@ namespace com.knetikcloud.Api
         /// List and search campaigns
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActive">Filter for campaigns that are active (optional)</param>
@@ -262,7 +262,7 @@ namespace com.knetikcloud.Api
         /// Remove a challenge from a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignId">The campaign id</param>
@@ -274,7 +274,7 @@ namespace com.knetikcloud.Api
         /// Remove a challenge from a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignId">The campaign id</param>
@@ -285,7 +285,7 @@ namespace com.knetikcloud.Api
         /// Update a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -297,7 +297,7 @@ namespace com.knetikcloud.Api
         /// Update a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -308,7 +308,7 @@ namespace com.knetikcloud.Api
         /// Update an campaign template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -320,7 +320,7 @@ namespace com.knetikcloud.Api
         /// Update an campaign template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -333,7 +333,7 @@ namespace com.knetikcloud.Api
         /// Add a challenge to a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the campaign</param>
@@ -345,7 +345,7 @@ namespace com.knetikcloud.Api
         /// Add a challenge to a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the campaign</param>
@@ -356,7 +356,7 @@ namespace com.knetikcloud.Api
         /// Create a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignResource">The campaign resource object (optional)</param>
@@ -367,7 +367,7 @@ namespace com.knetikcloud.Api
         /// Create a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignResource">The campaign resource object (optional)</param>
@@ -377,7 +377,7 @@ namespace com.knetikcloud.Api
         /// Create a campaign template
         /// </summary>
         /// <remarks>
-        /// Campaign Templates define a type of campaign and the properties they have
+        /// Campaign Templates define a type of campaign and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignTemplateResource">The campaign template resource object (optional)</param>
@@ -388,7 +388,7 @@ namespace com.knetikcloud.Api
         /// Create a campaign template
         /// </summary>
         /// <remarks>
-        /// Campaign Templates define a type of campaign and the properties they have
+        /// Campaign Templates define a type of campaign and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignTemplateResource">The campaign template resource object (optional)</param>
@@ -398,7 +398,7 @@ namespace com.knetikcloud.Api
         /// Delete a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -409,7 +409,7 @@ namespace com.knetikcloud.Api
         /// Delete a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -419,7 +419,7 @@ namespace com.knetikcloud.Api
         /// Delete a campaign template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -431,7 +431,7 @@ namespace com.knetikcloud.Api
         /// Delete a campaign template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -442,7 +442,7 @@ namespace com.knetikcloud.Api
         /// Returns a single campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -453,7 +453,7 @@ namespace com.knetikcloud.Api
         /// Returns a single campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -463,7 +463,7 @@ namespace com.knetikcloud.Api
         /// List the challenges associated with a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -479,7 +479,7 @@ namespace com.knetikcloud.Api
         /// List the challenges associated with a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -494,7 +494,7 @@ namespace com.knetikcloud.Api
         /// Get a single campaign template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -505,7 +505,7 @@ namespace com.knetikcloud.Api
         /// Get a single campaign template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -515,7 +515,7 @@ namespace com.knetikcloud.Api
         /// List and search campaign templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -528,7 +528,7 @@ namespace com.knetikcloud.Api
         /// List and search campaign templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -540,7 +540,7 @@ namespace com.knetikcloud.Api
         /// List and search campaigns
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActive">Filter for campaigns that are active (optional)</param>
@@ -554,7 +554,7 @@ namespace com.knetikcloud.Api
         /// List and search campaigns
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActive">Filter for campaigns that are active (optional)</param>
@@ -567,7 +567,7 @@ namespace com.knetikcloud.Api
         /// Remove a challenge from a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignId">The campaign id</param>
@@ -579,7 +579,7 @@ namespace com.knetikcloud.Api
         /// Remove a challenge from a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignId">The campaign id</param>
@@ -590,7 +590,7 @@ namespace com.knetikcloud.Api
         /// Update a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -602,7 +602,7 @@ namespace com.knetikcloud.Api
         /// Update a campaign
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -613,7 +613,7 @@ namespace com.knetikcloud.Api
         /// Update an campaign template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -625,7 +625,7 @@ namespace com.knetikcloud.Api
         /// Update an campaign template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -733,7 +733,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a challenge to a campaign 
+        /// Add a challenge to a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the campaign</param>
@@ -745,7 +745,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a challenge to a campaign 
+        /// Add a challenge to a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the campaign</param>
@@ -821,7 +821,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a challenge to a campaign 
+        /// Add a challenge to a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the campaign</param>
@@ -834,7 +834,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a challenge to a campaign 
+        /// Add a challenge to a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the campaign</param>
@@ -910,7 +910,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a campaign 
+        /// Create a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignResource">The campaign resource object (optional)</param>
@@ -922,7 +922,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a campaign 
+        /// Create a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignResource">The campaign resource object (optional)</param>
@@ -993,7 +993,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a campaign 
+        /// Create a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignResource">The campaign resource object (optional)</param>
@@ -1006,7 +1006,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a campaign 
+        /// Create a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignResource">The campaign resource object (optional)</param>
@@ -1077,7 +1077,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a campaign template Campaign Templates define a type of campaign and the properties they have
+        /// Create a campaign template Campaign Templates define a type of campaign and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignTemplateResource">The campaign template resource object (optional)</param>
@@ -1089,7 +1089,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a campaign template Campaign Templates define a type of campaign and the properties they have
+        /// Create a campaign template Campaign Templates define a type of campaign and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignTemplateResource">The campaign template resource object (optional)</param>
@@ -1160,7 +1160,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a campaign template Campaign Templates define a type of campaign and the properties they have
+        /// Create a campaign template Campaign Templates define a type of campaign and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignTemplateResource">The campaign template resource object (optional)</param>
@@ -1173,7 +1173,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a campaign template Campaign Templates define a type of campaign and the properties they have
+        /// Create a campaign template Campaign Templates define a type of campaign and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignTemplateResource">The campaign template resource object (optional)</param>
@@ -1244,7 +1244,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a campaign 
+        /// Delete a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1255,7 +1255,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a campaign 
+        /// Delete a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1276,7 +1276,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1322,7 +1321,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a campaign 
+        /// Delete a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1334,7 +1333,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a campaign 
+        /// Delete a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1355,7 +1354,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1401,7 +1399,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a campaign template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a campaign template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1413,7 +1411,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a campaign template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a campaign template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1435,7 +1433,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1482,7 +1479,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a campaign template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a campaign template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1495,7 +1492,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a campaign template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a campaign template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1517,7 +1514,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1564,7 +1560,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a single campaign 
+        /// Returns a single campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1576,7 +1572,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a single campaign 
+        /// Returns a single campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1597,7 +1593,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1643,7 +1638,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a single campaign 
+        /// Returns a single campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1656,7 +1651,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a single campaign 
+        /// Returns a single campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1677,7 +1672,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1723,7 +1717,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the challenges associated with a campaign 
+        /// List the challenges associated with a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1740,7 +1734,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the challenges associated with a campaign 
+        /// List the challenges associated with a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1766,7 +1760,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1817,7 +1810,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the challenges associated with a campaign 
+        /// List the challenges associated with a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1835,7 +1828,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the challenges associated with a campaign 
+        /// List the challenges associated with a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -1861,7 +1854,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1912,7 +1904,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single campaign template 
+        /// Get a single campaign template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1924,7 +1916,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single campaign template 
+        /// Get a single campaign template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1945,7 +1937,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1991,7 +1982,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single campaign template 
+        /// Get a single campaign template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2004,7 +1995,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single campaign template 
+        /// Get a single campaign template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2025,7 +2016,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2071,7 +2061,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search campaign templates 
+        /// List and search campaign templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -2085,7 +2075,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search campaign templates 
+        /// List and search campaign templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -2105,7 +2095,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2153,7 +2142,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search campaign templates 
+        /// List and search campaign templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -2168,7 +2157,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search campaign templates 
+        /// List and search campaign templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -2188,7 +2177,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2236,7 +2224,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search campaigns 
+        /// List and search campaigns &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActive">Filter for campaigns that are active (optional)</param>
@@ -2251,7 +2239,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search campaigns 
+        /// List and search campaigns &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActive">Filter for campaigns that are active (optional)</param>
@@ -2272,7 +2260,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2321,7 +2308,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search campaigns 
+        /// List and search campaigns &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActive">Filter for campaigns that are active (optional)</param>
@@ -2337,7 +2324,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search campaigns 
+        /// List and search campaigns &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActive">Filter for campaigns that are active (optional)</param>
@@ -2358,7 +2345,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2407,7 +2393,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a challenge from a campaign 
+        /// Remove a challenge from a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignId">The campaign id</param>
@@ -2419,7 +2405,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a challenge from a campaign 
+        /// Remove a challenge from a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignId">The campaign id</param>
@@ -2444,7 +2430,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2491,7 +2476,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a challenge from a campaign 
+        /// Remove a challenge from a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignId">The campaign id</param>
@@ -2504,7 +2489,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a challenge from a campaign 
+        /// Remove a challenge from a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="campaignId">The campaign id</param>
@@ -2529,7 +2514,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2576,7 +2560,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a campaign 
+        /// Update a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -2589,7 +2573,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a campaign 
+        /// Update a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -2665,7 +2649,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a campaign 
+        /// Update a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -2679,7 +2663,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a campaign 
+        /// Update a campaign &lt;b&gt;Permissions Needed:&lt;/b&gt; CAMPAIGNS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The campaign id</param>
@@ -2755,7 +2739,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an campaign template 
+        /// Update an campaign template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2768,7 +2752,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an campaign template 
+        /// Update an campaign template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2844,7 +2828,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an campaign template 
+        /// Update an campaign template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2858,7 +2842,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an campaign template 
+        /// Update an campaign template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>

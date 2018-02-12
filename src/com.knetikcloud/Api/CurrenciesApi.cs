@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currency">The currency object (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Create a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currency">The currency object (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Delete a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -60,7 +60,7 @@ namespace com.knetikcloud.Api
         /// Delete a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// List and search currencies
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterDefault">Filter for the one currency that is set as default (true), or all that are not (false) (optional)</param>
@@ -86,7 +86,7 @@ namespace com.knetikcloud.Api
         /// List and search currencies
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterDefault">Filter for the one currency that is set as default (true), or all that are not (false) (optional)</param>
@@ -101,7 +101,7 @@ namespace com.knetikcloud.Api
         /// Get a single currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -112,7 +112,7 @@ namespace com.knetikcloud.Api
         /// Get a single currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -122,7 +122,7 @@ namespace com.knetikcloud.Api
         /// Update a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -134,7 +134,7 @@ namespace com.knetikcloud.Api
         /// Update a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -147,7 +147,7 @@ namespace com.knetikcloud.Api
         /// Create a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currency">The currency object (optional)</param>
@@ -158,7 +158,7 @@ namespace com.knetikcloud.Api
         /// Create a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currency">The currency object (optional)</param>
@@ -168,7 +168,7 @@ namespace com.knetikcloud.Api
         /// Delete a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -179,7 +179,7 @@ namespace com.knetikcloud.Api
         /// Delete a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -189,7 +189,7 @@ namespace com.knetikcloud.Api
         /// List and search currencies
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterDefault">Filter for the one currency that is set as default (true), or all that are not (false) (optional)</param>
@@ -205,7 +205,7 @@ namespace com.knetikcloud.Api
         /// List and search currencies
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterDefault">Filter for the one currency that is set as default (true), or all that are not (false) (optional)</param>
@@ -220,7 +220,7 @@ namespace com.knetikcloud.Api
         /// Get a single currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -231,7 +231,7 @@ namespace com.knetikcloud.Api
         /// Get a single currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -241,7 +241,7 @@ namespace com.knetikcloud.Api
         /// Update a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -253,7 +253,7 @@ namespace com.knetikcloud.Api
         /// Update a currency
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -361,7 +361,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a currency 
+        /// Create a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currency">The currency object (optional)</param>
@@ -373,7 +373,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a currency 
+        /// Create a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currency">The currency object (optional)</param>
@@ -444,7 +444,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a currency 
+        /// Create a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currency">The currency object (optional)</param>
@@ -457,7 +457,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a currency 
+        /// Create a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currency">The currency object (optional)</param>
@@ -528,7 +528,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a currency 
+        /// Delete a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -539,7 +539,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a currency 
+        /// Delete a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -560,7 +560,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -606,7 +605,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a currency 
+        /// Delete a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -618,7 +617,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a currency 
+        /// Delete a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -639,7 +638,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -685,7 +683,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search currencies 
+        /// List and search currencies &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterDefault">Filter for the one currency that is set as default (true), or all that are not (false) (optional)</param>
@@ -702,7 +700,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search currencies 
+        /// List and search currencies &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterDefault">Filter for the one currency that is set as default (true), or all that are not (false) (optional)</param>
@@ -725,7 +723,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -776,7 +773,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search currencies 
+        /// List and search currencies &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterDefault">Filter for the one currency that is set as default (true), or all that are not (false) (optional)</param>
@@ -794,7 +791,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search currencies 
+        /// List and search currencies &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterDefault">Filter for the one currency that is set as default (true), or all that are not (false) (optional)</param>
@@ -817,7 +814,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -868,7 +864,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single currency 
+        /// Get a single currency &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -880,7 +876,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single currency 
+        /// Get a single currency &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -901,7 +897,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -947,7 +942,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single currency 
+        /// Get a single currency &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -960,7 +955,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single currency 
+        /// Get a single currency &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -981,7 +976,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1027,7 +1021,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a currency 
+        /// Update a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -1039,7 +1033,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a currency 
+        /// Update a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -1115,7 +1109,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a currency 
+        /// Update a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>
@@ -1128,7 +1122,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a currency 
+        /// Update a currency &lt;b&gt;Permissions Needed:&lt;/b&gt; CURRENCIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="code">The currency code</param>

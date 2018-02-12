@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a trigger
         /// </summary>
         /// <remarks>
-        /// Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services
+        /// Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breTriggerResource">The BRE trigger resource object (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Create a trigger
         /// </summary>
         /// <remarks>
-        /// Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services
+        /// Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breTriggerResource">The BRE trigger resource object (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Delete a trigger
         /// </summary>
         /// <remarks>
-        /// May fail if there are existing rules against it. Cannot delete core triggers
+        /// May fail if there are existing rules against it. Cannot delete core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -60,7 +60,7 @@ namespace com.knetikcloud.Api
         /// Delete a trigger
         /// </summary>
         /// <remarks>
-        /// May fail if there are existing rules against it. Cannot delete core triggers
+        /// May fail if there are existing rules against it. Cannot delete core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Get a single trigger
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -81,7 +81,7 @@ namespace com.knetikcloud.Api
         /// Get a single trigger
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// List triggers
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for triggers that are system triggers when true, or not when false. Leave off for both mixed (optional)</param>
@@ -108,7 +108,7 @@ namespace com.knetikcloud.Api
         /// List triggers
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for triggers that are system triggers when true, or not when false. Leave off for both mixed (optional)</param>
@@ -124,7 +124,7 @@ namespace com.knetikcloud.Api
         /// Update a trigger
         /// </summary>
         /// <remarks>
-        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers
+        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -136,7 +136,7 @@ namespace com.knetikcloud.Api
         /// Update a trigger
         /// </summary>
         /// <remarks>
-        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers
+        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -149,7 +149,7 @@ namespace com.knetikcloud.Api
         /// Create a trigger
         /// </summary>
         /// <remarks>
-        /// Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services
+        /// Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breTriggerResource">The BRE trigger resource object (optional)</param>
@@ -160,7 +160,7 @@ namespace com.knetikcloud.Api
         /// Create a trigger
         /// </summary>
         /// <remarks>
-        /// Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services
+        /// Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breTriggerResource">The BRE trigger resource object (optional)</param>
@@ -170,7 +170,7 @@ namespace com.knetikcloud.Api
         /// Delete a trigger
         /// </summary>
         /// <remarks>
-        /// May fail if there are existing rules against it. Cannot delete core triggers
+        /// May fail if there are existing rules against it. Cannot delete core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -181,7 +181,7 @@ namespace com.knetikcloud.Api
         /// Delete a trigger
         /// </summary>
         /// <remarks>
-        /// May fail if there are existing rules against it. Cannot delete core triggers
+        /// May fail if there are existing rules against it. Cannot delete core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -191,7 +191,7 @@ namespace com.knetikcloud.Api
         /// Get a single trigger
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -202,7 +202,7 @@ namespace com.knetikcloud.Api
         /// Get a single trigger
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -212,7 +212,7 @@ namespace com.knetikcloud.Api
         /// List triggers
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for triggers that are system triggers when true, or not when false. Leave off for both mixed (optional)</param>
@@ -229,7 +229,7 @@ namespace com.knetikcloud.Api
         /// List triggers
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for triggers that are system triggers when true, or not when false. Leave off for both mixed (optional)</param>
@@ -245,7 +245,7 @@ namespace com.knetikcloud.Api
         /// Update a trigger
         /// </summary>
         /// <remarks>
-        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers
+        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -257,7 +257,7 @@ namespace com.knetikcloud.Api
         /// Update a trigger
         /// </summary>
         /// <remarks>
-        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers
+        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -365,7 +365,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a trigger Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services
+        /// Create a trigger Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breTriggerResource">The BRE trigger resource object (optional)</param>
@@ -377,7 +377,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a trigger Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services
+        /// Create a trigger Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breTriggerResource">The BRE trigger resource object (optional)</param>
@@ -448,7 +448,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a trigger Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services
+        /// Create a trigger Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breTriggerResource">The BRE trigger resource object (optional)</param>
@@ -461,7 +461,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a trigger Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services
+        /// Create a trigger Customer added triggers will not be fired automatically or have rules associated with them by default. Custom rules must be added to get use from the trigger and it must then be fired from the outside. See the Bre Event services. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breTriggerResource">The BRE trigger resource object (optional)</param>
@@ -532,7 +532,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a trigger May fail if there are existing rules against it. Cannot delete core triggers
+        /// Delete a trigger May fail if there are existing rules against it. Cannot delete core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -543,7 +543,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a trigger May fail if there are existing rules against it. Cannot delete core triggers
+        /// Delete a trigger May fail if there are existing rules against it. Cannot delete core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -564,7 +564,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -610,7 +609,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a trigger May fail if there are existing rules against it. Cannot delete core triggers
+        /// Delete a trigger May fail if there are existing rules against it. Cannot delete core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -622,7 +621,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a trigger May fail if there are existing rules against it. Cannot delete core triggers
+        /// Delete a trigger May fail if there are existing rules against it. Cannot delete core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -643,7 +642,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -689,7 +687,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single trigger 
+        /// Get a single trigger &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -701,7 +699,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single trigger 
+        /// Get a single trigger &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -722,7 +720,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -768,7 +765,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single trigger 
+        /// Get a single trigger &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -781,7 +778,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single trigger 
+        /// Get a single trigger &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -802,7 +799,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -848,7 +844,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List triggers 
+        /// List triggers &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for triggers that are system triggers when true, or not when false. Leave off for both mixed (optional)</param>
@@ -866,7 +862,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List triggers 
+        /// List triggers &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for triggers that are system triggers when true, or not when false. Leave off for both mixed (optional)</param>
@@ -890,7 +886,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -942,7 +937,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List triggers 
+        /// List triggers &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for triggers that are system triggers when true, or not when false. Leave off for both mixed (optional)</param>
@@ -961,7 +956,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List triggers 
+        /// List triggers &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for triggers that are system triggers when true, or not when false. Leave off for both mixed (optional)</param>
@@ -985,7 +980,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1037,7 +1031,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a trigger May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers
+        /// Update a trigger May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -1050,7 +1044,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a trigger May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers
+        /// Update a trigger May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -1126,7 +1120,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a trigger May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers
+        /// Update a trigger May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>
@@ -1140,7 +1134,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a trigger May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers
+        /// Update a trigger May fail if new parameters mismatch requirements of existing rules. Cannot update core triggers. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_TRIGGERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="eventName">The trigger event name</param>

@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Get a list of available actions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_ACTIONS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterCategory">Filter for actions that are within a specific category (optional)</param>
@@ -42,7 +42,7 @@ namespace com.knetikcloud.Api
         /// Get a list of available actions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_ACTIONS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterCategory">Filter for actions that are within a specific category (optional)</param>
@@ -57,7 +57,7 @@ namespace com.knetikcloud.Api
         /// Get a list of available actions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_ACTIONS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterCategory">Filter for actions that are within a specific category (optional)</param>
@@ -71,7 +71,7 @@ namespace com.knetikcloud.Api
         /// Get a list of available actions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_ACTIONS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterCategory">Filter for actions that are within a specific category (optional)</param>
@@ -181,7 +181,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of available actions 
+        /// Get a list of available actions &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_ACTIONS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterCategory">Filter for actions that are within a specific category (optional)</param>
@@ -196,7 +196,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of available actions 
+        /// Get a list of available actions &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_ACTIONS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterCategory">Filter for actions that are within a specific category (optional)</param>
@@ -217,7 +217,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -266,7 +265,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of available actions 
+        /// Get a list of available actions &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_ACTIONS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterCategory">Filter for actions that are within a specific category (optional)</param>
@@ -282,7 +281,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of available actions 
+        /// Get a list of available actions &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_ACTIONS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterCategory">Filter for actions that are within a specific category (optional)</param>
@@ -303,7 +302,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 

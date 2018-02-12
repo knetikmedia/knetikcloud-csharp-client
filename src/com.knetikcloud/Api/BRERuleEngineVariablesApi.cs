@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Get a list of variable types available
         /// </summary>
         /// <remarks>
-        /// Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing.
+        /// Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>List&lt;VariableTypeResource&gt;</returns>
@@ -38,7 +38,7 @@ namespace com.knetikcloud.Api
         /// Get a list of variable types available
         /// </summary>
         /// <remarks>
-        /// Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing.
+        /// Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of List&lt;VariableTypeResource&gt;</returns>
@@ -47,7 +47,7 @@ namespace com.knetikcloud.Api
         /// List valid values for a type
         /// </summary>
         /// <remarks>
-        /// Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here.
+        /// Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The name of the type</param>
@@ -61,7 +61,7 @@ namespace com.knetikcloud.Api
         /// List valid values for a type
         /// </summary>
         /// <remarks>
-        /// Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here.
+        /// Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The name of the type</param>
@@ -76,7 +76,7 @@ namespace com.knetikcloud.Api
         /// Get a list of variable types available
         /// </summary>
         /// <remarks>
-        /// Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing.
+        /// Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of List&lt;VariableTypeResource&gt;</returns>
@@ -86,7 +86,7 @@ namespace com.knetikcloud.Api
         /// Get a list of variable types available
         /// </summary>
         /// <remarks>
-        /// Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing.
+        /// Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (List&lt;VariableTypeResource&gt;)</returns>
@@ -95,7 +95,7 @@ namespace com.knetikcloud.Api
         /// List valid values for a type
         /// </summary>
         /// <remarks>
-        /// Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here.
+        /// Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The name of the type</param>
@@ -109,7 +109,7 @@ namespace com.knetikcloud.Api
         /// List valid values for a type
         /// </summary>
         /// <remarks>
-        /// Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here.
+        /// Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The name of the type</param>
@@ -219,7 +219,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of variable types available Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing.
+        /// Get a list of variable types available Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>List&lt;VariableTypeResource&gt;</returns>
@@ -230,7 +230,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of variable types available Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing.
+        /// Get a list of variable types available Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of List&lt;VariableTypeResource&gt;</returns>
@@ -247,7 +247,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -292,7 +291,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of variable types available Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing.
+        /// Get a list of variable types available Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of List&lt;VariableTypeResource&gt;</returns>
@@ -304,7 +303,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of variable types available Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing.
+        /// Get a list of variable types available Types include integer, string, user and invoice. These are used to qualify trigger parameters and action variables with strong typing. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (List&lt;VariableTypeResource&gt;)</returns>
@@ -321,7 +320,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -366,7 +364,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List valid values for a type Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here.
+        /// List valid values for a type Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The name of the type</param>
@@ -381,7 +379,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List valid values for a type Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here.
+        /// List valid values for a type Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The name of the type</param>
@@ -405,7 +403,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -454,7 +451,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List valid values for a type Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here.
+        /// List valid values for a type Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The name of the type</param>
@@ -470,7 +467,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List valid values for a type Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here.
+        /// List valid values for a type Used to lookup users to fill in a user constant for example. Only types marked as enumerable are suppoorted here. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_VARIABLES_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="name">The name of the type</param>
@@ -494,7 +491,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 

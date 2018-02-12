@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a new address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -40,7 +40,7 @@ namespace com.knetikcloud.Api
         /// Create a new address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -51,7 +51,7 @@ namespace com.knetikcloud.Api
         /// Delete an address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -63,7 +63,7 @@ namespace com.knetikcloud.Api
         /// Delete an address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -74,7 +74,7 @@ namespace com.knetikcloud.Api
         /// Get a single address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -86,7 +86,7 @@ namespace com.knetikcloud.Api
         /// Get a single address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -97,7 +97,7 @@ namespace com.knetikcloud.Api
         /// List and search addresses
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -111,7 +111,7 @@ namespace com.knetikcloud.Api
         /// List and search addresses
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -124,7 +124,7 @@ namespace com.knetikcloud.Api
         /// Update an address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -137,7 +137,7 @@ namespace com.knetikcloud.Api
         /// Update an address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -151,7 +151,7 @@ namespace com.knetikcloud.Api
         /// Create a new address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -163,7 +163,7 @@ namespace com.knetikcloud.Api
         /// Create a new address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -174,7 +174,7 @@ namespace com.knetikcloud.Api
         /// Delete an address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -186,7 +186,7 @@ namespace com.knetikcloud.Api
         /// Delete an address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -197,7 +197,7 @@ namespace com.knetikcloud.Api
         /// Get a single address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -209,7 +209,7 @@ namespace com.knetikcloud.Api
         /// Get a single address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -220,7 +220,7 @@ namespace com.knetikcloud.Api
         /// List and search addresses
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -234,7 +234,7 @@ namespace com.knetikcloud.Api
         /// List and search addresses
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -247,7 +247,7 @@ namespace com.knetikcloud.Api
         /// Update an address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -260,7 +260,7 @@ namespace com.knetikcloud.Api
         /// Update an address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -369,7 +369,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new address 
+        /// Create a new address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -382,7 +382,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new address 
+        /// Create a new address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -458,7 +458,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new address 
+        /// Create a new address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -472,7 +472,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new address 
+        /// Create a new address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -548,7 +548,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an address 
+        /// Delete an address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -560,7 +560,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an address 
+        /// Delete an address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -585,7 +585,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -632,7 +631,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an address 
+        /// Delete an address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -645,7 +644,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an address 
+        /// Delete an address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -670,7 +669,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -717,7 +715,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single address 
+        /// Get a single address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -730,7 +728,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single address 
+        /// Get a single address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -755,7 +753,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -802,7 +799,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single address 
+        /// Get a single address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -816,7 +813,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single address 
+        /// Get a single address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -841,7 +838,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -888,7 +884,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search addresses 
+        /// List and search addresses &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -903,7 +899,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search addresses 
+        /// List and search addresses &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -927,7 +923,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -976,7 +971,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search addresses 
+        /// List and search addresses &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -992,7 +987,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search addresses 
+        /// List and search addresses &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -1016,7 +1011,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1065,7 +1059,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an address 
+        /// Update an address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -1079,7 +1073,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an address 
+        /// Update an address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -1160,7 +1154,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an address 
+        /// Update an address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -1175,7 +1169,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an address 
+        /// Update an address &lt;b&gt;Permissions Needed:&lt;/b&gt; USERS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>

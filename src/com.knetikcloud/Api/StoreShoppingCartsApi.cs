@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Adds a custom discount to the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -40,7 +40,7 @@ namespace com.knetikcloud.Api
         /// Adds a custom discount to the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -51,7 +51,7 @@ namespace com.knetikcloud.Api
         /// Adds a discount coupon to the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -63,7 +63,7 @@ namespace com.knetikcloud.Api
         /// Adds a discount coupon to the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -74,7 +74,7 @@ namespace com.knetikcloud.Api
         /// Add an item to the cart
         /// </summary>
         /// <remarks>
-        /// Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment
+        /// Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -86,7 +86,7 @@ namespace com.knetikcloud.Api
         /// Add an item to the cart
         /// </summary>
         /// <remarks>
-        /// Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment
+        /// Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -97,7 +97,7 @@ namespace com.knetikcloud.Api
         /// Create a cart
         /// </summary>
         /// <remarks>
-        /// You don&#39;t have to have a user to create a cart but the API requires authentication to checkout
+        /// You don&#39;t have to have a user to create a cart but the API requires authentication to checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="owner">Set the owner of a cart. If not specified, defaults to the calling user&#39;s id. If specified and is not the calling user&#39;s id, SHOPPING_CARTS_ADMIN permission is required (optional)</param>
@@ -109,7 +109,7 @@ namespace com.knetikcloud.Api
         /// Create a cart
         /// </summary>
         /// <remarks>
-        /// You don&#39;t have to have a user to create a cart but the API requires authentication to checkout
+        /// You don&#39;t have to have a user to create a cart but the API requires authentication to checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="owner">Set the owner of a cart. If not specified, defaults to the calling user&#39;s id. If specified and is not the calling user&#39;s id, SHOPPING_CARTS_ADMIN permission is required (optional)</param>
@@ -120,7 +120,7 @@ namespace com.knetikcloud.Api
         /// Returns the cart with the given GUID
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -131,7 +131,7 @@ namespace com.knetikcloud.Api
         /// Returns the cart with the given GUID
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -141,7 +141,7 @@ namespace com.knetikcloud.Api
         /// Get a list of carts
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterOwnerId">Filter by the id of the owner (optional)</param>
@@ -155,7 +155,7 @@ namespace com.knetikcloud.Api
         /// Get a list of carts
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterOwnerId">Filter by the id of the owner (optional)</param>
@@ -168,7 +168,7 @@ namespace com.knetikcloud.Api
         /// Returns whether a cart requires shipping
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -179,7 +179,7 @@ namespace com.knetikcloud.Api
         /// Returns whether a cart requires shipping
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -189,7 +189,7 @@ namespace com.knetikcloud.Api
         /// Get the list of available shipping countries per vendor
         /// </summary>
         /// <remarks>
-        /// Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable.
+        /// Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -200,7 +200,7 @@ namespace com.knetikcloud.Api
         /// Get the list of available shipping countries per vendor
         /// </summary>
         /// <remarks>
-        /// Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable.
+        /// Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -210,7 +210,7 @@ namespace com.knetikcloud.Api
         /// Removes a discount coupon from the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -222,7 +222,7 @@ namespace com.knetikcloud.Api
         /// Removes a discount coupon from the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -233,7 +233,7 @@ namespace com.knetikcloud.Api
         /// Sets the currency to use for the cart
         /// </summary>
         /// <remarks>
-        /// May be disallowed by site settings.
+        /// May be disallowed by site settings. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -245,7 +245,7 @@ namespace com.knetikcloud.Api
         /// Sets the currency to use for the cart
         /// </summary>
         /// <remarks>
-        /// May be disallowed by site settings.
+        /// May be disallowed by site settings. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -256,7 +256,7 @@ namespace com.knetikcloud.Api
         /// Sets the owner of a cart if none is set already
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -268,7 +268,7 @@ namespace com.knetikcloud.Api
         /// Sets the owner of a cart if none is set already
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -279,7 +279,7 @@ namespace com.knetikcloud.Api
         /// Changes the quantity of an item already in the cart
         /// </summary>
         /// <remarks>
-        /// A quantity of zero will remove the item from the cart altogether.
+        /// A quantity of zero will remove the item from the cart altogether. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -291,7 +291,7 @@ namespace com.knetikcloud.Api
         /// Changes the quantity of an item already in the cart
         /// </summary>
         /// <remarks>
-        /// A quantity of zero will remove the item from the cart altogether.
+        /// A quantity of zero will remove the item from the cart altogether. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -302,7 +302,7 @@ namespace com.knetikcloud.Api
         /// Modifies or sets the order shipping address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -314,7 +314,7 @@ namespace com.knetikcloud.Api
         /// Modifies or sets the order shipping address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -327,7 +327,7 @@ namespace com.knetikcloud.Api
         /// Adds a custom discount to the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -339,7 +339,7 @@ namespace com.knetikcloud.Api
         /// Adds a custom discount to the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -350,7 +350,7 @@ namespace com.knetikcloud.Api
         /// Adds a discount coupon to the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -362,7 +362,7 @@ namespace com.knetikcloud.Api
         /// Adds a discount coupon to the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -373,7 +373,7 @@ namespace com.knetikcloud.Api
         /// Add an item to the cart
         /// </summary>
         /// <remarks>
-        /// Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment
+        /// Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -385,7 +385,7 @@ namespace com.knetikcloud.Api
         /// Add an item to the cart
         /// </summary>
         /// <remarks>
-        /// Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment
+        /// Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -396,7 +396,7 @@ namespace com.knetikcloud.Api
         /// Create a cart
         /// </summary>
         /// <remarks>
-        /// You don&#39;t have to have a user to create a cart but the API requires authentication to checkout
+        /// You don&#39;t have to have a user to create a cart but the API requires authentication to checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="owner">Set the owner of a cart. If not specified, defaults to the calling user&#39;s id. If specified and is not the calling user&#39;s id, SHOPPING_CARTS_ADMIN permission is required (optional)</param>
@@ -408,7 +408,7 @@ namespace com.knetikcloud.Api
         /// Create a cart
         /// </summary>
         /// <remarks>
-        /// You don&#39;t have to have a user to create a cart but the API requires authentication to checkout
+        /// You don&#39;t have to have a user to create a cart but the API requires authentication to checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="owner">Set the owner of a cart. If not specified, defaults to the calling user&#39;s id. If specified and is not the calling user&#39;s id, SHOPPING_CARTS_ADMIN permission is required (optional)</param>
@@ -419,7 +419,7 @@ namespace com.knetikcloud.Api
         /// Returns the cart with the given GUID
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -430,7 +430,7 @@ namespace com.knetikcloud.Api
         /// Returns the cart with the given GUID
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -440,7 +440,7 @@ namespace com.knetikcloud.Api
         /// Get a list of carts
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterOwnerId">Filter by the id of the owner (optional)</param>
@@ -454,7 +454,7 @@ namespace com.knetikcloud.Api
         /// Get a list of carts
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterOwnerId">Filter by the id of the owner (optional)</param>
@@ -467,7 +467,7 @@ namespace com.knetikcloud.Api
         /// Returns whether a cart requires shipping
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -478,7 +478,7 @@ namespace com.knetikcloud.Api
         /// Returns whether a cart requires shipping
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -488,7 +488,7 @@ namespace com.knetikcloud.Api
         /// Get the list of available shipping countries per vendor
         /// </summary>
         /// <remarks>
-        /// Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable.
+        /// Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -499,7 +499,7 @@ namespace com.knetikcloud.Api
         /// Get the list of available shipping countries per vendor
         /// </summary>
         /// <remarks>
-        /// Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable.
+        /// Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -509,7 +509,7 @@ namespace com.knetikcloud.Api
         /// Removes a discount coupon from the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -521,7 +521,7 @@ namespace com.knetikcloud.Api
         /// Removes a discount coupon from the cart
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -532,7 +532,7 @@ namespace com.knetikcloud.Api
         /// Sets the currency to use for the cart
         /// </summary>
         /// <remarks>
-        /// May be disallowed by site settings.
+        /// May be disallowed by site settings. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -544,7 +544,7 @@ namespace com.knetikcloud.Api
         /// Sets the currency to use for the cart
         /// </summary>
         /// <remarks>
-        /// May be disallowed by site settings.
+        /// May be disallowed by site settings. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -555,7 +555,7 @@ namespace com.knetikcloud.Api
         /// Sets the owner of a cart if none is set already
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -567,7 +567,7 @@ namespace com.knetikcloud.Api
         /// Sets the owner of a cart if none is set already
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -578,7 +578,7 @@ namespace com.knetikcloud.Api
         /// Changes the quantity of an item already in the cart
         /// </summary>
         /// <remarks>
-        /// A quantity of zero will remove the item from the cart altogether.
+        /// A quantity of zero will remove the item from the cart altogether. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -590,7 +590,7 @@ namespace com.knetikcloud.Api
         /// Changes the quantity of an item already in the cart
         /// </summary>
         /// <remarks>
-        /// A quantity of zero will remove the item from the cart altogether.
+        /// A quantity of zero will remove the item from the cart altogether. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -601,7 +601,7 @@ namespace com.knetikcloud.Api
         /// Modifies or sets the order shipping address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -613,7 +613,7 @@ namespace com.knetikcloud.Api
         /// Modifies or sets the order shipping address
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -721,7 +721,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a custom discount to the cart 
+        /// Adds a custom discount to the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -733,7 +733,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a custom discount to the cart 
+        /// Adds a custom discount to the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -809,7 +809,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a custom discount to the cart 
+        /// Adds a custom discount to the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -822,7 +822,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a custom discount to the cart 
+        /// Adds a custom discount to the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -898,7 +898,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a discount coupon to the cart 
+        /// Adds a discount coupon to the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -910,7 +910,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a discount coupon to the cart 
+        /// Adds a discount coupon to the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -986,7 +986,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a discount coupon to the cart 
+        /// Adds a discount coupon to the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -999,7 +999,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a discount coupon to the cart 
+        /// Adds a discount coupon to the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1075,7 +1075,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add an item to the cart Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment
+        /// Add an item to the cart Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1087,7 +1087,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add an item to the cart Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment
+        /// Add an item to the cart Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1163,7 +1163,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add an item to the cart Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment
+        /// Add an item to the cart Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1176,7 +1176,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add an item to the cart Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment
+        /// Add an item to the cart Currently, carts cannot contain virtual and real currency items at the same time. Furthermore, the API only support a single virtual item at the moment. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1252,7 +1252,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a cart You don&#39;t have to have a user to create a cart but the API requires authentication to checkout
+        /// Create a cart You don&#39;t have to have a user to create a cart but the API requires authentication to checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="owner">Set the owner of a cart. If not specified, defaults to the calling user&#39;s id. If specified and is not the calling user&#39;s id, SHOPPING_CARTS_ADMIN permission is required (optional)</param>
@@ -1265,7 +1265,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a cart You don&#39;t have to have a user to create a cart but the API requires authentication to checkout
+        /// Create a cart You don&#39;t have to have a user to create a cart but the API requires authentication to checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="owner">Set the owner of a cart. If not specified, defaults to the calling user&#39;s id. If specified and is not the calling user&#39;s id, SHOPPING_CARTS_ADMIN permission is required (optional)</param>
@@ -1331,7 +1331,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a cart You don&#39;t have to have a user to create a cart but the API requires authentication to checkout
+        /// Create a cart You don&#39;t have to have a user to create a cart but the API requires authentication to checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="owner">Set the owner of a cart. If not specified, defaults to the calling user&#39;s id. If specified and is not the calling user&#39;s id, SHOPPING_CARTS_ADMIN permission is required (optional)</param>
@@ -1345,7 +1345,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a cart You don&#39;t have to have a user to create a cart but the API requires authentication to checkout
+        /// Create a cart You don&#39;t have to have a user to create a cart but the API requires authentication to checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="owner">Set the owner of a cart. If not specified, defaults to the calling user&#39;s id. If specified and is not the calling user&#39;s id, SHOPPING_CARTS_ADMIN permission is required (optional)</param>
@@ -1411,7 +1411,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the cart with the given GUID 
+        /// Returns the cart with the given GUID &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1423,7 +1423,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the cart with the given GUID 
+        /// Returns the cart with the given GUID &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1444,7 +1444,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1490,7 +1489,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the cart with the given GUID 
+        /// Returns the cart with the given GUID &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1503,7 +1502,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the cart with the given GUID 
+        /// Returns the cart with the given GUID &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1524,7 +1523,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1570,7 +1568,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of carts 
+        /// Get a list of carts &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterOwnerId">Filter by the id of the owner (optional)</param>
@@ -1585,7 +1583,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of carts 
+        /// Get a list of carts &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterOwnerId">Filter by the id of the owner (optional)</param>
@@ -1606,7 +1604,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1655,7 +1652,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of carts 
+        /// Get a list of carts &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterOwnerId">Filter by the id of the owner (optional)</param>
@@ -1671,7 +1668,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of carts 
+        /// Get a list of carts &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterOwnerId">Filter by the id of the owner (optional)</param>
@@ -1692,7 +1689,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1741,7 +1737,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns whether a cart requires shipping 
+        /// Returns whether a cart requires shipping &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1753,7 +1749,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns whether a cart requires shipping 
+        /// Returns whether a cart requires shipping &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1774,7 +1770,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1820,7 +1815,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns whether a cart requires shipping 
+        /// Returns whether a cart requires shipping &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1833,7 +1828,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns whether a cart requires shipping 
+        /// Returns whether a cart requires shipping &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1854,7 +1849,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1900,7 +1894,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get the list of available shipping countries per vendor Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable.
+        /// Get the list of available shipping countries per vendor Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1912,7 +1906,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get the list of available shipping countries per vendor Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable.
+        /// Get the list of available shipping countries per vendor Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1933,7 +1927,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1979,7 +1972,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get the list of available shipping countries per vendor Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable.
+        /// Get the list of available shipping countries per vendor Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -1992,7 +1985,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get the list of available shipping countries per vendor Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable.
+        /// Get the list of available shipping countries per vendor Since a cart can have multiple vendors with different shipping options, the countries are broken down by vendors. Please see notes about the response object as the fields are variable. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2013,7 +2006,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2059,7 +2051,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a discount coupon from the cart 
+        /// Removes a discount coupon from the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2071,7 +2063,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a discount coupon from the cart 
+        /// Removes a discount coupon from the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2096,7 +2088,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2143,7 +2134,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a discount coupon from the cart 
+        /// Removes a discount coupon from the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2156,7 +2147,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a discount coupon from the cart 
+        /// Removes a discount coupon from the cart &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2181,7 +2172,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2228,7 +2218,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the currency to use for the cart May be disallowed by site settings.
+        /// Sets the currency to use for the cart May be disallowed by site settings. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2240,7 +2230,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the currency to use for the cart May be disallowed by site settings.
+        /// Sets the currency to use for the cart May be disallowed by site settings. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2316,7 +2306,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the currency to use for the cart May be disallowed by site settings.
+        /// Sets the currency to use for the cart May be disallowed by site settings. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2329,7 +2319,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the currency to use for the cart May be disallowed by site settings.
+        /// Sets the currency to use for the cart May be disallowed by site settings. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2405,7 +2395,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the owner of a cart if none is set already 
+        /// Sets the owner of a cart if none is set already &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2417,7 +2407,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the owner of a cart if none is set already 
+        /// Sets the owner of a cart if none is set already &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2493,7 +2483,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the owner of a cart if none is set already 
+        /// Sets the owner of a cart if none is set already &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2506,7 +2496,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the owner of a cart if none is set already 
+        /// Sets the owner of a cart if none is set already &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2582,7 +2572,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Changes the quantity of an item already in the cart A quantity of zero will remove the item from the cart altogether.
+        /// Changes the quantity of an item already in the cart A quantity of zero will remove the item from the cart altogether. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2594,7 +2584,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Changes the quantity of an item already in the cart A quantity of zero will remove the item from the cart altogether.
+        /// Changes the quantity of an item already in the cart A quantity of zero will remove the item from the cart altogether. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2670,7 +2660,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Changes the quantity of an item already in the cart A quantity of zero will remove the item from the cart altogether.
+        /// Changes the quantity of an item already in the cart A quantity of zero will remove the item from the cart altogether. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2683,7 +2673,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Changes the quantity of an item already in the cart A quantity of zero will remove the item from the cart altogether.
+        /// Changes the quantity of an item already in the cart A quantity of zero will remove the item from the cart altogether. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2759,7 +2749,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Modifies or sets the order shipping address 
+        /// Modifies or sets the order shipping address &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2771,7 +2761,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Modifies or sets the order shipping address 
+        /// Modifies or sets the order shipping address &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2847,7 +2837,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Modifies or sets the order shipping address 
+        /// Modifies or sets the order shipping address &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>
@@ -2860,7 +2850,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Modifies or sets the order shipping address 
+        /// Modifies or sets the order shipping address &lt;b&gt;Permissions Needed:&lt;/b&gt; SHOPPING_CARTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the cart</param>

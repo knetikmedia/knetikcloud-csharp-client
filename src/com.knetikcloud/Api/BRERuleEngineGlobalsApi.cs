@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a global definition
         /// </summary>
         /// <remarks>
-        /// Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use.
+        /// Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breGlobalResource">The BRE global resource object (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Create a global definition
         /// </summary>
         /// <remarks>
-        /// Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use.
+        /// Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breGlobalResource">The BRE global resource object (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Delete a global
         /// </summary>
         /// <remarks>
-        /// May fail if there are existing rules against it. Cannot delete core globals
+        /// May fail if there are existing rules against it. Cannot delete core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -60,7 +60,7 @@ namespace com.knetikcloud.Api
         /// Delete a global
         /// </summary>
         /// <remarks>
-        /// May fail if there are existing rules against it. Cannot delete core globals
+        /// May fail if there are existing rules against it. Cannot delete core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Get a single global definition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -81,7 +81,7 @@ namespace com.knetikcloud.Api
         /// Get a single global definition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// List global definitions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for globals that are system globals when true, or not when false. Leave off for both mixed (optional)</param>
@@ -104,7 +104,7 @@ namespace com.knetikcloud.Api
         /// List global definitions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for globals that are system globals when true, or not when false. Leave off for both mixed (optional)</param>
@@ -116,7 +116,7 @@ namespace com.knetikcloud.Api
         /// Update a global definition
         /// </summary>
         /// <remarks>
-        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core globals
+        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -128,7 +128,7 @@ namespace com.knetikcloud.Api
         /// Update a global definition
         /// </summary>
         /// <remarks>
-        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core globals
+        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -141,7 +141,7 @@ namespace com.knetikcloud.Api
         /// Create a global definition
         /// </summary>
         /// <remarks>
-        /// Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use.
+        /// Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breGlobalResource">The BRE global resource object (optional)</param>
@@ -152,7 +152,7 @@ namespace com.knetikcloud.Api
         /// Create a global definition
         /// </summary>
         /// <remarks>
-        /// Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use.
+        /// Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breGlobalResource">The BRE global resource object (optional)</param>
@@ -162,7 +162,7 @@ namespace com.knetikcloud.Api
         /// Delete a global
         /// </summary>
         /// <remarks>
-        /// May fail if there are existing rules against it. Cannot delete core globals
+        /// May fail if there are existing rules against it. Cannot delete core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -173,7 +173,7 @@ namespace com.knetikcloud.Api
         /// Delete a global
         /// </summary>
         /// <remarks>
-        /// May fail if there are existing rules against it. Cannot delete core globals
+        /// May fail if there are existing rules against it. Cannot delete core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -183,7 +183,7 @@ namespace com.knetikcloud.Api
         /// Get a single global definition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -194,7 +194,7 @@ namespace com.knetikcloud.Api
         /// Get a single global definition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -204,7 +204,7 @@ namespace com.knetikcloud.Api
         /// List global definitions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for globals that are system globals when true, or not when false. Leave off for both mixed (optional)</param>
@@ -217,7 +217,7 @@ namespace com.knetikcloud.Api
         /// List global definitions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for globals that are system globals when true, or not when false. Leave off for both mixed (optional)</param>
@@ -229,7 +229,7 @@ namespace com.knetikcloud.Api
         /// Update a global definition
         /// </summary>
         /// <remarks>
-        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core globals
+        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -241,7 +241,7 @@ namespace com.knetikcloud.Api
         /// Update a global definition
         /// </summary>
         /// <remarks>
-        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core globals
+        /// May fail if new parameters mismatch requirements of existing rules. Cannot update core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -349,7 +349,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a global definition Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use.
+        /// Create a global definition Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breGlobalResource">The BRE global resource object (optional)</param>
@@ -361,7 +361,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a global definition Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use.
+        /// Create a global definition Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breGlobalResource">The BRE global resource object (optional)</param>
@@ -432,7 +432,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a global definition Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use.
+        /// Create a global definition Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breGlobalResource">The BRE global resource object (optional)</param>
@@ -445,7 +445,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a global definition Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use.
+        /// Create a global definition Once created you can then use in a custom rule. Note that global definitions cannot be modified or deleted if in use. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="breGlobalResource">The BRE global resource object (optional)</param>
@@ -516,7 +516,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a global May fail if there are existing rules against it. Cannot delete core globals
+        /// Delete a global May fail if there are existing rules against it. Cannot delete core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -527,7 +527,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a global May fail if there are existing rules against it. Cannot delete core globals
+        /// Delete a global May fail if there are existing rules against it. Cannot delete core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -548,7 +548,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -594,7 +593,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a global May fail if there are existing rules against it. Cannot delete core globals
+        /// Delete a global May fail if there are existing rules against it. Cannot delete core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -606,7 +605,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a global May fail if there are existing rules against it. Cannot delete core globals
+        /// Delete a global May fail if there are existing rules against it. Cannot delete core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -627,7 +626,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -673,7 +671,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single global definition 
+        /// Get a single global definition &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -685,7 +683,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single global definition 
+        /// Get a single global definition &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -706,7 +704,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -752,7 +749,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single global definition 
+        /// Get a single global definition &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -765,7 +762,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single global definition 
+        /// Get a single global definition &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -786,7 +783,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -832,7 +828,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List global definitions 
+        /// List global definitions &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for globals that are system globals when true, or not when false. Leave off for both mixed (optional)</param>
@@ -846,7 +842,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List global definitions 
+        /// List global definitions &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for globals that are system globals when true, or not when false. Leave off for both mixed (optional)</param>
@@ -866,7 +862,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -914,7 +909,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List global definitions 
+        /// List global definitions &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for globals that are system globals when true, or not when false. Leave off for both mixed (optional)</param>
@@ -929,7 +924,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List global definitions 
+        /// List global definitions &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSystem">Filter for globals that are system globals when true, or not when false. Leave off for both mixed (optional)</param>
@@ -949,7 +944,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -997,7 +991,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a global definition May fail if new parameters mismatch requirements of existing rules. Cannot update core globals
+        /// Update a global definition May fail if new parameters mismatch requirements of existing rules. Cannot update core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -1010,7 +1004,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a global definition May fail if new parameters mismatch requirements of existing rules. Cannot update core globals
+        /// Update a global definition May fail if new parameters mismatch requirements of existing rules. Cannot update core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -1086,7 +1080,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a global definition May fail if new parameters mismatch requirements of existing rules. Cannot update core globals
+        /// Update a global definition May fail if new parameters mismatch requirements of existing rules. Cannot update core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>
@@ -1100,7 +1094,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a global definition May fail if new parameters mismatch requirements of existing rules. Cannot update core globals
+        /// Update a global definition May fail if new parameters mismatch requirements of existing rules. Cannot update core globals. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_GLOBALS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the global definition</param>

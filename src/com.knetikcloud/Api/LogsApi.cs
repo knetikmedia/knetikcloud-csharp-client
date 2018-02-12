@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Add a user log entry
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="logEntry">The user log entry to be added (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Add a user log entry
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="logEntry">The user log entry to be added (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Get an existing BRE event log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The BRE event log entry id</param>
@@ -60,7 +60,7 @@ namespace com.knetikcloud.Api
         /// Get an existing BRE event log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The BRE event log entry id</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Returns a list of BRE event log entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the event log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
@@ -79,14 +79,15 @@ namespace com.knetikcloud.Api
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
+        /// <param name="filterRuleId">Filter event logs by request id (optional)</param>
         /// <returns>PageResourceBreEventLog</returns>
-        PageResourceBreEventLog GetBREEventLogs (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null);
+        PageResourceBreEventLog GetBREEventLogs (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null, string filterRuleId = null);
 
         /// <summary>
         /// Returns a list of BRE event log entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the event log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
@@ -95,13 +96,14 @@ namespace com.knetikcloud.Api
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
+        /// <param name="filterRuleId">Filter event logs by request id (optional)</param>
         /// <returns>ApiResponse of PageResourceBreEventLog</returns>
-        ApiResponse<PageResourceBreEventLog> GetBREEventLogsWithHttpInfo (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null);
+        ApiResponse<PageResourceBreEventLog> GetBREEventLogsWithHttpInfo (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null, string filterRuleId = null);
         /// <summary>
         /// Get an existing forward log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The forward log entry id</param>
@@ -112,7 +114,7 @@ namespace com.knetikcloud.Api
         /// Get an existing forward log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The forward log entry id</param>
@@ -122,38 +124,40 @@ namespace com.knetikcloud.Api
         /// Returns a list of forward log entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterEndDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log end date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterStatusCode">Filter forward logs by http status code (optional)</param>
+        /// <param name="filterUrl">Filter forward logs by URL starting with... (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
         /// <returns>PageResourceForwardLog</returns>
-        PageResourceForwardLog GetBREForwardLogs (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? size = null, int? page = null, string order = null);
+        PageResourceForwardLog GetBREForwardLogs (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? filterUrl = null, int? size = null, int? page = null, string order = null);
 
         /// <summary>
         /// Returns a list of forward log entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterEndDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log end date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterStatusCode">Filter forward logs by http status code (optional)</param>
+        /// <param name="filterUrl">Filter forward logs by URL starting with... (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
         /// <returns>ApiResponse of PageResourceForwardLog</returns>
-        ApiResponse<PageResourceForwardLog> GetBREForwardLogsWithHttpInfo (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? size = null, int? page = null, string order = null);
+        ApiResponse<PageResourceForwardLog> GetBREForwardLogsWithHttpInfo (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? filterUrl = null, int? size = null, int? page = null, string order = null);
         /// <summary>
         /// Returns a user log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The user log entry id</param>
@@ -164,7 +168,7 @@ namespace com.knetikcloud.Api
         /// Returns a user log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The user log entry id</param>
@@ -174,7 +178,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of user logs entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterUser">Filter for actions taken by a specific user by id (optional)</param>
@@ -189,7 +193,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of user logs entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterUser">Filter for actions taken by a specific user by id (optional)</param>
@@ -205,7 +209,7 @@ namespace com.knetikcloud.Api
         /// Add a user log entry
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="logEntry">The user log entry to be added (optional)</param>
@@ -216,7 +220,7 @@ namespace com.knetikcloud.Api
         /// Add a user log entry
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="logEntry">The user log entry to be added (optional)</param>
@@ -226,7 +230,7 @@ namespace com.knetikcloud.Api
         /// Get an existing BRE event log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The BRE event log entry id</param>
@@ -237,7 +241,7 @@ namespace com.knetikcloud.Api
         /// Get an existing BRE event log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The BRE event log entry id</param>
@@ -247,7 +251,7 @@ namespace com.knetikcloud.Api
         /// Returns a list of BRE event log entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the event log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
@@ -256,14 +260,15 @@ namespace com.knetikcloud.Api
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
+        /// <param name="filterRuleId">Filter event logs by request id (optional)</param>
         /// <returns>Task of PageResourceBreEventLog</returns>
-        System.Threading.Tasks.Task<PageResourceBreEventLog> GetBREEventLogsAsync (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null);
+        System.Threading.Tasks.Task<PageResourceBreEventLog> GetBREEventLogsAsync (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null, string filterRuleId = null);
 
         /// <summary>
         /// Returns a list of BRE event log entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the event log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
@@ -272,13 +277,14 @@ namespace com.knetikcloud.Api
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
+        /// <param name="filterRuleId">Filter event logs by request id (optional)</param>
         /// <returns>Task of ApiResponse (PageResourceBreEventLog)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PageResourceBreEventLog>> GetBREEventLogsAsyncWithHttpInfo (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null);
+        System.Threading.Tasks.Task<ApiResponse<PageResourceBreEventLog>> GetBREEventLogsAsyncWithHttpInfo (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null, string filterRuleId = null);
         /// <summary>
         /// Get an existing forward log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The forward log entry id</param>
@@ -289,7 +295,7 @@ namespace com.knetikcloud.Api
         /// Get an existing forward log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The forward log entry id</param>
@@ -299,38 +305,40 @@ namespace com.knetikcloud.Api
         /// Returns a list of forward log entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterEndDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log end date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterStatusCode">Filter forward logs by http status code (optional)</param>
+        /// <param name="filterUrl">Filter forward logs by URL starting with... (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
         /// <returns>Task of PageResourceForwardLog</returns>
-        System.Threading.Tasks.Task<PageResourceForwardLog> GetBREForwardLogsAsync (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? size = null, int? page = null, string order = null);
+        System.Threading.Tasks.Task<PageResourceForwardLog> GetBREForwardLogsAsync (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? filterUrl = null, int? size = null, int? page = null, string order = null);
 
         /// <summary>
         /// Returns a list of forward log entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterEndDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log end date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterStatusCode">Filter forward logs by http status code (optional)</param>
+        /// <param name="filterUrl">Filter forward logs by URL starting with... (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
         /// <returns>Task of ApiResponse (PageResourceForwardLog)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PageResourceForwardLog>> GetBREForwardLogsAsyncWithHttpInfo (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? size = null, int? page = null, string order = null);
+        System.Threading.Tasks.Task<ApiResponse<PageResourceForwardLog>> GetBREForwardLogsAsyncWithHttpInfo (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? filterUrl = null, int? size = null, int? page = null, string order = null);
         /// <summary>
         /// Returns a user log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The user log entry id</param>
@@ -341,7 +349,7 @@ namespace com.knetikcloud.Api
         /// Returns a user log entry by id
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The user log entry id</param>
@@ -351,7 +359,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of user logs entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterUser">Filter for actions taken by a specific user by id (optional)</param>
@@ -366,7 +374,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of user logs entries
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterUser">Filter for actions taken by a specific user by id (optional)</param>
@@ -477,7 +485,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a user log entry 
+        /// Add a user log entry &lt;b&gt;Permissions Needed:&lt;/b&gt; owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="logEntry">The user log entry to be added (optional)</param>
@@ -488,7 +496,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a user log entry 
+        /// Add a user log entry &lt;b&gt;Permissions Needed:&lt;/b&gt; owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="logEntry">The user log entry to be added (optional)</param>
@@ -559,7 +567,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a user log entry 
+        /// Add a user log entry &lt;b&gt;Permissions Needed:&lt;/b&gt; owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="logEntry">The user log entry to be added (optional)</param>
@@ -571,7 +579,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a user log entry 
+        /// Add a user log entry &lt;b&gt;Permissions Needed:&lt;/b&gt; owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="logEntry">The user log entry to be added (optional)</param>
@@ -642,7 +650,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an existing BRE event log entry by id 
+        /// Get an existing BRE event log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The BRE event log entry id</param>
@@ -654,7 +662,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an existing BRE event log entry by id 
+        /// Get an existing BRE event log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The BRE event log entry id</param>
@@ -675,7 +683,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -721,7 +728,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an existing BRE event log entry by id 
+        /// Get an existing BRE event log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The BRE event log entry id</param>
@@ -734,7 +741,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an existing BRE event log entry by id 
+        /// Get an existing BRE event log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The BRE event log entry id</param>
@@ -755,7 +762,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -801,7 +807,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a list of BRE event log entries 
+        /// Returns a list of BRE event log entries &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the event log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
@@ -810,15 +816,16 @@ namespace com.knetikcloud.Api
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
+        /// <param name="filterRuleId">Filter event logs by request id (optional)</param>
         /// <returns>PageResourceBreEventLog</returns>
-        public PageResourceBreEventLog GetBREEventLogs (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null)
+        public PageResourceBreEventLog GetBREEventLogs (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null, string filterRuleId = null)
         {
-             ApiResponse<PageResourceBreEventLog> localVarResponse = GetBREEventLogsWithHttpInfo(filterStartDate, filterEventName, filterEventId, size, page, order);
+             ApiResponse<PageResourceBreEventLog> localVarResponse = GetBREEventLogsWithHttpInfo(filterStartDate, filterEventName, filterEventId, size, page, order, filterRuleId);
              return localVarResponse.Data;
         }
 
         /// <summary>
-        /// Returns a list of BRE event log entries 
+        /// Returns a list of BRE event log entries &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the event log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
@@ -827,8 +834,9 @@ namespace com.knetikcloud.Api
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
+        /// <param name="filterRuleId">Filter event logs by request id (optional)</param>
         /// <returns>ApiResponse of PageResourceBreEventLog</returns>
-        public ApiResponse< PageResourceBreEventLog > GetBREEventLogsWithHttpInfo (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null)
+        public ApiResponse< PageResourceBreEventLog > GetBREEventLogsWithHttpInfo (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null, string filterRuleId = null)
         {
 
             var localVarPath = "/bre/logs/event-log";
@@ -841,7 +849,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -859,6 +866,7 @@ namespace com.knetikcloud.Api
             if (size != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "size", size)); // query parameter
             if (page != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "page", page)); // query parameter
             if (order != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "order", order)); // query parameter
+            if (filterRuleId != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_rule_id", filterRuleId)); // query parameter
 
             // authentication (oauth2_client_credentials_grant) required
             // oauth required
@@ -892,7 +900,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a list of BRE event log entries 
+        /// Returns a list of BRE event log entries &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the event log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
@@ -901,16 +909,17 @@ namespace com.knetikcloud.Api
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
+        /// <param name="filterRuleId">Filter event logs by request id (optional)</param>
         /// <returns>Task of PageResourceBreEventLog</returns>
-        public async System.Threading.Tasks.Task<PageResourceBreEventLog> GetBREEventLogsAsync (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null)
+        public async System.Threading.Tasks.Task<PageResourceBreEventLog> GetBREEventLogsAsync (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null, string filterRuleId = null)
         {
-             ApiResponse<PageResourceBreEventLog> localVarResponse = await GetBREEventLogsAsyncWithHttpInfo(filterStartDate, filterEventName, filterEventId, size, page, order);
+             ApiResponse<PageResourceBreEventLog> localVarResponse = await GetBREEventLogsAsyncWithHttpInfo(filterStartDate, filterEventName, filterEventId, size, page, order, filterRuleId);
              return localVarResponse.Data;
 
         }
 
         /// <summary>
-        /// Returns a list of BRE event log entries 
+        /// Returns a list of BRE event log entries &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the event log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
@@ -919,8 +928,9 @@ namespace com.knetikcloud.Api
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
+        /// <param name="filterRuleId">Filter event logs by request id (optional)</param>
         /// <returns>Task of ApiResponse (PageResourceBreEventLog)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<PageResourceBreEventLog>> GetBREEventLogsAsyncWithHttpInfo (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null)
+        public async System.Threading.Tasks.Task<ApiResponse<PageResourceBreEventLog>> GetBREEventLogsAsyncWithHttpInfo (string filterStartDate = null, string filterEventName = null, string filterEventId = null, int? size = null, int? page = null, string order = null, string filterRuleId = null)
         {
 
             var localVarPath = "/bre/logs/event-log";
@@ -933,7 +943,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -951,6 +960,7 @@ namespace com.knetikcloud.Api
             if (size != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "size", size)); // query parameter
             if (page != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "page", page)); // query parameter
             if (order != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "order", order)); // query parameter
+            if (filterRuleId != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_rule_id", filterRuleId)); // query parameter
 
             // authentication (oauth2_client_credentials_grant) required
             // oauth required
@@ -984,7 +994,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an existing forward log entry by id 
+        /// Get an existing forward log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The forward log entry id</param>
@@ -996,7 +1006,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an existing forward log entry by id 
+        /// Get an existing forward log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The forward log entry id</param>
@@ -1017,7 +1027,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1063,7 +1072,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an existing forward log entry by id 
+        /// Get an existing forward log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The forward log entry id</param>
@@ -1076,7 +1085,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an existing forward log entry by id 
+        /// Get an existing forward log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The forward log entry id</param>
@@ -1097,7 +1106,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1143,34 +1151,36 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a list of forward log entries 
+        /// Returns a list of forward log entries &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterEndDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log end date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterStatusCode">Filter forward logs by http status code (optional)</param>
+        /// <param name="filterUrl">Filter forward logs by URL starting with... (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
         /// <returns>PageResourceForwardLog</returns>
-        public PageResourceForwardLog GetBREForwardLogs (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? size = null, int? page = null, string order = null)
+        public PageResourceForwardLog GetBREForwardLogs (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? filterUrl = null, int? size = null, int? page = null, string order = null)
         {
-             ApiResponse<PageResourceForwardLog> localVarResponse = GetBREForwardLogsWithHttpInfo(filterStartDate, filterEndDate, filterStatusCode, size, page, order);
+             ApiResponse<PageResourceForwardLog> localVarResponse = GetBREForwardLogsWithHttpInfo(filterStartDate, filterEndDate, filterStatusCode, filterUrl, size, page, order);
              return localVarResponse.Data;
         }
 
         /// <summary>
-        /// Returns a list of forward log entries 
+        /// Returns a list of forward log entries &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterEndDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log end date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterStatusCode">Filter forward logs by http status code (optional)</param>
+        /// <param name="filterUrl">Filter forward logs by URL starting with... (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
         /// <returns>ApiResponse of PageResourceForwardLog</returns>
-        public ApiResponse< PageResourceForwardLog > GetBREForwardLogsWithHttpInfo (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? size = null, int? page = null, string order = null)
+        public ApiResponse< PageResourceForwardLog > GetBREForwardLogsWithHttpInfo (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? filterUrl = null, int? size = null, int? page = null, string order = null)
         {
 
             var localVarPath = "/bre/logs/forward-log";
@@ -1183,7 +1193,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1198,6 +1207,7 @@ namespace com.knetikcloud.Api
             if (filterStartDate != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_start_date", filterStartDate)); // query parameter
             if (filterEndDate != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_end_date", filterEndDate)); // query parameter
             if (filterStatusCode != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_status_code", filterStatusCode)); // query parameter
+            if (filterUrl != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_url", filterUrl)); // query parameter
             if (size != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "size", size)); // query parameter
             if (page != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "page", page)); // query parameter
             if (order != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "order", order)); // query parameter
@@ -1234,35 +1244,37 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a list of forward log entries 
+        /// Returns a list of forward log entries &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterEndDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log end date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterStatusCode">Filter forward logs by http status code (optional)</param>
+        /// <param name="filterUrl">Filter forward logs by URL starting with... (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
         /// <returns>Task of PageResourceForwardLog</returns>
-        public async System.Threading.Tasks.Task<PageResourceForwardLog> GetBREForwardLogsAsync (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? size = null, int? page = null, string order = null)
+        public async System.Threading.Tasks.Task<PageResourceForwardLog> GetBREForwardLogsAsync (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? filterUrl = null, int? size = null, int? page = null, string order = null)
         {
-             ApiResponse<PageResourceForwardLog> localVarResponse = await GetBREForwardLogsAsyncWithHttpInfo(filterStartDate, filterEndDate, filterStatusCode, size, page, order);
+             ApiResponse<PageResourceForwardLog> localVarResponse = await GetBREForwardLogsAsyncWithHttpInfo(filterStartDate, filterEndDate, filterStatusCode, filterUrl, size, page, order);
              return localVarResponse.Data;
 
         }
 
         /// <summary>
-        /// Returns a list of forward log entries 
+        /// Returns a list of forward log entries &lt;b&gt;Permissions Needed:&lt;/b&gt; BRE_RULE_ENGINE_EVENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterStartDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log start date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterEndDate">A comma separated string without spaces.  First value is the operator to search on, second value is the log end date, a unix timestamp in seconds.  Allowed operators: (GT, LT, EQ, GOE, LOE). (optional)</param>
         /// <param name="filterStatusCode">Filter forward logs by http status code (optional)</param>
+        /// <param name="filterUrl">Filter forward logs by URL starting with... (optional)</param>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
         /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to id:DESC)</param>
         /// <returns>Task of ApiResponse (PageResourceForwardLog)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<PageResourceForwardLog>> GetBREForwardLogsAsyncWithHttpInfo (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? size = null, int? page = null, string order = null)
+        public async System.Threading.Tasks.Task<ApiResponse<PageResourceForwardLog>> GetBREForwardLogsAsyncWithHttpInfo (string filterStartDate = null, string filterEndDate = null, int? filterStatusCode = null, int? filterUrl = null, int? size = null, int? page = null, string order = null)
         {
 
             var localVarPath = "/bre/logs/forward-log";
@@ -1275,7 +1287,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1290,6 +1301,7 @@ namespace com.knetikcloud.Api
             if (filterStartDate != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_start_date", filterStartDate)); // query parameter
             if (filterEndDate != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_end_date", filterEndDate)); // query parameter
             if (filterStatusCode != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_status_code", filterStatusCode)); // query parameter
+            if (filterUrl != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "filter_url", filterUrl)); // query parameter
             if (size != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "size", size)); // query parameter
             if (page != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "page", page)); // query parameter
             if (order != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "order", order)); // query parameter
@@ -1326,7 +1338,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a user log entry by id 
+        /// Returns a user log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The user log entry id</param>
@@ -1338,7 +1350,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a user log entry by id 
+        /// Returns a user log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The user log entry id</param>
@@ -1359,7 +1371,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1405,7 +1416,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a user log entry by id 
+        /// Returns a user log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The user log entry id</param>
@@ -1418,7 +1429,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a user log entry by id 
+        /// Returns a user log entry by id &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The user log entry id</param>
@@ -1439,7 +1450,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1485,7 +1495,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of user logs entries 
+        /// Returns a page of user logs entries &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterUser">Filter for actions taken by a specific user by id (optional)</param>
@@ -1501,7 +1511,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of user logs entries 
+        /// Returns a page of user logs entries &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterUser">Filter for actions taken by a specific user by id (optional)</param>
@@ -1523,7 +1533,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1573,7 +1582,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of user logs entries 
+        /// Returns a page of user logs entries &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterUser">Filter for actions taken by a specific user by id (optional)</param>
@@ -1590,7 +1599,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of user logs entries 
+        /// Returns a page of user logs entries &lt;b&gt;Permissions Needed:&lt;/b&gt; LOGS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterUser">Filter for actions taken by a specific user by id (optional)</param>
@@ -1612,7 +1621,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 

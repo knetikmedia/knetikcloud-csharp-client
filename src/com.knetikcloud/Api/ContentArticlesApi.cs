@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a new article
         /// </summary>
         /// <remarks>
-        /// Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.
+        /// Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.&lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleResource">The new article (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Create a new article
         /// </summary>
         /// <remarks>
-        /// Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.
+        /// Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.&lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleResource">The new article (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Create an article template
         /// </summary>
         /// <remarks>
-        /// Article Templates define a type of article and the properties they have
+        /// Article Templates define a type of article and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleTemplateResource">The article template resource object (optional)</param>
@@ -60,7 +60,7 @@ namespace com.knetikcloud.Api
         /// Create an article template
         /// </summary>
         /// <remarks>
-        /// Article Templates define a type of article and the properties they have
+        /// Article Templates define a type of article and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleTemplateResource">The article template resource object (optional)</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -81,7 +81,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// Delete an article template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -103,7 +103,7 @@ namespace com.knetikcloud.Api
         /// Delete an article template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -114,7 +114,7 @@ namespace com.knetikcloud.Api
         /// Get a single article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -125,7 +125,7 @@ namespace com.knetikcloud.Api
         /// Get a single article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -135,7 +135,7 @@ namespace com.knetikcloud.Api
         /// Get a single article template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -146,7 +146,7 @@ namespace com.knetikcloud.Api
         /// Get a single article template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -156,7 +156,7 @@ namespace com.knetikcloud.Api
         /// List and search article templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -169,7 +169,7 @@ namespace com.knetikcloud.Api
         /// List and search article templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -181,7 +181,7 @@ namespace com.knetikcloud.Api
         /// List and search articles
         /// </summary>
         /// <remarks>
-        /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
+        /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
@@ -200,7 +200,7 @@ namespace com.knetikcloud.Api
         /// List and search articles
         /// </summary>
         /// <remarks>
-        /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
+        /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
@@ -218,7 +218,7 @@ namespace com.knetikcloud.Api
         /// Update an existing article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -230,7 +230,7 @@ namespace com.knetikcloud.Api
         /// Update an existing article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -241,7 +241,7 @@ namespace com.knetikcloud.Api
         /// Update an article template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -253,7 +253,7 @@ namespace com.knetikcloud.Api
         /// Update an article template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -266,7 +266,7 @@ namespace com.knetikcloud.Api
         /// Create a new article
         /// </summary>
         /// <remarks>
-        /// Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.
+        /// Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.&lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleResource">The new article (optional)</param>
@@ -277,7 +277,7 @@ namespace com.knetikcloud.Api
         /// Create a new article
         /// </summary>
         /// <remarks>
-        /// Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.
+        /// Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.&lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleResource">The new article (optional)</param>
@@ -287,7 +287,7 @@ namespace com.knetikcloud.Api
         /// Create an article template
         /// </summary>
         /// <remarks>
-        /// Article Templates define a type of article and the properties they have
+        /// Article Templates define a type of article and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleTemplateResource">The article template resource object (optional)</param>
@@ -298,7 +298,7 @@ namespace com.knetikcloud.Api
         /// Create an article template
         /// </summary>
         /// <remarks>
-        /// Article Templates define a type of article and the properties they have
+        /// Article Templates define a type of article and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleTemplateResource">The article template resource object (optional)</param>
@@ -308,7 +308,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -319,7 +319,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -329,7 +329,7 @@ namespace com.knetikcloud.Api
         /// Delete an article template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -341,7 +341,7 @@ namespace com.knetikcloud.Api
         /// Delete an article template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -352,7 +352,7 @@ namespace com.knetikcloud.Api
         /// Get a single article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -363,7 +363,7 @@ namespace com.knetikcloud.Api
         /// Get a single article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -373,7 +373,7 @@ namespace com.knetikcloud.Api
         /// Get a single article template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -384,7 +384,7 @@ namespace com.knetikcloud.Api
         /// Get a single article template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -394,7 +394,7 @@ namespace com.knetikcloud.Api
         /// List and search article templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -407,7 +407,7 @@ namespace com.knetikcloud.Api
         /// List and search article templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -419,7 +419,7 @@ namespace com.knetikcloud.Api
         /// List and search articles
         /// </summary>
         /// <remarks>
-        /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
+        /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
@@ -438,7 +438,7 @@ namespace com.knetikcloud.Api
         /// List and search articles
         /// </summary>
         /// <remarks>
-        /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
+        /// Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
@@ -456,7 +456,7 @@ namespace com.knetikcloud.Api
         /// Update an existing article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -468,7 +468,7 @@ namespace com.knetikcloud.Api
         /// Update an existing article
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -479,7 +479,7 @@ namespace com.knetikcloud.Api
         /// Update an article template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -491,7 +491,7 @@ namespace com.knetikcloud.Api
         /// Update an article template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -599,7 +599,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new article Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.
+        /// Create a new article Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.&lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleResource">The new article (optional)</param>
@@ -611,7 +611,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new article Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.
+        /// Create a new article Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.&lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleResource">The new article (optional)</param>
@@ -682,7 +682,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new article Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.
+        /// Create a new article Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.&lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleResource">The new article (optional)</param>
@@ -695,7 +695,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new article Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.
+        /// Create a new article Articles are blobs of text with titles, a category and assets. Formatting and display of the text is in the hands of the front end.&lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleResource">The new article (optional)</param>
@@ -766,7 +766,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an article template Article Templates define a type of article and the properties they have
+        /// Create an article template Article Templates define a type of article and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleTemplateResource">The article template resource object (optional)</param>
@@ -778,7 +778,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an article template Article Templates define a type of article and the properties they have
+        /// Create an article template Article Templates define a type of article and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleTemplateResource">The article template resource object (optional)</param>
@@ -849,7 +849,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an article template Article Templates define a type of article and the properties they have
+        /// Create an article template Article Templates define a type of article and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleTemplateResource">The article template resource object (optional)</param>
@@ -862,7 +862,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an article template Article Templates define a type of article and the properties they have
+        /// Create an article template Article Templates define a type of article and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="articleTemplateResource">The article template resource object (optional)</param>
@@ -933,7 +933,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing article 
+        /// Delete an existing article &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -944,7 +944,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing article 
+        /// Delete an existing article &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -965,7 +965,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1011,7 +1010,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing article 
+        /// Delete an existing article &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -1023,7 +1022,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing article 
+        /// Delete an existing article &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -1044,7 +1043,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1090,7 +1088,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an article template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an article template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1102,7 +1100,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an article template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an article template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1124,7 +1122,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1171,7 +1168,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an article template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an article template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1184,7 +1181,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an article template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an article template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1206,7 +1203,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1253,7 +1249,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single article 
+        /// Get a single article &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -1265,7 +1261,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single article 
+        /// Get a single article &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -1286,7 +1282,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1332,7 +1327,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single article 
+        /// Get a single article &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -1345,7 +1340,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single article 
+        /// Get a single article &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -1366,7 +1361,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1412,7 +1406,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single article template 
+        /// Get a single article template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1424,7 +1418,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single article template 
+        /// Get a single article template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1445,7 +1439,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1491,7 +1484,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single article template 
+        /// Get a single article template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1504,7 +1497,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single article template 
+        /// Get a single article template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1525,7 +1518,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1571,7 +1563,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search article templates 
+        /// List and search article templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1585,7 +1577,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search article templates 
+        /// List and search article templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1605,7 +1597,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1653,7 +1644,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search article templates 
+        /// List and search article templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1668,7 +1659,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search article templates 
+        /// List and search article templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1688,7 +1679,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1736,7 +1726,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
+        /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
@@ -1756,7 +1746,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
+        /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
@@ -1782,7 +1772,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1836,7 +1825,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
+        /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
@@ -1857,7 +1846,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed.
+        /// List and search articles Get a list of articles with optional filtering. Assets will not be filled in on the resources returned. Use &#39;Get a single article&#39; to retrieve the full resource with assets for a given item as needed. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActiveOnly">Filter for articles that are active (true) or inactive (false) (optional)</param>
@@ -1883,7 +1872,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1937,7 +1925,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing article 
+        /// Update an existing article &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -1950,7 +1938,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing article 
+        /// Update an existing article &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -2026,7 +2014,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing article 
+        /// Update an existing article &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -2040,7 +2028,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing article 
+        /// Update an existing article &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The article id</param>
@@ -2116,7 +2104,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an article template 
+        /// Update an article template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2129,7 +2117,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an article template 
+        /// Update an article template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2205,7 +2193,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an article template 
+        /// Update an article template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2219,7 +2207,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an article template 
+        /// Update an article template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>

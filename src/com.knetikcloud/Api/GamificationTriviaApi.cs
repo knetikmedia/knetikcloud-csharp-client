@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Add an answer to a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -40,7 +40,7 @@ namespace com.knetikcloud.Api
         /// Add an answer to a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -51,7 +51,7 @@ namespace com.knetikcloud.Api
         /// Add a tag to a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -63,7 +63,7 @@ namespace com.knetikcloud.Api
         /// Add a tag to a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -74,7 +74,7 @@ namespace com.knetikcloud.Api
         /// Add a tag to a batch of questions
         /// </summary>
         /// <remarks>
-        /// All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated.
+        /// All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to add (optional)</param>
@@ -93,7 +93,7 @@ namespace com.knetikcloud.Api
         /// Add a tag to a batch of questions
         /// </summary>
         /// <remarks>
-        /// All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated.
+        /// All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to add (optional)</param>
@@ -111,7 +111,7 @@ namespace com.knetikcloud.Api
         /// Create an import job
         /// </summary>
         /// <remarks>
-        /// Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint.
+        /// Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The new import job (optional)</param>
@@ -122,7 +122,7 @@ namespace com.knetikcloud.Api
         /// Create an import job
         /// </summary>
         /// <remarks>
-        /// Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint.
+        /// Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The new import job (optional)</param>
@@ -132,7 +132,7 @@ namespace com.knetikcloud.Api
         /// Create a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">The new question (optional)</param>
@@ -143,7 +143,7 @@ namespace com.knetikcloud.Api
         /// Create a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">The new question (optional)</param>
@@ -153,7 +153,7 @@ namespace com.knetikcloud.Api
         /// Create a question template
         /// </summary>
         /// <remarks>
-        /// Question templates define a type of question and the properties they have
+        /// Question templates define a type of question and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionTemplateResource">The question template resource object (optional)</param>
@@ -164,7 +164,7 @@ namespace com.knetikcloud.Api
         /// Create a question template
         /// </summary>
         /// <remarks>
-        /// Question templates define a type of question and the properties they have
+        /// Question templates define a type of question and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionTemplateResource">The question template resource object (optional)</param>
@@ -174,7 +174,7 @@ namespace com.knetikcloud.Api
         /// Delete an import job
         /// </summary>
         /// <remarks>
-        /// Also deletes all questions that were imported by it
+        /// Also deletes all questions that were imported by it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -185,7 +185,7 @@ namespace com.knetikcloud.Api
         /// Delete an import job
         /// </summary>
         /// <remarks>
-        /// Also deletes all questions that were imported by it
+        /// Also deletes all questions that were imported by it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -195,7 +195,7 @@ namespace com.knetikcloud.Api
         /// Delete a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -206,7 +206,7 @@ namespace com.knetikcloud.Api
         /// Delete a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -216,7 +216,7 @@ namespace com.knetikcloud.Api
         /// Remove an answer from a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -228,7 +228,7 @@ namespace com.knetikcloud.Api
         /// Remove an answer from a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -239,7 +239,7 @@ namespace com.knetikcloud.Api
         /// Delete a question template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -251,7 +251,7 @@ namespace com.knetikcloud.Api
         /// Delete a question template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -262,7 +262,7 @@ namespace com.knetikcloud.Api
         /// Get an import job
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -273,7 +273,7 @@ namespace com.knetikcloud.Api
         /// Get an import job
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -283,7 +283,7 @@ namespace com.knetikcloud.Api
         /// Get a list of import job
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterVendor">Filter for jobs by vendor id (optional)</param>
@@ -300,7 +300,7 @@ namespace com.knetikcloud.Api
         /// Get a list of import job
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterVendor">Filter for jobs by vendor id (optional)</param>
@@ -316,7 +316,7 @@ namespace com.knetikcloud.Api
         /// Get a single question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -327,7 +327,7 @@ namespace com.knetikcloud.Api
         /// Get a single question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -337,7 +337,7 @@ namespace com.knetikcloud.Api
         /// Get an answer for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -349,7 +349,7 @@ namespace com.knetikcloud.Api
         /// Get an answer for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -360,7 +360,7 @@ namespace com.knetikcloud.Api
         /// List the answers available for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -371,7 +371,7 @@ namespace com.knetikcloud.Api
         /// List the answers available for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -381,7 +381,7 @@ namespace com.knetikcloud.Api
         /// List question deltas in ascending order of updated date
         /// </summary>
         /// <remarks>
-        /// The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps
+        /// The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="since">Timestamp in seconds (optional)</param>
@@ -392,7 +392,7 @@ namespace com.knetikcloud.Api
         /// List question deltas in ascending order of updated date
         /// </summary>
         /// <remarks>
-        /// The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps
+        /// The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="since">Timestamp in seconds (optional)</param>
@@ -402,7 +402,7 @@ namespace com.knetikcloud.Api
         /// List the tags for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -413,7 +413,7 @@ namespace com.knetikcloud.Api
         /// List the tags for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -423,7 +423,7 @@ namespace com.knetikcloud.Api
         /// Get a single question template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -434,7 +434,7 @@ namespace com.knetikcloud.Api
         /// Get a single question template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -444,7 +444,7 @@ namespace com.knetikcloud.Api
         /// List and search question templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -457,7 +457,7 @@ namespace com.knetikcloud.Api
         /// List and search question templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -469,7 +469,7 @@ namespace com.knetikcloud.Api
         /// List and search questions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -490,7 +490,7 @@ namespace com.knetikcloud.Api
         /// List and search questions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -510,7 +510,7 @@ namespace com.knetikcloud.Api
         /// Count questions based on filters
         /// </summary>
         /// <remarks>
-        /// This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes
+        /// This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for documents whose question, answers or tags contains provided string (optional)</param>
@@ -527,7 +527,7 @@ namespace com.knetikcloud.Api
         /// Count questions based on filters
         /// </summary>
         /// <remarks>
-        /// This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes
+        /// This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for documents whose question, answers or tags contains provided string (optional)</param>
@@ -543,7 +543,7 @@ namespace com.knetikcloud.Api
         /// Start processing an import job
         /// </summary>
         /// <remarks>
-        /// Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;.
+        /// Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -555,7 +555,7 @@ namespace com.knetikcloud.Api
         /// Start processing an import job
         /// </summary>
         /// <remarks>
-        /// Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;.
+        /// Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -566,7 +566,7 @@ namespace com.knetikcloud.Api
         /// Remove a tag from a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -578,7 +578,7 @@ namespace com.knetikcloud.Api
         /// Remove a tag from a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -589,7 +589,7 @@ namespace com.knetikcloud.Api
         /// Remove a tag from a batch of questions
         /// </summary>
         /// <remarks>
-        /// ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated.
+        /// ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to remove</param>
@@ -608,7 +608,7 @@ namespace com.knetikcloud.Api
         /// Remove a tag from a batch of questions
         /// </summary>
         /// <remarks>
-        /// ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated.
+        /// ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to remove</param>
@@ -626,7 +626,7 @@ namespace com.knetikcloud.Api
         /// List and search tags by the beginning of the string
         /// </summary>
         /// <remarks>
-        /// For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead.
+        /// For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for tags starting with the given text (optional)</param>
@@ -639,7 +639,7 @@ namespace com.knetikcloud.Api
         /// List and search tags by the beginning of the string
         /// </summary>
         /// <remarks>
-        /// For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead.
+        /// For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for tags starting with the given text (optional)</param>
@@ -651,7 +651,7 @@ namespace com.knetikcloud.Api
         /// Update an import job
         /// </summary>
         /// <remarks>
-        /// Changes should be made before process is started for there to be any effect.
+        /// Changes should be made before process is started for there to be any effect. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -663,7 +663,7 @@ namespace com.knetikcloud.Api
         /// Update an import job
         /// </summary>
         /// <remarks>
-        /// Changes should be made before process is started for there to be any effect.
+        /// Changes should be made before process is started for there to be any effect. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -674,7 +674,7 @@ namespace com.knetikcloud.Api
         /// Update a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -686,7 +686,7 @@ namespace com.knetikcloud.Api
         /// Update a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -697,7 +697,7 @@ namespace com.knetikcloud.Api
         /// Update an answer for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -710,7 +710,7 @@ namespace com.knetikcloud.Api
         /// Update an answer for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -722,7 +722,7 @@ namespace com.knetikcloud.Api
         /// Update a question template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -734,7 +734,7 @@ namespace com.knetikcloud.Api
         /// Update a question template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -745,7 +745,7 @@ namespace com.knetikcloud.Api
         /// Bulk update questions
         /// </summary>
         /// <remarks>
-        /// Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated.
+        /// Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">New values for a set of question fields (optional)</param>
@@ -763,7 +763,7 @@ namespace com.knetikcloud.Api
         /// Bulk update questions
         /// </summary>
         /// <remarks>
-        /// Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated.
+        /// Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">New values for a set of question fields (optional)</param>
@@ -782,7 +782,7 @@ namespace com.knetikcloud.Api
         /// Add an answer to a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -794,7 +794,7 @@ namespace com.knetikcloud.Api
         /// Add an answer to a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -805,7 +805,7 @@ namespace com.knetikcloud.Api
         /// Add a tag to a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -817,7 +817,7 @@ namespace com.knetikcloud.Api
         /// Add a tag to a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -828,7 +828,7 @@ namespace com.knetikcloud.Api
         /// Add a tag to a batch of questions
         /// </summary>
         /// <remarks>
-        /// All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated.
+        /// All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to add (optional)</param>
@@ -847,7 +847,7 @@ namespace com.knetikcloud.Api
         /// Add a tag to a batch of questions
         /// </summary>
         /// <remarks>
-        /// All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated.
+        /// All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to add (optional)</param>
@@ -865,7 +865,7 @@ namespace com.knetikcloud.Api
         /// Create an import job
         /// </summary>
         /// <remarks>
-        /// Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint.
+        /// Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The new import job (optional)</param>
@@ -876,7 +876,7 @@ namespace com.knetikcloud.Api
         /// Create an import job
         /// </summary>
         /// <remarks>
-        /// Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint.
+        /// Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The new import job (optional)</param>
@@ -886,7 +886,7 @@ namespace com.knetikcloud.Api
         /// Create a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">The new question (optional)</param>
@@ -897,7 +897,7 @@ namespace com.knetikcloud.Api
         /// Create a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">The new question (optional)</param>
@@ -907,7 +907,7 @@ namespace com.knetikcloud.Api
         /// Create a question template
         /// </summary>
         /// <remarks>
-        /// Question templates define a type of question and the properties they have
+        /// Question templates define a type of question and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionTemplateResource">The question template resource object (optional)</param>
@@ -918,7 +918,7 @@ namespace com.knetikcloud.Api
         /// Create a question template
         /// </summary>
         /// <remarks>
-        /// Question templates define a type of question and the properties they have
+        /// Question templates define a type of question and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionTemplateResource">The question template resource object (optional)</param>
@@ -928,7 +928,7 @@ namespace com.knetikcloud.Api
         /// Delete an import job
         /// </summary>
         /// <remarks>
-        /// Also deletes all questions that were imported by it
+        /// Also deletes all questions that were imported by it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -939,7 +939,7 @@ namespace com.knetikcloud.Api
         /// Delete an import job
         /// </summary>
         /// <remarks>
-        /// Also deletes all questions that were imported by it
+        /// Also deletes all questions that were imported by it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -949,7 +949,7 @@ namespace com.knetikcloud.Api
         /// Delete a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -960,7 +960,7 @@ namespace com.knetikcloud.Api
         /// Delete a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -970,7 +970,7 @@ namespace com.knetikcloud.Api
         /// Remove an answer from a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -982,7 +982,7 @@ namespace com.knetikcloud.Api
         /// Remove an answer from a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -993,7 +993,7 @@ namespace com.knetikcloud.Api
         /// Delete a question template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1005,7 +1005,7 @@ namespace com.knetikcloud.Api
         /// Delete a question template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1016,7 +1016,7 @@ namespace com.knetikcloud.Api
         /// Get an import job
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -1027,7 +1027,7 @@ namespace com.knetikcloud.Api
         /// Get an import job
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -1037,7 +1037,7 @@ namespace com.knetikcloud.Api
         /// Get a list of import job
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterVendor">Filter for jobs by vendor id (optional)</param>
@@ -1054,7 +1054,7 @@ namespace com.knetikcloud.Api
         /// Get a list of import job
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterVendor">Filter for jobs by vendor id (optional)</param>
@@ -1070,7 +1070,7 @@ namespace com.knetikcloud.Api
         /// Get a single question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1081,7 +1081,7 @@ namespace com.knetikcloud.Api
         /// Get a single question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1091,7 +1091,7 @@ namespace com.knetikcloud.Api
         /// Get an answer for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -1103,7 +1103,7 @@ namespace com.knetikcloud.Api
         /// Get an answer for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -1114,7 +1114,7 @@ namespace com.knetikcloud.Api
         /// List the answers available for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -1125,7 +1125,7 @@ namespace com.knetikcloud.Api
         /// List the answers available for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -1135,7 +1135,7 @@ namespace com.knetikcloud.Api
         /// List question deltas in ascending order of updated date
         /// </summary>
         /// <remarks>
-        /// The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps
+        /// The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="since">Timestamp in seconds (optional)</param>
@@ -1146,7 +1146,7 @@ namespace com.knetikcloud.Api
         /// List question deltas in ascending order of updated date
         /// </summary>
         /// <remarks>
-        /// The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps
+        /// The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="since">Timestamp in seconds (optional)</param>
@@ -1156,7 +1156,7 @@ namespace com.knetikcloud.Api
         /// List the tags for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1167,7 +1167,7 @@ namespace com.knetikcloud.Api
         /// List the tags for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1177,7 +1177,7 @@ namespace com.knetikcloud.Api
         /// Get a single question template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1188,7 +1188,7 @@ namespace com.knetikcloud.Api
         /// Get a single question template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1198,7 +1198,7 @@ namespace com.knetikcloud.Api
         /// List and search question templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1211,7 +1211,7 @@ namespace com.knetikcloud.Api
         /// List and search question templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1223,7 +1223,7 @@ namespace com.knetikcloud.Api
         /// List and search questions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1244,7 +1244,7 @@ namespace com.knetikcloud.Api
         /// List and search questions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1264,7 +1264,7 @@ namespace com.knetikcloud.Api
         /// Count questions based on filters
         /// </summary>
         /// <remarks>
-        /// This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes
+        /// This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for documents whose question, answers or tags contains provided string (optional)</param>
@@ -1281,7 +1281,7 @@ namespace com.knetikcloud.Api
         /// Count questions based on filters
         /// </summary>
         /// <remarks>
-        /// This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes
+        /// This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for documents whose question, answers or tags contains provided string (optional)</param>
@@ -1297,7 +1297,7 @@ namespace com.knetikcloud.Api
         /// Start processing an import job
         /// </summary>
         /// <remarks>
-        /// Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;.
+        /// Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -1309,7 +1309,7 @@ namespace com.knetikcloud.Api
         /// Start processing an import job
         /// </summary>
         /// <remarks>
-        /// Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;.
+        /// Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -1320,7 +1320,7 @@ namespace com.knetikcloud.Api
         /// Remove a tag from a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1332,7 +1332,7 @@ namespace com.knetikcloud.Api
         /// Remove a tag from a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1343,7 +1343,7 @@ namespace com.knetikcloud.Api
         /// Remove a tag from a batch of questions
         /// </summary>
         /// <remarks>
-        /// ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated.
+        /// ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to remove</param>
@@ -1362,7 +1362,7 @@ namespace com.knetikcloud.Api
         /// Remove a tag from a batch of questions
         /// </summary>
         /// <remarks>
-        /// ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated.
+        /// ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to remove</param>
@@ -1380,7 +1380,7 @@ namespace com.knetikcloud.Api
         /// List and search tags by the beginning of the string
         /// </summary>
         /// <remarks>
-        /// For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead.
+        /// For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for tags starting with the given text (optional)</param>
@@ -1393,7 +1393,7 @@ namespace com.knetikcloud.Api
         /// List and search tags by the beginning of the string
         /// </summary>
         /// <remarks>
-        /// For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead.
+        /// For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for tags starting with the given text (optional)</param>
@@ -1405,7 +1405,7 @@ namespace com.knetikcloud.Api
         /// Update an import job
         /// </summary>
         /// <remarks>
-        /// Changes should be made before process is started for there to be any effect.
+        /// Changes should be made before process is started for there to be any effect. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -1417,7 +1417,7 @@ namespace com.knetikcloud.Api
         /// Update an import job
         /// </summary>
         /// <remarks>
-        /// Changes should be made before process is started for there to be any effect.
+        /// Changes should be made before process is started for there to be any effect. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -1428,7 +1428,7 @@ namespace com.knetikcloud.Api
         /// Update a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1440,7 +1440,7 @@ namespace com.knetikcloud.Api
         /// Update a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1451,7 +1451,7 @@ namespace com.knetikcloud.Api
         /// Update an answer for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -1464,7 +1464,7 @@ namespace com.knetikcloud.Api
         /// Update an answer for a question
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -1476,7 +1476,7 @@ namespace com.knetikcloud.Api
         /// Update a question template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1488,7 +1488,7 @@ namespace com.knetikcloud.Api
         /// Update a question template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1499,7 +1499,7 @@ namespace com.knetikcloud.Api
         /// Bulk update questions
         /// </summary>
         /// <remarks>
-        /// Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated.
+        /// Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">New values for a set of question fields (optional)</param>
@@ -1517,7 +1517,7 @@ namespace com.knetikcloud.Api
         /// Bulk update questions
         /// </summary>
         /// <remarks>
-        /// Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated.
+        /// Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">New values for a set of question fields (optional)</param>
@@ -1631,7 +1631,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add an answer to a question 
+        /// Add an answer to a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -1644,7 +1644,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add an answer to a question 
+        /// Add an answer to a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -1720,7 +1720,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add an answer to a question 
+        /// Add an answer to a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -1734,7 +1734,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add an answer to a question 
+        /// Add an answer to a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -1810,7 +1810,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a tag to a question 
+        /// Add a tag to a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1822,7 +1822,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a tag to a question 
+        /// Add a tag to a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1898,7 +1898,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a tag to a question 
+        /// Add a tag to a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1911,7 +1911,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a tag to a question 
+        /// Add a tag to a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -1987,7 +1987,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a tag to a batch of questions All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated.
+        /// Add a tag to a batch of questions All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to add (optional)</param>
@@ -2007,7 +2007,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a tag to a batch of questions All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated.
+        /// Add a tag to a batch of questions All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to add (optional)</param>
@@ -2094,7 +2094,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a tag to a batch of questions All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated.
+        /// Add a tag to a batch of questions All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to add (optional)</param>
@@ -2115,7 +2115,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a tag to a batch of questions All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated.
+        /// Add a tag to a batch of questions All questions that dont&#39;t have the tag and match filters will have it added. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to add (optional)</param>
@@ -2202,7 +2202,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an import job Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint.
+        /// Create an import job Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The new import job (optional)</param>
@@ -2214,7 +2214,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an import job Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint.
+        /// Create an import job Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The new import job (optional)</param>
@@ -2285,7 +2285,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an import job Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint.
+        /// Create an import job Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The new import job (optional)</param>
@@ -2298,7 +2298,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an import job Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint.
+        /// Create an import job Set up a job to import a set of trivia questions from a cvs file at a remote url. the file will be validated asynchronously but will not be processed until started manually with the process endpoint. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The new import job (optional)</param>
@@ -2369,7 +2369,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a question 
+        /// Create a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">The new question (optional)</param>
@@ -2381,7 +2381,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a question 
+        /// Create a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">The new question (optional)</param>
@@ -2452,7 +2452,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a question 
+        /// Create a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">The new question (optional)</param>
@@ -2465,7 +2465,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a question 
+        /// Create a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">The new question (optional)</param>
@@ -2536,7 +2536,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a question template Question templates define a type of question and the properties they have
+        /// Create a question template Question templates define a type of question and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionTemplateResource">The question template resource object (optional)</param>
@@ -2548,7 +2548,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a question template Question templates define a type of question and the properties they have
+        /// Create a question template Question templates define a type of question and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionTemplateResource">The question template resource object (optional)</param>
@@ -2619,7 +2619,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a question template Question templates define a type of question and the properties they have
+        /// Create a question template Question templates define a type of question and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionTemplateResource">The question template resource object (optional)</param>
@@ -2632,7 +2632,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a question template Question templates define a type of question and the properties they have
+        /// Create a question template Question templates define a type of question and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionTemplateResource">The question template resource object (optional)</param>
@@ -2703,7 +2703,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an import job Also deletes all questions that were imported by it
+        /// Delete an import job Also deletes all questions that were imported by it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -2714,7 +2714,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an import job Also deletes all questions that were imported by it
+        /// Delete an import job Also deletes all questions that were imported by it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -2735,7 +2735,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2781,7 +2780,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an import job Also deletes all questions that were imported by it
+        /// Delete an import job Also deletes all questions that were imported by it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -2793,7 +2792,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an import job Also deletes all questions that were imported by it
+        /// Delete an import job Also deletes all questions that were imported by it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -2814,7 +2813,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2860,7 +2858,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a question 
+        /// Delete a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -2871,7 +2869,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a question 
+        /// Delete a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -2892,7 +2890,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2938,7 +2935,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a question 
+        /// Delete a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -2950,7 +2947,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a question 
+        /// Delete a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -2971,7 +2968,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3017,7 +3013,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove an answer from a question 
+        /// Remove an answer from a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -3029,7 +3025,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove an answer from a question 
+        /// Remove an answer from a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -3054,7 +3050,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3101,7 +3096,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove an answer from a question 
+        /// Remove an answer from a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -3114,7 +3109,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove an answer from a question 
+        /// Remove an answer from a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -3139,7 +3134,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3186,7 +3180,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a question template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a question template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3198,7 +3192,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a question template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a question template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3220,7 +3214,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3267,7 +3260,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a question template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a question template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3280,7 +3273,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a question template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a question template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3302,7 +3295,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3349,7 +3341,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an import job 
+        /// Get an import job &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -3361,7 +3353,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an import job 
+        /// Get an import job &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -3382,7 +3374,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3428,7 +3419,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an import job 
+        /// Get an import job &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -3441,7 +3432,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an import job 
+        /// Get an import job &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -3462,7 +3453,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3508,7 +3498,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of import job 
+        /// Get a list of import job &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterVendor">Filter for jobs by vendor id (optional)</param>
@@ -3526,7 +3516,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of import job 
+        /// Get a list of import job &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterVendor">Filter for jobs by vendor id (optional)</param>
@@ -3550,7 +3540,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3602,7 +3591,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of import job 
+        /// Get a list of import job &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterVendor">Filter for jobs by vendor id (optional)</param>
@@ -3621,7 +3610,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a list of import job 
+        /// Get a list of import job &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterVendor">Filter for jobs by vendor id (optional)</param>
@@ -3645,7 +3634,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3697,7 +3685,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single question 
+        /// Get a single question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -3709,7 +3697,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single question 
+        /// Get a single question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -3730,7 +3718,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3776,7 +3763,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single question 
+        /// Get a single question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -3789,7 +3776,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single question 
+        /// Get a single question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -3810,7 +3797,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3856,7 +3842,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an answer for a question 
+        /// Get an answer for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -3869,7 +3855,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an answer for a question 
+        /// Get an answer for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -3894,7 +3880,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3941,7 +3926,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an answer for a question 
+        /// Get an answer for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -3955,7 +3940,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get an answer for a question 
+        /// Get an answer for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -3980,7 +3965,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4027,7 +4011,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the answers available for a question 
+        /// List the answers available for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -4039,7 +4023,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the answers available for a question 
+        /// List the answers available for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -4060,7 +4044,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4106,7 +4089,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the answers available for a question 
+        /// List the answers available for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -4119,7 +4102,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the answers available for a question 
+        /// List the answers available for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -4140,7 +4123,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4186,7 +4168,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List question deltas in ascending order of updated date The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps
+        /// List question deltas in ascending order of updated date The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="since">Timestamp in seconds (optional)</param>
@@ -4198,7 +4180,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List question deltas in ascending order of updated date The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps
+        /// List question deltas in ascending order of updated date The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="since">Timestamp in seconds (optional)</param>
@@ -4216,7 +4198,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4262,7 +4243,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List question deltas in ascending order of updated date The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps
+        /// List question deltas in ascending order of updated date The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="since">Timestamp in seconds (optional)</param>
@@ -4275,7 +4256,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List question deltas in ascending order of updated date The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps
+        /// List question deltas in ascending order of updated date The &#39;since&#39; parameter is important to avoid getting a full list of all questions. Implementors should make sure they pass the updated date of the last resource loaded, not the date of the last request, in order to avoid gaps. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="since">Timestamp in seconds (optional)</param>
@@ -4293,7 +4274,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4339,7 +4319,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the tags for a question 
+        /// List the tags for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -4351,7 +4331,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the tags for a question 
+        /// List the tags for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -4372,7 +4352,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4418,7 +4397,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the tags for a question 
+        /// List the tags for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -4431,7 +4410,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List the tags for a question 
+        /// List the tags for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -4452,7 +4431,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4498,7 +4476,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single question template 
+        /// Get a single question template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -4510,7 +4488,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single question template 
+        /// Get a single question template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -4531,7 +4509,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4577,7 +4554,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single question template 
+        /// Get a single question template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -4590,7 +4567,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single question template 
+        /// Get a single question template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -4611,7 +4588,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4657,7 +4633,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search question templates 
+        /// List and search question templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -4671,7 +4647,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search question templates 
+        /// List and search question templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -4691,7 +4667,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4739,7 +4714,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search question templates 
+        /// List and search question templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -4754,7 +4729,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search question templates 
+        /// List and search question templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -4774,7 +4749,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4822,7 +4796,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search questions 
+        /// List and search questions &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -4844,7 +4818,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search questions 
+        /// List and search questions &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -4872,7 +4846,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4928,7 +4901,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search questions 
+        /// List and search questions &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -4951,7 +4924,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search questions 
+        /// List and search questions &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -4979,7 +4952,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5035,7 +5007,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Count questions based on filters This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes
+        /// Count questions based on filters This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for documents whose question, answers or tags contains provided string (optional)</param>
@@ -5053,7 +5025,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Count questions based on filters This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes
+        /// Count questions based on filters This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for documents whose question, answers or tags contains provided string (optional)</param>
@@ -5077,7 +5049,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5129,7 +5100,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Count questions based on filters This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes
+        /// Count questions based on filters This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for documents whose question, answers or tags contains provided string (optional)</param>
@@ -5148,7 +5119,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Count questions based on filters This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes
+        /// Count questions based on filters This is also provided by the list endpoint so you don&#39;t need to call this for pagination purposes. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for documents whose question, answers or tags contains provided string (optional)</param>
@@ -5172,7 +5143,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5224,7 +5194,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Start processing an import job Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;.
+        /// Start processing an import job Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -5237,7 +5207,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Start processing an import job Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;.
+        /// Start processing an import job Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -5309,7 +5279,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Start processing an import job Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;.
+        /// Start processing an import job Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -5323,7 +5293,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Start processing an import job Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;.
+        /// Start processing an import job Will process the CSV file and add new questions asynchronously. The status of the job must be &#39;VALID&#39;. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -5395,7 +5365,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a tag from a question 
+        /// Remove a tag from a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -5407,7 +5377,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a tag from a question 
+        /// Remove a tag from a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -5432,7 +5402,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5479,7 +5448,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a tag from a question 
+        /// Remove a tag from a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -5492,7 +5461,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a tag from a question 
+        /// Remove a tag from a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -5517,7 +5486,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5564,7 +5532,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a tag from a batch of questions ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated.
+        /// Remove a tag from a batch of questions ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to remove</param>
@@ -5584,7 +5552,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a tag from a batch of questions ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated.
+        /// Remove a tag from a batch of questions ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to remove</param>
@@ -5613,7 +5581,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5667,7 +5634,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a tag from a batch of questions ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated.
+        /// Remove a tag from a batch of questions ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to remove</param>
@@ -5688,7 +5655,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Remove a tag from a batch of questions ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated.
+        /// Remove a tag from a batch of questions ll questions that have the tag and match filters will have it removed. The returned number is the number of questions updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="tag">The tag to remove</param>
@@ -5717,7 +5684,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5771,7 +5737,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search tags by the beginning of the string For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead.
+        /// List and search tags by the beginning of the string For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for tags starting with the given text (optional)</param>
@@ -5785,7 +5751,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search tags by the beginning of the string For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead.
+        /// List and search tags by the beginning of the string For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for tags starting with the given text (optional)</param>
@@ -5805,7 +5771,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5853,7 +5818,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search tags by the beginning of the string For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead.
+        /// List and search tags by the beginning of the string For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for tags starting with the given text (optional)</param>
@@ -5868,7 +5833,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search tags by the beginning of the string For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead.
+        /// List and search tags by the beginning of the string For performance reasons, search &amp; category filters are mutually exclusive. If category is specified, search filter will be ignored in order to do fast matches for typeahead. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterSearch">Filter for tags starting with the given text (optional)</param>
@@ -5888,7 +5853,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5936,7 +5900,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an import job Changes should be made before process is started for there to be any effect.
+        /// Update an import job Changes should be made before process is started for there to be any effect. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -5949,7 +5913,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an import job Changes should be made before process is started for there to be any effect.
+        /// Update an import job Changes should be made before process is started for there to be any effect. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -6025,7 +5989,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an import job Changes should be made before process is started for there to be any effect.
+        /// Update an import job Changes should be made before process is started for there to be any effect. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -6039,7 +6003,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an import job Changes should be made before process is started for there to be any effect.
+        /// Update an import job Changes should be made before process is started for there to be any effect. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the job</param>
@@ -6115,7 +6079,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a question 
+        /// Update a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -6128,7 +6092,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a question 
+        /// Update a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -6204,7 +6168,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a question 
+        /// Update a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -6218,7 +6182,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a question 
+        /// Update a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the question</param>
@@ -6294,7 +6258,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an answer for a question 
+        /// Update an answer for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -6307,7 +6271,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an answer for a question 
+        /// Update an answer for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -6388,7 +6352,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an answer for a question 
+        /// Update an answer for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -6402,7 +6366,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an answer for a question 
+        /// Update an answer for a question &lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="questionId">The id of the question</param>
@@ -6483,7 +6447,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a question template 
+        /// Update a question template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -6496,7 +6460,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a question template 
+        /// Update a question template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -6572,7 +6536,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a question template 
+        /// Update a question template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -6586,7 +6550,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a question template 
+        /// Update a question template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -6662,7 +6626,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Bulk update questions Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated.
+        /// Bulk update questions Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">New values for a set of question fields (optional)</param>
@@ -6681,7 +6645,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Bulk update questions Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated.
+        /// Bulk update questions Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">New values for a set of question fields (optional)</param>
@@ -6766,7 +6730,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Bulk update questions Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated.
+        /// Bulk update questions Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">New values for a set of question fields (optional)</param>
@@ -6786,7 +6750,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Bulk update questions Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated.
+        /// Bulk update questions Will update all questions that match filters used (or all questions in system if no filters used). Body should match a question resource with only those properties you wish to set. Null values will be ignored. Returned number is how many were updated. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TRIVIA_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="question">New values for a set of question fields (optional)</param>

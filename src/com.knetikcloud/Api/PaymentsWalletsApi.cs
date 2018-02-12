@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Returns the user&#39;s wallet for the given currency code
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being retrieved</param>
@@ -40,7 +40,7 @@ namespace com.knetikcloud.Api
         /// Returns the user&#39;s wallet for the given currency code
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being retrieved</param>
@@ -51,7 +51,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a user&#39;s wallet transactions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet transactions are being retrieved</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a user&#39;s wallet transactions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet transactions are being retrieved</param>
@@ -88,7 +88,7 @@ namespace com.knetikcloud.Api
         /// List all of a user&#39;s wallets
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallets are being retrieved</param>
@@ -99,7 +99,7 @@ namespace com.knetikcloud.Api
         /// List all of a user&#39;s wallets
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallets are being retrieved</param>
@@ -109,7 +109,7 @@ namespace com.knetikcloud.Api
         /// Retrieves a summation of wallet balances by currency code
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>PageResourceWalletTotalResponse</returns>
@@ -119,7 +119,7 @@ namespace com.knetikcloud.Api
         /// Retrieves a summation of wallet balances by currency code
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of PageResourceWalletTotalResponse</returns>
@@ -128,7 +128,7 @@ namespace com.knetikcloud.Api
         /// Retrieve wallet transactions across the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -149,7 +149,7 @@ namespace com.knetikcloud.Api
         /// Retrieve wallet transactions across the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -169,7 +169,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a list of wallets across the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -182,7 +182,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a list of wallets across the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -194,7 +194,7 @@ namespace com.knetikcloud.Api
         /// Updates the balance for a user&#39;s wallet
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being modified</param>
@@ -207,7 +207,7 @@ namespace com.knetikcloud.Api
         /// Updates the balance for a user&#39;s wallet
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being modified</param>
@@ -221,7 +221,7 @@ namespace com.knetikcloud.Api
         /// Returns the user&#39;s wallet for the given currency code
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being retrieved</param>
@@ -233,7 +233,7 @@ namespace com.knetikcloud.Api
         /// Returns the user&#39;s wallet for the given currency code
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being retrieved</param>
@@ -244,7 +244,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a user&#39;s wallet transactions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet transactions are being retrieved</param>
@@ -263,7 +263,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a user&#39;s wallet transactions
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet transactions are being retrieved</param>
@@ -281,7 +281,7 @@ namespace com.knetikcloud.Api
         /// List all of a user&#39;s wallets
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallets are being retrieved</param>
@@ -292,7 +292,7 @@ namespace com.knetikcloud.Api
         /// List all of a user&#39;s wallets
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallets are being retrieved</param>
@@ -302,7 +302,7 @@ namespace com.knetikcloud.Api
         /// Retrieves a summation of wallet balances by currency code
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of PageResourceWalletTotalResponse</returns>
@@ -312,7 +312,7 @@ namespace com.knetikcloud.Api
         /// Retrieves a summation of wallet balances by currency code
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (PageResourceWalletTotalResponse)</returns>
@@ -321,7 +321,7 @@ namespace com.knetikcloud.Api
         /// Retrieve wallet transactions across the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -342,7 +342,7 @@ namespace com.knetikcloud.Api
         /// Retrieve wallet transactions across the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -362,7 +362,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a list of wallets across the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -375,7 +375,7 @@ namespace com.knetikcloud.Api
         /// Retrieve a list of wallets across the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -387,7 +387,7 @@ namespace com.knetikcloud.Api
         /// Updates the balance for a user&#39;s wallet
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being modified</param>
@@ -400,7 +400,7 @@ namespace com.knetikcloud.Api
         /// Updates the balance for a user&#39;s wallet
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being modified</param>
@@ -509,7 +509,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the user&#39;s wallet for the given currency code 
+        /// Returns the user&#39;s wallet for the given currency code &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being retrieved</param>
@@ -522,7 +522,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the user&#39;s wallet for the given currency code 
+        /// Returns the user&#39;s wallet for the given currency code &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being retrieved</param>
@@ -547,7 +547,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -594,7 +593,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the user&#39;s wallet for the given currency code 
+        /// Returns the user&#39;s wallet for the given currency code &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being retrieved</param>
@@ -608,7 +607,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns the user&#39;s wallet for the given currency code 
+        /// Returns the user&#39;s wallet for the given currency code &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being retrieved</param>
@@ -633,7 +632,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -680,7 +678,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a user&#39;s wallet transactions 
+        /// Retrieve a user&#39;s wallet transactions &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet transactions are being retrieved</param>
@@ -700,7 +698,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a user&#39;s wallet transactions 
+        /// Retrieve a user&#39;s wallet transactions &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet transactions are being retrieved</param>
@@ -732,7 +730,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -786,7 +783,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a user&#39;s wallet transactions 
+        /// Retrieve a user&#39;s wallet transactions &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet transactions are being retrieved</param>
@@ -807,7 +804,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a user&#39;s wallet transactions 
+        /// Retrieve a user&#39;s wallet transactions &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet transactions are being retrieved</param>
@@ -839,7 +836,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -893,7 +889,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List all of a user&#39;s wallets 
+        /// List all of a user&#39;s wallets &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallets are being retrieved</param>
@@ -905,7 +901,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List all of a user&#39;s wallets 
+        /// List all of a user&#39;s wallets &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallets are being retrieved</param>
@@ -926,7 +922,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -972,7 +967,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List all of a user&#39;s wallets 
+        /// List all of a user&#39;s wallets &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallets are being retrieved</param>
@@ -985,7 +980,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List all of a user&#39;s wallets 
+        /// List all of a user&#39;s wallets &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallets are being retrieved</param>
@@ -1006,7 +1001,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1052,7 +1046,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieves a summation of wallet balances by currency code 
+        /// Retrieves a summation of wallet balances by currency code &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>PageResourceWalletTotalResponse</returns>
@@ -1063,7 +1057,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieves a summation of wallet balances by currency code 
+        /// Retrieves a summation of wallet balances by currency code &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of PageResourceWalletTotalResponse</returns>
@@ -1080,7 +1074,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1125,7 +1118,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieves a summation of wallet balances by currency code 
+        /// Retrieves a summation of wallet balances by currency code &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of PageResourceWalletTotalResponse</returns>
@@ -1137,7 +1130,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieves a summation of wallet balances by currency code 
+        /// Retrieves a summation of wallet balances by currency code &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (PageResourceWalletTotalResponse)</returns>
@@ -1154,7 +1147,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1199,7 +1191,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve wallet transactions across the system 
+        /// Retrieve wallet transactions across the system &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -1221,7 +1213,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve wallet transactions across the system 
+        /// Retrieve wallet transactions across the system &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -1249,7 +1241,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1305,7 +1296,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve wallet transactions across the system 
+        /// Retrieve wallet transactions across the system &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -1328,7 +1319,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve wallet transactions across the system 
+        /// Retrieve wallet transactions across the system &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterInvoice">Filter for transactions from a specific invoice (optional)</param>
@@ -1356,7 +1347,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1412,7 +1402,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a list of wallets across the system 
+        /// Retrieve a list of wallets across the system &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1426,7 +1416,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a list of wallets across the system 
+        /// Retrieve a list of wallets across the system &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1446,7 +1436,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1494,7 +1483,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a list of wallets across the system 
+        /// Retrieve a list of wallets across the system &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1509,7 +1498,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve a list of wallets across the system 
+        /// Retrieve a list of wallets across the system &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1529,7 +1518,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1577,7 +1565,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Updates the balance for a user&#39;s wallet 
+        /// Updates the balance for a user&#39;s wallet &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being modified</param>
@@ -1591,7 +1579,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Updates the balance for a user&#39;s wallet 
+        /// Updates the balance for a user&#39;s wallet &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being modified</param>
@@ -1672,7 +1660,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Updates the balance for a user&#39;s wallet 
+        /// Updates the balance for a user&#39;s wallet &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being modified</param>
@@ -1687,7 +1675,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Updates the balance for a user&#39;s wallet 
+        /// Updates the balance for a user&#39;s wallet &lt;b&gt;Permissions Needed:&lt;/b&gt; WALLETS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The ID of the user for whom wallet is being modified</param>

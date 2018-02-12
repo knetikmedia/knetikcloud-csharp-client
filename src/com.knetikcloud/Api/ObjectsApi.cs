@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is to be part of</param>
@@ -41,7 +41,7 @@ namespace com.knetikcloud.Api
         /// Create an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is to be part of</param>
@@ -53,7 +53,7 @@ namespace com.knetikcloud.Api
         /// Create an object template
         /// </summary>
         /// <remarks>
-        /// Object templates define a type of entitlement and the properties they have
+        /// Object templates define a type of entitlement and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="template">The entitlement template to be created (optional)</param>
@@ -64,7 +64,7 @@ namespace com.knetikcloud.Api
         /// Create an object template
         /// </summary>
         /// <remarks>
-        /// Object templates define a type of entitlement and the properties they have
+        /// Object templates define a type of entitlement and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="template">The entitlement template to be created (optional)</param>
@@ -74,7 +74,7 @@ namespace com.knetikcloud.Api
         /// Delete an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -86,7 +86,7 @@ namespace com.knetikcloud.Api
         /// Delete an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -97,7 +97,7 @@ namespace com.knetikcloud.Api
         /// Delete an entitlement template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -109,7 +109,7 @@ namespace com.knetikcloud.Api
         /// Delete an entitlement template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -120,7 +120,7 @@ namespace com.knetikcloud.Api
         /// Get a single object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -132,7 +132,7 @@ namespace com.knetikcloud.Api
         /// Get a single object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -143,7 +143,7 @@ namespace com.knetikcloud.Api
         /// List and search objects
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template to get objects for</param>
@@ -157,7 +157,7 @@ namespace com.knetikcloud.Api
         /// List and search objects
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template to get objects for</param>
@@ -170,7 +170,7 @@ namespace com.knetikcloud.Api
         /// Get a single entitlement template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -181,7 +181,7 @@ namespace com.knetikcloud.Api
         /// Get a single entitlement template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -191,7 +191,7 @@ namespace com.knetikcloud.Api
         /// List and search entitlement templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -204,7 +204,7 @@ namespace com.knetikcloud.Api
         /// List and search entitlement templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -216,7 +216,7 @@ namespace com.knetikcloud.Api
         /// Update an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -230,7 +230,7 @@ namespace com.knetikcloud.Api
         /// Update an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -243,7 +243,7 @@ namespace com.knetikcloud.Api
         /// Update an entitlement template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -255,7 +255,7 @@ namespace com.knetikcloud.Api
         /// Update an entitlement template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -268,7 +268,7 @@ namespace com.knetikcloud.Api
         /// Create an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is to be part of</param>
@@ -281,7 +281,7 @@ namespace com.knetikcloud.Api
         /// Create an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is to be part of</param>
@@ -293,7 +293,7 @@ namespace com.knetikcloud.Api
         /// Create an object template
         /// </summary>
         /// <remarks>
-        /// Object templates define a type of entitlement and the properties they have
+        /// Object templates define a type of entitlement and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="template">The entitlement template to be created (optional)</param>
@@ -304,7 +304,7 @@ namespace com.knetikcloud.Api
         /// Create an object template
         /// </summary>
         /// <remarks>
-        /// Object templates define a type of entitlement and the properties they have
+        /// Object templates define a type of entitlement and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="template">The entitlement template to be created (optional)</param>
@@ -314,7 +314,7 @@ namespace com.knetikcloud.Api
         /// Delete an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -326,7 +326,7 @@ namespace com.knetikcloud.Api
         /// Delete an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -337,7 +337,7 @@ namespace com.knetikcloud.Api
         /// Delete an entitlement template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -349,7 +349,7 @@ namespace com.knetikcloud.Api
         /// Delete an entitlement template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -360,7 +360,7 @@ namespace com.knetikcloud.Api
         /// Get a single object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -372,7 +372,7 @@ namespace com.knetikcloud.Api
         /// Get a single object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -383,7 +383,7 @@ namespace com.knetikcloud.Api
         /// List and search objects
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template to get objects for</param>
@@ -397,7 +397,7 @@ namespace com.knetikcloud.Api
         /// List and search objects
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template to get objects for</param>
@@ -410,7 +410,7 @@ namespace com.knetikcloud.Api
         /// Get a single entitlement template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -421,7 +421,7 @@ namespace com.knetikcloud.Api
         /// Get a single entitlement template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -431,7 +431,7 @@ namespace com.knetikcloud.Api
         /// List and search entitlement templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -444,7 +444,7 @@ namespace com.knetikcloud.Api
         /// List and search entitlement templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -456,7 +456,7 @@ namespace com.knetikcloud.Api
         /// Update an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -470,7 +470,7 @@ namespace com.knetikcloud.Api
         /// Update an object
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -483,7 +483,7 @@ namespace com.knetikcloud.Api
         /// Update an entitlement template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -495,7 +495,7 @@ namespace com.knetikcloud.Api
         /// Update an entitlement template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -603,7 +603,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an object 
+        /// Create an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is to be part of</param>
@@ -617,7 +617,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an object 
+        /// Create an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is to be part of</param>
@@ -695,7 +695,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an object 
+        /// Create an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is to be part of</param>
@@ -710,7 +710,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an object 
+        /// Create an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is to be part of</param>
@@ -788,7 +788,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an object template Object templates define a type of entitlement and the properties they have
+        /// Create an object template Object templates define a type of entitlement and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="template">The entitlement template to be created (optional)</param>
@@ -800,7 +800,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an object template Object templates define a type of entitlement and the properties they have
+        /// Create an object template Object templates define a type of entitlement and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="template">The entitlement template to be created (optional)</param>
@@ -871,7 +871,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an object template Object templates define a type of entitlement and the properties they have
+        /// Create an object template Object templates define a type of entitlement and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="template">The entitlement template to be created (optional)</param>
@@ -884,7 +884,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an object template Object templates define a type of entitlement and the properties they have
+        /// Create an object template Object templates define a type of entitlement and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="template">The entitlement template to be created (optional)</param>
@@ -955,7 +955,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an object 
+        /// Delete an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -967,7 +967,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an object 
+        /// Delete an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -992,7 +992,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1039,7 +1038,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an object 
+        /// Delete an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -1052,7 +1051,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an object 
+        /// Delete an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -1077,7 +1076,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1124,7 +1122,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an entitlement template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an entitlement template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1136,7 +1134,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an entitlement template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an entitlement template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1158,7 +1156,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1205,7 +1202,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an entitlement template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an entitlement template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1218,7 +1215,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an entitlement template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an entitlement template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1240,7 +1237,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1287,7 +1283,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single object 
+        /// Get a single object &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -1300,7 +1296,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single object 
+        /// Get a single object &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -1325,7 +1321,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1372,7 +1367,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single object 
+        /// Get a single object &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -1386,7 +1381,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single object 
+        /// Get a single object &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -1411,7 +1406,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1458,7 +1452,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search objects 
+        /// List and search objects &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template to get objects for</param>
@@ -1473,7 +1467,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search objects 
+        /// List and search objects &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template to get objects for</param>
@@ -1497,7 +1491,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1546,7 +1539,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search objects 
+        /// List and search objects &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template to get objects for</param>
@@ -1562,7 +1555,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search objects 
+        /// List and search objects &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template to get objects for</param>
@@ -1586,7 +1579,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1635,7 +1627,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single entitlement template 
+        /// Get a single entitlement template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1647,7 +1639,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single entitlement template 
+        /// Get a single entitlement template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1668,7 +1660,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1714,7 +1705,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single entitlement template 
+        /// Get a single entitlement template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1727,7 +1718,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single entitlement template 
+        /// Get a single entitlement template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1748,7 +1739,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1794,7 +1784,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search entitlement templates 
+        /// List and search entitlement templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1808,7 +1798,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search entitlement templates 
+        /// List and search entitlement templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1828,7 +1818,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1876,7 +1865,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search entitlement templates 
+        /// List and search entitlement templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1891,7 +1880,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search entitlement templates 
+        /// List and search entitlement templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or ACHIEVEMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1911,7 +1900,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1959,7 +1947,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an object 
+        /// Update an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -1973,7 +1961,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an object 
+        /// Update an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -2056,7 +2044,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an object 
+        /// Update an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -2071,7 +2059,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an object 
+        /// Update an object &lt;b&gt;Permissions Needed:&lt;/b&gt; INVENTORY_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="templateId">The id of the template this object is part of</param>
@@ -2154,7 +2142,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an entitlement template 
+        /// Update an entitlement template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2167,7 +2155,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an entitlement template 
+        /// Update an entitlement template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2243,7 +2231,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an entitlement template 
+        /// Update an entitlement template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2257,7 +2245,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an entitlement template 
+        /// Update an entitlement template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>

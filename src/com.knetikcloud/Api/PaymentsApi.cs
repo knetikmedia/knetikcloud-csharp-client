@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a new payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being created</param>
@@ -40,7 +40,7 @@ namespace com.knetikcloud.Api
         /// Create a new payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being created</param>
@@ -51,7 +51,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -63,7 +63,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -74,7 +74,7 @@ namespace com.knetikcloud.Api
         /// Get a single payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being retrieved</param>
@@ -86,7 +86,7 @@ namespace com.knetikcloud.Api
         /// Get a single payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being retrieved</param>
@@ -97,7 +97,7 @@ namespace com.knetikcloud.Api
         /// Get a single payment method type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment method type being retrieved</param>
@@ -108,7 +108,7 @@ namespace com.knetikcloud.Api
         /// Get a single payment method type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment method type being retrieved</param>
@@ -118,7 +118,7 @@ namespace com.knetikcloud.Api
         /// Get all payment method types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for payment method types whose name matches a given string (optional)</param>
@@ -132,7 +132,7 @@ namespace com.knetikcloud.Api
         /// Get all payment method types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for payment method types whose name matches a given string (optional)</param>
@@ -145,7 +145,7 @@ namespace com.knetikcloud.Api
         /// Get all payment methods for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment methods are being retrieved</param>
@@ -163,7 +163,7 @@ namespace com.knetikcloud.Api
         /// Get all payment methods for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment methods are being retrieved</param>
@@ -180,7 +180,7 @@ namespace com.knetikcloud.Api
         /// Authorize payment of an invoice for later capture
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or PAYMENTS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">Payment authorization request (optional)</param>
@@ -191,7 +191,7 @@ namespace com.knetikcloud.Api
         /// Authorize payment of an invoice for later capture
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or PAYMENTS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">Payment authorization request (optional)</param>
@@ -201,7 +201,7 @@ namespace com.knetikcloud.Api
         /// Capture an existing invoice payment authorization
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment authorization to capture</param>
@@ -212,7 +212,7 @@ namespace com.knetikcloud.Api
         /// Capture an existing invoice payment authorization
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment authorization to capture</param>
@@ -222,7 +222,7 @@ namespace com.knetikcloud.Api
         /// Update an existing payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -235,7 +235,7 @@ namespace com.knetikcloud.Api
         /// Update an existing payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -249,7 +249,7 @@ namespace com.knetikcloud.Api
         /// Create a new payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being created</param>
@@ -261,7 +261,7 @@ namespace com.knetikcloud.Api
         /// Create a new payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being created</param>
@@ -272,7 +272,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -284,7 +284,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -295,7 +295,7 @@ namespace com.knetikcloud.Api
         /// Get a single payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being retrieved</param>
@@ -307,7 +307,7 @@ namespace com.knetikcloud.Api
         /// Get a single payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being retrieved</param>
@@ -318,7 +318,7 @@ namespace com.knetikcloud.Api
         /// Get a single payment method type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment method type being retrieved</param>
@@ -329,7 +329,7 @@ namespace com.knetikcloud.Api
         /// Get a single payment method type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment method type being retrieved</param>
@@ -339,7 +339,7 @@ namespace com.knetikcloud.Api
         /// Get all payment method types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for payment method types whose name matches a given string (optional)</param>
@@ -353,7 +353,7 @@ namespace com.knetikcloud.Api
         /// Get all payment method types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for payment method types whose name matches a given string (optional)</param>
@@ -366,7 +366,7 @@ namespace com.knetikcloud.Api
         /// Get all payment methods for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment methods are being retrieved</param>
@@ -384,7 +384,7 @@ namespace com.knetikcloud.Api
         /// Get all payment methods for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment methods are being retrieved</param>
@@ -401,7 +401,7 @@ namespace com.knetikcloud.Api
         /// Authorize payment of an invoice for later capture
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or PAYMENTS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">Payment authorization request (optional)</param>
@@ -412,7 +412,7 @@ namespace com.knetikcloud.Api
         /// Authorize payment of an invoice for later capture
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or PAYMENTS_USER
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">Payment authorization request (optional)</param>
@@ -422,7 +422,7 @@ namespace com.knetikcloud.Api
         /// Capture an existing invoice payment authorization
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment authorization to capture</param>
@@ -433,7 +433,7 @@ namespace com.knetikcloud.Api
         /// Capture an existing invoice payment authorization
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment authorization to capture</param>
@@ -443,7 +443,7 @@ namespace com.knetikcloud.Api
         /// Update an existing payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -456,7 +456,7 @@ namespace com.knetikcloud.Api
         /// Update an existing payment method for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -565,7 +565,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new payment method for a user 
+        /// Create a new payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being created</param>
@@ -578,7 +578,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new payment method for a user 
+        /// Create a new payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being created</param>
@@ -654,7 +654,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new payment method for a user 
+        /// Create a new payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being created</param>
@@ -668,7 +668,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new payment method for a user 
+        /// Create a new payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being created</param>
@@ -744,7 +744,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing payment method for a user 
+        /// Delete an existing payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -756,7 +756,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing payment method for a user 
+        /// Delete an existing payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -781,7 +781,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -828,7 +827,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing payment method for a user 
+        /// Delete an existing payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -841,7 +840,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing payment method for a user 
+        /// Delete an existing payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -866,7 +865,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -913,7 +911,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single payment method for a user 
+        /// Get a single payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being retrieved</param>
@@ -926,7 +924,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single payment method for a user 
+        /// Get a single payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being retrieved</param>
@@ -951,7 +949,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -998,7 +995,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single payment method for a user 
+        /// Get a single payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being retrieved</param>
@@ -1012,7 +1009,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single payment method for a user 
+        /// Get a single payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being retrieved</param>
@@ -1037,7 +1034,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1084,7 +1080,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single payment method type 
+        /// Get a single payment method type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment method type being retrieved</param>
@@ -1096,7 +1092,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single payment method type 
+        /// Get a single payment method type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment method type being retrieved</param>
@@ -1117,7 +1113,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1163,7 +1158,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single payment method type 
+        /// Get a single payment method type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment method type being retrieved</param>
@@ -1176,7 +1171,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single payment method type 
+        /// Get a single payment method type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment method type being retrieved</param>
@@ -1197,7 +1192,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1243,7 +1237,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get all payment method types 
+        /// Get all payment method types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for payment method types whose name matches a given string (optional)</param>
@@ -1258,7 +1252,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get all payment method types 
+        /// Get all payment method types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for payment method types whose name matches a given string (optional)</param>
@@ -1279,7 +1273,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1328,7 +1321,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get all payment method types 
+        /// Get all payment method types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for payment method types whose name matches a given string (optional)</param>
@@ -1344,7 +1337,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get all payment method types 
+        /// Get all payment method types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for payment method types whose name matches a given string (optional)</param>
@@ -1365,7 +1358,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1414,7 +1406,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get all payment methods for a user 
+        /// Get all payment methods for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment methods are being retrieved</param>
@@ -1433,7 +1425,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get all payment methods for a user 
+        /// Get all payment methods for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment methods are being retrieved</param>
@@ -1461,7 +1453,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1514,7 +1505,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get all payment methods for a user 
+        /// Get all payment methods for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment methods are being retrieved</param>
@@ -1534,7 +1525,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get all payment methods for a user 
+        /// Get all payment methods for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment methods are being retrieved</param>
@@ -1562,7 +1553,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1615,7 +1605,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Authorize payment of an invoice for later capture 
+        /// Authorize payment of an invoice for later capture &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or PAYMENTS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">Payment authorization request (optional)</param>
@@ -1627,7 +1617,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Authorize payment of an invoice for later capture 
+        /// Authorize payment of an invoice for later capture &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or PAYMENTS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">Payment authorization request (optional)</param>
@@ -1698,7 +1688,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Authorize payment of an invoice for later capture 
+        /// Authorize payment of an invoice for later capture &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or PAYMENTS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">Payment authorization request (optional)</param>
@@ -1711,7 +1701,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Authorize payment of an invoice for later capture 
+        /// Authorize payment of an invoice for later capture &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or PAYMENTS_USER
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">Payment authorization request (optional)</param>
@@ -1782,7 +1772,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Capture an existing invoice payment authorization 
+        /// Capture an existing invoice payment authorization &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment authorization to capture</param>
@@ -1793,7 +1783,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Capture an existing invoice payment authorization 
+        /// Capture an existing invoice payment authorization &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment authorization to capture</param>
@@ -1860,7 +1850,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Capture an existing invoice payment authorization 
+        /// Capture an existing invoice payment authorization &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment authorization to capture</param>
@@ -1872,7 +1862,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Capture an existing invoice payment authorization 
+        /// Capture an existing invoice payment authorization &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">ID of the payment authorization to capture</param>
@@ -1939,7 +1929,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing payment method for a user 
+        /// Update an existing payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -1953,7 +1943,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing payment method for a user 
+        /// Update an existing payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -2034,7 +2024,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing payment method for a user 
+        /// Update an existing payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>
@@ -2049,7 +2039,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing payment method for a user 
+        /// Update an existing payment method for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; PAYMENTS_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">ID of the user for whom the payment method is being updated</param>

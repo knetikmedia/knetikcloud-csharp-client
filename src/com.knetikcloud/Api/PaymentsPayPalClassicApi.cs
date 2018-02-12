@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a PayPal Classic billing agreement for the user
         /// </summary>
         /// <remarks>
-        /// Returns the token that should be used to forward the user to PayPal so they can accept the agreement.
+        /// Returns the token that should be used to forward the user to PayPal so they can accept the agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal billing agreement (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Create a PayPal Classic billing agreement for the user
         /// </summary>
         /// <remarks>
-        /// Returns the token that should be used to forward the user to PayPal so they can accept the agreement.
+        /// Returns the token that should be used to forward the user to PayPal so they can accept the agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal billing agreement (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Create a payment token for PayPal express checkout
         /// </summary>
         /// <remarks>
-        /// Returns the token that should be used to forward the user to PayPal so they can complete the checkout.
+        /// Returns the token that should be used to forward the user to PayPal so they can complete the checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal payment token (optional)</param>
@@ -60,7 +60,7 @@ namespace com.knetikcloud.Api
         /// Create a payment token for PayPal express checkout
         /// </summary>
         /// <remarks>
-        /// Returns the token that should be used to forward the user to PayPal so they can complete the checkout.
+        /// Returns the token that should be used to forward the user to PayPal so they can complete the checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal payment token (optional)</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Finalizes a billing agreement after the user has accepted through PayPal
         /// </summary>
         /// <remarks>
-        /// Returns the ID of the new payment method created for the user for the billing agreement.
+        /// Returns the ID of the new payment method created for the user for the billing agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize a PayPal billing agreement (optional)</param>
@@ -81,7 +81,7 @@ namespace com.knetikcloud.Api
         /// Finalizes a billing agreement after the user has accepted through PayPal
         /// </summary>
         /// <remarks>
-        /// Returns the ID of the new payment method created for the user for the billing agreement.
+        /// Returns the ID of the new payment method created for the user for the billing agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize a PayPal billing agreement (optional)</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// Finalizes a payment after the user has completed checkout with PayPal
         /// </summary>
         /// <remarks>
-        /// The invoice will be marked paid/failed by asynchronous IPN callback.
+        /// The invoice will be marked paid/failed by asynchronous IPN callback. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize the payment (optional)</param>
@@ -102,7 +102,7 @@ namespace com.knetikcloud.Api
         /// Finalizes a payment after the user has completed checkout with PayPal
         /// </summary>
         /// <remarks>
-        /// The invoice will be marked paid/failed by asynchronous IPN callback.
+        /// The invoice will be marked paid/failed by asynchronous IPN callback. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize the payment (optional)</param>
@@ -114,7 +114,7 @@ namespace com.knetikcloud.Api
         /// Create a PayPal Classic billing agreement for the user
         /// </summary>
         /// <remarks>
-        /// Returns the token that should be used to forward the user to PayPal so they can accept the agreement.
+        /// Returns the token that should be used to forward the user to PayPal so they can accept the agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal billing agreement (optional)</param>
@@ -125,7 +125,7 @@ namespace com.knetikcloud.Api
         /// Create a PayPal Classic billing agreement for the user
         /// </summary>
         /// <remarks>
-        /// Returns the token that should be used to forward the user to PayPal so they can accept the agreement.
+        /// Returns the token that should be used to forward the user to PayPal so they can accept the agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal billing agreement (optional)</param>
@@ -135,7 +135,7 @@ namespace com.knetikcloud.Api
         /// Create a payment token for PayPal express checkout
         /// </summary>
         /// <remarks>
-        /// Returns the token that should be used to forward the user to PayPal so they can complete the checkout.
+        /// Returns the token that should be used to forward the user to PayPal so they can complete the checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal payment token (optional)</param>
@@ -146,7 +146,7 @@ namespace com.knetikcloud.Api
         /// Create a payment token for PayPal express checkout
         /// </summary>
         /// <remarks>
-        /// Returns the token that should be used to forward the user to PayPal so they can complete the checkout.
+        /// Returns the token that should be used to forward the user to PayPal so they can complete the checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal payment token (optional)</param>
@@ -156,7 +156,7 @@ namespace com.knetikcloud.Api
         /// Finalizes a billing agreement after the user has accepted through PayPal
         /// </summary>
         /// <remarks>
-        /// Returns the ID of the new payment method created for the user for the billing agreement.
+        /// Returns the ID of the new payment method created for the user for the billing agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize a PayPal billing agreement (optional)</param>
@@ -167,7 +167,7 @@ namespace com.knetikcloud.Api
         /// Finalizes a billing agreement after the user has accepted through PayPal
         /// </summary>
         /// <remarks>
-        /// Returns the ID of the new payment method created for the user for the billing agreement.
+        /// Returns the ID of the new payment method created for the user for the billing agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize a PayPal billing agreement (optional)</param>
@@ -177,7 +177,7 @@ namespace com.knetikcloud.Api
         /// Finalizes a payment after the user has completed checkout with PayPal
         /// </summary>
         /// <remarks>
-        /// The invoice will be marked paid/failed by asynchronous IPN callback.
+        /// The invoice will be marked paid/failed by asynchronous IPN callback. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize the payment (optional)</param>
@@ -188,7 +188,7 @@ namespace com.knetikcloud.Api
         /// Finalizes a payment after the user has completed checkout with PayPal
         /// </summary>
         /// <remarks>
-        /// The invoice will be marked paid/failed by asynchronous IPN callback.
+        /// The invoice will be marked paid/failed by asynchronous IPN callback. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize the payment (optional)</param>
@@ -295,7 +295,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a PayPal Classic billing agreement for the user Returns the token that should be used to forward the user to PayPal so they can accept the agreement.
+        /// Create a PayPal Classic billing agreement for the user Returns the token that should be used to forward the user to PayPal so they can accept the agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal billing agreement (optional)</param>
@@ -307,7 +307,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a PayPal Classic billing agreement for the user Returns the token that should be used to forward the user to PayPal so they can accept the agreement.
+        /// Create a PayPal Classic billing agreement for the user Returns the token that should be used to forward the user to PayPal so they can accept the agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal billing agreement (optional)</param>
@@ -378,7 +378,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a PayPal Classic billing agreement for the user Returns the token that should be used to forward the user to PayPal so they can accept the agreement.
+        /// Create a PayPal Classic billing agreement for the user Returns the token that should be used to forward the user to PayPal so they can accept the agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal billing agreement (optional)</param>
@@ -391,7 +391,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a PayPal Classic billing agreement for the user Returns the token that should be used to forward the user to PayPal so they can accept the agreement.
+        /// Create a PayPal Classic billing agreement for the user Returns the token that should be used to forward the user to PayPal so they can accept the agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal billing agreement (optional)</param>
@@ -462,7 +462,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a payment token for PayPal express checkout Returns the token that should be used to forward the user to PayPal so they can complete the checkout.
+        /// Create a payment token for PayPal express checkout Returns the token that should be used to forward the user to PayPal so they can complete the checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal payment token (optional)</param>
@@ -474,7 +474,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a payment token for PayPal express checkout Returns the token that should be used to forward the user to PayPal so they can complete the checkout.
+        /// Create a payment token for PayPal express checkout Returns the token that should be used to forward the user to PayPal so they can complete the checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal payment token (optional)</param>
@@ -545,7 +545,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a payment token for PayPal express checkout Returns the token that should be used to forward the user to PayPal so they can complete the checkout.
+        /// Create a payment token for PayPal express checkout Returns the token that should be used to forward the user to PayPal so they can complete the checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal payment token (optional)</param>
@@ -558,7 +558,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a payment token for PayPal express checkout Returns the token that should be used to forward the user to PayPal so they can complete the checkout.
+        /// Create a payment token for PayPal express checkout Returns the token that should be used to forward the user to PayPal so they can complete the checkout. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to create a PayPal payment token (optional)</param>
@@ -629,7 +629,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Finalizes a billing agreement after the user has accepted through PayPal Returns the ID of the new payment method created for the user for the billing agreement.
+        /// Finalizes a billing agreement after the user has accepted through PayPal Returns the ID of the new payment method created for the user for the billing agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize a PayPal billing agreement (optional)</param>
@@ -641,7 +641,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Finalizes a billing agreement after the user has accepted through PayPal Returns the ID of the new payment method created for the user for the billing agreement.
+        /// Finalizes a billing agreement after the user has accepted through PayPal Returns the ID of the new payment method created for the user for the billing agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize a PayPal billing agreement (optional)</param>
@@ -712,7 +712,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Finalizes a billing agreement after the user has accepted through PayPal Returns the ID of the new payment method created for the user for the billing agreement.
+        /// Finalizes a billing agreement after the user has accepted through PayPal Returns the ID of the new payment method created for the user for the billing agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize a PayPal billing agreement (optional)</param>
@@ -725,7 +725,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Finalizes a billing agreement after the user has accepted through PayPal Returns the ID of the new payment method created for the user for the billing agreement.
+        /// Finalizes a billing agreement after the user has accepted through PayPal Returns the ID of the new payment method created for the user for the billing agreement. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize a PayPal billing agreement (optional)</param>
@@ -796,7 +796,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Finalizes a payment after the user has completed checkout with PayPal The invoice will be marked paid/failed by asynchronous IPN callback.
+        /// Finalizes a payment after the user has completed checkout with PayPal The invoice will be marked paid/failed by asynchronous IPN callback. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize the payment (optional)</param>
@@ -807,7 +807,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Finalizes a payment after the user has completed checkout with PayPal The invoice will be marked paid/failed by asynchronous IPN callback.
+        /// Finalizes a payment after the user has completed checkout with PayPal The invoice will be marked paid/failed by asynchronous IPN callback. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize the payment (optional)</param>
@@ -878,7 +878,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Finalizes a payment after the user has completed checkout with PayPal The invoice will be marked paid/failed by asynchronous IPN callback.
+        /// Finalizes a payment after the user has completed checkout with PayPal The invoice will be marked paid/failed by asynchronous IPN callback. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize the payment (optional)</param>
@@ -890,7 +890,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Finalizes a payment after the user has completed checkout with PayPal The invoice will be marked paid/failed by asynchronous IPN callback.
+        /// Finalizes a payment after the user has completed checkout with PayPal The invoice will be marked paid/failed by asynchronous IPN callback. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; PAYPAL_CLASSIC_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The request to finalize the payment (optional)</param>

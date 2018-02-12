@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendor">The vendor (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Create a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendor">The vendor (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Create a vendor template
         /// </summary>
         /// <remarks>
-        /// Vendor Templates define a type of vendor and the properties they have.
+        /// Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendorTemplateResource">The new vendor template (optional)</param>
@@ -60,7 +60,7 @@ namespace com.knetikcloud.Api
         /// Create a vendor template
         /// </summary>
         /// <remarks>
-        /// Vendor Templates define a type of vendor and the properties they have.
+        /// Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendorTemplateResource">The new vendor template (optional)</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Delete a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -81,7 +81,7 @@ namespace com.knetikcloud.Api
         /// Delete a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// Delete a vendor template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -103,7 +103,7 @@ namespace com.knetikcloud.Api
         /// Delete a vendor template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -114,7 +114,7 @@ namespace com.knetikcloud.Api
         /// Get a single vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -125,7 +125,7 @@ namespace com.knetikcloud.Api
         /// Get a single vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -135,7 +135,7 @@ namespace com.knetikcloud.Api
         /// Get a single vendor template
         /// </summary>
         /// <remarks>
-        /// Vendor Templates define a type of vendor and the properties they have.
+        /// Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -146,7 +146,7 @@ namespace com.knetikcloud.Api
         /// Get a single vendor template
         /// </summary>
         /// <remarks>
-        /// Vendor Templates define a type of vendor and the properties they have.
+        /// Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -156,12 +156,12 @@ namespace com.knetikcloud.Api
         /// List and search vendor templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>PageResourceItemTemplateResource</returns>
         PageResourceItemTemplateResource GetVendorTemplates (int? size = null, int? page = null, string order = null);
 
@@ -169,19 +169,19 @@ namespace com.knetikcloud.Api
         /// List and search vendor templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>ApiResponse of PageResourceItemTemplateResource</returns>
         ApiResponse<PageResourceItemTemplateResource> GetVendorTemplatesWithHttpInfo (int? size = null, int? page = null, string order = null);
         /// <summary>
         /// List and search vendors
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filters vendors by name starting with the text provided in the filter (optional)</param>
@@ -195,7 +195,7 @@ namespace com.knetikcloud.Api
         /// List and search vendors
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filters vendors by name starting with the text provided in the filter (optional)</param>
@@ -208,7 +208,7 @@ namespace com.knetikcloud.Api
         /// Update a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -220,7 +220,7 @@ namespace com.knetikcloud.Api
         /// Update a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -231,7 +231,7 @@ namespace com.knetikcloud.Api
         /// Update a vendor template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -243,7 +243,7 @@ namespace com.knetikcloud.Api
         /// Update a vendor template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -256,7 +256,7 @@ namespace com.knetikcloud.Api
         /// Create a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendor">The vendor (optional)</param>
@@ -267,7 +267,7 @@ namespace com.knetikcloud.Api
         /// Create a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendor">The vendor (optional)</param>
@@ -277,7 +277,7 @@ namespace com.knetikcloud.Api
         /// Create a vendor template
         /// </summary>
         /// <remarks>
-        /// Vendor Templates define a type of vendor and the properties they have.
+        /// Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendorTemplateResource">The new vendor template (optional)</param>
@@ -288,7 +288,7 @@ namespace com.knetikcloud.Api
         /// Create a vendor template
         /// </summary>
         /// <remarks>
-        /// Vendor Templates define a type of vendor and the properties they have.
+        /// Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendorTemplateResource">The new vendor template (optional)</param>
@@ -298,7 +298,7 @@ namespace com.knetikcloud.Api
         /// Delete a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -309,7 +309,7 @@ namespace com.knetikcloud.Api
         /// Delete a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -319,7 +319,7 @@ namespace com.knetikcloud.Api
         /// Delete a vendor template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -331,7 +331,7 @@ namespace com.knetikcloud.Api
         /// Delete a vendor template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -342,7 +342,7 @@ namespace com.knetikcloud.Api
         /// Get a single vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -353,7 +353,7 @@ namespace com.knetikcloud.Api
         /// Get a single vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -363,7 +363,7 @@ namespace com.knetikcloud.Api
         /// Get a single vendor template
         /// </summary>
         /// <remarks>
-        /// Vendor Templates define a type of vendor and the properties they have.
+        /// Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -374,7 +374,7 @@ namespace com.knetikcloud.Api
         /// Get a single vendor template
         /// </summary>
         /// <remarks>
-        /// Vendor Templates define a type of vendor and the properties they have.
+        /// Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -384,12 +384,12 @@ namespace com.knetikcloud.Api
         /// List and search vendor templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>Task of PageResourceItemTemplateResource</returns>
         System.Threading.Tasks.Task<PageResourceItemTemplateResource> GetVendorTemplatesAsync (int? size = null, int? page = null, string order = null);
 
@@ -397,19 +397,19 @@ namespace com.knetikcloud.Api
         /// List and search vendor templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>Task of ApiResponse (PageResourceItemTemplateResource)</returns>
         System.Threading.Tasks.Task<ApiResponse<PageResourceItemTemplateResource>> GetVendorTemplatesAsyncWithHttpInfo (int? size = null, int? page = null, string order = null);
         /// <summary>
         /// List and search vendors
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filters vendors by name starting with the text provided in the filter (optional)</param>
@@ -423,7 +423,7 @@ namespace com.knetikcloud.Api
         /// List and search vendors
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filters vendors by name starting with the text provided in the filter (optional)</param>
@@ -436,7 +436,7 @@ namespace com.knetikcloud.Api
         /// Update a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -448,7 +448,7 @@ namespace com.knetikcloud.Api
         /// Update a vendor
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -459,7 +459,7 @@ namespace com.knetikcloud.Api
         /// Update a vendor template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -471,7 +471,7 @@ namespace com.knetikcloud.Api
         /// Update a vendor template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -579,7 +579,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a vendor 
+        /// Create a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendor">The vendor (optional)</param>
@@ -591,7 +591,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a vendor 
+        /// Create a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendor">The vendor (optional)</param>
@@ -662,7 +662,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a vendor 
+        /// Create a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendor">The vendor (optional)</param>
@@ -675,7 +675,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a vendor 
+        /// Create a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendor">The vendor (optional)</param>
@@ -746,7 +746,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a vendor template Vendor Templates define a type of vendor and the properties they have.
+        /// Create a vendor template Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendorTemplateResource">The new vendor template (optional)</param>
@@ -758,7 +758,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a vendor template Vendor Templates define a type of vendor and the properties they have.
+        /// Create a vendor template Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendorTemplateResource">The new vendor template (optional)</param>
@@ -829,7 +829,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a vendor template Vendor Templates define a type of vendor and the properties they have.
+        /// Create a vendor template Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendorTemplateResource">The new vendor template (optional)</param>
@@ -842,7 +842,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a vendor template Vendor Templates define a type of vendor and the properties they have.
+        /// Create a vendor template Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="vendorTemplateResource">The new vendor template (optional)</param>
@@ -913,7 +913,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a vendor 
+        /// Delete a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -924,7 +924,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a vendor 
+        /// Delete a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -945,7 +945,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -991,7 +990,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a vendor 
+        /// Delete a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -1003,7 +1002,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a vendor 
+        /// Delete a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -1024,7 +1023,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1070,7 +1068,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a vendor template 
+        /// Delete a vendor template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1082,7 +1080,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a vendor template 
+        /// Delete a vendor template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1104,7 +1102,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1151,7 +1148,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a vendor template 
+        /// Delete a vendor template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1164,7 +1161,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a vendor template 
+        /// Delete a vendor template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1186,7 +1183,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1233,7 +1229,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single vendor 
+        /// Get a single vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -1245,7 +1241,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single vendor 
+        /// Get a single vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -1266,7 +1262,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1312,7 +1307,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single vendor 
+        /// Get a single vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -1325,7 +1320,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single vendor 
+        /// Get a single vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -1346,7 +1341,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1392,7 +1386,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single vendor template Vendor Templates define a type of vendor and the properties they have.
+        /// Get a single vendor template Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1404,7 +1398,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single vendor template Vendor Templates define a type of vendor and the properties they have.
+        /// Get a single vendor template Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1425,7 +1419,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1471,7 +1464,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single vendor template Vendor Templates define a type of vendor and the properties they have.
+        /// Get a single vendor template Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1484,7 +1477,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single vendor template Vendor Templates define a type of vendor and the properties they have.
+        /// Get a single vendor template Vendor Templates define a type of vendor and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1505,7 +1498,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1551,12 +1543,12 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search vendor templates 
+        /// List and search vendor templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>PageResourceItemTemplateResource</returns>
         public PageResourceItemTemplateResource GetVendorTemplates (int? size = null, int? page = null, string order = null)
         {
@@ -1565,12 +1557,12 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search vendor templates 
+        /// List and search vendor templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>ApiResponse of PageResourceItemTemplateResource</returns>
         public ApiResponse< PageResourceItemTemplateResource > GetVendorTemplatesWithHttpInfo (int? size = null, int? page = null, string order = null)
         {
@@ -1585,7 +1577,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1633,12 +1624,12 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search vendor templates 
+        /// List and search vendor templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>Task of PageResourceItemTemplateResource</returns>
         public async System.Threading.Tasks.Task<PageResourceItemTemplateResource> GetVendorTemplatesAsync (int? size = null, int? page = null, string order = null)
         {
@@ -1648,12 +1639,12 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search vendor templates 
+        /// List and search vendor templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
         /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
-        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional, default to 1)</param>
+        /// <param name="order">A comma separated list of sorting requirements in priority order, each entry matching PROPERTY_NAME:[ASC|DESC] (optional)</param>
         /// <returns>Task of ApiResponse (PageResourceItemTemplateResource)</returns>
         public async System.Threading.Tasks.Task<ApiResponse<PageResourceItemTemplateResource>> GetVendorTemplatesAsyncWithHttpInfo (int? size = null, int? page = null, string order = null)
         {
@@ -1668,7 +1659,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1716,7 +1706,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search vendors 
+        /// List and search vendors &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filters vendors by name starting with the text provided in the filter (optional)</param>
@@ -1731,7 +1721,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search vendors 
+        /// List and search vendors &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filters vendors by name starting with the text provided in the filter (optional)</param>
@@ -1752,7 +1742,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1801,7 +1790,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search vendors 
+        /// List and search vendors &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filters vendors by name starting with the text provided in the filter (optional)</param>
@@ -1817,7 +1806,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search vendors 
+        /// List and search vendors &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filters vendors by name starting with the text provided in the filter (optional)</param>
@@ -1838,7 +1827,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1887,7 +1875,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a vendor 
+        /// Update a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -1900,7 +1888,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a vendor 
+        /// Update a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -1976,7 +1964,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a vendor 
+        /// Update a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -1990,7 +1978,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a vendor 
+        /// Update a vendor &lt;b&gt;Permissions Needed:&lt;/b&gt; VENDORS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the vendor</param>
@@ -2066,7 +2054,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a vendor template 
+        /// Update a vendor template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2079,7 +2067,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a vendor template 
+        /// Update a vendor template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2155,7 +2143,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a vendor template 
+        /// Update a vendor template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2169,7 +2157,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a vendor template 
+        /// Update a vendor template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>

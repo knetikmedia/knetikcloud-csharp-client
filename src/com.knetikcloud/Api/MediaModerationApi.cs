@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Add a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="flagResource">The flag resource object (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Add a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="flagResource">The flag resource object (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Delete a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="contextName">The name of the context (optional)</param>
@@ -62,7 +62,7 @@ namespace com.knetikcloud.Api
         /// Delete a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="contextName">The name of the context (optional)</param>
@@ -74,7 +74,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of flags
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter by flag context (optional)</param>
@@ -89,7 +89,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of flags
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter by flag context (optional)</param>
@@ -103,7 +103,7 @@ namespace com.knetikcloud.Api
         /// Get a flag report
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -114,7 +114,7 @@ namespace com.knetikcloud.Api
         /// Get a flag report
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -124,7 +124,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of flag reports
         /// </summary>
         /// <remarks>
-        /// Context can be either a free-form string or a pre-defined context name
+        /// Context can be either a free-form string or a pre-defined context name. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeResolved">Ignore resolved context (optional, default to true)</param>
@@ -139,7 +139,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of flag reports
         /// </summary>
         /// <remarks>
-        /// Context can be either a free-form string or a pre-defined context name
+        /// Context can be either a free-form string or a pre-defined context name. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeResolved">Ignore resolved context (optional, default to true)</param>
@@ -153,7 +153,7 @@ namespace com.knetikcloud.Api
         /// Update a flag report
         /// </summary>
         /// <remarks>
-        /// Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason.
+        /// Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -165,7 +165,7 @@ namespace com.knetikcloud.Api
         /// Update a flag report
         /// </summary>
         /// <remarks>
-        /// Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason.
+        /// Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -178,7 +178,7 @@ namespace com.knetikcloud.Api
         /// Add a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="flagResource">The flag resource object (optional)</param>
@@ -189,7 +189,7 @@ namespace com.knetikcloud.Api
         /// Add a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="flagResource">The flag resource object (optional)</param>
@@ -199,7 +199,7 @@ namespace com.knetikcloud.Api
         /// Delete a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="contextName">The name of the context (optional)</param>
@@ -212,7 +212,7 @@ namespace com.knetikcloud.Api
         /// Delete a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="contextName">The name of the context (optional)</param>
@@ -224,7 +224,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of flags
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter by flag context (optional)</param>
@@ -239,7 +239,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of flags
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter by flag context (optional)</param>
@@ -253,7 +253,7 @@ namespace com.knetikcloud.Api
         /// Get a flag report
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -264,7 +264,7 @@ namespace com.knetikcloud.Api
         /// Get a flag report
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -274,7 +274,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of flag reports
         /// </summary>
         /// <remarks>
-        /// Context can be either a free-form string or a pre-defined context name
+        /// Context can be either a free-form string or a pre-defined context name. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeResolved">Ignore resolved context (optional, default to true)</param>
@@ -289,7 +289,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of flag reports
         /// </summary>
         /// <remarks>
-        /// Context can be either a free-form string or a pre-defined context name
+        /// Context can be either a free-form string or a pre-defined context name. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeResolved">Ignore resolved context (optional, default to true)</param>
@@ -303,7 +303,7 @@ namespace com.knetikcloud.Api
         /// Update a flag report
         /// </summary>
         /// <remarks>
-        /// Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason.
+        /// Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -315,7 +315,7 @@ namespace com.knetikcloud.Api
         /// Update a flag report
         /// </summary>
         /// <remarks>
-        /// Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason.
+        /// Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -423,7 +423,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a flag 
+        /// Add a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="flagResource">The flag resource object (optional)</param>
@@ -435,7 +435,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a flag 
+        /// Add a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="flagResource">The flag resource object (optional)</param>
@@ -506,7 +506,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a flag 
+        /// Add a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="flagResource">The flag resource object (optional)</param>
@@ -519,7 +519,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a flag 
+        /// Add a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="flagResource">The flag resource object (optional)</param>
@@ -590,7 +590,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a flag 
+        /// Delete a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="contextName">The name of the context (optional)</param>
@@ -603,7 +603,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a flag 
+        /// Delete a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="contextName">The name of the context (optional)</param>
@@ -623,7 +623,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -671,7 +670,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a flag 
+        /// Delete a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="contextName">The name of the context (optional)</param>
@@ -685,7 +684,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a flag 
+        /// Delete a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="contextName">The name of the context (optional)</param>
@@ -705,7 +704,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -753,7 +751,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of flags 
+        /// Returns a page of flags &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter by flag context (optional)</param>
@@ -769,7 +767,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of flags 
+        /// Returns a page of flags &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter by flag context (optional)</param>
@@ -791,7 +789,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -841,7 +838,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of flags 
+        /// Returns a page of flags &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter by flag context (optional)</param>
@@ -858,7 +855,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of flags 
+        /// Returns a page of flags &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterContext">Filter by flag context (optional)</param>
@@ -880,7 +877,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -930,7 +926,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a flag report 
+        /// Get a flag report &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -942,7 +938,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a flag report 
+        /// Get a flag report &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -963,7 +959,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1009,7 +1004,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a flag report 
+        /// Get a flag report &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -1022,7 +1017,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a flag report 
+        /// Get a flag report &lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -1043,7 +1038,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1089,7 +1083,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of flag reports Context can be either a free-form string or a pre-defined context name
+        /// Returns a page of flag reports Context can be either a free-form string or a pre-defined context name. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeResolved">Ignore resolved context (optional, default to true)</param>
@@ -1105,7 +1099,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of flag reports Context can be either a free-form string or a pre-defined context name
+        /// Returns a page of flag reports Context can be either a free-form string or a pre-defined context name. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeResolved">Ignore resolved context (optional, default to true)</param>
@@ -1127,7 +1121,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1177,7 +1170,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of flag reports Context can be either a free-form string or a pre-defined context name
+        /// Returns a page of flag reports Context can be either a free-form string or a pre-defined context name. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeResolved">Ignore resolved context (optional, default to true)</param>
@@ -1194,7 +1187,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of flag reports Context can be either a free-form string or a pre-defined context name
+        /// Returns a page of flag reports Context can be either a free-form string or a pre-defined context name. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeResolved">Ignore resolved context (optional, default to true)</param>
@@ -1216,7 +1209,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1266,7 +1258,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a flag report Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason.
+        /// Update a flag report Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -1278,7 +1270,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a flag report Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason.
+        /// Update a flag report Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -1354,7 +1346,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a flag report Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason.
+        /// Update a flag report Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>
@@ -1367,7 +1359,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a flag report Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason.
+        /// Update a flag report Lets you set the resolution of a report. Resolution types is {banned,ignore} in case of &#39;banned&#39; you will need to pass the reason. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MODERATION_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The flag report id</param>

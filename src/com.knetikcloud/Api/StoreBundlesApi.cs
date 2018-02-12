@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a bundle item
         /// </summary>
         /// <remarks>
-        /// The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item.
+        /// The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="cascade">Whether to cascade group changes, such as in the limited gettable behavior. A 400 error will return otherwise if the group is already in use with different values. (optional, default to false)</param>
@@ -40,7 +40,7 @@ namespace com.knetikcloud.Api
         /// Create a bundle item
         /// </summary>
         /// <remarks>
-        /// The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item.
+        /// The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="cascade">Whether to cascade group changes, such as in the limited gettable behavior. A 400 error will return otherwise if the group is already in use with different values. (optional, default to false)</param>
@@ -51,7 +51,7 @@ namespace com.knetikcloud.Api
         /// Create a bundle template
         /// </summary>
         /// <remarks>
-        /// Bundle Templates define a type of bundle and the properties they have.
+        /// Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bundleTemplateResource">The new bundle template (optional)</param>
@@ -62,7 +62,7 @@ namespace com.knetikcloud.Api
         /// Create a bundle template
         /// </summary>
         /// <remarks>
-        /// Bundle Templates define a type of bundle and the properties they have.
+        /// Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bundleTemplateResource">The new bundle template (optional)</param>
@@ -72,7 +72,7 @@ namespace com.knetikcloud.Api
         /// Delete a bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -83,7 +83,7 @@ namespace com.knetikcloud.Api
         /// Delete a bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -93,7 +93,7 @@ namespace com.knetikcloud.Api
         /// Delete a bundle template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -105,7 +105,7 @@ namespace com.knetikcloud.Api
         /// Delete a bundle template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -116,7 +116,7 @@ namespace com.knetikcloud.Api
         /// Get a single bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -127,7 +127,7 @@ namespace com.knetikcloud.Api
         /// Get a single bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -137,7 +137,7 @@ namespace com.knetikcloud.Api
         /// Get a single bundle template
         /// </summary>
         /// <remarks>
-        /// Bundle Templates define a type of bundle and the properties they have.
+        /// Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -148,7 +148,7 @@ namespace com.knetikcloud.Api
         /// Get a single bundle template
         /// </summary>
         /// <remarks>
-        /// Bundle Templates define a type of bundle and the properties they have.
+        /// Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -158,7 +158,7 @@ namespace com.knetikcloud.Api
         /// List and search bundle templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -171,7 +171,7 @@ namespace com.knetikcloud.Api
         /// List and search bundle templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -183,7 +183,7 @@ namespace com.knetikcloud.Api
         /// Update a bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -196,7 +196,7 @@ namespace com.knetikcloud.Api
         /// Update a bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -208,7 +208,7 @@ namespace com.knetikcloud.Api
         /// Update a bundle template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -220,7 +220,7 @@ namespace com.knetikcloud.Api
         /// Update a bundle template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -233,7 +233,7 @@ namespace com.knetikcloud.Api
         /// Create a bundle item
         /// </summary>
         /// <remarks>
-        /// The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item.
+        /// The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="cascade">Whether to cascade group changes, such as in the limited gettable behavior. A 400 error will return otherwise if the group is already in use with different values. (optional, default to false)</param>
@@ -245,7 +245,7 @@ namespace com.knetikcloud.Api
         /// Create a bundle item
         /// </summary>
         /// <remarks>
-        /// The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item.
+        /// The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="cascade">Whether to cascade group changes, such as in the limited gettable behavior. A 400 error will return otherwise if the group is already in use with different values. (optional, default to false)</param>
@@ -256,7 +256,7 @@ namespace com.knetikcloud.Api
         /// Create a bundle template
         /// </summary>
         /// <remarks>
-        /// Bundle Templates define a type of bundle and the properties they have.
+        /// Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bundleTemplateResource">The new bundle template (optional)</param>
@@ -267,7 +267,7 @@ namespace com.knetikcloud.Api
         /// Create a bundle template
         /// </summary>
         /// <remarks>
-        /// Bundle Templates define a type of bundle and the properties they have.
+        /// Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bundleTemplateResource">The new bundle template (optional)</param>
@@ -277,7 +277,7 @@ namespace com.knetikcloud.Api
         /// Delete a bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -288,7 +288,7 @@ namespace com.knetikcloud.Api
         /// Delete a bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -298,7 +298,7 @@ namespace com.knetikcloud.Api
         /// Delete a bundle template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -310,7 +310,7 @@ namespace com.knetikcloud.Api
         /// Delete a bundle template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -321,7 +321,7 @@ namespace com.knetikcloud.Api
         /// Get a single bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -332,7 +332,7 @@ namespace com.knetikcloud.Api
         /// Get a single bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -342,7 +342,7 @@ namespace com.knetikcloud.Api
         /// Get a single bundle template
         /// </summary>
         /// <remarks>
-        /// Bundle Templates define a type of bundle and the properties they have.
+        /// Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -353,7 +353,7 @@ namespace com.knetikcloud.Api
         /// Get a single bundle template
         /// </summary>
         /// <remarks>
-        /// Bundle Templates define a type of bundle and the properties they have.
+        /// Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -363,7 +363,7 @@ namespace com.knetikcloud.Api
         /// List and search bundle templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -376,7 +376,7 @@ namespace com.knetikcloud.Api
         /// List and search bundle templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -388,7 +388,7 @@ namespace com.knetikcloud.Api
         /// Update a bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -401,7 +401,7 @@ namespace com.knetikcloud.Api
         /// Update a bundle item
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -413,7 +413,7 @@ namespace com.knetikcloud.Api
         /// Update a bundle template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -425,7 +425,7 @@ namespace com.knetikcloud.Api
         /// Update a bundle template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -533,7 +533,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a bundle item The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item.
+        /// Create a bundle item The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="cascade">Whether to cascade group changes, such as in the limited gettable behavior. A 400 error will return otherwise if the group is already in use with different values. (optional, default to false)</param>
@@ -546,7 +546,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a bundle item The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item.
+        /// Create a bundle item The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="cascade">Whether to cascade group changes, such as in the limited gettable behavior. A 400 error will return otherwise if the group is already in use with different values. (optional, default to false)</param>
@@ -619,7 +619,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a bundle item The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item.
+        /// Create a bundle item The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="cascade">Whether to cascade group changes, such as in the limited gettable behavior. A 400 error will return otherwise if the group is already in use with different values. (optional, default to false)</param>
@@ -633,7 +633,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a bundle item The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item.
+        /// Create a bundle item The SKU for the bundle itself must be unique and there can only be one SKU.  Extra notes for price_override:  The price of all the items (multiplied by the quantity) must equal the price of the bundle.  With individual prices set, items will be processed individually and can be refunded as such.  However, if all prices are set to null, the price of the bundle will be used and will be treated as one item. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="cascade">Whether to cascade group changes, such as in the limited gettable behavior. A 400 error will return otherwise if the group is already in use with different values. (optional, default to false)</param>
@@ -706,7 +706,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a bundle template Bundle Templates define a type of bundle and the properties they have.
+        /// Create a bundle template Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bundleTemplateResource">The new bundle template (optional)</param>
@@ -718,7 +718,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a bundle template Bundle Templates define a type of bundle and the properties they have.
+        /// Create a bundle template Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bundleTemplateResource">The new bundle template (optional)</param>
@@ -789,7 +789,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a bundle template Bundle Templates define a type of bundle and the properties they have.
+        /// Create a bundle template Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bundleTemplateResource">The new bundle template (optional)</param>
@@ -802,7 +802,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a bundle template Bundle Templates define a type of bundle and the properties they have.
+        /// Create a bundle template Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="bundleTemplateResource">The new bundle template (optional)</param>
@@ -873,7 +873,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a bundle item 
+        /// Delete a bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -884,7 +884,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a bundle item 
+        /// Delete a bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -905,7 +905,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -951,7 +950,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a bundle item 
+        /// Delete a bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -963,7 +962,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a bundle item 
+        /// Delete a bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -984,7 +983,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1030,7 +1028,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a bundle template 
+        /// Delete a bundle template &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1042,7 +1040,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a bundle template 
+        /// Delete a bundle template &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1064,7 +1062,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1111,7 +1108,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a bundle template 
+        /// Delete a bundle template &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1124,7 +1121,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a bundle template 
+        /// Delete a bundle template &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1146,7 +1143,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1193,7 +1189,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single bundle item 
+        /// Get a single bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -1205,7 +1201,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single bundle item 
+        /// Get a single bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -1226,7 +1222,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1272,7 +1267,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single bundle item 
+        /// Get a single bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -1285,7 +1280,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single bundle item 
+        /// Get a single bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -1306,7 +1301,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1352,7 +1346,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single bundle template Bundle Templates define a type of bundle and the properties they have.
+        /// Get a single bundle template Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1364,7 +1358,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single bundle template Bundle Templates define a type of bundle and the properties they have.
+        /// Get a single bundle template Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1385,7 +1379,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1431,7 +1424,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single bundle template Bundle Templates define a type of bundle and the properties they have.
+        /// Get a single bundle template Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1444,7 +1437,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single bundle template Bundle Templates define a type of bundle and the properties they have.
+        /// Get a single bundle template Bundle Templates define a type of bundle and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1465,7 +1458,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1511,7 +1503,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search bundle templates 
+        /// List and search bundle templates &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1525,7 +1517,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search bundle templates 
+        /// List and search bundle templates &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1545,7 +1537,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1593,7 +1584,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search bundle templates 
+        /// List and search bundle templates &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1608,7 +1599,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search bundle templates 
+        /// List and search bundle templates &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1628,7 +1619,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1676,7 +1666,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a bundle item 
+        /// Update a bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -1690,7 +1680,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a bundle item 
+        /// Update a bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -1768,7 +1758,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a bundle item 
+        /// Update a bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -1783,7 +1773,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a bundle item 
+        /// Update a bundle item &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the bundle</param>
@@ -1861,7 +1851,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a bundle template 
+        /// Update a bundle template &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1874,7 +1864,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a bundle template 
+        /// Update a bundle template &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1950,7 +1940,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a bundle template 
+        /// Update a bundle template &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1964,7 +1954,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a bundle template 
+        /// Update a bundle template &lt;b&gt;Permissions Needed:&lt;/b&gt; BUNDLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>

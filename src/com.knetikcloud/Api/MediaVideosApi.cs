@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Adds a user to a video&#39;s whitelist
         /// </summary>
         /// <remarks>
-        /// Whitelisted users can view video regardless of privacy setting.
+        /// Whitelisted users can view video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -40,7 +40,7 @@ namespace com.knetikcloud.Api
         /// Adds a user to a video&#39;s whitelist
         /// </summary>
         /// <remarks>
-        /// Whitelisted users can view video regardless of privacy setting.
+        /// Whitelisted users can view video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -51,7 +51,7 @@ namespace com.knetikcloud.Api
         /// Adds a new video in the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoResource">The video object (optional)</param>
@@ -62,7 +62,7 @@ namespace com.knetikcloud.Api
         /// Adds a new video in the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoResource">The video object (optional)</param>
@@ -72,7 +72,7 @@ namespace com.knetikcloud.Api
         /// Add a new video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id </param>
@@ -84,7 +84,7 @@ namespace com.knetikcloud.Api
         /// Add a new video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id </param>
@@ -95,7 +95,7 @@ namespace com.knetikcloud.Api
         /// Adds a contributor to a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -107,7 +107,7 @@ namespace com.knetikcloud.Api
         /// Adds a contributor to a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -118,7 +118,7 @@ namespace com.knetikcloud.Api
         /// Add a new flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -130,7 +130,7 @@ namespace com.knetikcloud.Api
         /// Add a new flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -141,7 +141,7 @@ namespace com.knetikcloud.Api
         /// Adds one or more existing videos as related to this one
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -153,7 +153,7 @@ namespace com.knetikcloud.Api
         /// Adds one or more existing videos as related to this one
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -164,7 +164,7 @@ namespace com.knetikcloud.Api
         /// Create a video disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -176,7 +176,7 @@ namespace com.knetikcloud.Api
         /// Create a video disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -187,7 +187,7 @@ namespace com.knetikcloud.Api
         /// Create a video template
         /// </summary>
         /// <remarks>
-        /// Video Templates define a type of video and the properties they have
+        /// Video Templates define a type of video and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoTemplateResource">The video template resource object (optional)</param>
@@ -198,7 +198,7 @@ namespace com.knetikcloud.Api
         /// Create a video template
         /// </summary>
         /// <remarks>
-        /// Video Templates define a type of video and the properties they have
+        /// Video Templates define a type of video and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoTemplateResource">The video template resource object (optional)</param>
@@ -208,7 +208,7 @@ namespace com.knetikcloud.Api
         /// Deletes a video from the system if no resources are attached to it
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -219,7 +219,7 @@ namespace com.knetikcloud.Api
         /// Deletes a video from the system if no resources are attached to it
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -229,7 +229,7 @@ namespace com.knetikcloud.Api
         /// Delete a video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -241,7 +241,7 @@ namespace com.knetikcloud.Api
         /// Delete a video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -252,7 +252,7 @@ namespace com.knetikcloud.Api
         /// Delete a video disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="dispositionId">The disposition id</param>
@@ -263,7 +263,7 @@ namespace com.knetikcloud.Api
         /// Delete a video disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="dispositionId">The disposition id</param>
@@ -273,7 +273,7 @@ namespace com.knetikcloud.Api
         /// Delete a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -284,7 +284,7 @@ namespace com.knetikcloud.Api
         /// Delete a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -294,7 +294,7 @@ namespace com.knetikcloud.Api
         /// Delete a video&#39;s relationship
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -306,7 +306,7 @@ namespace com.knetikcloud.Api
         /// Delete a video&#39;s relationship
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -317,7 +317,7 @@ namespace com.knetikcloud.Api
         /// Delete a video template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -329,7 +329,7 @@ namespace com.knetikcloud.Api
         /// Delete a video template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -340,7 +340,7 @@ namespace com.knetikcloud.Api
         /// Get user videos
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user id</param>
@@ -354,7 +354,7 @@ namespace com.knetikcloud.Api
         /// Get user videos
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user id</param>
@@ -367,7 +367,7 @@ namespace com.knetikcloud.Api
         /// Loads a specific video details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -378,7 +378,7 @@ namespace com.knetikcloud.Api
         /// Loads a specific video details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -388,7 +388,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of comments for a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -401,7 +401,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of comments for a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -413,7 +413,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of dispositions for a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -426,7 +426,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of dispositions for a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -438,7 +438,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of video relationships
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -451,7 +451,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of video relationships
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -463,7 +463,7 @@ namespace com.knetikcloud.Api
         /// Get a single video template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -474,7 +474,7 @@ namespace com.knetikcloud.Api
         /// Get a single video template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -484,7 +484,7 @@ namespace com.knetikcloud.Api
         /// List and search video templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -497,7 +497,7 @@ namespace com.knetikcloud.Api
         /// List and search video templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -509,7 +509,7 @@ namespace com.knetikcloud.Api
         /// Search videos using the documented filters
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeFlagged">Skip videos that have been flagged by the current user (optional, default to true)</param>
@@ -534,7 +534,7 @@ namespace com.knetikcloud.Api
         /// Search videos using the documented filters
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeFlagged">Skip videos that have been flagged by the current user (optional, default to true)</param>
@@ -558,7 +558,7 @@ namespace com.knetikcloud.Api
         /// Removes a user from a video&#39;s whitelist
         /// </summary>
         /// <remarks>
-        /// Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting.
+        /// Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -570,7 +570,7 @@ namespace com.knetikcloud.Api
         /// Removes a user from a video&#39;s whitelist
         /// </summary>
         /// <remarks>
-        /// Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting.
+        /// Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -581,7 +581,7 @@ namespace com.knetikcloud.Api
         /// Removes a contributor from a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -593,7 +593,7 @@ namespace com.knetikcloud.Api
         /// Removes a contributor from a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -604,7 +604,7 @@ namespace com.knetikcloud.Api
         /// Modifies a video&#39;s details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -616,7 +616,7 @@ namespace com.knetikcloud.Api
         /// Modifies a video&#39;s details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -627,7 +627,7 @@ namespace com.knetikcloud.Api
         /// Update a video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -640,7 +640,7 @@ namespace com.knetikcloud.Api
         /// Update a video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -652,7 +652,7 @@ namespace com.knetikcloud.Api
         /// Update a video&#39;s relationship details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -665,7 +665,7 @@ namespace com.knetikcloud.Api
         /// Update a video&#39;s relationship details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -677,7 +677,7 @@ namespace com.knetikcloud.Api
         /// Update a video template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -689,7 +689,7 @@ namespace com.knetikcloud.Api
         /// Update a video template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -700,7 +700,7 @@ namespace com.knetikcloud.Api
         /// Increment a video&#39;s view count
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -711,7 +711,7 @@ namespace com.knetikcloud.Api
         /// Increment a video&#39;s view count
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -723,7 +723,7 @@ namespace com.knetikcloud.Api
         /// Adds a user to a video&#39;s whitelist
         /// </summary>
         /// <remarks>
-        /// Whitelisted users can view video regardless of privacy setting.
+        /// Whitelisted users can view video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -735,7 +735,7 @@ namespace com.knetikcloud.Api
         /// Adds a user to a video&#39;s whitelist
         /// </summary>
         /// <remarks>
-        /// Whitelisted users can view video regardless of privacy setting.
+        /// Whitelisted users can view video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -746,7 +746,7 @@ namespace com.knetikcloud.Api
         /// Adds a new video in the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoResource">The video object (optional)</param>
@@ -757,7 +757,7 @@ namespace com.knetikcloud.Api
         /// Adds a new video in the system
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoResource">The video object (optional)</param>
@@ -767,7 +767,7 @@ namespace com.knetikcloud.Api
         /// Add a new video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id </param>
@@ -779,7 +779,7 @@ namespace com.knetikcloud.Api
         /// Add a new video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id </param>
@@ -790,7 +790,7 @@ namespace com.knetikcloud.Api
         /// Adds a contributor to a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -802,7 +802,7 @@ namespace com.knetikcloud.Api
         /// Adds a contributor to a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -813,7 +813,7 @@ namespace com.knetikcloud.Api
         /// Add a new flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -825,7 +825,7 @@ namespace com.knetikcloud.Api
         /// Add a new flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -836,7 +836,7 @@ namespace com.knetikcloud.Api
         /// Adds one or more existing videos as related to this one
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -848,7 +848,7 @@ namespace com.knetikcloud.Api
         /// Adds one or more existing videos as related to this one
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -859,7 +859,7 @@ namespace com.knetikcloud.Api
         /// Create a video disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -871,7 +871,7 @@ namespace com.knetikcloud.Api
         /// Create a video disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -882,7 +882,7 @@ namespace com.knetikcloud.Api
         /// Create a video template
         /// </summary>
         /// <remarks>
-        /// Video Templates define a type of video and the properties they have
+        /// Video Templates define a type of video and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoTemplateResource">The video template resource object (optional)</param>
@@ -893,7 +893,7 @@ namespace com.knetikcloud.Api
         /// Create a video template
         /// </summary>
         /// <remarks>
-        /// Video Templates define a type of video and the properties they have
+        /// Video Templates define a type of video and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoTemplateResource">The video template resource object (optional)</param>
@@ -903,7 +903,7 @@ namespace com.knetikcloud.Api
         /// Deletes a video from the system if no resources are attached to it
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -914,7 +914,7 @@ namespace com.knetikcloud.Api
         /// Deletes a video from the system if no resources are attached to it
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -924,7 +924,7 @@ namespace com.knetikcloud.Api
         /// Delete a video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -936,7 +936,7 @@ namespace com.knetikcloud.Api
         /// Delete a video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -947,7 +947,7 @@ namespace com.knetikcloud.Api
         /// Delete a video disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="dispositionId">The disposition id</param>
@@ -958,7 +958,7 @@ namespace com.knetikcloud.Api
         /// Delete a video disposition
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="dispositionId">The disposition id</param>
@@ -968,7 +968,7 @@ namespace com.knetikcloud.Api
         /// Delete a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -979,7 +979,7 @@ namespace com.knetikcloud.Api
         /// Delete a flag
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -989,7 +989,7 @@ namespace com.knetikcloud.Api
         /// Delete a video&#39;s relationship
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1001,7 +1001,7 @@ namespace com.knetikcloud.Api
         /// Delete a video&#39;s relationship
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1012,7 +1012,7 @@ namespace com.knetikcloud.Api
         /// Delete a video template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1024,7 +1024,7 @@ namespace com.knetikcloud.Api
         /// Delete a video template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1035,7 +1035,7 @@ namespace com.knetikcloud.Api
         /// Get user videos
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user id</param>
@@ -1049,7 +1049,7 @@ namespace com.knetikcloud.Api
         /// Get user videos
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user id</param>
@@ -1062,7 +1062,7 @@ namespace com.knetikcloud.Api
         /// Loads a specific video details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -1073,7 +1073,7 @@ namespace com.knetikcloud.Api
         /// Loads a specific video details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -1083,7 +1083,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of comments for a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1096,7 +1096,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of comments for a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1108,7 +1108,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of dispositions for a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1121,7 +1121,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of dispositions for a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1133,7 +1133,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of video relationships
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1146,7 +1146,7 @@ namespace com.knetikcloud.Api
         /// Returns a page of video relationships
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1158,7 +1158,7 @@ namespace com.knetikcloud.Api
         /// Get a single video template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1169,7 +1169,7 @@ namespace com.knetikcloud.Api
         /// Get a single video template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1179,7 +1179,7 @@ namespace com.knetikcloud.Api
         /// List and search video templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1192,7 +1192,7 @@ namespace com.knetikcloud.Api
         /// List and search video templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1204,7 +1204,7 @@ namespace com.knetikcloud.Api
         /// Search videos using the documented filters
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeFlagged">Skip videos that have been flagged by the current user (optional, default to true)</param>
@@ -1229,7 +1229,7 @@ namespace com.knetikcloud.Api
         /// Search videos using the documented filters
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeFlagged">Skip videos that have been flagged by the current user (optional, default to true)</param>
@@ -1253,7 +1253,7 @@ namespace com.knetikcloud.Api
         /// Removes a user from a video&#39;s whitelist
         /// </summary>
         /// <remarks>
-        /// Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting.
+        /// Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1265,7 +1265,7 @@ namespace com.knetikcloud.Api
         /// Removes a user from a video&#39;s whitelist
         /// </summary>
         /// <remarks>
-        /// Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting.
+        /// Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1276,7 +1276,7 @@ namespace com.knetikcloud.Api
         /// Removes a contributor from a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1288,7 +1288,7 @@ namespace com.knetikcloud.Api
         /// Removes a contributor from a video
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1299,7 +1299,7 @@ namespace com.knetikcloud.Api
         /// Modifies a video&#39;s details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -1311,7 +1311,7 @@ namespace com.knetikcloud.Api
         /// Modifies a video&#39;s details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -1322,7 +1322,7 @@ namespace com.knetikcloud.Api
         /// Update a video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1335,7 +1335,7 @@ namespace com.knetikcloud.Api
         /// Update a video comment
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1347,7 +1347,7 @@ namespace com.knetikcloud.Api
         /// Update a video&#39;s relationship details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1360,7 +1360,7 @@ namespace com.knetikcloud.Api
         /// Update a video&#39;s relationship details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -1372,7 +1372,7 @@ namespace com.knetikcloud.Api
         /// Update a video template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1384,7 +1384,7 @@ namespace com.knetikcloud.Api
         /// Update a video template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1395,7 +1395,7 @@ namespace com.knetikcloud.Api
         /// Increment a video&#39;s view count
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -1406,7 +1406,7 @@ namespace com.knetikcloud.Api
         /// Increment a video&#39;s view count
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -1513,7 +1513,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a user to a video&#39;s whitelist Whitelisted users can view video regardless of privacy setting.
+        /// Adds a user to a video&#39;s whitelist Whitelisted users can view video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -1525,7 +1525,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a user to a video&#39;s whitelist Whitelisted users can view video regardless of privacy setting.
+        /// Adds a user to a video&#39;s whitelist Whitelisted users can view video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -1601,7 +1601,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a user to a video&#39;s whitelist Whitelisted users can view video regardless of privacy setting.
+        /// Adds a user to a video&#39;s whitelist Whitelisted users can view video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -1614,7 +1614,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a user to a video&#39;s whitelist Whitelisted users can view video regardless of privacy setting.
+        /// Adds a user to a video&#39;s whitelist Whitelisted users can view video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -1690,7 +1690,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a new video in the system 
+        /// Adds a new video in the system &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoResource">The video object (optional)</param>
@@ -1702,7 +1702,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a new video in the system 
+        /// Adds a new video in the system &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoResource">The video object (optional)</param>
@@ -1773,7 +1773,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a new video in the system 
+        /// Adds a new video in the system &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoResource">The video object (optional)</param>
@@ -1786,7 +1786,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a new video in the system 
+        /// Adds a new video in the system &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoResource">The video object (optional)</param>
@@ -1857,7 +1857,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new video comment 
+        /// Add a new video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id </param>
@@ -1870,7 +1870,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new video comment 
+        /// Add a new video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id </param>
@@ -1946,7 +1946,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new video comment 
+        /// Add a new video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id </param>
@@ -1960,7 +1960,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new video comment 
+        /// Add a new video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id </param>
@@ -2036,7 +2036,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a contributor to a video 
+        /// Adds a contributor to a video &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2048,7 +2048,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a contributor to a video 
+        /// Adds a contributor to a video &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2124,7 +2124,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a contributor to a video 
+        /// Adds a contributor to a video &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2137,7 +2137,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a contributor to a video 
+        /// Adds a contributor to a video &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2213,7 +2213,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new flag 
+        /// Add a new flag &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2226,7 +2226,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new flag 
+        /// Add a new flag &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2302,7 +2302,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new flag 
+        /// Add a new flag &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2316,7 +2316,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Add a new flag 
+        /// Add a new flag &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2392,7 +2392,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds one or more existing videos as related to this one 
+        /// Adds one or more existing videos as related to this one &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2405,7 +2405,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds one or more existing videos as related to this one 
+        /// Adds one or more existing videos as related to this one &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2481,7 +2481,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds one or more existing videos as related to this one 
+        /// Adds one or more existing videos as related to this one &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2495,7 +2495,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds one or more existing videos as related to this one 
+        /// Adds one or more existing videos as related to this one &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2571,7 +2571,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a video disposition 
+        /// Create a video disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2584,7 +2584,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a video disposition 
+        /// Create a video disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2660,7 +2660,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a video disposition 
+        /// Create a video disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2674,7 +2674,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a video disposition 
+        /// Create a video disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -2750,7 +2750,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a video template Video Templates define a type of video and the properties they have
+        /// Create a video template Video Templates define a type of video and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoTemplateResource">The video template resource object (optional)</param>
@@ -2762,7 +2762,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a video template Video Templates define a type of video and the properties they have
+        /// Create a video template Video Templates define a type of video and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoTemplateResource">The video template resource object (optional)</param>
@@ -2833,7 +2833,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a video template Video Templates define a type of video and the properties they have
+        /// Create a video template Video Templates define a type of video and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoTemplateResource">The video template resource object (optional)</param>
@@ -2846,7 +2846,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a video template Video Templates define a type of video and the properties they have
+        /// Create a video template Video Templates define a type of video and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoTemplateResource">The video template resource object (optional)</param>
@@ -2917,7 +2917,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Deletes a video from the system if no resources are attached to it 
+        /// Deletes a video from the system if no resources are attached to it &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -2928,7 +2928,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Deletes a video from the system if no resources are attached to it 
+        /// Deletes a video from the system if no resources are attached to it &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -2949,7 +2949,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2995,7 +2994,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Deletes a video from the system if no resources are attached to it 
+        /// Deletes a video from the system if no resources are attached to it &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -3007,7 +3006,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Deletes a video from the system if no resources are attached to it 
+        /// Deletes a video from the system if no resources are attached to it &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -3028,7 +3027,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3074,7 +3072,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video comment 
+        /// Delete a video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3086,7 +3084,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video comment 
+        /// Delete a video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3111,7 +3109,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3158,7 +3155,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video comment 
+        /// Delete a video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3171,7 +3168,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video comment 
+        /// Delete a video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3196,7 +3193,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3243,7 +3239,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video disposition 
+        /// Delete a video disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="dispositionId">The disposition id</param>
@@ -3254,7 +3250,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video disposition 
+        /// Delete a video disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="dispositionId">The disposition id</param>
@@ -3275,7 +3271,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3321,7 +3316,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video disposition 
+        /// Delete a video disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="dispositionId">The disposition id</param>
@@ -3333,7 +3328,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video disposition 
+        /// Delete a video disposition &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="dispositionId">The disposition id</param>
@@ -3354,7 +3349,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3400,7 +3394,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a flag 
+        /// Delete a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3411,7 +3405,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a flag 
+        /// Delete a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3432,7 +3426,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3478,7 +3471,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a flag 
+        /// Delete a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3490,7 +3483,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a flag 
+        /// Delete a flag &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3511,7 +3504,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3557,7 +3549,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video&#39;s relationship 
+        /// Delete a video&#39;s relationship &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3569,7 +3561,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video&#39;s relationship 
+        /// Delete a video&#39;s relationship &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3594,7 +3586,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3641,7 +3632,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video&#39;s relationship 
+        /// Delete a video&#39;s relationship &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3654,7 +3645,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video&#39;s relationship 
+        /// Delete a video&#39;s relationship &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -3679,7 +3670,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3726,7 +3716,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a video template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3738,7 +3728,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a video template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3760,7 +3750,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3807,7 +3796,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a video template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3820,7 +3809,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a video template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a video template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3842,7 +3831,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3889,7 +3877,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get user videos 
+        /// Get user videos &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user id</param>
@@ -3904,7 +3892,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get user videos 
+        /// Get user videos &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user id</param>
@@ -3928,7 +3916,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3977,7 +3964,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get user videos 
+        /// Get user videos &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user id</param>
@@ -3993,7 +3980,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get user videos 
+        /// Get user videos &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user id</param>
@@ -4017,7 +4004,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4066,7 +4052,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Loads a specific video details 
+        /// Loads a specific video details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -4078,7 +4064,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Loads a specific video details 
+        /// Loads a specific video details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -4099,7 +4085,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4145,7 +4130,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Loads a specific video details 
+        /// Loads a specific video details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -4158,7 +4143,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Loads a specific video details 
+        /// Loads a specific video details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -4179,7 +4164,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4225,7 +4209,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of comments for a video 
+        /// Returns a page of comments for a video &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4239,7 +4223,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of comments for a video 
+        /// Returns a page of comments for a video &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4262,7 +4246,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4310,7 +4293,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of comments for a video 
+        /// Returns a page of comments for a video &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4325,7 +4308,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of comments for a video 
+        /// Returns a page of comments for a video &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4348,7 +4331,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4396,7 +4378,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of dispositions for a video 
+        /// Returns a page of dispositions for a video &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4410,7 +4392,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of dispositions for a video 
+        /// Returns a page of dispositions for a video &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4433,7 +4415,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4481,7 +4462,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of dispositions for a video 
+        /// Returns a page of dispositions for a video &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4496,7 +4477,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of dispositions for a video 
+        /// Returns a page of dispositions for a video &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4519,7 +4500,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4567,7 +4547,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of video relationships 
+        /// Returns a page of video relationships &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4581,7 +4561,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of video relationships 
+        /// Returns a page of video relationships &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4604,7 +4584,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4652,7 +4631,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of video relationships 
+        /// Returns a page of video relationships &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4667,7 +4646,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Returns a page of video relationships 
+        /// Returns a page of video relationships &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -4690,7 +4669,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4738,7 +4716,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single video template 
+        /// Get a single video template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -4750,7 +4728,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single video template 
+        /// Get a single video template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -4771,7 +4749,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4817,7 +4794,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single video template 
+        /// Get a single video template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -4830,7 +4807,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single video template 
+        /// Get a single video template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -4851,7 +4828,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4897,7 +4873,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search video templates 
+        /// List and search video templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -4911,7 +4887,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search video templates 
+        /// List and search video templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -4931,7 +4907,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4979,7 +4954,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search video templates 
+        /// List and search video templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -4994,7 +4969,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search video templates 
+        /// List and search video templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -5014,7 +4989,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5062,7 +5036,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Search videos using the documented filters 
+        /// Search videos using the documented filters &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeFlagged">Skip videos that have been flagged by the current user (optional, default to true)</param>
@@ -5088,7 +5062,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Search videos using the documented filters 
+        /// Search videos using the documented filters &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeFlagged">Skip videos that have been flagged by the current user (optional, default to true)</param>
@@ -5120,7 +5094,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5180,7 +5153,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Search videos using the documented filters 
+        /// Search videos using the documented filters &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeFlagged">Skip videos that have been flagged by the current user (optional, default to true)</param>
@@ -5207,7 +5180,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Search videos using the documented filters 
+        /// Search videos using the documented filters &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="excludeFlagged">Skip videos that have been flagged by the current user (optional, default to true)</param>
@@ -5239,7 +5212,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5299,7 +5271,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a user from a video&#39;s whitelist Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting.
+        /// Removes a user from a video&#39;s whitelist Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -5311,7 +5283,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a user from a video&#39;s whitelist Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting.
+        /// Removes a user from a video&#39;s whitelist Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -5336,7 +5308,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5383,7 +5354,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a user from a video&#39;s whitelist Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting.
+        /// Removes a user from a video&#39;s whitelist Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -5396,7 +5367,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a user from a video&#39;s whitelist Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting.
+        /// Removes a user from a video&#39;s whitelist Remove the user with the id given in the path from the whitelist of users that can view this video regardless of privacy setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -5421,7 +5392,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5468,7 +5438,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a contributor from a video 
+        /// Removes a contributor from a video &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -5480,7 +5450,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a contributor from a video 
+        /// Removes a contributor from a video &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -5505,7 +5475,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5552,7 +5521,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a contributor from a video 
+        /// Removes a contributor from a video &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -5565,7 +5534,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a contributor from a video 
+        /// Removes a contributor from a video &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -5590,7 +5559,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -5637,7 +5605,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Modifies a video&#39;s details 
+        /// Modifies a video&#39;s details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -5649,7 +5617,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Modifies a video&#39;s details 
+        /// Modifies a video&#39;s details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -5725,7 +5693,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Modifies a video&#39;s details 
+        /// Modifies a video&#39;s details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -5738,7 +5706,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Modifies a video&#39;s details 
+        /// Modifies a video&#39;s details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -5814,7 +5782,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video comment 
+        /// Update a video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -5827,7 +5795,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video comment 
+        /// Update a video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -5908,7 +5876,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video comment 
+        /// Update a video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -5922,7 +5890,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video comment 
+        /// Update a video comment &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -6003,7 +5971,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video&#39;s relationship details 
+        /// Update a video&#39;s relationship details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -6016,7 +5984,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video&#39;s relationship details 
+        /// Update a video&#39;s relationship details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -6097,7 +6065,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video&#39;s relationship details 
+        /// Update a video&#39;s relationship details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -6111,7 +6079,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video&#39;s relationship details 
+        /// Update a video&#39;s relationship details &lt;b&gt;Permissions Needed:&lt;/b&gt; VIDEOS_USER or VIDEOS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="videoId">The video id</param>
@@ -6192,7 +6160,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video template 
+        /// Update a video template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -6205,7 +6173,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video template 
+        /// Update a video template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -6281,7 +6249,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video template 
+        /// Update a video template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -6295,7 +6263,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a video template 
+        /// Update a video template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -6371,7 +6339,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Increment a video&#39;s view count 
+        /// Increment a video&#39;s view count &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -6382,7 +6350,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Increment a video&#39;s view count 
+        /// Increment a video&#39;s view count &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -6449,7 +6417,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Increment a video&#39;s view count 
+        /// Increment a video&#39;s view count &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>
@@ -6461,7 +6429,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Increment a video&#39;s view count 
+        /// Increment a video&#39;s view count &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The video id</param>

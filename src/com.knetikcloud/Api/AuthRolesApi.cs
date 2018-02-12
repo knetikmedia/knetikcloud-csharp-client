@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a new role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="roleResource">The role resource object (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Create a new role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="roleResource">The role resource object (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Delete a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -61,7 +61,7 @@ namespace com.knetikcloud.Api
         /// Delete a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -72,7 +72,7 @@ namespace com.knetikcloud.Api
         /// Get roles for a client
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -83,7 +83,7 @@ namespace com.knetikcloud.Api
         /// Get roles for a client
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -93,7 +93,7 @@ namespace com.knetikcloud.Api
         /// Get a single role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -104,7 +104,7 @@ namespace com.knetikcloud.Api
         /// Get a single role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -114,7 +114,7 @@ namespace com.knetikcloud.Api
         /// List and search roles
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for roles that have a name starting with specified string (optional)</param>
@@ -129,7 +129,7 @@ namespace com.knetikcloud.Api
         /// List and search roles
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for roles that have a name starting with specified string (optional)</param>
@@ -143,7 +143,7 @@ namespace com.knetikcloud.Api
         /// Get roles for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -154,7 +154,7 @@ namespace com.knetikcloud.Api
         /// Get roles for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -164,7 +164,7 @@ namespace com.knetikcloud.Api
         /// Set roles for a client
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -176,7 +176,7 @@ namespace com.knetikcloud.Api
         /// Set roles for a client
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -187,7 +187,7 @@ namespace com.knetikcloud.Api
         /// Set permissions for a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -199,7 +199,7 @@ namespace com.knetikcloud.Api
         /// Set permissions for a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -210,7 +210,7 @@ namespace com.knetikcloud.Api
         /// Set roles for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -222,7 +222,7 @@ namespace com.knetikcloud.Api
         /// Set roles for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -233,7 +233,7 @@ namespace com.knetikcloud.Api
         /// Update a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -245,7 +245,7 @@ namespace com.knetikcloud.Api
         /// Update a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -258,7 +258,7 @@ namespace com.knetikcloud.Api
         /// Create a new role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="roleResource">The role resource object (optional)</param>
@@ -269,7 +269,7 @@ namespace com.knetikcloud.Api
         /// Create a new role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="roleResource">The role resource object (optional)</param>
@@ -279,7 +279,7 @@ namespace com.knetikcloud.Api
         /// Delete a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -291,7 +291,7 @@ namespace com.knetikcloud.Api
         /// Delete a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -302,7 +302,7 @@ namespace com.knetikcloud.Api
         /// Get roles for a client
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -313,7 +313,7 @@ namespace com.knetikcloud.Api
         /// Get roles for a client
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -323,7 +323,7 @@ namespace com.knetikcloud.Api
         /// Get a single role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -334,7 +334,7 @@ namespace com.knetikcloud.Api
         /// Get a single role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -344,7 +344,7 @@ namespace com.knetikcloud.Api
         /// List and search roles
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for roles that have a name starting with specified string (optional)</param>
@@ -359,7 +359,7 @@ namespace com.knetikcloud.Api
         /// List and search roles
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for roles that have a name starting with specified string (optional)</param>
@@ -373,7 +373,7 @@ namespace com.knetikcloud.Api
         /// Get roles for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -384,7 +384,7 @@ namespace com.knetikcloud.Api
         /// Get roles for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -394,7 +394,7 @@ namespace com.knetikcloud.Api
         /// Set roles for a client
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -406,7 +406,7 @@ namespace com.knetikcloud.Api
         /// Set roles for a client
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -417,7 +417,7 @@ namespace com.knetikcloud.Api
         /// Set permissions for a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -429,7 +429,7 @@ namespace com.knetikcloud.Api
         /// Set permissions for a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -440,7 +440,7 @@ namespace com.knetikcloud.Api
         /// Set roles for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -452,7 +452,7 @@ namespace com.knetikcloud.Api
         /// Set roles for a user
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -463,7 +463,7 @@ namespace com.knetikcloud.Api
         /// Update a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -475,7 +475,7 @@ namespace com.knetikcloud.Api
         /// Update a role
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -583,7 +583,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new role 
+        /// Create a new role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="roleResource">The role resource object (optional)</param>
@@ -595,7 +595,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new role 
+        /// Create a new role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="roleResource">The role resource object (optional)</param>
@@ -666,7 +666,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new role 
+        /// Create a new role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="roleResource">The role resource object (optional)</param>
@@ -679,7 +679,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a new role 
+        /// Create a new role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="roleResource">The role resource object (optional)</param>
@@ -750,7 +750,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a role 
+        /// Delete a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -762,7 +762,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a role 
+        /// Delete a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -784,7 +784,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -831,7 +830,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a role 
+        /// Delete a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -844,7 +843,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a role 
+        /// Delete a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -866,7 +865,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -913,7 +911,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get roles for a client 
+        /// Get roles for a client &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -925,7 +923,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get roles for a client 
+        /// Get roles for a client &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -946,7 +944,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -992,7 +989,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get roles for a client 
+        /// Get roles for a client &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -1005,7 +1002,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get roles for a client 
+        /// Get roles for a client &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -1026,7 +1023,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1072,7 +1068,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single role 
+        /// Get a single role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -1084,7 +1080,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single role 
+        /// Get a single role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -1105,7 +1101,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1151,7 +1146,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single role 
+        /// Get a single role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -1164,7 +1159,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single role 
+        /// Get a single role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -1185,7 +1180,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1231,7 +1225,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search roles 
+        /// List and search roles &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for roles that have a name starting with specified string (optional)</param>
@@ -1247,7 +1241,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search roles 
+        /// List and search roles &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for roles that have a name starting with specified string (optional)</param>
@@ -1269,7 +1263,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1319,7 +1312,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search roles 
+        /// List and search roles &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for roles that have a name starting with specified string (optional)</param>
@@ -1336,7 +1329,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search roles 
+        /// List and search roles &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterName">Filter for roles that have a name starting with specified string (optional)</param>
@@ -1358,7 +1351,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1408,7 +1400,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get roles for a user 
+        /// Get roles for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -1420,7 +1412,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get roles for a user 
+        /// Get roles for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -1441,7 +1433,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1487,7 +1478,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get roles for a user 
+        /// Get roles for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -1500,7 +1491,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get roles for a user 
+        /// Get roles for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -1521,7 +1512,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -1567,7 +1557,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set roles for a client 
+        /// Set roles for a client &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -1580,7 +1570,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set roles for a client 
+        /// Set roles for a client &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -1656,7 +1646,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set roles for a client 
+        /// Set roles for a client &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -1670,7 +1660,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set roles for a client 
+        /// Set roles for a client &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="clientKey">The client key</param>
@@ -1746,7 +1736,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set permissions for a role 
+        /// Set permissions for a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -1759,7 +1749,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set permissions for a role 
+        /// Set permissions for a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -1835,7 +1825,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set permissions for a role 
+        /// Set permissions for a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -1849,7 +1839,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set permissions for a role 
+        /// Set permissions for a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -1925,7 +1915,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set roles for a user 
+        /// Set roles for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -1938,7 +1928,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set roles for a user 
+        /// Set roles for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -2014,7 +2004,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set roles for a user 
+        /// Set roles for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -2028,7 +2018,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set roles for a user 
+        /// Set roles for a user &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The user&#39;s id</param>
@@ -2104,7 +2094,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a role 
+        /// Update a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -2117,7 +2107,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a role 
+        /// Update a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -2193,7 +2183,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a role 
+        /// Update a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>
@@ -2207,7 +2197,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a role 
+        /// Update a role &lt;b&gt;Permissions Needed:&lt;/b&gt; ROLES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="role">The role value</param>

@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">The fulfillment type (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Create a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">The fulfillment type (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Delete a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -60,7 +60,7 @@ namespace com.knetikcloud.Api
         /// Delete a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Get a single fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -81,7 +81,7 @@ namespace com.knetikcloud.Api
         /// Get a single fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// List and search fulfillment types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -104,7 +104,7 @@ namespace com.knetikcloud.Api
         /// List and search fulfillment types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -116,7 +116,7 @@ namespace com.knetikcloud.Api
         /// Update a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -128,7 +128,7 @@ namespace com.knetikcloud.Api
         /// Update a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -141,7 +141,7 @@ namespace com.knetikcloud.Api
         /// Create a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">The fulfillment type (optional)</param>
@@ -152,7 +152,7 @@ namespace com.knetikcloud.Api
         /// Create a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">The fulfillment type (optional)</param>
@@ -162,7 +162,7 @@ namespace com.knetikcloud.Api
         /// Delete a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -173,7 +173,7 @@ namespace com.knetikcloud.Api
         /// Delete a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -183,7 +183,7 @@ namespace com.knetikcloud.Api
         /// Get a single fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -194,7 +194,7 @@ namespace com.knetikcloud.Api
         /// Get a single fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -204,7 +204,7 @@ namespace com.knetikcloud.Api
         /// List and search fulfillment types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -217,7 +217,7 @@ namespace com.knetikcloud.Api
         /// List and search fulfillment types
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -229,7 +229,7 @@ namespace com.knetikcloud.Api
         /// Update a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -241,7 +241,7 @@ namespace com.knetikcloud.Api
         /// Update a fulfillment type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -349,7 +349,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a fulfillment type 
+        /// Create a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">The fulfillment type (optional)</param>
@@ -361,7 +361,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a fulfillment type 
+        /// Create a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">The fulfillment type (optional)</param>
@@ -432,7 +432,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a fulfillment type 
+        /// Create a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">The fulfillment type (optional)</param>
@@ -445,7 +445,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a fulfillment type 
+        /// Create a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="type">The fulfillment type (optional)</param>
@@ -516,7 +516,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a fulfillment type 
+        /// Delete a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -527,7 +527,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a fulfillment type 
+        /// Delete a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -548,7 +548,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -594,7 +593,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a fulfillment type 
+        /// Delete a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -606,7 +605,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a fulfillment type 
+        /// Delete a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -627,7 +626,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -673,7 +671,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single fulfillment type 
+        /// Get a single fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -685,7 +683,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single fulfillment type 
+        /// Get a single fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -706,7 +704,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -752,7 +749,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single fulfillment type 
+        /// Get a single fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -765,7 +762,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single fulfillment type 
+        /// Get a single fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -786,7 +783,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -832,7 +828,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search fulfillment types 
+        /// List and search fulfillment types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -846,7 +842,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search fulfillment types 
+        /// List and search fulfillment types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -866,7 +862,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -914,7 +909,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search fulfillment types 
+        /// List and search fulfillment types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -929,7 +924,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search fulfillment types 
+        /// List and search fulfillment types &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -949,7 +944,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -997,7 +991,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a fulfillment type 
+        /// Update a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -1009,7 +1003,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a fulfillment type 
+        /// Update a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -1085,7 +1079,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a fulfillment type 
+        /// Update a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>
@@ -1098,7 +1092,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a fulfillment type 
+        /// Update a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id</param>

@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Retrieve invoice counts aggregated by time ranges
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_ORDERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currencyCode">The code for a currency to get sales data for</param>
@@ -46,7 +46,7 @@ namespace com.knetikcloud.Api
         /// Retrieve invoice counts aggregated by time ranges
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_ORDERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currencyCode">The code for a currency to get sales data for</param>
@@ -65,7 +65,7 @@ namespace com.knetikcloud.Api
         /// Retrieve invoice counts aggregated by time ranges
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_ORDERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currencyCode">The code for a currency to get sales data for</param>
@@ -83,7 +83,7 @@ namespace com.knetikcloud.Api
         /// Retrieve invoice counts aggregated by time ranges
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_ORDERS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currencyCode">The code for a currency to get sales data for</param>
@@ -197,7 +197,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve invoice counts aggregated by time ranges 
+        /// Retrieve invoice counts aggregated by time ranges &lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_ORDERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currencyCode">The code for a currency to get sales data for</param>
@@ -216,7 +216,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve invoice counts aggregated by time ranges 
+        /// Retrieve invoice counts aggregated by time ranges &lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_ORDERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currencyCode">The code for a currency to get sales data for</param>
@@ -244,7 +244,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -297,7 +296,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve invoice counts aggregated by time ranges 
+        /// Retrieve invoice counts aggregated by time ranges &lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_ORDERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currencyCode">The code for a currency to get sales data for</param>
@@ -317,7 +316,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Retrieve invoice counts aggregated by time ranges 
+        /// Retrieve invoice counts aggregated by time ranges &lt;b&gt;Permissions Needed:&lt;/b&gt; REPORTING_ORDERS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="currencyCode">The code for a currency to get sales data for</param>
@@ -345,7 +344,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 

@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Delete maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns></returns>
@@ -38,7 +38,7 @@ namespace com.knetikcloud.Api
         /// Delete maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of Object(void)</returns>
@@ -47,7 +47,7 @@ namespace com.knetikcloud.Api
         /// Get current maintenance info
         /// </summary>
         /// <remarks>
-        /// Get current maintenance info. 404 if no maintenance.
+        /// Get current maintenance info. 404 if no maintenance. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Maintenance</returns>
@@ -57,7 +57,7 @@ namespace com.knetikcloud.Api
         /// Get current maintenance info
         /// </summary>
         /// <remarks>
-        /// Get current maintenance info. 404 if no maintenance.
+        /// Get current maintenance info. 404 if no maintenance. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of Maintenance</returns>
@@ -66,7 +66,7 @@ namespace com.knetikcloud.Api
         /// Set current maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -77,7 +77,7 @@ namespace com.knetikcloud.Api
         /// Set current maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -87,7 +87,7 @@ namespace com.knetikcloud.Api
         /// Update current maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -98,7 +98,7 @@ namespace com.knetikcloud.Api
         /// Update current maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -110,7 +110,7 @@ namespace com.knetikcloud.Api
         /// Delete maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of void</returns>
@@ -120,7 +120,7 @@ namespace com.knetikcloud.Api
         /// Delete maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse</returns>
@@ -129,7 +129,7 @@ namespace com.knetikcloud.Api
         /// Get current maintenance info
         /// </summary>
         /// <remarks>
-        /// Get current maintenance info. 404 if no maintenance.
+        /// Get current maintenance info. 404 if no maintenance. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of Maintenance</returns>
@@ -139,7 +139,7 @@ namespace com.knetikcloud.Api
         /// Get current maintenance info
         /// </summary>
         /// <remarks>
-        /// Get current maintenance info. 404 if no maintenance.
+        /// Get current maintenance info. 404 if no maintenance. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (Maintenance)</returns>
@@ -148,7 +148,7 @@ namespace com.knetikcloud.Api
         /// Set current maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -159,7 +159,7 @@ namespace com.knetikcloud.Api
         /// Set current maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -169,7 +169,7 @@ namespace com.knetikcloud.Api
         /// Update current maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -180,7 +180,7 @@ namespace com.knetikcloud.Api
         /// Update current maintenance info
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -287,7 +287,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete maintenance info 
+        /// Delete maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns></returns>
@@ -297,7 +297,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete maintenance info 
+        /// Delete maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of Object(void)</returns>
@@ -314,7 +314,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -359,7 +358,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete maintenance info 
+        /// Delete maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of void</returns>
@@ -370,7 +369,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete maintenance info 
+        /// Delete maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse</returns>
@@ -387,7 +386,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -432,7 +430,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get current maintenance info Get current maintenance info. 404 if no maintenance.
+        /// Get current maintenance info Get current maintenance info. 404 if no maintenance. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Maintenance</returns>
@@ -443,7 +441,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get current maintenance info Get current maintenance info. 404 if no maintenance.
+        /// Get current maintenance info Get current maintenance info. 404 if no maintenance. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>ApiResponse of Maintenance</returns>
@@ -460,7 +458,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -505,7 +502,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get current maintenance info Get current maintenance info. 404 if no maintenance.
+        /// Get current maintenance info Get current maintenance info. 404 if no maintenance. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of Maintenance</returns>
@@ -517,7 +514,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get current maintenance info Get current maintenance info. 404 if no maintenance.
+        /// Get current maintenance info Get current maintenance info. 404 if no maintenance. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <returns>Task of ApiResponse (Maintenance)</returns>
@@ -534,7 +531,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -579,7 +575,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set current maintenance info 
+        /// Set current maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -590,7 +586,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set current maintenance info 
+        /// Set current maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -661,7 +657,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set current maintenance info 
+        /// Set current maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -673,7 +669,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set current maintenance info 
+        /// Set current maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -744,7 +740,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update current maintenance info 
+        /// Update current maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -755,7 +751,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update current maintenance info 
+        /// Update current maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -826,7 +822,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update current maintenance info 
+        /// Update current maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>
@@ -838,7 +834,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update current maintenance info 
+        /// Update current maintenance info &lt;b&gt;Permissions Needed:&lt;/b&gt; MAINTENANCE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="maintenance">The maintenance object (optional)</param>

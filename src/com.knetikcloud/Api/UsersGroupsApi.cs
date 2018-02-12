@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Adds a new member to the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -40,7 +40,7 @@ namespace com.knetikcloud.Api
         /// Adds a new member to the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -51,7 +51,7 @@ namespace com.knetikcloud.Api
         /// Adds multiple members to the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -63,7 +63,7 @@ namespace com.knetikcloud.Api
         /// Adds multiple members to the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -74,7 +74,7 @@ namespace com.knetikcloud.Api
         /// Create a group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupResource">The new group (optional)</param>
@@ -85,7 +85,7 @@ namespace com.knetikcloud.Api
         /// Create a group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupResource">The new group (optional)</param>
@@ -95,7 +95,7 @@ namespace com.knetikcloud.Api
         /// Create an group member template
         /// </summary>
         /// <remarks>
-        /// GroupMember Templates define a type of group member and the properties they have
+        /// GroupMember Templates define a type of group member and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupMemberTemplateResource">The group member template resource object (optional)</param>
@@ -106,7 +106,7 @@ namespace com.knetikcloud.Api
         /// Create an group member template
         /// </summary>
         /// <remarks>
-        /// GroupMember Templates define a type of group member and the properties they have
+        /// GroupMember Templates define a type of group member and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupMemberTemplateResource">The group member template resource object (optional)</param>
@@ -116,7 +116,7 @@ namespace com.knetikcloud.Api
         /// Create a group template
         /// </summary>
         /// <remarks>
-        /// Group Templates define a type of group and the properties they have
+        /// Group Templates define a type of group and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupTemplateResource">The group template resource object (optional)</param>
@@ -127,7 +127,7 @@ namespace com.knetikcloud.Api
         /// Create a group template
         /// </summary>
         /// <remarks>
-        /// Group Templates define a type of group and the properties they have
+        /// Group Templates define a type of group and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupTemplateResource">The group template resource object (optional)</param>
@@ -137,7 +137,7 @@ namespace com.knetikcloud.Api
         /// Removes a group from the system
         /// </summary>
         /// <remarks>
-        /// All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well.
+        /// All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -148,7 +148,7 @@ namespace com.knetikcloud.Api
         /// Removes a group from the system
         /// </summary>
         /// <remarks>
-        /// All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well.
+        /// All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -158,7 +158,7 @@ namespace com.knetikcloud.Api
         /// Delete an group member template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -170,7 +170,7 @@ namespace com.knetikcloud.Api
         /// Delete an group member template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -181,7 +181,7 @@ namespace com.knetikcloud.Api
         /// Delete a group template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -193,7 +193,7 @@ namespace com.knetikcloud.Api
         /// Delete a group template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -201,10 +201,35 @@ namespace com.knetikcloud.Api
         /// <returns>ApiResponse of Object(void)</returns>
         ApiResponse<Object> DeleteGroupTemplateWithHttpInfo (string id, string cascade = null);
         /// <summary>
-        /// Loads a specific group&#39;s details
+        /// Enable or disable notification of group messages
         /// </summary>
         /// <remarks>
         /// 
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="userId">The user id of the member or &#39;me&#39;</param>
+        /// <param name="disabled">disabled</param>
+        /// <returns></returns>
+        void DisableGroupNotification (string uniqueName, string userId, ValueWrapperboolean disabled);
+
+        /// <summary>
+        /// Enable or disable notification of group messages
+        /// </summary>
+        /// <remarks>
+        /// 
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="userId">The user id of the member or &#39;me&#39;</param>
+        /// <param name="disabled">disabled</param>
+        /// <returns>ApiResponse of Object(void)</returns>
+        ApiResponse<Object> DisableGroupNotificationWithHttpInfo (string uniqueName, string userId, ValueWrapperboolean disabled);
+        /// <summary>
+        /// Loads a specific group&#39;s details
+        /// </summary>
+        /// <remarks>
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -215,7 +240,7 @@ namespace com.knetikcloud.Api
         /// Loads a specific group&#39;s details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -225,7 +250,7 @@ namespace com.knetikcloud.Api
         /// Get group ancestors
         /// </summary>
         /// <remarks>
-        /// Returns a list of ancestor groups in reverse order (parent, then grandparent, etc
+        /// Returns a list of ancestor groups in reverse order (parent, then grandparent, etc). &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -236,7 +261,7 @@ namespace com.knetikcloud.Api
         /// Get group ancestors
         /// </summary>
         /// <remarks>
-        /// Returns a list of ancestor groups in reverse order (parent, then grandparent, etc
+        /// Returns a list of ancestor groups in reverse order (parent, then grandparent, etc). &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -246,7 +271,7 @@ namespace com.knetikcloud.Api
         /// Get a user from a group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -258,7 +283,7 @@ namespace com.knetikcloud.Api
         /// Get a user from a group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -269,7 +294,7 @@ namespace com.knetikcloud.Api
         /// Get a single group member template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -280,7 +305,7 @@ namespace com.knetikcloud.Api
         /// Get a single group member template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -290,7 +315,7 @@ namespace com.knetikcloud.Api
         /// List and search group member templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -303,7 +328,7 @@ namespace com.knetikcloud.Api
         /// List and search group member templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -315,7 +340,7 @@ namespace com.knetikcloud.Api
         /// Lists members of the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -329,7 +354,7 @@ namespace com.knetikcloud.Api
         /// Lists members of the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -339,10 +364,35 @@ namespace com.knetikcloud.Api
         /// <returns>ApiResponse of PageResourceGroupMemberResource</returns>
         ApiResponse<PageResourceGroupMemberResource> GetGroupMembersWithHttpInfo (string uniqueName, int? size = null, int? page = null, string order = null);
         /// <summary>
+        /// Get a list of group messages
+        /// </summary>
+        /// <remarks>
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
+        /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
+        /// <returns>PageResourceChatMessageResource</returns>
+        PageResourceChatMessageResource GetGroupMessages (string uniqueName, int? size = null, int? page = null);
+
+        /// <summary>
+        /// Get a list of group messages
+        /// </summary>
+        /// <remarks>
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
+        /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
+        /// <returns>ApiResponse of PageResourceChatMessageResource</returns>
+        ApiResponse<PageResourceChatMessageResource> GetGroupMessagesWithHttpInfo (string uniqueName, int? size = null, int? page = null);
+        /// <summary>
         /// Get a single group template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -353,7 +403,7 @@ namespace com.knetikcloud.Api
         /// Get a single group template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -363,7 +413,7 @@ namespace com.knetikcloud.Api
         /// List and search group templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -376,7 +426,7 @@ namespace com.knetikcloud.Api
         /// List and search group templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -388,7 +438,7 @@ namespace com.knetikcloud.Api
         /// List groups a user is in
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -400,7 +450,7 @@ namespace com.knetikcloud.Api
         /// List groups a user is in
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -411,7 +461,7 @@ namespace com.knetikcloud.Api
         /// List and search groups
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTemplate">Filter for groups using a specific template, by id (optional)</param>
@@ -430,7 +480,7 @@ namespace com.knetikcloud.Api
         /// List and search groups
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTemplate">Filter for groups using a specific template, by id (optional)</param>
@@ -445,10 +495,33 @@ namespace com.knetikcloud.Api
         /// <returns>ApiResponse of PageResourceGroupResource</returns>
         ApiResponse<PageResourceGroupResource> ListGroupsWithHttpInfo (string filterTemplate = null, string filterMemberCount = null, string filterName = null, string filterUniqueName = null, string filterParent = null, string filterStatus = null, int? size = null, int? page = null, string order = null);
         /// <summary>
-        /// Removes a user from a group
+        /// Send a group message
         /// </summary>
         /// <remarks>
         /// 
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="chatMessageRequest">The chat message request (optional)</param>
+        /// <returns>ChatMessageResource</returns>
+        ChatMessageResource PostGroupMessage (string uniqueName, ChatMessageRequest chatMessageRequest = null);
+
+        /// <summary>
+        /// Send a group message
+        /// </summary>
+        /// <remarks>
+        /// 
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="chatMessageRequest">The chat message request (optional)</param>
+        /// <returns>ApiResponse of ChatMessageResource</returns>
+        ApiResponse<ChatMessageResource> PostGroupMessageWithHttpInfo (string uniqueName, ChatMessageRequest chatMessageRequest = null);
+        /// <summary>
+        /// Removes a user from a group
+        /// </summary>
+        /// <remarks>
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -460,7 +533,7 @@ namespace com.knetikcloud.Api
         /// Removes a user from a group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -471,7 +544,7 @@ namespace com.knetikcloud.Api
         /// Update a group
         /// </summary>
         /// <remarks>
-        /// If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it.
+        /// If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or admin of the group
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -483,7 +556,7 @@ namespace com.knetikcloud.Api
         /// Update a group
         /// </summary>
         /// <remarks>
-        /// If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it.
+        /// If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or admin of the group
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -494,7 +567,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s order
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -507,7 +580,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s order
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -519,7 +592,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s membership properties
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -532,7 +605,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s membership properties
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -544,7 +617,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s status
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -557,7 +630,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s status
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -569,7 +642,7 @@ namespace com.knetikcloud.Api
         /// Update an group member template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -581,7 +654,7 @@ namespace com.knetikcloud.Api
         /// Update an group member template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -592,7 +665,7 @@ namespace com.knetikcloud.Api
         /// Update a group template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -604,7 +677,7 @@ namespace com.knetikcloud.Api
         /// Update a group template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -617,7 +690,7 @@ namespace com.knetikcloud.Api
         /// Adds a new member to the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -629,7 +702,7 @@ namespace com.knetikcloud.Api
         /// Adds a new member to the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -640,7 +713,7 @@ namespace com.knetikcloud.Api
         /// Adds multiple members to the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -652,7 +725,7 @@ namespace com.knetikcloud.Api
         /// Adds multiple members to the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -663,7 +736,7 @@ namespace com.knetikcloud.Api
         /// Create a group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupResource">The new group (optional)</param>
@@ -674,7 +747,7 @@ namespace com.knetikcloud.Api
         /// Create a group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupResource">The new group (optional)</param>
@@ -684,7 +757,7 @@ namespace com.knetikcloud.Api
         /// Create an group member template
         /// </summary>
         /// <remarks>
-        /// GroupMember Templates define a type of group member and the properties they have
+        /// GroupMember Templates define a type of group member and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupMemberTemplateResource">The group member template resource object (optional)</param>
@@ -695,7 +768,7 @@ namespace com.knetikcloud.Api
         /// Create an group member template
         /// </summary>
         /// <remarks>
-        /// GroupMember Templates define a type of group member and the properties they have
+        /// GroupMember Templates define a type of group member and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupMemberTemplateResource">The group member template resource object (optional)</param>
@@ -705,7 +778,7 @@ namespace com.knetikcloud.Api
         /// Create a group template
         /// </summary>
         /// <remarks>
-        /// Group Templates define a type of group and the properties they have
+        /// Group Templates define a type of group and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupTemplateResource">The group template resource object (optional)</param>
@@ -716,7 +789,7 @@ namespace com.knetikcloud.Api
         /// Create a group template
         /// </summary>
         /// <remarks>
-        /// Group Templates define a type of group and the properties they have
+        /// Group Templates define a type of group and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupTemplateResource">The group template resource object (optional)</param>
@@ -726,7 +799,7 @@ namespace com.knetikcloud.Api
         /// Removes a group from the system
         /// </summary>
         /// <remarks>
-        /// All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well.
+        /// All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -737,7 +810,7 @@ namespace com.knetikcloud.Api
         /// Removes a group from the system
         /// </summary>
         /// <remarks>
-        /// All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well.
+        /// All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -747,7 +820,7 @@ namespace com.knetikcloud.Api
         /// Delete an group member template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -759,7 +832,7 @@ namespace com.knetikcloud.Api
         /// Delete an group member template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -770,7 +843,7 @@ namespace com.knetikcloud.Api
         /// Delete a group template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -782,7 +855,7 @@ namespace com.knetikcloud.Api
         /// Delete a group template
         /// </summary>
         /// <remarks>
-        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -790,10 +863,35 @@ namespace com.knetikcloud.Api
         /// <returns>Task of ApiResponse</returns>
         System.Threading.Tasks.Task<ApiResponse<Object>> DeleteGroupTemplateAsyncWithHttpInfo (string id, string cascade = null);
         /// <summary>
-        /// Loads a specific group&#39;s details
+        /// Enable or disable notification of group messages
         /// </summary>
         /// <remarks>
         /// 
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="userId">The user id of the member or &#39;me&#39;</param>
+        /// <param name="disabled">disabled</param>
+        /// <returns>Task of void</returns>
+        System.Threading.Tasks.Task DisableGroupNotificationAsync (string uniqueName, string userId, ValueWrapperboolean disabled);
+
+        /// <summary>
+        /// Enable or disable notification of group messages
+        /// </summary>
+        /// <remarks>
+        /// 
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="userId">The user id of the member or &#39;me&#39;</param>
+        /// <param name="disabled">disabled</param>
+        /// <returns>Task of ApiResponse</returns>
+        System.Threading.Tasks.Task<ApiResponse<Object>> DisableGroupNotificationAsyncWithHttpInfo (string uniqueName, string userId, ValueWrapperboolean disabled);
+        /// <summary>
+        /// Loads a specific group&#39;s details
+        /// </summary>
+        /// <remarks>
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -804,7 +902,7 @@ namespace com.knetikcloud.Api
         /// Loads a specific group&#39;s details
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -814,7 +912,7 @@ namespace com.knetikcloud.Api
         /// Get group ancestors
         /// </summary>
         /// <remarks>
-        /// Returns a list of ancestor groups in reverse order (parent, then grandparent, etc
+        /// Returns a list of ancestor groups in reverse order (parent, then grandparent, etc). &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -825,7 +923,7 @@ namespace com.knetikcloud.Api
         /// Get group ancestors
         /// </summary>
         /// <remarks>
-        /// Returns a list of ancestor groups in reverse order (parent, then grandparent, etc
+        /// Returns a list of ancestor groups in reverse order (parent, then grandparent, etc). &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -835,7 +933,7 @@ namespace com.knetikcloud.Api
         /// Get a user from a group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -847,7 +945,7 @@ namespace com.knetikcloud.Api
         /// Get a user from a group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -858,7 +956,7 @@ namespace com.knetikcloud.Api
         /// Get a single group member template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -869,7 +967,7 @@ namespace com.knetikcloud.Api
         /// Get a single group member template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -879,7 +977,7 @@ namespace com.knetikcloud.Api
         /// List and search group member templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -892,7 +990,7 @@ namespace com.knetikcloud.Api
         /// List and search group member templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -904,7 +1002,7 @@ namespace com.knetikcloud.Api
         /// Lists members of the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -918,7 +1016,7 @@ namespace com.knetikcloud.Api
         /// Lists members of the group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -928,10 +1026,35 @@ namespace com.knetikcloud.Api
         /// <returns>Task of ApiResponse (PageResourceGroupMemberResource)</returns>
         System.Threading.Tasks.Task<ApiResponse<PageResourceGroupMemberResource>> GetGroupMembersAsyncWithHttpInfo (string uniqueName, int? size = null, int? page = null, string order = null);
         /// <summary>
+        /// Get a list of group messages
+        /// </summary>
+        /// <remarks>
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
+        /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
+        /// <returns>Task of PageResourceChatMessageResource</returns>
+        System.Threading.Tasks.Task<PageResourceChatMessageResource> GetGroupMessagesAsync (string uniqueName, int? size = null, int? page = null);
+
+        /// <summary>
+        /// Get a list of group messages
+        /// </summary>
+        /// <remarks>
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
+        /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
+        /// <returns>Task of ApiResponse (PageResourceChatMessageResource)</returns>
+        System.Threading.Tasks.Task<ApiResponse<PageResourceChatMessageResource>> GetGroupMessagesAsyncWithHttpInfo (string uniqueName, int? size = null, int? page = null);
+        /// <summary>
         /// Get a single group template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -942,7 +1065,7 @@ namespace com.knetikcloud.Api
         /// Get a single group template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -952,7 +1075,7 @@ namespace com.knetikcloud.Api
         /// List and search group templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -965,7 +1088,7 @@ namespace com.knetikcloud.Api
         /// List and search group templates
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -977,7 +1100,7 @@ namespace com.knetikcloud.Api
         /// List groups a user is in
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -989,7 +1112,7 @@ namespace com.knetikcloud.Api
         /// List groups a user is in
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -1000,7 +1123,7 @@ namespace com.knetikcloud.Api
         /// List and search groups
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTemplate">Filter for groups using a specific template, by id (optional)</param>
@@ -1019,7 +1142,7 @@ namespace com.knetikcloud.Api
         /// List and search groups
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTemplate">Filter for groups using a specific template, by id (optional)</param>
@@ -1034,10 +1157,33 @@ namespace com.knetikcloud.Api
         /// <returns>Task of ApiResponse (PageResourceGroupResource)</returns>
         System.Threading.Tasks.Task<ApiResponse<PageResourceGroupResource>> ListGroupsAsyncWithHttpInfo (string filterTemplate = null, string filterMemberCount = null, string filterName = null, string filterUniqueName = null, string filterParent = null, string filterStatus = null, int? size = null, int? page = null, string order = null);
         /// <summary>
-        /// Removes a user from a group
+        /// Send a group message
         /// </summary>
         /// <remarks>
         /// 
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="chatMessageRequest">The chat message request (optional)</param>
+        /// <returns>Task of ChatMessageResource</returns>
+        System.Threading.Tasks.Task<ChatMessageResource> PostGroupMessageAsync (string uniqueName, ChatMessageRequest chatMessageRequest = null);
+
+        /// <summary>
+        /// Send a group message
+        /// </summary>
+        /// <remarks>
+        /// 
+        /// </remarks>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="chatMessageRequest">The chat message request (optional)</param>
+        /// <returns>Task of ApiResponse (ChatMessageResource)</returns>
+        System.Threading.Tasks.Task<ApiResponse<ChatMessageResource>> PostGroupMessageAsyncWithHttpInfo (string uniqueName, ChatMessageRequest chatMessageRequest = null);
+        /// <summary>
+        /// Removes a user from a group
+        /// </summary>
+        /// <remarks>
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1049,7 +1195,7 @@ namespace com.knetikcloud.Api
         /// Removes a user from a group
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1060,7 +1206,7 @@ namespace com.knetikcloud.Api
         /// Update a group
         /// </summary>
         /// <remarks>
-        /// If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it.
+        /// If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or admin of the group
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1072,7 +1218,7 @@ namespace com.knetikcloud.Api
         /// Update a group
         /// </summary>
         /// <remarks>
-        /// If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it.
+        /// If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or admin of the group
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1083,7 +1229,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s order
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1096,7 +1242,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s order
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1108,7 +1254,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s membership properties
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1121,7 +1267,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s membership properties
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1133,7 +1279,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s status
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1146,7 +1292,7 @@ namespace com.knetikcloud.Api
         /// Change a user&#39;s status
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1158,7 +1304,7 @@ namespace com.knetikcloud.Api
         /// Update an group member template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1170,7 +1316,7 @@ namespace com.knetikcloud.Api
         /// Update an group member template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1181,7 +1327,7 @@ namespace com.knetikcloud.Api
         /// Update a group template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1193,7 +1339,7 @@ namespace com.knetikcloud.Api
         /// Update a group template
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -1301,7 +1447,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a new member to the group 
+        /// Adds a new member to the group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1314,7 +1460,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a new member to the group 
+        /// Adds a new member to the group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1393,7 +1539,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a new member to the group 
+        /// Adds a new member to the group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1407,7 +1553,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds a new member to the group 
+        /// Adds a new member to the group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1486,7 +1632,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds multiple members to the group 
+        /// Adds multiple members to the group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1499,7 +1645,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds multiple members to the group 
+        /// Adds multiple members to the group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1578,7 +1724,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds multiple members to the group 
+        /// Adds multiple members to the group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1592,7 +1738,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Adds multiple members to the group 
+        /// Adds multiple members to the group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -1671,7 +1817,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a group 
+        /// Create a group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupResource">The new group (optional)</param>
@@ -1683,7 +1829,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a group 
+        /// Create a group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupResource">The new group (optional)</param>
@@ -1754,7 +1900,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a group 
+        /// Create a group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupResource">The new group (optional)</param>
@@ -1767,7 +1913,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a group 
+        /// Create a group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupResource">The new group (optional)</param>
@@ -1838,7 +1984,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an group member template GroupMember Templates define a type of group member and the properties they have
+        /// Create an group member template GroupMember Templates define a type of group member and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupMemberTemplateResource">The group member template resource object (optional)</param>
@@ -1850,7 +1996,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an group member template GroupMember Templates define a type of group member and the properties they have
+        /// Create an group member template GroupMember Templates define a type of group member and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupMemberTemplateResource">The group member template resource object (optional)</param>
@@ -1921,7 +2067,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an group member template GroupMember Templates define a type of group member and the properties they have
+        /// Create an group member template GroupMember Templates define a type of group member and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupMemberTemplateResource">The group member template resource object (optional)</param>
@@ -1934,7 +2080,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create an group member template GroupMember Templates define a type of group member and the properties they have
+        /// Create an group member template GroupMember Templates define a type of group member and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupMemberTemplateResource">The group member template resource object (optional)</param>
@@ -2005,7 +2151,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a group template Group Templates define a type of group and the properties they have
+        /// Create a group template Group Templates define a type of group and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupTemplateResource">The group template resource object (optional)</param>
@@ -2017,7 +2163,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a group template Group Templates define a type of group and the properties they have
+        /// Create a group template Group Templates define a type of group and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupTemplateResource">The group template resource object (optional)</param>
@@ -2088,7 +2234,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a group template Group Templates define a type of group and the properties they have
+        /// Create a group template Group Templates define a type of group and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupTemplateResource">The group template resource object (optional)</param>
@@ -2101,7 +2247,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a group template Group Templates define a type of group and the properties they have
+        /// Create a group template Group Templates define a type of group and the properties they have. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="groupTemplateResource">The group template resource object (optional)</param>
@@ -2172,7 +2318,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a group from the system All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well.
+        /// Removes a group from the system All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2183,7 +2329,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a group from the system All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well.
+        /// Removes a group from the system All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2204,7 +2350,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2250,7 +2395,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a group from the system All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well.
+        /// Removes a group from the system All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2262,7 +2407,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a group from the system All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well.
+        /// Removes a group from the system All groups listing this as the parent are also removed and users are in turn removed from this and those groups. This may result in users no longer being in this group&#39;s parent if they were not added to it directly as well. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2283,7 +2428,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2329,7 +2473,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an group member template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an group member template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2341,7 +2485,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an group member template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an group member template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2363,7 +2507,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2410,7 +2553,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an group member template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an group member template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2423,7 +2566,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an group member template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete an group member template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2445,7 +2588,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2492,7 +2634,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a group template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a group template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2504,7 +2646,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a group template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a group template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2526,7 +2668,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2573,7 +2714,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a group template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a group template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2586,7 +2727,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a group template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects
+        /// Delete a group template If cascade &#x3D; &#39;detach&#39;, it will force delete the template even if it&#39;s attached to other objects. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -2608,7 +2749,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2655,7 +2795,202 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Loads a specific group&#39;s details 
+        /// Enable or disable notification of group messages 
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="userId">The user id of the member or &#39;me&#39;</param>
+        /// <param name="disabled">disabled</param>
+        /// <returns></returns>
+        public void DisableGroupNotification (string uniqueName, string userId, ValueWrapperboolean disabled)
+        {
+             DisableGroupNotificationWithHttpInfo(uniqueName, userId, disabled);
+        }
+
+        /// <summary>
+        /// Enable or disable notification of group messages 
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="userId">The user id of the member or &#39;me&#39;</param>
+        /// <param name="disabled">disabled</param>
+        /// <returns>ApiResponse of Object(void)</returns>
+        public ApiResponse<Object> DisableGroupNotificationWithHttpInfo (string uniqueName, string userId, ValueWrapperboolean disabled)
+        {
+            // verify the required parameter 'uniqueName' is set
+            if (uniqueName == null)
+                throw new ApiException(400, "Missing required parameter 'uniqueName' when calling UsersGroupsApi->DisableGroupNotification");
+            // verify the required parameter 'userId' is set
+            if (userId == null)
+                throw new ApiException(400, "Missing required parameter 'userId' when calling UsersGroupsApi->DisableGroupNotification");
+            // verify the required parameter 'disabled' is set
+            if (disabled == null)
+                throw new ApiException(400, "Missing required parameter 'disabled' when calling UsersGroupsApi->DisableGroupNotification");
+
+            var localVarPath = "/users/groups/{unique_name}/members/{user_id}/messages/disabled";
+            var localVarPathParams = new Dictionary<String, String>();
+            var localVarQueryParams = new List<KeyValuePair<String, String>>();
+            var localVarHeaderParams = new Dictionary<String, String>(Configuration.DefaultHeader);
+            var localVarFormParams = new Dictionary<String, String>();
+            var localVarFileParams = new Dictionary<String, FileParameter>();
+            Object localVarPostBody = null;
+
+            // to determine the Content-Type header
+            String[] localVarHttpContentTypes = new String[] {
+                "application/json"
+            };
+            String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
+
+            // to determine the Accept header
+            String[] localVarHttpHeaderAccepts = new String[] {
+                "application/json"
+            };
+            String localVarHttpHeaderAccept = Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
+            if (localVarHttpHeaderAccept != null)
+                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+
+            if (uniqueName != null) localVarPathParams.Add("unique_name", Configuration.ApiClient.ParameterToString(uniqueName)); // path parameter
+            if (userId != null) localVarPathParams.Add("user_id", Configuration.ApiClient.ParameterToString(userId)); // path parameter
+            if (disabled != null && disabled.GetType() != typeof(byte[]))
+            {
+                localVarPostBody = Configuration.ApiClient.Serialize(disabled); // http body (model) parameter
+            }
+            else
+            {
+                localVarPostBody = disabled; // byte array
+            }
+
+            // authentication (oauth2_client_credentials_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
+            // authentication (oauth2_password_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
+
+            // make the HTTP request
+            IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
+                Method.PUT, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
+                localVarPathParams, localVarHttpContentType);
+
+            int localVarStatusCode = (int) localVarResponse.StatusCode;
+
+            if (ExceptionFactory != null)
+            {
+                Exception exception = ExceptionFactory("DisableGroupNotification", localVarResponse);
+                if (exception != null) throw exception;
+            }
+
+            return new ApiResponse<Object>(localVarStatusCode,
+                localVarResponse.Headers.ToDictionary(x => x.Name, x => x.Value.ToString()),
+                null);
+        }
+
+        /// <summary>
+        /// Enable or disable notification of group messages 
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="userId">The user id of the member or &#39;me&#39;</param>
+        /// <param name="disabled">disabled</param>
+        /// <returns>Task of void</returns>
+        public async System.Threading.Tasks.Task DisableGroupNotificationAsync (string uniqueName, string userId, ValueWrapperboolean disabled)
+        {
+             await DisableGroupNotificationAsyncWithHttpInfo(uniqueName, userId, disabled);
+
+        }
+
+        /// <summary>
+        /// Enable or disable notification of group messages 
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="userId">The user id of the member or &#39;me&#39;</param>
+        /// <param name="disabled">disabled</param>
+        /// <returns>Task of ApiResponse</returns>
+        public async System.Threading.Tasks.Task<ApiResponse<Object>> DisableGroupNotificationAsyncWithHttpInfo (string uniqueName, string userId, ValueWrapperboolean disabled)
+        {
+            // verify the required parameter 'uniqueName' is set
+            if (uniqueName == null)
+                throw new ApiException(400, "Missing required parameter 'uniqueName' when calling UsersGroupsApi->DisableGroupNotification");
+            // verify the required parameter 'userId' is set
+            if (userId == null)
+                throw new ApiException(400, "Missing required parameter 'userId' when calling UsersGroupsApi->DisableGroupNotification");
+            // verify the required parameter 'disabled' is set
+            if (disabled == null)
+                throw new ApiException(400, "Missing required parameter 'disabled' when calling UsersGroupsApi->DisableGroupNotification");
+
+            var localVarPath = "/users/groups/{unique_name}/members/{user_id}/messages/disabled";
+            var localVarPathParams = new Dictionary<String, String>();
+            var localVarQueryParams = new List<KeyValuePair<String, String>>();
+            var localVarHeaderParams = new Dictionary<String, String>(Configuration.DefaultHeader);
+            var localVarFormParams = new Dictionary<String, String>();
+            var localVarFileParams = new Dictionary<String, FileParameter>();
+            Object localVarPostBody = null;
+
+            // to determine the Content-Type header
+            String[] localVarHttpContentTypes = new String[] {
+                "application/json"
+            };
+            String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
+
+            // to determine the Accept header
+            String[] localVarHttpHeaderAccepts = new String[] {
+                "application/json"
+            };
+            String localVarHttpHeaderAccept = Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
+            if (localVarHttpHeaderAccept != null)
+                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+
+            if (uniqueName != null) localVarPathParams.Add("unique_name", Configuration.ApiClient.ParameterToString(uniqueName)); // path parameter
+            if (userId != null) localVarPathParams.Add("user_id", Configuration.ApiClient.ParameterToString(userId)); // path parameter
+            if (disabled != null && disabled.GetType() != typeof(byte[]))
+            {
+                localVarPostBody = Configuration.ApiClient.Serialize(disabled); // http body (model) parameter
+            }
+            else
+            {
+                localVarPostBody = disabled; // byte array
+            }
+
+            // authentication (oauth2_client_credentials_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
+            // authentication (oauth2_password_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
+
+            // make the HTTP request
+            IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
+                Method.PUT, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
+                localVarPathParams, localVarHttpContentType);
+
+            int localVarStatusCode = (int) localVarResponse.StatusCode;
+
+            if (ExceptionFactory != null)
+            {
+                Exception exception = ExceptionFactory("DisableGroupNotification", localVarResponse);
+                if (exception != null) throw exception;
+            }
+
+            return new ApiResponse<Object>(localVarStatusCode,
+                localVarResponse.Headers.ToDictionary(x => x.Name, x => x.Value.ToString()),
+                null);
+        }
+
+        /// <summary>
+        /// Loads a specific group&#39;s details &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2667,7 +3002,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Loads a specific group&#39;s details 
+        /// Loads a specific group&#39;s details &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2688,7 +3023,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2734,7 +3068,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Loads a specific group&#39;s details 
+        /// Loads a specific group&#39;s details &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2747,7 +3081,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Loads a specific group&#39;s details 
+        /// Loads a specific group&#39;s details &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2768,7 +3102,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2814,7 +3147,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get group ancestors Returns a list of ancestor groups in reverse order (parent, then grandparent, etc
+        /// Get group ancestors Returns a list of ancestor groups in reverse order (parent, then grandparent, etc). &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2826,7 +3159,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get group ancestors Returns a list of ancestor groups in reverse order (parent, then grandparent, etc
+        /// Get group ancestors Returns a list of ancestor groups in reverse order (parent, then grandparent, etc). &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2847,7 +3180,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2861,6 +3193,18 @@ namespace com.knetikcloud.Api
 
             if (uniqueName != null) localVarPathParams.Add("unique_name", Configuration.ApiClient.ParameterToString(uniqueName)); // path parameter
 
+            // authentication (oauth2_client_credentials_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
+            // authentication (oauth2_password_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
@@ -2881,7 +3225,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get group ancestors Returns a list of ancestor groups in reverse order (parent, then grandparent, etc
+        /// Get group ancestors Returns a list of ancestor groups in reverse order (parent, then grandparent, etc). &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2894,7 +3238,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get group ancestors Returns a list of ancestor groups in reverse order (parent, then grandparent, etc
+        /// Get group ancestors Returns a list of ancestor groups in reverse order (parent, then grandparent, etc). &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2915,7 +3259,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -2929,6 +3272,18 @@ namespace com.knetikcloud.Api
 
             if (uniqueName != null) localVarPathParams.Add("unique_name", Configuration.ApiClient.ParameterToString(uniqueName)); // path parameter
 
+            // authentication (oauth2_client_credentials_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
+            // authentication (oauth2_password_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
 
             // make the HTTP request
             IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
@@ -2949,7 +3304,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a user from a group 
+        /// Get a user from a group &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2962,7 +3317,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a user from a group 
+        /// Get a user from a group &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -2987,7 +3342,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3034,7 +3388,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a user from a group 
+        /// Get a user from a group &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -3048,7 +3402,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a user from a group 
+        /// Get a user from a group &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -3073,7 +3427,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3120,7 +3473,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single group member template 
+        /// Get a single group member template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3132,7 +3485,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single group member template 
+        /// Get a single group member template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3153,7 +3506,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3199,7 +3551,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single group member template 
+        /// Get a single group member template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3212,7 +3564,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single group member template 
+        /// Get a single group member template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3233,7 +3585,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3279,7 +3630,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search group member templates 
+        /// List and search group member templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -3293,7 +3644,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search group member templates 
+        /// List and search group member templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -3313,7 +3664,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3361,7 +3711,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search group member templates 
+        /// List and search group member templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -3376,7 +3726,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search group member templates 
+        /// List and search group member templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -3396,7 +3746,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3444,7 +3793,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Lists members of the group 
+        /// Lists members of the group &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -3459,7 +3808,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Lists members of the group 
+        /// Lists members of the group &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -3483,7 +3832,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3532,7 +3880,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Lists members of the group 
+        /// Lists members of the group &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -3548,7 +3896,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Lists members of the group 
+        /// Lists members of the group &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -3572,7 +3920,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3621,7 +3968,176 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single group template 
+        /// Get a list of group messages &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
+        /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
+        /// <returns>PageResourceChatMessageResource</returns>
+        public PageResourceChatMessageResource GetGroupMessages (string uniqueName, int? size = null, int? page = null)
+        {
+             ApiResponse<PageResourceChatMessageResource> localVarResponse = GetGroupMessagesWithHttpInfo(uniqueName, size, page);
+             return localVarResponse.Data;
+        }
+
+        /// <summary>
+        /// Get a list of group messages &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
+        /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
+        /// <returns>ApiResponse of PageResourceChatMessageResource</returns>
+        public ApiResponse< PageResourceChatMessageResource > GetGroupMessagesWithHttpInfo (string uniqueName, int? size = null, int? page = null)
+        {
+            // verify the required parameter 'uniqueName' is set
+            if (uniqueName == null)
+                throw new ApiException(400, "Missing required parameter 'uniqueName' when calling UsersGroupsApi->GetGroupMessages");
+
+            var localVarPath = "/users/groups/{unique_name}/messages";
+            var localVarPathParams = new Dictionary<String, String>();
+            var localVarQueryParams = new List<KeyValuePair<String, String>>();
+            var localVarHeaderParams = new Dictionary<String, String>(Configuration.DefaultHeader);
+            var localVarFormParams = new Dictionary<String, String>();
+            var localVarFileParams = new Dictionary<String, FileParameter>();
+            Object localVarPostBody = null;
+
+            // to determine the Content-Type header
+            String[] localVarHttpContentTypes = new String[] {
+            };
+            String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
+
+            // to determine the Accept header
+            String[] localVarHttpHeaderAccepts = new String[] {
+                "application/json"
+            };
+            String localVarHttpHeaderAccept = Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
+            if (localVarHttpHeaderAccept != null)
+                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+
+            if (uniqueName != null) localVarPathParams.Add("unique_name", Configuration.ApiClient.ParameterToString(uniqueName)); // path parameter
+            if (size != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "size", size)); // query parameter
+            if (page != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "page", page)); // query parameter
+
+            // authentication (oauth2_client_credentials_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
+            // authentication (oauth2_password_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
+
+            // make the HTTP request
+            IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
+                Method.GET, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
+                localVarPathParams, localVarHttpContentType);
+
+            int localVarStatusCode = (int) localVarResponse.StatusCode;
+
+            if (ExceptionFactory != null)
+            {
+                Exception exception = ExceptionFactory("GetGroupMessages", localVarResponse);
+                if (exception != null) throw exception;
+            }
+
+            return new ApiResponse<PageResourceChatMessageResource>(localVarStatusCode,
+                localVarResponse.Headers.ToDictionary(x => x.Name, x => x.Value.ToString()),
+                (PageResourceChatMessageResource) Configuration.ApiClient.Deserialize(localVarResponse, typeof(PageResourceChatMessageResource)));
+        }
+
+        /// <summary>
+        /// Get a list of group messages &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
+        /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
+        /// <returns>Task of PageResourceChatMessageResource</returns>
+        public async System.Threading.Tasks.Task<PageResourceChatMessageResource> GetGroupMessagesAsync (string uniqueName, int? size = null, int? page = null)
+        {
+             ApiResponse<PageResourceChatMessageResource> localVarResponse = await GetGroupMessagesAsyncWithHttpInfo(uniqueName, size, page);
+             return localVarResponse.Data;
+
+        }
+
+        /// <summary>
+        /// Get a list of group messages &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
+        /// <param name="page">The number of the page returned, starting with 1 (optional, default to 1)</param>
+        /// <returns>Task of ApiResponse (PageResourceChatMessageResource)</returns>
+        public async System.Threading.Tasks.Task<ApiResponse<PageResourceChatMessageResource>> GetGroupMessagesAsyncWithHttpInfo (string uniqueName, int? size = null, int? page = null)
+        {
+            // verify the required parameter 'uniqueName' is set
+            if (uniqueName == null)
+                throw new ApiException(400, "Missing required parameter 'uniqueName' when calling UsersGroupsApi->GetGroupMessages");
+
+            var localVarPath = "/users/groups/{unique_name}/messages";
+            var localVarPathParams = new Dictionary<String, String>();
+            var localVarQueryParams = new List<KeyValuePair<String, String>>();
+            var localVarHeaderParams = new Dictionary<String, String>(Configuration.DefaultHeader);
+            var localVarFormParams = new Dictionary<String, String>();
+            var localVarFileParams = new Dictionary<String, FileParameter>();
+            Object localVarPostBody = null;
+
+            // to determine the Content-Type header
+            String[] localVarHttpContentTypes = new String[] {
+            };
+            String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
+
+            // to determine the Accept header
+            String[] localVarHttpHeaderAccepts = new String[] {
+                "application/json"
+            };
+            String localVarHttpHeaderAccept = Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
+            if (localVarHttpHeaderAccept != null)
+                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+
+            if (uniqueName != null) localVarPathParams.Add("unique_name", Configuration.ApiClient.ParameterToString(uniqueName)); // path parameter
+            if (size != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "size", size)); // query parameter
+            if (page != null) localVarQueryParams.AddRange(Configuration.ApiClient.ParameterToKeyValuePairs("", "page", page)); // query parameter
+
+            // authentication (oauth2_client_credentials_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
+            // authentication (oauth2_password_grant) required
+            // oauth required
+            if (!String.IsNullOrEmpty(Configuration.AccessToken))
+            {
+                localVarHeaderParams["Authorization"] = "Bearer " + Configuration.AccessToken;
+            }
+
+            // make the HTTP request
+            IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
+                Method.GET, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
+                localVarPathParams, localVarHttpContentType);
+
+            int localVarStatusCode = (int) localVarResponse.StatusCode;
+
+            if (ExceptionFactory != null)
+            {
+                Exception exception = ExceptionFactory("GetGroupMessages", localVarResponse);
+                if (exception != null) throw exception;
+            }
+
+            return new ApiResponse<PageResourceChatMessageResource>(localVarStatusCode,
+                localVarResponse.Headers.ToDictionary(x => x.Name, x => x.Value.ToString()),
+                (PageResourceChatMessageResource) Configuration.ApiClient.Deserialize(localVarResponse, typeof(PageResourceChatMessageResource)));
+        }
+
+        /// <summary>
+        /// Get a single group template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3633,7 +4149,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single group template 
+        /// Get a single group template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3654,7 +4170,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3700,7 +4215,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single group template 
+        /// Get a single group template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3713,7 +4228,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single group template 
+        /// Get a single group template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -3734,7 +4249,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3780,7 +4294,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search group templates 
+        /// List and search group templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -3794,7 +4308,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search group templates 
+        /// List and search group templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -3814,7 +4328,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3862,7 +4375,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search group templates 
+        /// List and search group templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -3877,7 +4390,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search group templates 
+        /// List and search group templates &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN or GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -3897,7 +4410,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -3945,7 +4457,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List groups a user is in 
+        /// List groups a user is in &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -3958,7 +4470,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List groups a user is in 
+        /// List groups a user is in &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -3980,7 +4492,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4027,7 +4538,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List groups a user is in 
+        /// List groups a user is in &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -4041,7 +4552,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List groups a user is in 
+        /// List groups a user is in &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user</param>
@@ -4063,7 +4574,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4110,7 +4620,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search groups 
+        /// List and search groups &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTemplate">Filter for groups using a specific template, by id (optional)</param>
@@ -4130,7 +4640,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search groups 
+        /// List and search groups &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTemplate">Filter for groups using a specific template, by id (optional)</param>
@@ -4156,7 +4666,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4210,7 +4719,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search groups 
+        /// List and search groups &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTemplate">Filter for groups using a specific template, by id (optional)</param>
@@ -4231,7 +4740,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search groups 
+        /// List and search groups &lt;b&gt;Permissions Needed:&lt;/b&gt; ANY
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTemplate">Filter for groups using a specific template, by id (optional)</param>
@@ -4257,7 +4766,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4311,7 +4819,162 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a user from a group 
+        /// Send a group message 
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="chatMessageRequest">The chat message request (optional)</param>
+        /// <returns>ChatMessageResource</returns>
+        public ChatMessageResource PostGroupMessage (string uniqueName, ChatMessageRequest chatMessageRequest = null)
+        {
+             ApiResponse<ChatMessageResource> localVarResponse = PostGroupMessageWithHttpInfo(uniqueName, chatMessageRequest);
+             return localVarResponse.Data;
+        }
+
+        /// <summary>
+        /// Send a group message 
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="chatMessageRequest">The chat message request (optional)</param>
+        /// <returns>ApiResponse of ChatMessageResource</returns>
+        public ApiResponse< ChatMessageResource > PostGroupMessageWithHttpInfo (string uniqueName, ChatMessageRequest chatMessageRequest = null)
+        {
+            // verify the required parameter 'uniqueName' is set
+            if (uniqueName == null)
+                throw new ApiException(400, "Missing required parameter 'uniqueName' when calling UsersGroupsApi->PostGroupMessage");
+
+            var localVarPath = "/users/groups/{unique_name}/messages";
+            var localVarPathParams = new Dictionary<String, String>();
+            var localVarQueryParams = new List<KeyValuePair<String, String>>();
+            var localVarHeaderParams = new Dictionary<String, String>(Configuration.DefaultHeader);
+            var localVarFormParams = new Dictionary<String, String>();
+            var localVarFileParams = new Dictionary<String, FileParameter>();
+            Object localVarPostBody = null;
+
+            // to determine the Content-Type header
+            String[] localVarHttpContentTypes = new String[] {
+                "application/json"
+            };
+            String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
+
+            // to determine the Accept header
+            String[] localVarHttpHeaderAccepts = new String[] {
+                "application/json"
+            };
+            String localVarHttpHeaderAccept = Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
+            if (localVarHttpHeaderAccept != null)
+                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+
+            if (uniqueName != null) localVarPathParams.Add("unique_name", Configuration.ApiClient.ParameterToString(uniqueName)); // path parameter
+            if (chatMessageRequest != null && chatMessageRequest.GetType() != typeof(byte[]))
+            {
+                localVarPostBody = Configuration.ApiClient.Serialize(chatMessageRequest); // http body (model) parameter
+            }
+            else
+            {
+                localVarPostBody = chatMessageRequest; // byte array
+            }
+
+
+            // make the HTTP request
+            IRestResponse localVarResponse = (IRestResponse) Configuration.ApiClient.CallApi(localVarPath,
+                Method.POST, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
+                localVarPathParams, localVarHttpContentType);
+
+            int localVarStatusCode = (int) localVarResponse.StatusCode;
+
+            if (ExceptionFactory != null)
+            {
+                Exception exception = ExceptionFactory("PostGroupMessage", localVarResponse);
+                if (exception != null) throw exception;
+            }
+
+            return new ApiResponse<ChatMessageResource>(localVarStatusCode,
+                localVarResponse.Headers.ToDictionary(x => x.Name, x => x.Value.ToString()),
+                (ChatMessageResource) Configuration.ApiClient.Deserialize(localVarResponse, typeof(ChatMessageResource)));
+        }
+
+        /// <summary>
+        /// Send a group message 
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="chatMessageRequest">The chat message request (optional)</param>
+        /// <returns>Task of ChatMessageResource</returns>
+        public async System.Threading.Tasks.Task<ChatMessageResource> PostGroupMessageAsync (string uniqueName, ChatMessageRequest chatMessageRequest = null)
+        {
+             ApiResponse<ChatMessageResource> localVarResponse = await PostGroupMessageAsyncWithHttpInfo(uniqueName, chatMessageRequest);
+             return localVarResponse.Data;
+
+        }
+
+        /// <summary>
+        /// Send a group message 
+        /// </summary>
+        /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
+        /// <param name="uniqueName">The group unique name</param>
+        /// <param name="chatMessageRequest">The chat message request (optional)</param>
+        /// <returns>Task of ApiResponse (ChatMessageResource)</returns>
+        public async System.Threading.Tasks.Task<ApiResponse<ChatMessageResource>> PostGroupMessageAsyncWithHttpInfo (string uniqueName, ChatMessageRequest chatMessageRequest = null)
+        {
+            // verify the required parameter 'uniqueName' is set
+            if (uniqueName == null)
+                throw new ApiException(400, "Missing required parameter 'uniqueName' when calling UsersGroupsApi->PostGroupMessage");
+
+            var localVarPath = "/users/groups/{unique_name}/messages";
+            var localVarPathParams = new Dictionary<String, String>();
+            var localVarQueryParams = new List<KeyValuePair<String, String>>();
+            var localVarHeaderParams = new Dictionary<String, String>(Configuration.DefaultHeader);
+            var localVarFormParams = new Dictionary<String, String>();
+            var localVarFileParams = new Dictionary<String, FileParameter>();
+            Object localVarPostBody = null;
+
+            // to determine the Content-Type header
+            String[] localVarHttpContentTypes = new String[] {
+                "application/json"
+            };
+            String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
+
+            // to determine the Accept header
+            String[] localVarHttpHeaderAccepts = new String[] {
+                "application/json"
+            };
+            String localVarHttpHeaderAccept = Configuration.ApiClient.SelectHeaderAccept(localVarHttpHeaderAccepts);
+            if (localVarHttpHeaderAccept != null)
+                localVarHeaderParams.Add("Accept", localVarHttpHeaderAccept);
+
+            if (uniqueName != null) localVarPathParams.Add("unique_name", Configuration.ApiClient.ParameterToString(uniqueName)); // path parameter
+            if (chatMessageRequest != null && chatMessageRequest.GetType() != typeof(byte[]))
+            {
+                localVarPostBody = Configuration.ApiClient.Serialize(chatMessageRequest); // http body (model) parameter
+            }
+            else
+            {
+                localVarPostBody = chatMessageRequest; // byte array
+            }
+
+
+            // make the HTTP request
+            IRestResponse localVarResponse = (IRestResponse) await Configuration.ApiClient.CallApiAsync(localVarPath,
+                Method.POST, localVarQueryParams, localVarPostBody, localVarHeaderParams, localVarFormParams, localVarFileParams,
+                localVarPathParams, localVarHttpContentType);
+
+            int localVarStatusCode = (int) localVarResponse.StatusCode;
+
+            if (ExceptionFactory != null)
+            {
+                Exception exception = ExceptionFactory("PostGroupMessage", localVarResponse);
+                if (exception != null) throw exception;
+            }
+
+            return new ApiResponse<ChatMessageResource>(localVarStatusCode,
+                localVarResponse.Headers.ToDictionary(x => x.Name, x => x.Value.ToString()),
+                (ChatMessageResource) Configuration.ApiClient.Deserialize(localVarResponse, typeof(ChatMessageResource)));
+        }
+
+        /// <summary>
+        /// Removes a user from a group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4323,7 +4986,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a user from a group 
+        /// Removes a user from a group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4348,7 +5011,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4395,7 +5057,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a user from a group 
+        /// Removes a user from a group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4408,7 +5070,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Removes a user from a group 
+        /// Removes a user from a group &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or self if open
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4433,7 +5095,6 @@ namespace com.knetikcloud.Api
 
             // to determine the Content-Type header
             String[] localVarHttpContentTypes = new String[] {
-                "application/json"
             };
             String localVarHttpContentType = Configuration.ApiClient.SelectHeaderContentType(localVarHttpContentTypes);
 
@@ -4480,7 +5141,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a group If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it.
+        /// Update a group If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or admin of the group
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4492,7 +5153,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a group If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it.
+        /// Update a group If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or admin of the group
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4568,7 +5229,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a group If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it.
+        /// Update a group If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or admin of the group
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4581,7 +5242,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a group If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it.
+        /// Update a group If adding/removing/changing parent, user membership in group/new parent groups may be modified. The parent being removed will remove members from this sub group unless they were added explicitly to the parent and the new parent will gain members unless they were already a part of it. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN or admin of the group
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4657,7 +5318,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s order 
+        /// Change a user&#39;s order &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4670,7 +5331,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s order 
+        /// Change a user&#39;s order &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4754,7 +5415,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s order 
+        /// Change a user&#39;s order &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4768,7 +5429,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s order 
+        /// Change a user&#39;s order &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4852,7 +5513,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s membership properties 
+        /// Change a user&#39;s membership properties &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4865,7 +5526,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s membership properties 
+        /// Change a user&#39;s membership properties &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4949,7 +5610,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s membership properties 
+        /// Change a user&#39;s membership properties &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -4963,7 +5624,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s membership properties 
+        /// Change a user&#39;s membership properties &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -5047,7 +5708,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s status 
+        /// Change a user&#39;s status &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -5060,7 +5721,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s status 
+        /// Change a user&#39;s status &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -5144,7 +5805,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s status 
+        /// Change a user&#39;s status &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -5158,7 +5819,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Change a user&#39;s status 
+        /// Change a user&#39;s status &lt;b&gt;Permissions Needed:&lt;/b&gt; GROUP_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="uniqueName">The group unique name</param>
@@ -5242,7 +5903,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an group member template 
+        /// Update an group member template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -5255,7 +5916,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an group member template 
+        /// Update an group member template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -5331,7 +5992,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an group member template 
+        /// Update an group member template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -5345,7 +6006,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an group member template 
+        /// Update an group member template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -5421,7 +6082,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a group template 
+        /// Update a group template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -5434,7 +6095,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a group template 
+        /// Update a group template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -5510,7 +6171,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a group template 
+        /// Update a group template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>
@@ -5524,7 +6185,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a group template 
+        /// Update a group template &lt;b&gt;Permissions Needed:&lt;/b&gt; TEMPLATE_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the template</param>

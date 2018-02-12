@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Initiate silent post with Optimal
         /// </summary>
         /// <remarks>
-        /// Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details.
+        /// Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; OPTIMAL_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The payment request to initiate (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Initiate silent post with Optimal
         /// </summary>
         /// <remarks>
-        /// Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details.
+        /// Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; OPTIMAL_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The payment request to initiate (optional)</param>
@@ -51,7 +51,7 @@ namespace com.knetikcloud.Api
         /// Initiate silent post with Optimal
         /// </summary>
         /// <remarks>
-        /// Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details.
+        /// Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; OPTIMAL_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The payment request to initiate (optional)</param>
@@ -62,7 +62,7 @@ namespace com.knetikcloud.Api
         /// Initiate silent post with Optimal
         /// </summary>
         /// <remarks>
-        /// Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details.
+        /// Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; OPTIMAL_ADMIN or owner
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The payment request to initiate (optional)</param>
@@ -169,7 +169,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Initiate silent post with Optimal Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details.
+        /// Initiate silent post with Optimal Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; OPTIMAL_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The payment request to initiate (optional)</param>
@@ -181,7 +181,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Initiate silent post with Optimal Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details.
+        /// Initiate silent post with Optimal Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; OPTIMAL_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The payment request to initiate (optional)</param>
@@ -252,7 +252,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Initiate silent post with Optimal Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details.
+        /// Initiate silent post with Optimal Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; OPTIMAL_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The payment request to initiate (optional)</param>
@@ -265,7 +265,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Initiate silent post with Optimal Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details.
+        /// Initiate silent post with Optimal Will return the url for a hosted payment endpoint to post to. See Optimal documentation for details. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; OPTIMAL_ADMIN or owner
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="request">The payment request to initiate (optional)</param>
