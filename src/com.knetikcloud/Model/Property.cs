@@ -59,6 +59,9 @@ namespace com.knetikcloud.Model
         [DataMember(Name="type", EmitDefaultValue=false)]
         public string Type { get; set; }
 
+        [DataMember(Name = "value", EmitDefaultValue = false)]
+        public string Value { get; set; }
+
         /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
