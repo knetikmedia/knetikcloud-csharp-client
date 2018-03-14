@@ -1525,7 +1525,7 @@ namespace com.knetikcloud.Api
             if (recipientId == null)
                 throw new ApiException(400, "Missing required parameter 'recipientId' when calling UsersApi->GetDirectMessages1");
 
-            var localVarPath = "/users/users/{recipient_id}/messages";
+            var localVarPath = "/users/{recipient_id}/messages";
             var localVarPathParams = new Dictionary<String, String>();
             var localVarQueryParams = new List<KeyValuePair<String, String>>();
             var localVarHeaderParams = new Dictionary<String, String>(Configuration.DefaultHeader);
@@ -1610,7 +1610,7 @@ namespace com.knetikcloud.Api
             if (recipientId == null)
                 throw new ApiException(400, "Missing required parameter 'recipientId' when calling UsersApi->GetDirectMessages1");
 
-            var localVarPath = "/users/users/{recipient_id}/messages";
+            var localVarPath = "/users/{recipient_id}/messages";
             var localVarPathParams = new Dictionary<String, String>();
             var localVarQueryParams = new List<KeyValuePair<String, String>>();
             var localVarHeaderParams = new Dictionary<String, String>(Configuration.DefaultHeader);

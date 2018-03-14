@@ -28,7 +28,7 @@ namespace com.knetikcloud.Api
         /// Create a notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notificationType">notificationType (optional)</param>
@@ -39,7 +39,7 @@ namespace com.knetikcloud.Api
         /// Create a notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notificationType">notificationType (optional)</param>
@@ -49,7 +49,7 @@ namespace com.knetikcloud.Api
         /// Delete a notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -60,7 +60,7 @@ namespace com.knetikcloud.Api
         /// Delete a notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Get a single notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -81,7 +81,7 @@ namespace com.knetikcloud.Api
         /// Get a single notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// List and search notification types
         /// </summary>
         /// <remarks>
-        /// Get a list of notification type with optional filtering
+        /// Get a list of notification type with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -104,7 +104,7 @@ namespace com.knetikcloud.Api
         /// List and search notification types
         /// </summary>
         /// <remarks>
-        /// Get a list of notification type with optional filtering
+        /// Get a list of notification type with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -116,7 +116,7 @@ namespace com.knetikcloud.Api
         /// View a user&#39;s notification settings for a type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -128,7 +128,7 @@ namespace com.knetikcloud.Api
         /// View a user&#39;s notification settings for a type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -139,7 +139,7 @@ namespace com.knetikcloud.Api
         /// View a user&#39;s notification settings
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the subscriber or &#39;me&#39;</param>
@@ -153,7 +153,7 @@ namespace com.knetikcloud.Api
         /// View a user&#39;s notification settings
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the subscriber or &#39;me&#39;</param>
@@ -166,7 +166,7 @@ namespace com.knetikcloud.Api
         /// Get notifications
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the user or &#39;me&#39;</param>
@@ -181,7 +181,7 @@ namespace com.knetikcloud.Api
         /// Get notifications
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the user or &#39;me&#39;</param>
@@ -195,7 +195,7 @@ namespace com.knetikcloud.Api
         /// Send a notification
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notification">notification (optional)</param>
@@ -206,7 +206,7 @@ namespace com.knetikcloud.Api
         /// Send a notification
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notification">notification (optional)</param>
@@ -216,32 +216,32 @@ namespace com.knetikcloud.Api
         /// Set notification status
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
         /// <param name="notificationId">The id of the notification</param>
         /// <param name="notification">status (optional)</param>
         /// <returns></returns>
-        void SetUserNotificationStatus (string userId, string notificationId, ValueWrapperstring notification = null);
+        void SetUserNotificationStatus (string userId, string notificationId, UserNotificationStatusWrapper notification = null);
 
         /// <summary>
         /// Set notification status
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
         /// <param name="notificationId">The id of the notification</param>
         /// <param name="notification">status (optional)</param>
         /// <returns>ApiResponse of Object(void)</returns>
-        ApiResponse<Object> SetUserNotificationStatusWithHttpInfo (string userId, string notificationId, ValueWrapperstring notification = null);
+        ApiResponse<Object> SetUserNotificationStatusWithHttpInfo (string userId, string notificationId, UserNotificationStatusWrapper notification = null);
         /// <summary>
         /// Enable or disable direct notifications for a user
         /// </summary>
         /// <remarks>
-        /// Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there.
+        /// Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -254,7 +254,7 @@ namespace com.knetikcloud.Api
         /// Enable or disable direct notifications for a user
         /// </summary>
         /// <remarks>
-        /// Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there.
+        /// Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -266,7 +266,7 @@ namespace com.knetikcloud.Api
         /// Update a notificationType
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -278,7 +278,7 @@ namespace com.knetikcloud.Api
         /// Update a notificationType
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -291,7 +291,7 @@ namespace com.knetikcloud.Api
         /// Create a notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notificationType">notificationType (optional)</param>
@@ -302,7 +302,7 @@ namespace com.knetikcloud.Api
         /// Create a notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notificationType">notificationType (optional)</param>
@@ -312,7 +312,7 @@ namespace com.knetikcloud.Api
         /// Delete a notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -323,7 +323,7 @@ namespace com.knetikcloud.Api
         /// Delete a notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -333,7 +333,7 @@ namespace com.knetikcloud.Api
         /// Get a single notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -344,7 +344,7 @@ namespace com.knetikcloud.Api
         /// Get a single notification type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -354,7 +354,7 @@ namespace com.knetikcloud.Api
         /// List and search notification types
         /// </summary>
         /// <remarks>
-        /// Get a list of notification type with optional filtering
+        /// Get a list of notification type with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -367,7 +367,7 @@ namespace com.knetikcloud.Api
         /// List and search notification types
         /// </summary>
         /// <remarks>
-        /// Get a list of notification type with optional filtering
+        /// Get a list of notification type with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -379,7 +379,7 @@ namespace com.knetikcloud.Api
         /// View a user&#39;s notification settings for a type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -391,7 +391,7 @@ namespace com.knetikcloud.Api
         /// View a user&#39;s notification settings for a type
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -402,7 +402,7 @@ namespace com.knetikcloud.Api
         /// View a user&#39;s notification settings
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the subscriber or &#39;me&#39;</param>
@@ -416,7 +416,7 @@ namespace com.knetikcloud.Api
         /// View a user&#39;s notification settings
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the subscriber or &#39;me&#39;</param>
@@ -429,7 +429,7 @@ namespace com.knetikcloud.Api
         /// Get notifications
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the user or &#39;me&#39;</param>
@@ -444,7 +444,7 @@ namespace com.knetikcloud.Api
         /// Get notifications
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the user or &#39;me&#39;</param>
@@ -458,7 +458,7 @@ namespace com.knetikcloud.Api
         /// Send a notification
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notification">notification (optional)</param>
@@ -469,7 +469,7 @@ namespace com.knetikcloud.Api
         /// Send a notification
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notification">notification (optional)</param>
@@ -479,32 +479,32 @@ namespace com.knetikcloud.Api
         /// Set notification status
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
         /// <param name="notificationId">The id of the notification</param>
         /// <param name="notification">status (optional)</param>
         /// <returns>Task of void</returns>
-        System.Threading.Tasks.Task SetUserNotificationStatusAsync (string userId, string notificationId, ValueWrapperstring notification = null);
+        System.Threading.Tasks.Task SetUserNotificationStatusAsync (string userId, string notificationId, UserNotificationStatusWrapper notification = null);
 
         /// <summary>
         /// Set notification status
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
         /// <param name="notificationId">The id of the notification</param>
         /// <param name="notification">status (optional)</param>
         /// <returns>Task of ApiResponse</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> SetUserNotificationStatusAsyncWithHttpInfo (string userId, string notificationId, ValueWrapperstring notification = null);
+        System.Threading.Tasks.Task<ApiResponse<Object>> SetUserNotificationStatusAsyncWithHttpInfo (string userId, string notificationId, UserNotificationStatusWrapper notification = null);
         /// <summary>
         /// Enable or disable direct notifications for a user
         /// </summary>
         /// <remarks>
-        /// Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there.
+        /// Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -517,7 +517,7 @@ namespace com.knetikcloud.Api
         /// Enable or disable direct notifications for a user
         /// </summary>
         /// <remarks>
-        /// Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there.
+        /// Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -529,7 +529,7 @@ namespace com.knetikcloud.Api
         /// Update a notificationType
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -541,7 +541,7 @@ namespace com.knetikcloud.Api
         /// Update a notificationType
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -649,7 +649,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a notification type 
+        /// Create a notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notificationType">notificationType (optional)</param>
@@ -661,7 +661,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a notification type 
+        /// Create a notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notificationType">notificationType (optional)</param>
@@ -732,7 +732,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a notification type 
+        /// Create a notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notificationType">notificationType (optional)</param>
@@ -745,7 +745,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Create a notification type 
+        /// Create a notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notificationType">notificationType (optional)</param>
@@ -816,7 +816,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a notification type 
+        /// Delete a notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -827,7 +827,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a notification type 
+        /// Delete a notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -893,7 +893,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a notification type 
+        /// Delete a notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -905,7 +905,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete a notification type 
+        /// Delete a notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -971,7 +971,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single notification type 
+        /// Get a single notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -983,7 +983,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single notification type 
+        /// Get a single notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -1049,7 +1049,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single notification type 
+        /// Get a single notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -1062,7 +1062,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single notification type 
+        /// Get a single notification type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -1128,7 +1128,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search notification types Get a list of notification type with optional filtering
+        /// List and search notification types Get a list of notification type with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1142,7 +1142,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search notification types Get a list of notification type with optional filtering
+        /// List and search notification types Get a list of notification type with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1209,7 +1209,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search notification types Get a list of notification type with optional filtering
+        /// List and search notification types Get a list of notification type with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1224,7 +1224,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search notification types Get a list of notification type with optional filtering
+        /// List and search notification types Get a list of notification type with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="size">The number of objects returned per page (optional, default to 25)</param>
@@ -1291,7 +1291,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// View a user&#39;s notification settings for a type 
+        /// View a user&#39;s notification settings for a type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -1304,7 +1304,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// View a user&#39;s notification settings for a type 
+        /// View a user&#39;s notification settings for a type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -1375,7 +1375,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// View a user&#39;s notification settings for a type 
+        /// View a user&#39;s notification settings for a type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -1389,7 +1389,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// View a user&#39;s notification settings for a type 
+        /// View a user&#39;s notification settings for a type &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -1460,7 +1460,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// View a user&#39;s notification settings 
+        /// View a user&#39;s notification settings &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the subscriber or &#39;me&#39;</param>
@@ -1475,7 +1475,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// View a user&#39;s notification settings 
+        /// View a user&#39;s notification settings &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the subscriber or &#39;me&#39;</param>
@@ -1547,7 +1547,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// View a user&#39;s notification settings 
+        /// View a user&#39;s notification settings &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the subscriber or &#39;me&#39;</param>
@@ -1563,7 +1563,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// View a user&#39;s notification settings 
+        /// View a user&#39;s notification settings &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the subscriber or &#39;me&#39;</param>
@@ -1635,7 +1635,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get notifications 
+        /// Get notifications &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the user or &#39;me&#39;</param>
@@ -1651,7 +1651,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get notifications 
+        /// Get notifications &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the user or &#39;me&#39;</param>
@@ -1725,7 +1725,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get notifications 
+        /// Get notifications &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the user or &#39;me&#39;</param>
@@ -1742,7 +1742,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get notifications 
+        /// Get notifications &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The id of the user or &#39;me&#39;</param>
@@ -1816,7 +1816,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Send a notification 
+        /// Send a notification &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notification">notification (optional)</param>
@@ -1828,7 +1828,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Send a notification 
+        /// Send a notification &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notification">notification (optional)</param>
@@ -1899,7 +1899,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Send a notification 
+        /// Send a notification &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notification">notification (optional)</param>
@@ -1912,7 +1912,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Send a notification 
+        /// Send a notification &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="notification">notification (optional)</param>
@@ -1983,27 +1983,27 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set notification status 
+        /// Set notification status &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
         /// <param name="notificationId">The id of the notification</param>
         /// <param name="notification">status (optional)</param>
         /// <returns></returns>
-        public void SetUserNotificationStatus (string userId, string notificationId, ValueWrapperstring notification = null)
+        public void SetUserNotificationStatus (string userId, string notificationId, UserNotificationStatusWrapper notification = null)
         {
              SetUserNotificationStatusWithHttpInfo(userId, notificationId, notification);
         }
 
         /// <summary>
-        /// Set notification status 
+        /// Set notification status &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
         /// <param name="notificationId">The id of the notification</param>
         /// <param name="notification">status (optional)</param>
         /// <returns>ApiResponse of Object(void)</returns>
-        public ApiResponse<Object> SetUserNotificationStatusWithHttpInfo (string userId, string notificationId, ValueWrapperstring notification = null)
+        public ApiResponse<Object> SetUserNotificationStatusWithHttpInfo (string userId, string notificationId, UserNotificationStatusWrapper notification = null)
         {
             // verify the required parameter 'userId' is set
             if (userId == null)
@@ -2077,28 +2077,28 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Set notification status 
+        /// Set notification status &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
         /// <param name="notificationId">The id of the notification</param>
         /// <param name="notification">status (optional)</param>
         /// <returns>Task of void</returns>
-        public async System.Threading.Tasks.Task SetUserNotificationStatusAsync (string userId, string notificationId, ValueWrapperstring notification = null)
+        public async System.Threading.Tasks.Task SetUserNotificationStatusAsync (string userId, string notificationId, UserNotificationStatusWrapper notification = null)
         {
              await SetUserNotificationStatusAsyncWithHttpInfo(userId, notificationId, notification);
 
         }
 
         /// <summary>
-        /// Set notification status 
+        /// Set notification status &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="userId">The id of the user or &#39;me&#39;</param>
         /// <param name="notificationId">The id of the notification</param>
         /// <param name="notification">status (optional)</param>
         /// <returns>Task of ApiResponse</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<Object>> SetUserNotificationStatusAsyncWithHttpInfo (string userId, string notificationId, ValueWrapperstring notification = null)
+        public async System.Threading.Tasks.Task<ApiResponse<Object>> SetUserNotificationStatusAsyncWithHttpInfo (string userId, string notificationId, UserNotificationStatusWrapper notification = null)
         {
             // verify the required parameter 'userId' is set
             if (userId == null)
@@ -2172,7 +2172,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Enable or disable direct notifications for a user Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there.
+        /// Enable or disable direct notifications for a user Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -2185,7 +2185,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Enable or disable direct notifications for a user Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there.
+        /// Enable or disable direct notifications for a user Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -2269,7 +2269,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Enable or disable direct notifications for a user Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there.
+        /// Enable or disable direct notifications for a user Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -2283,7 +2283,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Enable or disable direct notifications for a user Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there.
+        /// Enable or disable direct notifications for a user Allows enabling or disabling messages for a given notification type when sent direct to the user. Notifications can still be retrieved by endpoint. For notifications broadcased to a topic, see the topic service to disable messages for the user there. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN or self
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="typeId">The id of the topic</param>
@@ -2367,7 +2367,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a notificationType 
+        /// Update a notificationType &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -2380,7 +2380,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a notificationType 
+        /// Update a notificationType &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -2456,7 +2456,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a notificationType 
+        /// Update a notificationType &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>
@@ -2470,7 +2470,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update a notificationType 
+        /// Update a notificationType &lt;b&gt;Permissions Needed:&lt;/b&gt; NOTIFICATIONS_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">id</param>

@@ -294,7 +294,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="chatMessageResource">The chat message resource (optional)</param>
         /// <returns>ChatMessageResource</returns>
-        ChatMessageResource SendMessage (ChatMessageResource chatMessageResource = null);
+        ChatMessageResource SendChatMessage (ChatMessageResource chatMessageResource = null);
 
         /// <summary>
         /// Send a message
@@ -305,7 +305,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="chatMessageResource">The chat message resource (optional)</param>
         /// <returns>ApiResponse of ChatMessageResource</returns>
-        ApiResponse<ChatMessageResource> SendMessageWithHttpInfo (ChatMessageResource chatMessageResource = null);
+        ApiResponse<ChatMessageResource> SendChatMessageWithHttpInfo (ChatMessageResource chatMessageResource = null);
         #endregion Synchronous Operations
         #region Asynchronous Operations
         /// <summary>
@@ -578,7 +578,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="chatMessageResource">The chat message resource (optional)</param>
         /// <returns>Task of ChatMessageResource</returns>
-        System.Threading.Tasks.Task<ChatMessageResource> SendMessageAsync (ChatMessageResource chatMessageResource = null);
+        System.Threading.Tasks.Task<ChatMessageResource> SendChatMessageAsync (ChatMessageResource chatMessageResource = null);
 
         /// <summary>
         /// Send a message
@@ -589,7 +589,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="chatMessageResource">The chat message resource (optional)</param>
         /// <returns>Task of ApiResponse (ChatMessageResource)</returns>
-        System.Threading.Tasks.Task<ApiResponse<ChatMessageResource>> SendMessageAsyncWithHttpInfo (ChatMessageResource chatMessageResource = null);
+        System.Threading.Tasks.Task<ApiResponse<ChatMessageResource>> SendChatMessageAsyncWithHttpInfo (ChatMessageResource chatMessageResource = null);
         #endregion Asynchronous Operations
     }
 
@@ -2543,9 +2543,9 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="chatMessageResource">The chat message resource (optional)</param>
         /// <returns>ChatMessageResource</returns>
-        public ChatMessageResource SendMessage (ChatMessageResource chatMessageResource = null)
+        public ChatMessageResource SendChatMessage (ChatMessageResource chatMessageResource = null)
         {
-             ApiResponse<ChatMessageResource> localVarResponse = SendMessageWithHttpInfo(chatMessageResource);
+             ApiResponse<ChatMessageResource> localVarResponse = SendChatMessageWithHttpInfo(chatMessageResource);
              return localVarResponse.Data;
         }
 
@@ -2555,7 +2555,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="chatMessageResource">The chat message resource (optional)</param>
         /// <returns>ApiResponse of ChatMessageResource</returns>
-        public ApiResponse< ChatMessageResource > SendMessageWithHttpInfo (ChatMessageResource chatMessageResource = null)
+        public ApiResponse< ChatMessageResource > SendChatMessageWithHttpInfo (ChatMessageResource chatMessageResource = null)
         {
 
             var localVarPath = "/chat/messages";
@@ -2611,7 +2611,7 @@ namespace com.knetikcloud.Api
 
             if (ExceptionFactory != null)
             {
-                Exception exception = ExceptionFactory("SendMessage", localVarResponse);
+                Exception exception = ExceptionFactory("SendChatMessage", localVarResponse);
                 if (exception != null) throw exception;
             }
 
@@ -2626,9 +2626,9 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="chatMessageResource">The chat message resource (optional)</param>
         /// <returns>Task of ChatMessageResource</returns>
-        public async System.Threading.Tasks.Task<ChatMessageResource> SendMessageAsync (ChatMessageResource chatMessageResource = null)
+        public async System.Threading.Tasks.Task<ChatMessageResource> SendChatMessageAsync (ChatMessageResource chatMessageResource = null)
         {
-             ApiResponse<ChatMessageResource> localVarResponse = await SendMessageAsyncWithHttpInfo(chatMessageResource);
+             ApiResponse<ChatMessageResource> localVarResponse = await SendChatMessageAsyncWithHttpInfo(chatMessageResource);
              return localVarResponse.Data;
 
         }
@@ -2639,7 +2639,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="chatMessageResource">The chat message resource (optional)</param>
         /// <returns>Task of ApiResponse (ChatMessageResource)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<ChatMessageResource>> SendMessageAsyncWithHttpInfo (ChatMessageResource chatMessageResource = null)
+        public async System.Threading.Tasks.Task<ApiResponse<ChatMessageResource>> SendChatMessageAsyncWithHttpInfo (ChatMessageResource chatMessageResource = null)
         {
 
             var localVarPath = "/chat/messages";
@@ -2695,7 +2695,7 @@ namespace com.knetikcloud.Api
 
             if (ExceptionFactory != null)
             {
-                Exception exception = ExceptionFactory("SendMessage", localVarResponse);
+                Exception exception = ExceptionFactory("SendChatMessage", localVarResponse);
                 if (exception != null) throw exception;
             }
 

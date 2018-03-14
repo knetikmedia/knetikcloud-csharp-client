@@ -70,7 +70,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -81,7 +81,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -91,7 +91,7 @@ namespace com.knetikcloud.Api
         /// Get a single message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -102,7 +102,7 @@ namespace com.knetikcloud.Api
         /// Get a single message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -112,7 +112,7 @@ namespace com.knetikcloud.Api
         /// List and search message templates
         /// </summary>
         /// <remarks>
-        /// Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTagset">Filter for message templates with at least one of a specified set of tags (separated by comma) (optional)</param>
@@ -128,7 +128,7 @@ namespace com.knetikcloud.Api
         /// List and search message templates
         /// </summary>
         /// <remarks>
-        /// Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTagset">Filter for message templates with at least one of a specified set of tags (separated by comma) (optional)</param>
@@ -148,7 +148,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="messageResource">The message to be sent (optional)</param>
         /// <returns></returns>
-        void SendMessage1 (MessageResource messageResource = null);
+        void SendMessage (MessageResource messageResource = null);
 
         /// <summary>
         /// Send a message
@@ -159,7 +159,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="messageResource">The message to be sent (optional)</param>
         /// <returns>ApiResponse of Object(void)</returns>
-        ApiResponse<Object> SendMessage1WithHttpInfo (MessageResource messageResource = null);
+        ApiResponse<Object> SendMessageWithHttpInfo (MessageResource messageResource = null);
         /// <summary>
         /// Send a raw email to one or more users
         /// </summary>
@@ -311,7 +311,7 @@ namespace com.knetikcloud.Api
         /// Update an existing message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -323,7 +323,7 @@ namespace com.knetikcloud.Api
         /// Update an existing message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -378,7 +378,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -389,7 +389,7 @@ namespace com.knetikcloud.Api
         /// Delete an existing message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -399,7 +399,7 @@ namespace com.knetikcloud.Api
         /// Get a single message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -410,7 +410,7 @@ namespace com.knetikcloud.Api
         /// Get a single message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -420,7 +420,7 @@ namespace com.knetikcloud.Api
         /// List and search message templates
         /// </summary>
         /// <remarks>
-        /// Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTagset">Filter for message templates with at least one of a specified set of tags (separated by comma) (optional)</param>
@@ -436,7 +436,7 @@ namespace com.knetikcloud.Api
         /// List and search message templates
         /// </summary>
         /// <remarks>
-        /// Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTagset">Filter for message templates with at least one of a specified set of tags (separated by comma) (optional)</param>
@@ -456,7 +456,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="messageResource">The message to be sent (optional)</param>
         /// <returns>Task of void</returns>
-        System.Threading.Tasks.Task SendMessage1Async (MessageResource messageResource = null);
+        System.Threading.Tasks.Task SendMessageAsync (MessageResource messageResource = null);
 
         /// <summary>
         /// Send a message
@@ -467,7 +467,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="messageResource">The message to be sent (optional)</param>
         /// <returns>Task of ApiResponse</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> SendMessage1AsyncWithHttpInfo (MessageResource messageResource = null);
+        System.Threading.Tasks.Task<ApiResponse<Object>> SendMessageAsyncWithHttpInfo (MessageResource messageResource = null);
         /// <summary>
         /// Send a raw email to one or more users
         /// </summary>
@@ -619,7 +619,7 @@ namespace com.knetikcloud.Api
         /// Update an existing message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -631,7 +631,7 @@ namespace com.knetikcloud.Api
         /// Update an existing message template
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -1073,7 +1073,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Delete an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -1084,7 +1084,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Delete an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -1150,7 +1150,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Delete an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -1162,7 +1162,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Delete an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Delete an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -1228,7 +1228,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Get a single message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -1240,7 +1240,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Get a single message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -1306,7 +1306,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Get a single message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -1319,7 +1319,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Get a single message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Get a single message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -1385,7 +1385,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search message templates Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// List and search message templates Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTagset">Filter for message templates with at least one of a specified set of tags (separated by comma) (optional)</param>
@@ -1402,7 +1402,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search message templates Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// List and search message templates Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTagset">Filter for message templates with at least one of a specified set of tags (separated by comma) (optional)</param>
@@ -1475,7 +1475,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search message templates Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// List and search message templates Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTagset">Filter for message templates with at least one of a specified set of tags (separated by comma) (optional)</param>
@@ -1493,7 +1493,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List and search message templates Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// List and search message templates Get a list of message templates with optional filtering. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterTagset">Filter for message templates with at least one of a specified set of tags (separated by comma) (optional)</param>
@@ -1571,9 +1571,9 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="messageResource">The message to be sent (optional)</param>
         /// <returns></returns>
-        public void SendMessage1 (MessageResource messageResource = null)
+        public void SendMessage (MessageResource messageResource = null)
         {
-             SendMessage1WithHttpInfo(messageResource);
+             SendMessageWithHttpInfo(messageResource);
         }
 
         /// <summary>
@@ -1582,7 +1582,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="messageResource">The message to be sent (optional)</param>
         /// <returns>ApiResponse of Object(void)</returns>
-        public ApiResponse<Object> SendMessage1WithHttpInfo (MessageResource messageResource = null)
+        public ApiResponse<Object> SendMessageWithHttpInfo (MessageResource messageResource = null)
         {
 
             var localVarPath = "/messaging/message";
@@ -1638,7 +1638,7 @@ namespace com.knetikcloud.Api
 
             if (ExceptionFactory != null)
             {
-                Exception exception = ExceptionFactory("SendMessage1", localVarResponse);
+                Exception exception = ExceptionFactory("SendMessage", localVarResponse);
                 if (exception != null) throw exception;
             }
 
@@ -1653,9 +1653,9 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="messageResource">The message to be sent (optional)</param>
         /// <returns>Task of void</returns>
-        public async System.Threading.Tasks.Task SendMessage1Async (MessageResource messageResource = null)
+        public async System.Threading.Tasks.Task SendMessageAsync (MessageResource messageResource = null)
         {
-             await SendMessage1AsyncWithHttpInfo(messageResource);
+             await SendMessageAsyncWithHttpInfo(messageResource);
 
         }
 
@@ -1665,7 +1665,7 @@ namespace com.knetikcloud.Api
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="messageResource">The message to be sent (optional)</param>
         /// <returns>Task of ApiResponse</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<Object>> SendMessage1AsyncWithHttpInfo (MessageResource messageResource = null)
+        public async System.Threading.Tasks.Task<ApiResponse<Object>> SendMessageAsyncWithHttpInfo (MessageResource messageResource = null)
         {
 
             var localVarPath = "/messaging/message";
@@ -1721,7 +1721,7 @@ namespace com.knetikcloud.Api
 
             if (ExceptionFactory != null)
             {
-                Exception exception = ExceptionFactory("SendMessage1", localVarResponse);
+                Exception exception = ExceptionFactory("SendMessage", localVarResponse);
                 if (exception != null) throw exception;
             }
 
@@ -2886,7 +2886,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Update an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -2899,7 +2899,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Update an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -2975,7 +2975,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Update an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>
@@ -2989,7 +2989,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; ARTICLES_ADMIN
+        /// Update an existing message template &lt;b&gt;Permissions Needed:&lt;/b&gt; MESSAGING_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="id">The message_template id</param>

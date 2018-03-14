@@ -119,7 +119,7 @@ namespace com.knetikcloud.Api
         /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="id">The id</param>
+        /// <param name="id">The fulfillment id</param>
         /// <param name="fulfillmentType">The fulfillment type (optional)</param>
         /// <returns></returns>
         void UpdateFulfillmentType (int? id, FulfillmentType fulfillmentType = null);
@@ -131,7 +131,7 @@ namespace com.knetikcloud.Api
         /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="id">The id</param>
+        /// <param name="id">The fulfillment id</param>
         /// <param name="fulfillmentType">The fulfillment type (optional)</param>
         /// <returns>ApiResponse of Object(void)</returns>
         ApiResponse<Object> UpdateFulfillmentTypeWithHttpInfo (int? id, FulfillmentType fulfillmentType = null);
@@ -232,7 +232,7 @@ namespace com.knetikcloud.Api
         /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="id">The id</param>
+        /// <param name="id">The fulfillment id</param>
         /// <param name="fulfillmentType">The fulfillment type (optional)</param>
         /// <returns>Task of void</returns>
         System.Threading.Tasks.Task UpdateFulfillmentTypeAsync (int? id, FulfillmentType fulfillmentType = null);
@@ -244,7 +244,7 @@ namespace com.knetikcloud.Api
         /// &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="id">The id</param>
+        /// <param name="id">The fulfillment id</param>
         /// <param name="fulfillmentType">The fulfillment type (optional)</param>
         /// <returns>Task of ApiResponse</returns>
         System.Threading.Tasks.Task<ApiResponse<Object>> UpdateFulfillmentTypeAsyncWithHttpInfo (int? id, FulfillmentType fulfillmentType = null);
@@ -994,7 +994,7 @@ namespace com.knetikcloud.Api
         /// Update a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="id">The id</param>
+        /// <param name="id">The fulfillment id</param>
         /// <param name="fulfillmentType">The fulfillment type (optional)</param>
         /// <returns></returns>
         public void UpdateFulfillmentType (int? id, FulfillmentType fulfillmentType = null)
@@ -1006,7 +1006,7 @@ namespace com.knetikcloud.Api
         /// Update a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="id">The id</param>
+        /// <param name="id">The fulfillment id</param>
         /// <param name="fulfillmentType">The fulfillment type (optional)</param>
         /// <returns>ApiResponse of Object(void)</returns>
         public ApiResponse<Object> UpdateFulfillmentTypeWithHttpInfo (int? id, FulfillmentType fulfillmentType = null)
@@ -1082,7 +1082,7 @@ namespace com.knetikcloud.Api
         /// Update a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="id">The id</param>
+        /// <param name="id">The fulfillment id</param>
         /// <param name="fulfillmentType">The fulfillment type (optional)</param>
         /// <returns>Task of void</returns>
         public async System.Threading.Tasks.Task UpdateFulfillmentTypeAsync (int? id, FulfillmentType fulfillmentType = null)
@@ -1095,7 +1095,7 @@ namespace com.knetikcloud.Api
         /// Update a fulfillment type &lt;b&gt;Permissions Needed:&lt;/b&gt; FULFILLMENT_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
-        /// <param name="id">The id</param>
+        /// <param name="id">The fulfillment id</param>
         /// <param name="fulfillmentType">The fulfillment type (optional)</param>
         /// <returns>Task of ApiResponse</returns>
         public async System.Threading.Tasks.Task<ApiResponse<Object>> UpdateFulfillmentTypeAsyncWithHttpInfo (int? id, FulfillmentType fulfillmentType = null)

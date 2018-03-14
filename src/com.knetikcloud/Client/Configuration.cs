@@ -115,7 +115,7 @@ namespace com.knetikcloud.Client
         public Configuration()
         {
             UserAgent = "Swagger-Codegen/1.0.0/csharp";
-            BasePath = "https://sandbox.knetikcloud.com";
+            BasePath = "https://jsapi-integration.us-east-1.elasticbeanstalk.com";
             DefaultHeader = new ConcurrentDictionary<string, string>();
             ApiKey = new ConcurrentDictionary<string, string>();
             ApiKeyPrefix = new ConcurrentDictionary<string, string>();
@@ -131,7 +131,7 @@ namespace com.knetikcloud.Client
             IDictionary<string, string> defaultHeader,
             IDictionary<string, string> apiKey,
             IDictionary<string, string> apiKeyPrefix,
-            string basePath = "https://sandbox.knetikcloud.com") : this()
+            string basePath = "https://jsapi-integration.us-east-1.elasticbeanstalk.com") : this()
         {
             if (string.IsNullOrWhiteSpace(basePath))
                 throw new ArgumentException("The provided basePath is invalid.", "basePath");

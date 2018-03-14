@@ -216,7 +216,7 @@ namespace com.knetikcloud.Api
         /// Load a single activity occurrence details
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -227,7 +227,7 @@ namespace com.knetikcloud.Api
         /// Load a single activity occurrence details
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -283,7 +283,7 @@ namespace com.knetikcloud.Api
         /// List activity occurrences
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActivity">Filter for occurrences of the given activity ID (optional)</param>
@@ -300,7 +300,7 @@ namespace com.knetikcloud.Api
         /// List activity occurrences
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActivity">Filter for occurrences of the given activity ID (optional)</param>
@@ -343,7 +343,7 @@ namespace com.knetikcloud.Api
         /// Sets the status of an activity occurrence to FINISHED and logs metrics
         /// </summary>
         /// <remarks>
-        /// In addition to user permissions requirements there is security based on the core_settings.results_trust setting.
+        /// In addition to user permissions requirements there is security based on the core_settings.results_trust setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -355,7 +355,7 @@ namespace com.knetikcloud.Api
         /// Sets the status of an activity occurrence to FINISHED and logs metrics
         /// </summary>
         /// <remarks>
-        /// In addition to user permissions requirements there is security based on the core_settings.results_trust setting.
+        /// In addition to user permissions requirements there is security based on the core_settings.results_trust setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -366,7 +366,7 @@ namespace com.knetikcloud.Api
         /// Sets the settings of an activity occurrence
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -378,7 +378,7 @@ namespace com.knetikcloud.Api
         /// Sets the settings of an activity occurrence
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -396,7 +396,7 @@ namespace com.knetikcloud.Api
         /// <param name="userId">The id of the user</param>
         /// <param name="status">The new status (optional)</param>
         /// <returns>ActivityUserResource</returns>
-        ActivityUserResource SetUserStatus (long? activityOccurrenceId, string userId, string status = null);
+        ActivityUserResource SetUserStatus (long? activityOccurrenceId, string userId, ActivityUserStatusWrapper status = null);
 
         /// <summary>
         /// Set a user&#39;s status within an occurrence
@@ -409,7 +409,7 @@ namespace com.knetikcloud.Api
         /// <param name="userId">The id of the user</param>
         /// <param name="status">The new status (optional)</param>
         /// <returns>ApiResponse of ActivityUserResource</returns>
-        ApiResponse<ActivityUserResource> SetUserStatusWithHttpInfo (long? activityOccurrenceId, string userId, string status = null);
+        ApiResponse<ActivityUserResource> SetUserStatusWithHttpInfo (long? activityOccurrenceId, string userId, ActivityUserStatusWrapper status = null);
         /// <summary>
         /// Update an activity
         /// </summary>
@@ -437,25 +437,25 @@ namespace com.knetikcloud.Api
         /// Update the status of an activity occurrence
         /// </summary>
         /// <remarks>
-        /// If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true
+        /// If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
         /// <param name="activityOccurrenceStatus">The activity occurrence status object (optional)</param>
         /// <returns></returns>
-        void UpdateActivityOccurrenceStatus (long? activityOccurrenceId, ValueWrapperstring activityOccurrenceStatus = null);
+        void UpdateActivityOccurrenceStatus (long? activityOccurrenceId, ActivityOccurrenceStatusWrapper activityOccurrenceStatus = null);
 
         /// <summary>
         /// Update the status of an activity occurrence
         /// </summary>
         /// <remarks>
-        /// If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true
+        /// If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
         /// <param name="activityOccurrenceStatus">The activity occurrence status object (optional)</param>
         /// <returns>ApiResponse of Object(void)</returns>
-        ApiResponse<Object> UpdateActivityOccurrenceStatusWithHttpInfo (long? activityOccurrenceId, ValueWrapperstring activityOccurrenceStatus = null);
+        ApiResponse<Object> UpdateActivityOccurrenceStatusWithHttpInfo (long? activityOccurrenceId, ActivityOccurrenceStatusWrapper activityOccurrenceStatus = null);
         /// <summary>
         /// Update an activity template
         /// </summary>
@@ -673,7 +673,7 @@ namespace com.knetikcloud.Api
         /// Load a single activity occurrence details
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -684,7 +684,7 @@ namespace com.knetikcloud.Api
         /// Load a single activity occurrence details
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -740,7 +740,7 @@ namespace com.knetikcloud.Api
         /// List activity occurrences
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActivity">Filter for occurrences of the given activity ID (optional)</param>
@@ -757,7 +757,7 @@ namespace com.knetikcloud.Api
         /// List activity occurrences
         /// </summary>
         /// <remarks>
-        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActivity">Filter for occurrences of the given activity ID (optional)</param>
@@ -800,7 +800,7 @@ namespace com.knetikcloud.Api
         /// Sets the status of an activity occurrence to FINISHED and logs metrics
         /// </summary>
         /// <remarks>
-        /// In addition to user permissions requirements there is security based on the core_settings.results_trust setting.
+        /// In addition to user permissions requirements there is security based on the core_settings.results_trust setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -812,7 +812,7 @@ namespace com.knetikcloud.Api
         /// Sets the status of an activity occurrence to FINISHED and logs metrics
         /// </summary>
         /// <remarks>
-        /// In addition to user permissions requirements there is security based on the core_settings.results_trust setting.
+        /// In addition to user permissions requirements there is security based on the core_settings.results_trust setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -823,7 +823,7 @@ namespace com.knetikcloud.Api
         /// Sets the settings of an activity occurrence
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -835,7 +835,7 @@ namespace com.knetikcloud.Api
         /// Sets the settings of an activity occurrence
         /// </summary>
         /// <remarks>
-        /// 
+        /// &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -853,7 +853,7 @@ namespace com.knetikcloud.Api
         /// <param name="userId">The id of the user</param>
         /// <param name="status">The new status (optional)</param>
         /// <returns>Task of ActivityUserResource</returns>
-        System.Threading.Tasks.Task<ActivityUserResource> SetUserStatusAsync (long? activityOccurrenceId, string userId, string status = null);
+        System.Threading.Tasks.Task<ActivityUserResource> SetUserStatusAsync (long? activityOccurrenceId, string userId, ActivityUserStatusWrapper status = null);
 
         /// <summary>
         /// Set a user&#39;s status within an occurrence
@@ -866,7 +866,7 @@ namespace com.knetikcloud.Api
         /// <param name="userId">The id of the user</param>
         /// <param name="status">The new status (optional)</param>
         /// <returns>Task of ApiResponse (ActivityUserResource)</returns>
-        System.Threading.Tasks.Task<ApiResponse<ActivityUserResource>> SetUserStatusAsyncWithHttpInfo (long? activityOccurrenceId, string userId, string status = null);
+        System.Threading.Tasks.Task<ApiResponse<ActivityUserResource>> SetUserStatusAsyncWithHttpInfo (long? activityOccurrenceId, string userId, ActivityUserStatusWrapper status = null);
         /// <summary>
         /// Update an activity
         /// </summary>
@@ -894,25 +894,25 @@ namespace com.knetikcloud.Api
         /// Update the status of an activity occurrence
         /// </summary>
         /// <remarks>
-        /// If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true
+        /// If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
         /// <param name="activityOccurrenceStatus">The activity occurrence status object (optional)</param>
         /// <returns>Task of void</returns>
-        System.Threading.Tasks.Task UpdateActivityOccurrenceStatusAsync (long? activityOccurrenceId, ValueWrapperstring activityOccurrenceStatus = null);
+        System.Threading.Tasks.Task UpdateActivityOccurrenceStatusAsync (long? activityOccurrenceId, ActivityOccurrenceStatusWrapper activityOccurrenceStatus = null);
 
         /// <summary>
         /// Update the status of an activity occurrence
         /// </summary>
         /// <remarks>
-        /// If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true
+        /// If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </remarks>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
         /// <param name="activityOccurrenceStatus">The activity occurrence status object (optional)</param>
         /// <returns>Task of ApiResponse</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> UpdateActivityOccurrenceStatusAsyncWithHttpInfo (long? activityOccurrenceId, ValueWrapperstring activityOccurrenceStatus = null);
+        System.Threading.Tasks.Task<ApiResponse<Object>> UpdateActivityOccurrenceStatusAsyncWithHttpInfo (long? activityOccurrenceId, ActivityOccurrenceStatusWrapper activityOccurrenceStatus = null);
         /// <summary>
         /// Update an activity template
         /// </summary>
@@ -2389,7 +2389,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Load a single activity occurrence details &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// Load a single activity occurrence details &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -2401,7 +2401,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Load a single activity occurrence details &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// Load a single activity occurrence details &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -2467,7 +2467,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Load a single activity occurrence details &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// Load a single activity occurrence details &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -2480,7 +2480,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Load a single activity occurrence details &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// Load a single activity occurrence details &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -2866,7 +2866,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List activity occurrences &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// List activity occurrences &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActivity">Filter for occurrences of the given activity ID (optional)</param>
@@ -2884,7 +2884,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List activity occurrences &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// List activity occurrences &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActivity">Filter for occurrences of the given activity ID (optional)</param>
@@ -2959,7 +2959,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List activity occurrences &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// List activity occurrences &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActivity">Filter for occurrences of the given activity ID (optional)</param>
@@ -2978,7 +2978,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// List activity occurrences &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_ADMIN
+        /// List activity occurrences &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="filterActivity">Filter for occurrences of the given activity ID (optional)</param>
@@ -3232,7 +3232,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the status of an activity occurrence to FINISHED and logs metrics In addition to user permissions requirements there is security based on the core_settings.results_trust setting.
+        /// Sets the status of an activity occurrence to FINISHED and logs metrics In addition to user permissions requirements there is security based on the core_settings.results_trust setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -3245,7 +3245,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the status of an activity occurrence to FINISHED and logs metrics In addition to user permissions requirements there is security based on the core_settings.results_trust setting.
+        /// Sets the status of an activity occurrence to FINISHED and logs metrics In addition to user permissions requirements there is security based on the core_settings.results_trust setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -3321,7 +3321,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the status of an activity occurrence to FINISHED and logs metrics In addition to user permissions requirements there is security based on the core_settings.results_trust setting.
+        /// Sets the status of an activity occurrence to FINISHED and logs metrics In addition to user permissions requirements there is security based on the core_settings.results_trust setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -3335,7 +3335,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the status of an activity occurrence to FINISHED and logs metrics In addition to user permissions requirements there is security based on the core_settings.results_trust setting.
+        /// Sets the status of an activity occurrence to FINISHED and logs metrics In addition to user permissions requirements there is security based on the core_settings.results_trust setting. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -3411,7 +3411,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the settings of an activity occurrence 
+        /// Sets the settings of an activity occurrence &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -3424,7 +3424,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the settings of an activity occurrence 
+        /// Sets the settings of an activity occurrence &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -3500,7 +3500,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the settings of an activity occurrence 
+        /// Sets the settings of an activity occurrence &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -3514,7 +3514,7 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Sets the settings of an activity occurrence 
+        /// Sets the settings of an activity occurrence &lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
@@ -3597,7 +3597,7 @@ namespace com.knetikcloud.Api
         /// <param name="userId">The id of the user</param>
         /// <param name="status">The new status (optional)</param>
         /// <returns>ActivityUserResource</returns>
-        public ActivityUserResource SetUserStatus (long? activityOccurrenceId, string userId, string status = null)
+        public ActivityUserResource SetUserStatus (long? activityOccurrenceId, string userId, ActivityUserStatusWrapper status = null)
         {
              ApiResponse<ActivityUserResource> localVarResponse = SetUserStatusWithHttpInfo(activityOccurrenceId, userId, status);
              return localVarResponse.Data;
@@ -3611,7 +3611,7 @@ namespace com.knetikcloud.Api
         /// <param name="userId">The id of the user</param>
         /// <param name="status">The new status (optional)</param>
         /// <returns>ApiResponse of ActivityUserResource</returns>
-        public ApiResponse< ActivityUserResource > SetUserStatusWithHttpInfo (long? activityOccurrenceId, string userId, string status = null)
+        public ApiResponse< ActivityUserResource > SetUserStatusWithHttpInfo (long? activityOccurrenceId, string userId, ActivityUserStatusWrapper status = null)
         {
             // verify the required parameter 'activityOccurrenceId' is set
             if (activityOccurrenceId == null)
@@ -3692,7 +3692,7 @@ namespace com.knetikcloud.Api
         /// <param name="userId">The id of the user</param>
         /// <param name="status">The new status (optional)</param>
         /// <returns>Task of ActivityUserResource</returns>
-        public async System.Threading.Tasks.Task<ActivityUserResource> SetUserStatusAsync (long? activityOccurrenceId, string userId, string status = null)
+        public async System.Threading.Tasks.Task<ActivityUserResource> SetUserStatusAsync (long? activityOccurrenceId, string userId, ActivityUserStatusWrapper status = null)
         {
              ApiResponse<ActivityUserResource> localVarResponse = await SetUserStatusAsyncWithHttpInfo(activityOccurrenceId, userId, status);
              return localVarResponse.Data;
@@ -3707,7 +3707,7 @@ namespace com.knetikcloud.Api
         /// <param name="userId">The id of the user</param>
         /// <param name="status">The new status (optional)</param>
         /// <returns>Task of ApiResponse (ActivityUserResource)</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<ActivityUserResource>> SetUserStatusAsyncWithHttpInfo (long? activityOccurrenceId, string userId, string status = null)
+        public async System.Threading.Tasks.Task<ApiResponse<ActivityUserResource>> SetUserStatusAsyncWithHttpInfo (long? activityOccurrenceId, string userId, ActivityUserStatusWrapper status = null)
         {
             // verify the required parameter 'activityOccurrenceId' is set
             if (activityOccurrenceId == null)
@@ -3960,25 +3960,25 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update the status of an activity occurrence If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true
+        /// Update the status of an activity occurrence If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
         /// <param name="activityOccurrenceStatus">The activity occurrence status object (optional)</param>
         /// <returns></returns>
-        public void UpdateActivityOccurrenceStatus (long? activityOccurrenceId, ValueWrapperstring activityOccurrenceStatus = null)
+        public void UpdateActivityOccurrenceStatus (long? activityOccurrenceId, ActivityOccurrenceStatusWrapper activityOccurrenceStatus = null)
         {
              UpdateActivityOccurrenceStatusWithHttpInfo(activityOccurrenceId, activityOccurrenceStatus);
         }
 
         /// <summary>
-        /// Update the status of an activity occurrence If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true
+        /// Update the status of an activity occurrence If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
         /// <param name="activityOccurrenceStatus">The activity occurrence status object (optional)</param>
         /// <returns>ApiResponse of Object(void)</returns>
-        public ApiResponse<Object> UpdateActivityOccurrenceStatusWithHttpInfo (long? activityOccurrenceId, ValueWrapperstring activityOccurrenceStatus = null)
+        public ApiResponse<Object> UpdateActivityOccurrenceStatusWithHttpInfo (long? activityOccurrenceId, ActivityOccurrenceStatusWrapper activityOccurrenceStatus = null)
         {
             // verify the required parameter 'activityOccurrenceId' is set
             if (activityOccurrenceId == null)
@@ -4048,26 +4048,26 @@ namespace com.knetikcloud.Api
         }
 
         /// <summary>
-        /// Update the status of an activity occurrence If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true
+        /// Update the status of an activity occurrence If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
         /// <param name="activityOccurrenceStatus">The activity occurrence status object (optional)</param>
         /// <returns>Task of void</returns>
-        public async System.Threading.Tasks.Task UpdateActivityOccurrenceStatusAsync (long? activityOccurrenceId, ValueWrapperstring activityOccurrenceStatus = null)
+        public async System.Threading.Tasks.Task UpdateActivityOccurrenceStatusAsync (long? activityOccurrenceId, ActivityOccurrenceStatusWrapper activityOccurrenceStatus = null)
         {
              await UpdateActivityOccurrenceStatusAsyncWithHttpInfo(activityOccurrenceId, activityOccurrenceStatus);
 
         }
 
         /// <summary>
-        /// Update the status of an activity occurrence If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true
+        /// Update the status of an activity occurrence If setting to &#39;FINISHED&#39; reward will be run based on current metrics that have been recorded already. Alternatively, see results endpoint to finish and record all metrics at once. Can be called by non-host participants if non_host_status_control is true. &lt;br&gt;&lt;br&gt;&lt;b&gt;Permissions Needed:&lt;/b&gt; ACTIVITIES_USER and host or ACTIVITIES_ADMIN
         /// </summary>
         /// <exception cref="com.knetikcloud.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="activityOccurrenceId">The id of the activity occurrence</param>
         /// <param name="activityOccurrenceStatus">The activity occurrence status object (optional)</param>
         /// <returns>Task of ApiResponse</returns>
-        public async System.Threading.Tasks.Task<ApiResponse<Object>> UpdateActivityOccurrenceStatusAsyncWithHttpInfo (long? activityOccurrenceId, ValueWrapperstring activityOccurrenceStatus = null)
+        public async System.Threading.Tasks.Task<ApiResponse<Object>> UpdateActivityOccurrenceStatusAsyncWithHttpInfo (long? activityOccurrenceId, ActivityOccurrenceStatusWrapper activityOccurrenceStatus = null)
         {
             // verify the required parameter 'activityOccurrenceId' is set
             if (activityOccurrenceId == null)
