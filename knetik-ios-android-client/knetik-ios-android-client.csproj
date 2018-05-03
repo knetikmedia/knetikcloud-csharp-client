@@ -1,0 +1,1413 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>Knetik-Client</PackageId>
+    <PackageVersion>0.1</PackageVersion>
+    <Authors>knetik</Authors>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Owners>knetik</Owners>
+    <Summary>Knetik-Client</Summary>
+    <Title>Knetik-Client</Title>
+    <Description>Knetik client</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <ExternalConsole>false</ExternalConsole>
+    <NoStdLib>false</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Commandlineparameters></Commandlineparameters>
+    <NoStdLib>false</NoStdLib>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.1" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.4.1" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="RestSharp" Version="105.2.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\src\com.knetikcloud\Api\AccessTokenApi.cs">
+      <Link>Api\AccessTokenApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ActivitiesApi.cs">
+      <Link>Api\ActivitiesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\AmazonWebServicesS3Api.cs">
+      <Link>Api\AmazonWebServicesS3Api.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\AuthClientsApi.cs">
+      <Link>Api\AuthClientsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\AuthPermissionsApi.cs">
+      <Link>Api\AuthPermissionsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\AuthRolesApi.cs">
+      <Link>Api\AuthRolesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\AuthTokensApi.cs">
+      <Link>Api\AuthTokensApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\BRERuleEngineActionsApi.cs">
+      <Link>Api\BRERuleEngineActionsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\BRERuleEngineCategoriesApi.cs">
+      <Link>Api\BRERuleEngineCategoriesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\BRERuleEngineEventsApi.cs">
+      <Link>Api\BRERuleEngineEventsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\BRERuleEngineExpressionsApi.cs">
+      <Link>Api\BRERuleEngineExpressionsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\BRERuleEngineGlobalsApi.cs">
+      <Link>Api\BRERuleEngineGlobalsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\BRERuleEngineRulesApi.cs">
+      <Link>Api\BRERuleEngineRulesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\BRERuleEngineTriggersApi.cs">
+      <Link>Api\BRERuleEngineTriggersApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\BRERuleEngineVariablesApi.cs">
+      <Link>Api\BRERuleEngineVariablesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\CampaignsApi.cs">
+      <Link>Api\CampaignsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\CampaignsChallengesApi.cs">
+      <Link>Api\CampaignsChallengesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\CampaignsRewardsApi.cs">
+      <Link>Api\CampaignsRewardsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\CategoriesApi.cs">
+      <Link>Api\CategoriesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ConfigsApi.cs">
+      <Link>Api\ConfigsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ContentArticlesApi.cs">
+      <Link>Api\ContentArticlesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ContentCommentsApi.cs">
+      <Link>Api\ContentCommentsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ContentPollsApi.cs">
+      <Link>Api\ContentPollsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\CurrenciesApi.cs">
+      <Link>Api\CurrenciesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\DevicesApi.cs">
+      <Link>Api\DevicesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\DispositionsApi.cs">
+      <Link>Api\DispositionsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\FulfillmentApi.cs">
+      <Link>Api\FulfillmentApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\GamificationAchievementsApi.cs">
+      <Link>Api\GamificationAchievementsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\GamificationLeaderboardsApi.cs">
+      <Link>Api\GamificationLeaderboardsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\GamificationLevelingApi.cs">
+      <Link>Api\GamificationLevelingApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\GamificationMetricsApi.cs">
+      <Link>Api\GamificationMetricsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\GamificationTriviaApi.cs">
+      <Link>Api\GamificationTriviaApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\InvoicesApi.cs">
+      <Link>Api\InvoicesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\LocationsApi.cs">
+      <Link>Api\LocationsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\LogsApi.cs">
+      <Link>Api\LogsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\MediaArtistsApi.cs">
+      <Link>Api\MediaArtistsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\MediaModerationApi.cs">
+      <Link>Api\MediaModerationApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\MediaVideosApi.cs">
+      <Link>Api\MediaVideosApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\MessagingApi.cs">
+      <Link>Api\MessagingApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ObjectsApi.cs">
+      <Link>Api\ObjectsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\PaymentsApi.cs">
+      <Link>Api\PaymentsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\PaymentsAppleApi.cs">
+      <Link>Api\PaymentsAppleApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\PaymentsFattMerchantApi.cs">
+      <Link>Api\PaymentsFattMerchantApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\PaymentsGoogleApi.cs">
+      <Link>Api\PaymentsGoogleApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\PaymentsOptimalApi.cs">
+      <Link>Api\PaymentsOptimalApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\PaymentsPayPalClassicApi.cs">
+      <Link>Api\PaymentsPayPalClassicApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\PaymentsStripeApi.cs">
+      <Link>Api\PaymentsStripeApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\PaymentsTransactionsApi.cs">
+      <Link>Api\PaymentsTransactionsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\PaymentsWalletsApi.cs">
+      <Link>Api\PaymentsWalletsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\PaymentsXsollaApi.cs">
+      <Link>Api\PaymentsXsollaApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ReportingChallengesApi.cs">
+      <Link>Api\ReportingChallengesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ReportingOrdersApi.cs">
+      <Link>Api\ReportingOrdersApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ReportingRevenueApi.cs">
+      <Link>Api\ReportingRevenueApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ReportingSubscriptionsApi.cs">
+      <Link>Api\ReportingSubscriptionsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ReportingUsageApi.cs">
+      <Link>Api\ReportingUsageApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\ReportingUsersApi.cs">
+      <Link>Api\ReportingUsersApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\SearchApi.cs">
+      <Link>Api\SearchApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\SocialFacebookApi.cs">
+      <Link>Api\SocialFacebookApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\SocialGoogleApi.cs">
+      <Link>Api\SocialGoogleApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\StoreApi.cs">
+      <Link>Api\StoreApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\StoreBundlesApi.cs">
+      <Link>Api\StoreBundlesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\StoreCouponsApi.cs">
+      <Link>Api\StoreCouponsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\StoreSalesApi.cs">
+      <Link>Api\StoreSalesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\StoreShippingApi.cs">
+      <Link>Api\StoreShippingApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\StoreShoppingCartsApi.cs">
+      <Link>Api\StoreShoppingCartsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\StoreSubscriptionsApi.cs">
+      <Link>Api\StoreSubscriptionsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\StoreVendorsApi.cs">
+      <Link>Api\StoreVendorsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\TaxesApi.cs">
+      <Link>Api\TaxesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\TemplatesPropertiesApi.cs">
+      <Link>Api\TemplatesPropertiesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UsersAddressesApi.cs">
+      <Link>Api\UsersAddressesApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UsersApi.cs">
+      <Link>Api\UsersApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UsersFriendshipsApi.cs">
+      <Link>Api\UsersFriendshipsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UsersGroupsApi.cs">
+      <Link>Api\UsersGroupsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UsersInventoryApi.cs">
+      <Link>Api\UsersInventoryApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UsersRelationshipsApi.cs">
+      <Link>Api\UsersRelationshipsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UsersSubscriptionsApi.cs">
+      <Link>Api\UsersSubscriptionsApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UtilBatchApi.cs">
+      <Link>Api\UtilBatchApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UtilHealthApi.cs">
+      <Link>Api\UtilHealthApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UtilMaintenanceApi.cs">
+      <Link>Api\UtilMaintenanceApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UtilSecurityApi.cs">
+      <Link>Api\UtilSecurityApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Api\UtilVersionApi.cs">
+      <Link>Api\UtilVersionApi.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Client\ApiClient.cs">
+      <Link>Client\ApiClient.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Client\ApiException.cs">
+      <Link>Client\ApiException.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Client\ApiResponse.cs">
+      <Link>Client\ApiResponse.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Client\Configuration.cs">
+      <Link>Client\Configuration.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Client\ExceptionFactory.cs">
+      <Link>Client\ExceptionFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Client\GlobalConfiguration.cs">
+      <Link>Client\GlobalConfiguration.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Client\IApiAccessor.cs">
+      <Link>Client\IApiAccessor.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Client\IReadableConfiguration.cs">
+      <Link>Client\IReadableConfiguration.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Client\SwaggerDateConverter.cs">
+      <Link>Client\SwaggerDateConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\AchievementDefinitionResource.cs">
+      <Link>Model\AchievementDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ActionContextobject.cs">
+      <Link>Model\ActionContextobject.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ActionResource.cs">
+      <Link>Model\ActionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ActionVariableResource.cs">
+      <Link>Model\ActionVariableResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ActivityEntitlementResource.cs">
+      <Link>Model\ActivityEntitlementResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ActivityOccurrenceCreationFailure.cs">
+      <Link>Model\ActivityOccurrenceCreationFailure.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ActivityOccurrenceJoinResult.cs">
+      <Link>Model\ActivityOccurrenceJoinResult.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ActivityOccurrenceResource.cs">
+      <Link>Model\ActivityOccurrenceResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ActivityOccurrenceResults.cs">
+      <Link>Model\ActivityOccurrenceResults.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ActivityOccurrenceResultsResource.cs">
+      <Link>Model\ActivityOccurrenceResultsResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ActivityResource.cs">
+      <Link>Model\ActivityResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ActivityUserResource.cs">
+      <Link>Model\ActivityUserResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\AddressResource.cs">
+      <Link>Model\AddressResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\AggregateCountResource.cs">
+      <Link>Model\AggregateCountResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\AggregateInvoiceReportResource.cs">
+      <Link>Model\AggregateInvoiceReportResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\AmazonS3Activity.cs">
+      <Link>Model\AmazonS3Activity.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\AnswerResource.cs">
+      <Link>Model\AnswerResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ApplyPaymentRequest.cs">
+      <Link>Model\ApplyPaymentRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ArgumentResource.cs">
+      <Link>Model\ArgumentResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ArticleResource.cs">
+      <Link>Model\ArticleResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ArtistResource.cs">
+      <Link>Model\ArtistResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\AudioGroupProperty.cs">
+      <Link>Model\AudioGroupProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\AudioGroupPropertyDefinitionResource.cs">
+      <Link>Model\AudioGroupPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\AudioProperty.cs">
+      <Link>Model\AudioProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\AudioPropertyDefinitionResource.cs">
+      <Link>Model\AudioPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\AvailableSettingResource.cs">
+      <Link>Model\AvailableSettingResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BareActivityResource.cs">
+      <Link>Model\BareActivityResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BareChallengeActivityResource.cs">
+      <Link>Model\BareChallengeActivityResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Batch.cs">
+      <Link>Model\Batch.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BatchRequest.cs">
+      <Link>Model\BatchRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BatchResult.cs">
+      <Link>Model\BatchResult.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BatchReturn.cs">
+      <Link>Model\BatchReturn.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Behavior.cs">
+      <Link>Model\Behavior.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BehaviorDefinitionResource.cs">
+      <Link>Model\BehaviorDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BillingReport.cs">
+      <Link>Model\BillingReport.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BooleanProperty.cs">
+      <Link>Model\BooleanProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BooleanPropertyDefinitionResource.cs">
+      <Link>Model\BooleanPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BooleanResource.cs">
+      <Link>Model\BooleanResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BreCategoryResource.cs">
+      <Link>Model\BreCategoryResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BreEvent.cs">
+      <Link>Model\BreEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BreEventLog.cs">
+      <Link>Model\BreEventLog.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BreGlobalResource.cs">
+      <Link>Model\BreGlobalResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BreGlobalScopeDefinition.cs">
+      <Link>Model\BreGlobalScopeDefinition.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BreRule.cs">
+      <Link>Model\BreRule.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BreRuleLog.cs">
+      <Link>Model\BreRuleLog.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BreTriggerParameterDefinition.cs">
+      <Link>Model\BreTriggerParameterDefinition.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BreTriggerResource.cs">
+      <Link>Model\BreTriggerResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BroadcastableEvent.cs">
+      <Link>Model\BroadcastableEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BundleItem.cs">
+      <Link>Model\BundleItem.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\BundledSku.cs">
+      <Link>Model\BundledSku.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CacheClearEvent.cs">
+      <Link>Model\CacheClearEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CampaignResource.cs">
+      <Link>Model\CampaignResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Cart.cs">
+      <Link>Model\Cart.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CartItemRequest.cs">
+      <Link>Model\CartItemRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CartLineItem.cs">
+      <Link>Model\CartLineItem.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CartShippableResponse.cs">
+      <Link>Model\CartShippableResponse.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CartShippingAddressRequest.cs">
+      <Link>Model\CartShippingAddressRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CartShippingOption.cs">
+      <Link>Model\CartShippingOption.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CartSummary.cs">
+      <Link>Model\CartSummary.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CatalogSale.cs">
+      <Link>Model\CatalogSale.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CategoryResource.cs">
+      <Link>Model\CategoryResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ChallengeActivityResource.cs">
+      <Link>Model\ChallengeActivityResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ChallengeEventParticipantResource.cs">
+      <Link>Model\ChallengeEventParticipantResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ChallengeEventResource.cs">
+      <Link>Model\ChallengeEventResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ChallengeResource.cs">
+      <Link>Model\ChallengeResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ClientResource.cs">
+      <Link>Model\ClientResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CommentResource.cs">
+      <Link>Model\CommentResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Config.cs">
+      <Link>Model\Config.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ConfigLookupResource.cs">
+      <Link>Model\ConfigLookupResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ConstantResource.cs">
+      <Link>Model\ConstantResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Consumable.cs">
+      <Link>Model\Consumable.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ContributionResource.cs">
+      <Link>Model\ContributionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Country.cs">
+      <Link>Model\Country.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CountryResource.cs">
+      <Link>Model\CountryResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CountryTaxResource.cs">
+      <Link>Model\CountryTaxResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CouponDefinition.cs">
+      <Link>Model\CouponDefinition.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CouponItem.cs">
+      <Link>Model\CouponItem.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CreateActivityOccurrenceRequest.cs">
+      <Link>Model\CreateActivityOccurrenceRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CreateBillingAgreementRequest.cs">
+      <Link>Model\CreateBillingAgreementRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CreatePayPalPaymentRequest.cs">
+      <Link>Model\CreatePayPalPaymentRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CurrencyResource.cs">
+      <Link>Model\CurrencyResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\CustomerConfig.cs">
+      <Link>Model\CustomerConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DatabaseConfig.cs">
+      <Link>Model\DatabaseConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DateOperationResource.cs">
+      <Link>Model\DateOperationResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DateProperty.cs">
+      <Link>Model\DateProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DatePropertyDefinitionResource.cs">
+      <Link>Model\DatePropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DefaultOperationResource.cs">
+      <Link>Model\DefaultOperationResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DeltaResource.cs">
+      <Link>Model\DeltaResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DeviceResource.cs">
+      <Link>Model\DeviceResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Discount.cs">
+      <Link>Model\Discount.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DispositionCount.cs">
+      <Link>Model\DispositionCount.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DispositionResource.cs">
+      <Link>Model\DispositionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DoubleOperationResource.cs">
+      <Link>Model\DoubleOperationResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DoubleProperty.cs">
+      <Link>Model\DoubleProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\DoublePropertyDefinitionResource.cs">
+      <Link>Model\DoublePropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\EntitlementGrantRequest.cs">
+      <Link>Model\EntitlementGrantRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\EntitlementItem.cs">
+      <Link>Model\EntitlementItem.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ErrorResource.cs">
+      <Link>Model\ErrorResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\EventContextResource.cs">
+      <Link>Model\EventContextResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Expirable.cs">
+      <Link>Model\Expirable.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ExpressionResource.cs">
+      <Link>Model\ExpressionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Expressionobject.cs">
+      <Link>Model\Expressionobject.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FacebookToken.cs">
+      <Link>Model\FacebookToken.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FattMerchantPaymentMethod.cs">
+      <Link>Model\FattMerchantPaymentMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FattMerchantPaymentMethodRequest.cs">
+      <Link>Model\FattMerchantPaymentMethodRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FileGroupProperty.cs">
+      <Link>Model\FileGroupProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FileGroupPropertyDefinitionResource.cs">
+      <Link>Model\FileGroupPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FileProperty.cs">
+      <Link>Model\FileProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FilePropertyDefinitionResource.cs">
+      <Link>Model\FilePropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FinalizeBillingAgreementRequest.cs">
+      <Link>Model\FinalizeBillingAgreementRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FinalizePayPalPaymentRequest.cs">
+      <Link>Model\FinalizePayPalPaymentRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FlagReportResource.cs">
+      <Link>Model\FlagReportResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FlagResource.cs">
+      <Link>Model\FlagResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FormattedTextProperty.cs">
+      <Link>Model\FormattedTextProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FormattedTextPropertyDefinitionResource.cs">
+      <Link>Model\FormattedTextPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ForwardLog.cs">
+      <Link>Model\ForwardLog.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Fulfillable.cs">
+      <Link>Model\Fulfillable.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\FulfillmentType.cs">
+      <Link>Model\FulfillmentType.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\GlobalCheckAndIncrementResource.cs">
+      <Link>Model\GlobalCheckAndIncrementResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\GlobalResource.cs">
+      <Link>Model\GlobalResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\GooglePaymentRequest.cs">
+      <Link>Model\GooglePaymentRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\GoogleToken.cs">
+      <Link>Model\GoogleToken.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\GrantTypeResource.cs">
+      <Link>Model\GrantTypeResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\GroupResource.cs">
+      <Link>Model\GroupResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\GuestPlayable.cs">
+      <Link>Model\GuestPlayable.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\IOConfig.cs">
+      <Link>Model\IOConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\IdRef.cs">
+      <Link>Model\IdRef.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ImageGroupProperty.cs">
+      <Link>Model\ImageGroupProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ImageGroupPropertyDefinitionResource.cs">
+      <Link>Model\ImageGroupPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ImageProperty.cs">
+      <Link>Model\ImageProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ImagePropertyDefinitionResource.cs">
+      <Link>Model\ImagePropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ImportJobOutputResource.cs">
+      <Link>Model\ImportJobOutputResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ImportJobResource.cs">
+      <Link>Model\ImportJobResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\IntWrapper.cs">
+      <Link>Model\IntWrapper.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\IntegerOperationResource.cs">
+      <Link>Model\IntegerOperationResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\IntegerProperty.cs">
+      <Link>Model\IntegerProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\IntegerPropertyDefinitionResource.cs">
+      <Link>Model\IntegerPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\InventorySubscriptionResource.cs">
+      <Link>Model\InventorySubscriptionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\InvoiceCreateRequest.cs">
+      <Link>Model\InvoiceCreateRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\InvoiceItemResource.cs">
+      <Link>Model\InvoiceItemResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\InvoiceLogEntry.cs">
+      <Link>Model\InvoiceLogEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\InvoicePaymentStatusRequest.cs">
+      <Link>Model\InvoicePaymentStatusRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\InvoiceResource.cs">
+      <Link>Model\InvoiceResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Item.cs">
+      <Link>Model\Item.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ItemBehaviorDefinitionResource.cs">
+      <Link>Model\ItemBehaviorDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ItemIdRequest.cs">
+      <Link>Model\ItemIdRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ItemTemplateResource.cs">
+      <Link>Model\ItemTemplateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\KeyValuePairstringstring.cs">
+      <Link>Model\KeyValuePairstringstring.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\LeaderboardEntryResource.cs">
+      <Link>Model\LeaderboardEntryResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\LeaderboardResource.cs">
+      <Link>Model\LeaderboardResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\LevelingResource.cs">
+      <Link>Model\LevelingResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\LimitedGettable.cs">
+      <Link>Model\LimitedGettable.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\LimitedGettableGroup.cs">
+      <Link>Model\LimitedGettableGroup.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ListProperty.cs">
+      <Link>Model\ListProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ListPropertyDefinitionResource.cs">
+      <Link>Model\ListPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\LocationLogResource.cs">
+      <Link>Model\LocationLogResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\LogLevelEvent.cs">
+      <Link>Model\LogLevelEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\LongProperty.cs">
+      <Link>Model\LongProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\LongPropertyDefinitionResource.cs">
+      <Link>Model\LongPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\LookupResource.cs">
+      <Link>Model\LookupResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Maintenance.cs">
+      <Link>Model\Maintenance.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\MapProperty.cs">
+      <Link>Model\MapProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\MapPropertyDefinitionResource.cs">
+      <Link>Model\MapPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\MapResource.cs">
+      <Link>Model\MapResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Mapstringobject.cs">
+      <Link>Model\Mapstringobject.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\MetricResource.cs">
+      <Link>Model\MetricResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\MobileDeviceResource.cs">
+      <Link>Model\MobileDeviceResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ModelOperator.cs">
+      <Link>Model\ModelOperator.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\MongoDatabaseConfig.cs">
+      <Link>Model\MongoDatabaseConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\NestedCategory.cs">
+      <Link>Model\NestedCategory.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\NewCustomerEvent.cs">
+      <Link>Model\NewCustomerEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\NewPasswordRequest.cs">
+      <Link>Model\NewPasswordRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\OAuth2Resource.cs">
+      <Link>Model\OAuth2Resource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\OauthAccessTokenResource.cs">
+      <Link>Model\OauthAccessTokenResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ObjectResource.cs">
+      <Link>Model\ObjectResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\OperationDefinitionResource.cs">
+      <Link>Model\OperationDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\OperationResource.cs">
+      <Link>Model\OperationResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\OptimalPaymentRequest.cs">
+      <Link>Model\OptimalPaymentRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Order.cs">
+      <Link>Model\Order.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceAchievementDefinitionResource.cs">
+      <Link>Model\PageResourceAchievementDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceActivityOccurrenceResource.cs">
+      <Link>Model\PageResourceActivityOccurrenceResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceAggregateCountResource.cs">
+      <Link>Model\PageResourceAggregateCountResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceAggregateInvoiceReportResource.cs">
+      <Link>Model\PageResourceAggregateInvoiceReportResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceArticleResource.cs">
+      <Link>Model\PageResourceArticleResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceArtistResource.cs">
+      <Link>Model\PageResourceArtistResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceBareActivityResource.cs">
+      <Link>Model\PageResourceBareActivityResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceBareChallengeActivityResource.cs">
+      <Link>Model\PageResourceBareChallengeActivityResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceBillingReport.cs">
+      <Link>Model\PageResourceBillingReport.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceBreCategoryResource.cs">
+      <Link>Model\PageResourceBreCategoryResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceBreEventLog.cs">
+      <Link>Model\PageResourceBreEventLog.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceBreGlobalResource.cs">
+      <Link>Model\PageResourceBreGlobalResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceBreRule.cs">
+      <Link>Model\PageResourceBreRule.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceBreTriggerResource.cs">
+      <Link>Model\PageResourceBreTriggerResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceCampaignResource.cs">
+      <Link>Model\PageResourceCampaignResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceCartSummary.cs">
+      <Link>Model\PageResourceCartSummary.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceCatalogSale.cs">
+      <Link>Model\PageResourceCatalogSale.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceCategoryResource.cs">
+      <Link>Model\PageResourceCategoryResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceChallengeEventParticipantResource.cs">
+      <Link>Model\PageResourceChallengeEventParticipantResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceChallengeEventResource.cs">
+      <Link>Model\PageResourceChallengeEventResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceChallengeResource.cs">
+      <Link>Model\PageResourceChallengeResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceClientResource.cs">
+      <Link>Model\PageResourceClientResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceCommentResource.cs">
+      <Link>Model\PageResourceCommentResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceConfig.cs">
+      <Link>Model\PageResourceConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceCountryTaxResource.cs">
+      <Link>Model\PageResourceCountryTaxResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceCurrencyResource.cs">
+      <Link>Model\PageResourceCurrencyResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceDeviceResource.cs">
+      <Link>Model\PageResourceDeviceResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceDispositionResource.cs">
+      <Link>Model\PageResourceDispositionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceEntitlementItem.cs">
+      <Link>Model\PageResourceEntitlementItem.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceFlagReportResource.cs">
+      <Link>Model\PageResourceFlagReportResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceFlagResource.cs">
+      <Link>Model\PageResourceFlagResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceForwardLog.cs">
+      <Link>Model\PageResourceForwardLog.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceFulfillmentType.cs">
+      <Link>Model\PageResourceFulfillmentType.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceGroupMemberResource.cs">
+      <Link>Model\PageResourceGroupMemberResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceGroupResource.cs">
+      <Link>Model\PageResourceGroupResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceImportJobResource.cs">
+      <Link>Model\PageResourceImportJobResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceInvoiceLogEntry.cs">
+      <Link>Model\PageResourceInvoiceLogEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceInvoiceResource.cs">
+      <Link>Model\PageResourceInvoiceResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceItemTemplateResource.cs">
+      <Link>Model\PageResourceItemTemplateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceLevelingResource.cs">
+      <Link>Model\PageResourceLevelingResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceLocationLogResource.cs">
+      <Link>Model\PageResourceLocationLogResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceMapstringobject.cs">
+      <Link>Model\PageResourceMapstringobject.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceOauthAccessTokenResource.cs">
+      <Link>Model\PageResourceOauthAccessTokenResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceObjectResource.cs">
+      <Link>Model\PageResourceObjectResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourcePaymentMethodTypeResource.cs">
+      <Link>Model\PageResourcePaymentMethodTypeResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourcePermissionResource.cs">
+      <Link>Model\PageResourcePermissionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourcePollResource.cs">
+      <Link>Model\PageResourcePollResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceQuestionResource.cs">
+      <Link>Model\PageResourceQuestionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceQuestionTemplateResource.cs">
+      <Link>Model\PageResourceQuestionTemplateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceRevenueCountryReportResource.cs">
+      <Link>Model\PageResourceRevenueCountryReportResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceRevenueProductReportResource.cs">
+      <Link>Model\PageResourceRevenueProductReportResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceRewardSetResource.cs">
+      <Link>Model\PageResourceRewardSetResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceRoleResource.cs">
+      <Link>Model\PageResourceRoleResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceSavedAddressResource.cs">
+      <Link>Model\PageResourceSavedAddressResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceSimpleReferenceResourceobject.cs">
+      <Link>Model\PageResourceSimpleReferenceResourceobject.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceSimpleUserResource.cs">
+      <Link>Model\PageResourceSimpleUserResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceSimpleWallet.cs">
+      <Link>Model\PageResourceSimpleWallet.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceStateTaxResource.cs">
+      <Link>Model\PageResourceStateTaxResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceStoreItem.cs">
+      <Link>Model\PageResourceStoreItem.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceStoreItemTemplateResource.cs">
+      <Link>Model\PageResourceStoreItemTemplateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceSubscriptionResource.cs">
+      <Link>Model\PageResourceSubscriptionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceSubscriptionTemplateResource.cs">
+      <Link>Model\PageResourceSubscriptionTemplateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceTemplateResource.cs">
+      <Link>Model\PageResourceTemplateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceTransactionResource.cs">
+      <Link>Model\PageResourceTransactionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceUsageInfo.cs">
+      <Link>Model\PageResourceUsageInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceUserAchievementGroupResource.cs">
+      <Link>Model\PageResourceUserAchievementGroupResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceUserActionLog.cs">
+      <Link>Model\PageResourceUserActionLog.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceUserBaseResource.cs">
+      <Link>Model\PageResourceUserBaseResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceUserInventoryResource.cs">
+      <Link>Model\PageResourceUserInventoryResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceUserItemLogResource.cs">
+      <Link>Model\PageResourceUserItemLogResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceUserLevelingResource.cs">
+      <Link>Model\PageResourceUserLevelingResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceUserRelationshipResource.cs">
+      <Link>Model\PageResourceUserRelationshipResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceVendorResource.cs">
+      <Link>Model\PageResourceVendorResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceVideoRelationshipResource.cs">
+      <Link>Model\PageResourceVideoRelationshipResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceVideoResource.cs">
+      <Link>Model\PageResourceVideoResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceWalletTotalResponse.cs">
+      <Link>Model\PageResourceWalletTotalResponse.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourceWalletTransactionResource.cs">
+      <Link>Model\PageResourceWalletTransactionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PageResourcestring.cs">
+      <Link>Model\PageResourcestring.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ParameterResource.cs">
+      <Link>Model\ParameterResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Participant.cs">
+      <Link>Model\Participant.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PasswordResetRequest.cs">
+      <Link>Model\PasswordResetRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PayBySavedMethodRequest.cs">
+      <Link>Model\PayBySavedMethodRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PaymentAuthorizationResource.cs">
+      <Link>Model\PaymentAuthorizationResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PaymentMethodDetails.cs">
+      <Link>Model\PaymentMethodDetails.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PaymentMethodResource.cs">
+      <Link>Model\PaymentMethodResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PaymentMethodTypeResource.cs">
+      <Link>Model\PaymentMethodTypeResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PermissionResource.cs">
+      <Link>Model\PermissionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PollAnswerResource.cs">
+      <Link>Model\PollAnswerResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PollResource.cs">
+      <Link>Model\PollResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PollResponseResource.cs">
+      <Link>Model\PollResponseResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PreReqEntitlement.cs">
+      <Link>Model\PreReqEntitlement.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PredicateResource.cs">
+      <Link>Model\PredicateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PriceOverridable.cs">
+      <Link>Model\PriceOverridable.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Property.cs">
+      <Link>Model\Property.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PropertyDefinitionResource.cs">
+      <Link>Model\PropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PropertyFieldListResource.cs">
+      <Link>Model\PropertyFieldListResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\PropertyFieldResource.cs">
+      <Link>Model\PropertyFieldResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\QuestionResource.cs">
+      <Link>Model\QuestionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\QuestionTemplateResource.cs">
+      <Link>Model\QuestionTemplateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\QuickBuyRequest.cs">
+      <Link>Model\QuickBuyRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RawEmailResource.cs">
+      <Link>Model\RawEmailResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RawPushResource.cs">
+      <Link>Model\RawPushResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RawSMSResource.cs">
+      <Link>Model\RawSMSResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ReactivateSubscriptionRequest.cs">
+      <Link>Model\ReactivateSubscriptionRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RefundRequest.cs">
+      <Link>Model\RefundRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RefundResource.cs">
+      <Link>Model\RefundResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RemoveCustomerEvent.cs">
+      <Link>Model\RemoveCustomerEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Result.cs">
+      <Link>Model\Result.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RevenueCountryReportResource.cs">
+      <Link>Model\RevenueCountryReportResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RevenueProductReportResource.cs">
+      <Link>Model\RevenueProductReportResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RevenueReportResource.cs">
+      <Link>Model\RevenueReportResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RewardCurrencyResource.cs">
+      <Link>Model\RewardCurrencyResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RewardItemResource.cs">
+      <Link>Model\RewardItemResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RewardSetResource.cs">
+      <Link>Model\RewardSetResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\RoleResource.cs">
+      <Link>Model\RoleResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\S3Config.cs">
+      <Link>Model\S3Config.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SampleCountriesResponse.cs">
+      <Link>Model\SampleCountriesResponse.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SavedAddressResource.cs">
+      <Link>Model\SavedAddressResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Schedule.cs">
+      <Link>Model\Schedule.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SelectedSettingRequest.cs">
+      <Link>Model\SelectedSettingRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SelectedSettingResource.cs">
+      <Link>Model\SelectedSettingResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SettingOption.cs">
+      <Link>Model\SettingOption.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\ShippingItem.cs">
+      <Link>Model\ShippingItem.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SimpleReferenceResourceint.cs">
+      <Link>Model\SimpleReferenceResourceint.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SimpleReferenceResourcelong.cs">
+      <Link>Model\SimpleReferenceResourcelong.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SimpleReferenceResourceobject.cs">
+      <Link>Model\SimpleReferenceResourceobject.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SimpleReferenceResourcestring.cs">
+      <Link>Model\SimpleReferenceResourcestring.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SimpleUserResource.cs">
+      <Link>Model\SimpleUserResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SimpleWallet.cs">
+      <Link>Model\SimpleWallet.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Sku.cs">
+      <Link>Model\Sku.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SkuRequest.cs">
+      <Link>Model\SkuRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Spendable.cs">
+      <Link>Model\Spendable.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SqlDatabaseConfig.cs">
+      <Link>Model\SqlDatabaseConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\StateResource.cs">
+      <Link>Model\StateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\StateTaxResource.cs">
+      <Link>Model\StateTaxResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\StoreItem.cs">
+      <Link>Model\StoreItem.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\StoreItemTemplateResource.cs">
+      <Link>Model\StoreItemTemplateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\StringOperationResource.cs">
+      <Link>Model\StringOperationResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\StringWrapper.cs">
+      <Link>Model\StringWrapper.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\StripeCreatePaymentMethod.cs">
+      <Link>Model\StripeCreatePaymentMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\StripePaymentRequest.cs">
+      <Link>Model\StripePaymentRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Subscription.cs">
+      <Link>Model\Subscription.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SubscriptionCreditResource.cs">
+      <Link>Model\SubscriptionCreditResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SubscriptionPlan.cs">
+      <Link>Model\SubscriptionPlan.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SubscriptionPlanResource.cs">
+      <Link>Model\SubscriptionPlanResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SubscriptionPriceOverrideRequest.cs">
+      <Link>Model\SubscriptionPriceOverrideRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SubscriptionResource.cs">
+      <Link>Model\SubscriptionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\SubscriptionTemplateResource.cs">
+      <Link>Model\SubscriptionTemplateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TemplateEmailResource.cs">
+      <Link>Model\TemplateEmailResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TemplatePushResource.cs">
+      <Link>Model\TemplatePushResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TemplateResource.cs">
+      <Link>Model\TemplateResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TemplateSMSResource.cs">
+      <Link>Model\TemplateSMSResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TextProperty.cs">
+      <Link>Model\TextProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TextPropertyDefinitionResource.cs">
+      <Link>Model\TextPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TierResource.cs">
+      <Link>Model\TierResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TimePeriodGettable.cs">
+      <Link>Model\TimePeriodGettable.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TimePeriodUsable.cs">
+      <Link>Model\TimePeriodUsable.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TokenDetailsResource.cs">
+      <Link>Model\TokenDetailsResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TransactionResource.cs">
+      <Link>Model\TransactionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\TypeHintLookupResource.cs">
+      <Link>Model\TypeHintLookupResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UsageInfo.cs">
+      <Link>Model\UsageInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserAchievementGroupResource.cs">
+      <Link>Model\UserAchievementGroupResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserAchievementResource.cs">
+      <Link>Model\UserAchievementResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserActionLog.cs">
+      <Link>Model\UserActionLog.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserActivityResults.cs">
+      <Link>Model\UserActivityResults.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserActivityResultsResource.cs">
+      <Link>Model\UserActivityResultsResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserBaseResource.cs">
+      <Link>Model\UserBaseResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserInventoryAddRequest.cs">
+      <Link>Model\UserInventoryAddRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserInventoryResource.cs">
+      <Link>Model\UserInventoryResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserItemLogResource.cs">
+      <Link>Model\UserItemLogResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserLevelingResource.cs">
+      <Link>Model\UserLevelingResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserRelationshipReferenceResource.cs">
+      <Link>Model\UserRelationshipReferenceResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserRelationshipResource.cs">
+      <Link>Model\UserRelationshipResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UserResource.cs">
+      <Link>Model\UserResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\UsernameLookupResource.cs">
+      <Link>Model\UsernameLookupResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\VariableTypeResource.cs">
+      <Link>Model\VariableTypeResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\VendorEmailLookupResource.cs">
+      <Link>Model\VendorEmailLookupResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\VendorResource.cs">
+      <Link>Model\VendorResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\Version.cs">
+      <Link>Model\Version.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\VideoGroupProperty.cs">
+      <Link>Model\VideoGroupProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\VideoGroupPropertyDefinitionResource.cs">
+      <Link>Model\VideoGroupPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\VideoProperty.cs">
+      <Link>Model\VideoProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\VideoPropertyDefinitionResource.cs">
+      <Link>Model\VideoPropertyDefinitionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\VideoRelationshipResource.cs">
+      <Link>Model\VideoRelationshipResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\VideoResource.cs">
+      <Link>Model\VideoResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\WalletAlterRequest.cs">
+      <Link>Model\WalletAlterRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\WalletTotalResponse.cs">
+      <Link>Model\WalletTotalResponse.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\WalletTransactionResource.cs">
+      <Link>Model\WalletTransactionResource.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\XsollaPaymentRequest.cs">
+      <Link>Model\XsollaPaymentRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\src\com.knetikcloud\Model\GroupMemberResource.cs">
+      <Link>GroupMemberResource.cs</Link>
+    </Compile>
+  </ItemGroup>
+</Project>

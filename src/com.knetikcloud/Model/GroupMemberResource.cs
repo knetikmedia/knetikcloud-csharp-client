@@ -21,7 +21,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System.ComponentModel.DataAnnotations;
 using SwaggerDateConverter = com.knetikcloud.Client.SwaggerDateConverter;
-
+using Newtonsoft.Json.Linq;
 namespace com.knetikcloud.Model
 {
     /// <summary>

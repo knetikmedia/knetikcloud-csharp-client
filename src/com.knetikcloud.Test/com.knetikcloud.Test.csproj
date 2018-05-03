@@ -66,18 +66,11 @@ Contact: support@knetik.com
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="**\*.cs"
-             Exclude="obj\**"/>
+    <Compile Include="**\*.cs" Exclude="obj\**" />
   </ItemGroup>
   <ItemGroup>
       <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MsBuildToolsPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-      <ProjectReference Include="..\com.knetikcloud\com.knetikcloud.csproj">
-          <Project>{69EEE6F3-AC31-4085-AEC2-A32FE25110C6}</Project>
-          <Name>com.knetikcloud</Name>
-      </ProjectReference>
-  </ItemGroup>
 </Project>
 
